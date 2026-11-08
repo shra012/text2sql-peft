@@ -1,0 +1,14 @@
+{
+  "trial": {
+    "name": "copy_output_24:9:1.5",
+    "script": "apply_heads.py",
+    "args": [
+      "--heads",
+      "24:9:1.5"
+    ],
+    "family": "schema_retrieval",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "928e9c781983696f"
+}

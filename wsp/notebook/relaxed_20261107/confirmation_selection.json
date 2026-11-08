@@ -1,0 +1,56 @@
+{
+  "control_pass": 81,
+  "selected": [
+    {
+      "pass": 78,
+      "name": "copy_L27H8_a3",
+      "fingerprint": "5a67025e8922e160",
+      "screen": {
+        "reference_pass": 34,
+        "n": 256,
+        "reference_correct": 91,
+        "candidate_correct": 96,
+        "reference_ex": 35.55,
+        "candidate_ex": 37.5,
+        "fixed": 8,
+        "broke": 3,
+        "net": 5,
+        "exact_p": 0.226562
+      }
+    },
+    {
+      "pass": 77,
+      "name": "copy_L27H8_a2",
+      "fingerprint": "ee6a5073b89ec5cd",
+      "screen": {
+        "reference_pass": 34,
+        "n": 256,
+        "reference_correct": 91,
+        "candidate_correct": 95,
+        "reference_ex": 35.55,
+        "candidate_ex": 37.11,
+        "fixed": 6,
+        "broke": 2,
+        "net": 4,
+        "exact_p": 0.289062
+      }
+    },
+    {
+      "pass": 37,
+      "name": "copy_output_27:8:1.5",
+      "fingerprint": "477c2d0f772ca184",
+      "screen": {
+        "reference_pass": 34,
+        "n": 256,
+        "reference_correct": 91,
+        "candidate_correct": 93,
+        "reference_ex": 35.55,
+        "candidate_ex": 36.33,
+        "fixed": 4,
+        "broke": 2,
+        "net": 2,
+        "exact_p": 0.6875
+      }
+    }
+  ]
+}

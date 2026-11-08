@@ -1,0 +1,46 @@
+{
+  "neutral": {
+    "n": 128,
+    "reference_correct": 49,
+    "candidate_correct": 50,
+    "reference_ex": 38.28,
+    "candidate_ex": 39.06,
+    "fixed": 2,
+    "broke": 1,
+    "net": 1,
+    "exact_p": 1.0
+  },
+  "schema": {
+    "n": 128,
+    "reference_correct": 49,
+    "candidate_correct": 41,
+    "reference_ex": 38.28,
+    "candidate_ex": 32.03,
+    "fixed": 7,
+    "broke": 15,
+    "net": -8,
+    "exact_p": 0.133801
+  },
+  "plan": {
+    "n": 128,
+    "reference_correct": 49,
+    "candidate_correct": 51,
+    "reference_ex": 38.28,
+    "candidate_ex": 39.84,
+    "fixed": 6,
+    "broke": 4,
+    "net": 2,
+    "exact_p": 0.753906
+  },
+  "expert": {
+    "n": 128,
+    "reference_correct": 49,
+    "candidate_correct": 51,
+    "reference_ex": 38.28,
+    "candidate_ex": 39.84,
+    "fixed": 7,
+    "broke": 5,
+    "net": 2,
+    "exact_p": 0.774414
+  }
+}

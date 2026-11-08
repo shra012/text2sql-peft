@@ -1,0 +1,15 @@
+{
+  "selected": "original_F4",
+  "fingerprint": "ae81f3cb05285df3",
+  "passes_used": 25,
+  "budget": 25,
+  "new_candidates_tested": 4,
+  "control_correct": 201,
+  "control_n": 512,
+  "control_ex": 39.26,
+  "control_raw_identical_to_pass14": 512,
+  "dev_evaluation_performed": false,
+  "previously_reported_dev_ex": 30.12,
+  "target_40_50_achieved": false,
+  "reason": "Every additional candidate scored below the unchanged F4 control on the matched practice cohort; retain original weights."
+}

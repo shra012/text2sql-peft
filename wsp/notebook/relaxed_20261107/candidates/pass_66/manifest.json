@@ -1,0 +1,22 @@
+{
+  "trial": {
+    "name": "icl_permuted_sql_L23_contrast_a2",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "23",
+      "--variant",
+      "permuted",
+      "--strength",
+      "2",
+      "--direction",
+      "contrast",
+      "--design-file",
+      "icl_sql_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "9ccad507817c30e5"
+}

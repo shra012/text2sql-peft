@@ -1,0 +1,267 @@
+{
+  "cohorts": [
+    {
+      "candidate": "binding_64",
+      "cohort": "seed0",
+      "pass": 20,
+      "n": 512,
+      "ex": 31.45,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 161,
+        "fixed": 19,
+        "broke": 56,
+        "net": -37,
+        "mcnemar_exact_p": 2.2e-05
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 161,
+        "fixed": 20,
+        "broke": 60,
+        "net": -40,
+        "mcnemar_exact_p": 9e-06
+      },
+      "no_such_column": 180,
+      "sql_first": 512,
+      "vs_f4_control": {
+        "reference_correct": 201,
+        "candidate_correct": 161,
+        "fixed": 20,
+        "broke": 60,
+        "net": -40,
+        "mcnemar_exact_p": 9e-06
+      }
+    },
+    {
+      "candidate": "heads_1.5",
+      "cohort": "seed0",
+      "pass": 21,
+      "n": 512,
+      "ex": 38.48,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 197,
+        "fixed": 13,
+        "broke": 14,
+        "net": -1,
+        "mcnemar_exact_p": 1.0
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 197,
+        "fixed": 9,
+        "broke": 13,
+        "net": -4,
+        "mcnemar_exact_p": 0.523467
+      },
+      "no_such_column": 162,
+      "sql_first": 512,
+      "vs_f4_control": {
+        "reference_correct": 201,
+        "candidate_correct": 197,
+        "fixed": 9,
+        "broke": 13,
+        "net": -4,
+        "mcnemar_exact_p": 0.523467
+      }
+    },
+    {
+      "candidate": "qualifier",
+      "cohort": "seed0",
+      "pass": 22,
+      "n": 512,
+      "ex": 37.7,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 193,
+        "fixed": 30,
+        "broke": 35,
+        "net": -5,
+        "mcnemar_exact_p": 0.620145
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 193,
+        "fixed": 27,
+        "broke": 35,
+        "net": -8,
+        "mcnemar_exact_p": 0.374152
+      },
+      "no_such_column": 157,
+      "sql_first": 512,
+      "vs_f4_control": {
+        "reference_correct": 201,
+        "candidate_correct": 193,
+        "fixed": 27,
+        "broke": 35,
+        "net": -8,
+        "mcnemar_exact_p": 0.374152
+      }
+    },
+    {
+      "candidate": "FROM_gate",
+      "cohort": "seed0",
+      "pass": 24,
+      "n": 512,
+      "ex": 36.33,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 186,
+        "fixed": 17,
+        "broke": 29,
+        "net": -12,
+        "mcnemar_exact_p": 0.103805
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 186,
+        "fixed": 11,
+        "broke": 26,
+        "net": -15,
+        "mcnemar_exact_p": 0.020074
+      },
+      "no_such_column": 174,
+      "sql_first": 512,
+      "vs_f4_control": {
+        "reference_correct": 201,
+        "candidate_correct": 186,
+        "fixed": 11,
+        "broke": 26,
+        "net": -15,
+        "mcnemar_exact_p": 0.020074
+      }
+    },
+    {
+      "candidate": "F4_control",
+      "cohort": "seed0",
+      "pass": 25,
+      "n": 512,
+      "ex": 39.26,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 201,
+        "fixed": 10,
+        "broke": 7,
+        "net": 3,
+        "mcnemar_exact_p": 0.629059
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 201,
+        "fixed": 0,
+        "broke": 0,
+        "net": 0,
+        "mcnemar_exact_p": 1.0
+      },
+      "no_such_column": 157,
+      "sql_first": 512,
+      "vs_f4_control": {
+        "reference_correct": 201,
+        "candidate_correct": 201,
+        "fixed": 0,
+        "broke": 0,
+        "net": 0,
+        "mcnemar_exact_p": 1.0
+      }
+    }
+  ],
+  "unique_questions": {
+    "binding_64": {
+      "n": 512,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 161,
+        "fixed": 19,
+        "broke": 56,
+        "net": -37,
+        "mcnemar_exact_p": 2.2e-05
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 161,
+        "fixed": 20,
+        "broke": 60,
+        "net": -40,
+        "mcnemar_exact_p": 9e-06
+      }
+    },
+    "heads_1.5": {
+      "n": 512,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 197,
+        "fixed": 13,
+        "broke": 14,
+        "net": -1,
+        "mcnemar_exact_p": 1.0
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 197,
+        "fixed": 9,
+        "broke": 13,
+        "net": -4,
+        "mcnemar_exact_p": 0.523467
+      }
+    },
+    "qualifier": {
+      "n": 512,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 193,
+        "fixed": 30,
+        "broke": 35,
+        "net": -5,
+        "mcnemar_exact_p": 0.620145
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 193,
+        "fixed": 27,
+        "broke": 35,
+        "net": -8,
+        "mcnemar_exact_p": 0.374152
+      }
+    },
+    "FROM_gate": {
+      "n": 512,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 186,
+        "fixed": 17,
+        "broke": 29,
+        "net": -12,
+        "mcnemar_exact_p": 0.103805
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 186,
+        "fixed": 11,
+        "broke": 26,
+        "net": -15,
+        "mcnemar_exact_p": 0.020074
+      }
+    },
+    "F4_control": {
+      "n": 512,
+      "vs_original": {
+        "reference_correct": 198,
+        "candidate_correct": 201,
+        "fixed": 10,
+        "broke": 7,
+        "net": 3,
+        "mcnemar_exact_p": 0.629059
+      },
+      "vs_f4": {
+        "reference_correct": 201,
+        "candidate_correct": 201,
+        "fixed": 0,
+        "broke": 0,
+        "net": 0,
+        "mcnemar_exact_p": 1.0
+      }
+    }
+  },
+  "caveat": "Practice data only; candidates selected using these data. Cached-baseline numerical variation and multiple comparisons limit p-value interpretation."
+}

@@ -1,0 +1,22 @@
+{
+  "trial": {
+    "name": "icl_mapping_first_L23_contrast_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "23",
+      "--variant",
+      "mapping",
+      "--strength",
+      "1",
+      "--direction",
+      "contrast",
+      "--design-file",
+      "icl_first_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "1bc92b328305f3ba"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "finetuning_series_2_how",
+  "title": "How I tested them: text-to-SQL on BIRD with one laptop GPU",
+  "aiSummary": "Part 2 of the fine-tuning series walks through the full experiment: turning BIRD questions into prompts and training rows, grading SQL by running it in a read-only sandbox, and training full fine-tuning, LoRA, LoRA-FA, QLoRA and TinyLoRA under identical rules. It also covers the TinyLoRA GRPO loop with vLLM and the memory lessons that got the whole pipeline running in under 6 hours on a 16 GB laptop GPU.",
+  "tags": ["Fine-tuning", "LoRA", "QLoRA", "TinyLoRA", "GRPO", "Text-to-SQL", "BIRD", "vLLM", "LLM"]
+}

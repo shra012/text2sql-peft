@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="Accuracy by BIRD difficulty">
+  <rect width="1000" height="470" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">Accuracy by BIRD difficulty</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Only 145 challenging questions, so each one there is worth 0.7 points. Hover a bar for the value.</text>
+  <line x1="70" y1="390.0" x2="970" y2="390.0" stroke="#E8ECF2"/>
+  <text x="60.0" y="394.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">0%</text>
+  <line x1="70" y1="339.1" x2="970" y2="339.1" stroke="#E8ECF2"/>
+  <text x="60.0" y="343.1" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">10%</text>
+  <line x1="70" y1="288.2" x2="970" y2="288.2" stroke="#E8ECF2"/>
+  <text x="60.0" y="292.2" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">20%</text>
+  <line x1="70" y1="237.3" x2="970" y2="237.3" stroke="#E8ECF2"/>
+  <text x="60.0" y="241.3" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">30%</text>
+  <line x1="70" y1="186.4" x2="970" y2="186.4" stroke="#E8ECF2"/>
+  <text x="60.0" y="190.4" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">40%</text>
+  <line x1="70" y1="135.5" x2="970" y2="135.5" stroke="#E8ECF2"/>
+  <text x="60.0" y="139.5" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">50%</text>
+  <rect x="28" y="84" width="14" height="14" rx="3" fill="#2a78d6"/>
+  <text x="48.0" y="96.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">Simple (925 Qs)</text>
+  <rect x="198" y="84" width="14" height="14" rx="3" fill="#eb6834"/>
+  <text x="218.0" y="96.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">Moderate (464)</text>
+  <rect x="368" y="84" width="14" height="14" rx="3" fill="#1baf7a"/>
+  <text x="388.0" y="96.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">Challenging (145)</text>
+  <path d="M85.2,390 V211.8 Q85.2,207.8 89.2,207.8 H107.2 Q111.2,207.8 111.2,211.8 V390 Z" fill="#2a78d6"><title>Base model, simple: 35.78%</title></path>
+  <path d="M113.2,390 V302.9 Q113.2,298.9 117.2,298.9 H135.2 Q139.2,298.9 139.2,302.9 V390 Z" fill="#eb6834"><title>Base model, moderate: 17.89%</title></path>
+  <path d="M141.2,390 V313.3 Q141.2,309.3 145.2,309.3 H163.2 Q167.2,309.3 167.2,313.3 V390 Z" fill="#1baf7a"><title>Base model, challenging: 15.86%</title></path>
+  <text x="126.2" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">Base model</text>
+  <path d="M197.8,390 V178.2 Q197.8,174.2 201.8,174.2 H219.8 Q223.8,174.2 223.8,178.2 V390 Z" fill="#2a78d6"><title>Full fine-tune, simple: 42.38%</title></path>
+  <path d="M225.8,390 V247.0 Q225.8,243.0 229.8,243.0 H247.8 Q251.8,243.0 251.8,247.0 V390 Z" fill="#eb6834"><title>Full fine-tune, moderate: 28.88%</title></path>
+  <path d="M253.8,390 V295.7 Q253.8,291.7 257.8,291.7 H275.8 Q279.8,291.7 279.8,295.7 V390 Z" fill="#1baf7a"><title>Full fine-tune, challenging: 19.31%</title></path>
+  <text x="238.8" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">Full</text>
+  <text x="238.8" y="428.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">fine-tune</text>
+  <path d="M310.2,390 V141.4 Q310.2,137.4 314.2,137.4 H332.2 Q336.2,137.4 336.2,141.4 V390 Z" fill="#2a78d6"><title>LoRA, simple: 49.62%</title></path>
+  <path d="M338.2,390 V229.4 Q338.2,225.4 342.2,225.4 H360.2 Q364.2,225.4 364.2,229.4 V390 Z" fill="#eb6834"><title>LoRA, moderate: 32.33%</title></path>
+  <path d="M366.2,390 V267.6 Q366.2,263.6 370.2,263.6 H388.2 Q392.2,263.6 392.2,267.6 V390 Z" fill="#1baf7a"><title>LoRA, challenging: 24.83%</title></path>
+  <text x="351.2" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">LoRA</text>
+  <path d="M422.8,390 V147.4 Q422.8,143.4 426.8,143.4 H444.8 Q448.8,143.4 448.8,147.4 V390 Z" fill="#2a78d6"><title>LoRA-FA, simple: 48.43%</title></path>
+  <path d="M450.8,390 V239.3 Q450.8,235.3 454.8,235.3 H472.8 Q476.8,235.3 476.8,239.3 V390 Z" fill="#eb6834"><title>LoRA-FA, moderate: 30.39%</title></path>
+  <path d="M478.8,390 V278.1 Q478.8,274.1 482.8,274.1 H500.8 Q504.8,274.1 504.8,278.1 V390 Z" fill="#1baf7a"><title>LoRA-FA, challenging: 22.76%</title></path>
+  <text x="463.8" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">LoRA-FA</text>
+  <path d="M535.2,390 V142.5 Q535.2,138.5 539.2,138.5 H557.2 Q561.2,138.5 561.2,142.5 V390 Z" fill="#2a78d6"><title>QLoRA, simple: 49.41%</title></path>
+  <path d="M563.2,390 V226.2 Q563.2,222.2 567.2,222.2 H585.2 Q589.2,222.2 589.2,226.2 V390 Z" fill="#eb6834"><title>QLoRA, moderate: 32.97%</title></path>
+  <path d="M591.2,390 V250.0 Q591.2,246.0 595.2,246.0 H613.2 Q617.2,246.0 617.2,250.0 V390 Z" fill="#1baf7a"><title>QLoRA, challenging: 28.28%</title></path>
+  <text x="576.2" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">QLoRA</text>
+  <path d="M647.8,390 V205.8 Q647.8,201.8 651.8,201.8 H669.8 Q673.8,201.8 673.8,205.8 V390 Z" fill="#2a78d6"><title>TinyLoRA + SFT, simple: 36.97%</title></path>
+  <path d="M675.8,390 V286.5 Q675.8,282.5 679.8,282.5 H697.8 Q701.8,282.5 701.8,286.5 V390 Z" fill="#eb6834"><title>TinyLoRA + SFT, moderate: 21.12%</title></path>
+  <path d="M703.8,390 V299.2 Q703.8,295.2 707.8,295.2 H725.8 Q729.8,295.2 729.8,299.2 V390 Z" fill="#1baf7a"><title>TinyLoRA + SFT, challenging: 18.62%</title></path>
+  <text x="688.8" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">TinyLoRA</text>
+  <text x="688.8" y="428.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">+ SFT</text>
+  <path d="M760.2,390 V203.0 Q760.2,199.0 764.2,199.0 H782.2 Q786.2,199.0 786.2,203.0 V390 Z" fill="#2a78d6"><title>TinyLoRA + GRPO, simple: 37.51%</title></path>
+  <path d="M788.2,390 V290.9 Q788.2,286.9 792.2,286.9 H810.2 Q814.2,286.9 814.2,290.9 V390 Z" fill="#eb6834"><title>TinyLoRA + GRPO, moderate: 20.26%</title></path>
+  <path d="M816.2,390 V302.7 Q816.2,298.7 820.2,298.7 H838.2 Q842.2,298.7 842.2,302.7 V390 Z" fill="#1baf7a"><title>TinyLoRA + GRPO, challenging: 17.93%</title></path>
+  <text x="801.2" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">TinyLoRA</text>
+  <text x="801.2" y="428.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">+ GRPO</text>
+  <path d="M872.8,390 V203.5 Q872.8,199.5 876.8,199.5 H894.8 Q898.8,199.5 898.8,203.5 V390 Z" fill="#2a78d6"><title>Opus weight edit, simple: 37.41%</title></path>
+  <path d="M900.8,390 V293.0 Q900.8,289.0 904.8,289.0 H922.8 Q926.8,289.0 926.8,293.0 V390 Z" fill="#eb6834"><title>Opus weight edit, moderate: 19.83%</title></path>
+  <path d="M928.8,390 V309.7 Q928.8,305.7 932.8,305.7 H950.8 Q954.8,305.7 954.8,309.7 V390 Z" fill="#1baf7a"><title>Opus weight edit, challenging: 16.55%</title></path>
+  <text x="913.8" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">Opus weight</text>
+  <text x="913.8" y="428.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">edit</text>
+  <line x1="70" y1="390" x2="970" y2="390" stroke="#94a3b8"/>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "name": "qlora",
+  "model": "checkpoints/qlora",
+  "lora": null,
+  "quantization": null,
+  "split": "dev",
+  "n": 1534,
+  "ex": 42.44,
+  "ex_simple": 49.41,
+  "ex_moderate": 32.97,
+  "ex_challenging": 28.28,
+  "counts": {
+    "simple": {
+      "n": 925,
+      "correct": 457
+    },
+    "moderate": {
+      "n": 464,
+      "correct": 153
+    },
+    "challenging": {
+      "n": 145,
+      "correct": 41
+    }
+  },
+  "n_correct": 651,
+  "n_pred_errors": 339,
+  "gen_seconds": 109.8,
+  "exec_seconds": 40.6,
+  "eval_seconds": 150.5
+}

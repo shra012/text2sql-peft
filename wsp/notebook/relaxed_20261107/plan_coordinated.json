@@ -1,0 +1,138 @@
+[
+  {
+    "name": "owner_head_L26H11_a1.5",
+    "script": "apply_heads.py",
+    "args": [
+      "--heads",
+      "26:11:1.5"
+    ],
+    "family": "owner_retrieval",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "AS2_bias8_owner1_copy1",
+    "script": "apply_as_role.py",
+    "args": [
+      "--strength",
+      "8",
+      "--owner-gain",
+      "1",
+      "--copy-gain",
+      "1"
+    ],
+    "family": "coordinated_binding",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "AS2_bias8_owner1.5_copy1",
+    "script": "apply_as_role.py",
+    "args": [
+      "--strength",
+      "8",
+      "--owner-gain",
+      "1.5",
+      "--copy-gain",
+      "1"
+    ],
+    "family": "coordinated_binding",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "AS2_bias6_owner1.5_copy1",
+    "script": "apply_as_role.py",
+    "args": [
+      "--strength",
+      "6",
+      "--owner-gain",
+      "1.5",
+      "--copy-gain",
+      "1"
+    ],
+    "family": "coordinated_binding",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "AS2_bias8_owner2_copy1",
+    "script": "apply_as_role.py",
+    "args": [
+      "--strength",
+      "8",
+      "--owner-gain",
+      "2",
+      "--copy-gain",
+      "1"
+    ],
+    "family": "coordinated_binding",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "AS2_bias8_owner1_copy1.5",
+    "script": "apply_as_role.py",
+    "args": [
+      "--strength",
+      "8",
+      "--owner-gain",
+      "1",
+      "--copy-gain",
+      "1.5"
+    ],
+    "family": "coordinated_binding",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "copy_L27H8_a2",
+    "script": "apply_heads.py",
+    "args": [
+      "--heads",
+      "27:8:2"
+    ],
+    "family": "schema_retrieval",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "copy_L27H8_a3",
+    "script": "apply_heads.py",
+    "args": [
+      "--heads",
+      "27:8:3"
+    ],
+    "family": "schema_retrieval",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "wide_query_rank16_a4",
+    "script": "apply_query_subspace.py",
+    "args": [
+      "--rank",
+      "16",
+      "--gain",
+      "4",
+      "--wide"
+    ],
+    "family": "query_geometry",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "wide_query_rank32_a4",
+    "script": "apply_query_subspace.py",
+    "args": [
+      "--rank",
+      "32",
+      "--gain",
+      "4",
+      "--wide"
+    ],
+    "family": "query_geometry",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  }
+]

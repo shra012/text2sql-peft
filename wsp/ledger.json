@@ -1,0 +1,2938 @@
+{
+ "budget": 100,
+ "used": 88,
+ "passes": [
+  {
+   "n": 1,
+   "kind": "gen",
+   "t": "2026-11-07 12:50:56",
+   "args": {
+    "which": "original",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [],
+   "edits_fingerprint": "e3b0c44298fc1c14",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_01",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    }
+   }
+  },
+  {
+   "n": 2,
+   "kind": "read",
+   "t": "2026-11-07 12:54:42",
+   "args": {
+    "model": "original",
+    "capture": "logprobs,resid:6,resid:10,resid:14,resid:18,resid:21,resid:24,resid:27",
+    "positions": "answer",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/texts_own512.jsonl"
+   },
+   "edits": [],
+   "edits_fingerprint": "e3b0c44298fc1c14",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_02",
+   "summary": {
+    "model": "original",
+    "n_texts": 512,
+    "captures": [
+     "logprobs",
+     "resid:6",
+     "resid:10",
+     "resid:14",
+     "resid:18",
+     "resid:21",
+     "resid:24",
+     "resid:27"
+    ],
+    "positions": "answer",
+    "mean_answer_logprob": -0.0959
+   }
+  },
+  {
+   "n": 3,
+   "kind": "read",
+   "t": "2026-11-07 13:03:20",
+   "args": {
+    "model": "original",
+    "capture": "logprobs,resid:12,resid:15,resid:17,resid:19,resid:21,resid:23,resid:25,resid:26,resid:27,mlp_act:25,mlp_act:26,mlp_act:27",
+    "positions": "answer",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/texts_pass03.jsonl"
+   },
+   "edits": [],
+   "edits_fingerprint": "e3b0c44298fc1c14",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_03",
+   "summary": {
+    "model": "original",
+    "n_texts": 788,
+    "captures": [
+     "logprobs",
+     "resid:12",
+     "resid:15",
+     "resid:17",
+     "resid:19",
+     "resid:21",
+     "resid:23",
+     "resid:25",
+     "resid:26",
+     "resid:27",
+     "mlp_act:25",
+     "mlp_act:26",
+     "mlp_act:27"
+    ],
+    "positions": "answer",
+    "mean_answer_logprob": -0.1087
+   }
+  },
+  {
+   "n": 4,
+   "kind": "gen",
+   "t": "2026-11-07 13:08:28",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "3f372579b369f4fa",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_04",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3848,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 10,
+     "mean_chars": 166.0,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 5,
+     "broke": 6
+    }
+   }
+  },
+  {
+   "n": 5,
+   "kind": "read",
+   "t": "2026-11-07 13:10:00",
+   "args": {
+    "model": "original",
+    "capture": "logprobs,resid:20,resid:21,resid:22,resid:23",
+    "positions": "all",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/texts_pass05.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "3f372579b369f4fa",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_05",
+   "summary": {
+    "model": "original",
+    "n_texts": 64,
+    "captures": [
+     "logprobs",
+     "resid:20",
+     "resid:21",
+     "resid:22",
+     "resid:23"
+    ],
+    "positions": "all",
+    "mean_answer_logprob": -1.5103
+   }
+  },
+  {
+   "n": 6,
+   "kind": "gen",
+   "t": "2026-11-07 13:19:00",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "2771d3a4f035a4d5",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_06",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3789,
+     "pred_errors": 204,
+     "no_such_column": 162,
+     "no_such_table": 11,
+     "mean_chars": 205.3,
+     "sql_first": 0.9688
+    },
+    "paired": {
+     "fixed": 23,
+     "broke": 27
+    }
+   }
+  },
+  {
+   "n": 7,
+   "kind": "read",
+   "t": "2026-11-07 13:25:39",
+   "args": {
+    "model": "original",
+    "capture": "logprobs,resid:23,resid:24,resid:25,resid:26",
+    "positions": "all",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/texts_pass07.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "2771d3a4f035a4d5",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_07",
+   "summary": {
+    "model": "original",
+    "n_texts": 64,
+    "captures": [
+     "logprobs",
+     "resid:23",
+     "resid:24",
+     "resid:25",
+     "resid:26"
+    ],
+    "positions": "all",
+    "mean_answer_logprob": -1.5614
+   }
+  },
+  {
+   "n": 8,
+   "kind": "gen",
+   "t": "2026-11-07 13:32:26",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.22.self_attn.o_proj.weight",
+    "model.layers.23.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "5e14a159315da7ce",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_08",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 199,
+     "no_such_column": 155,
+     "no_such_table": 15,
+     "mean_chars": 171.3,
+     "sql_first": 0.9961
+    },
+    "paired": {
+     "fixed": 29,
+     "broke": 32
+    }
+   }
+  },
+  {
+   "n": 9,
+   "kind": "gen",
+   "t": "2026-11-07 13:37:44",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "3f372579b369f4fa",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_09",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 225,
+     "no_such_column": 210,
+     "no_such_table": 5,
+     "mean_chars": 183.5,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 9,
+     "broke": 9
+    }
+   }
+  },
+  {
+   "n": 10,
+   "kind": "gen",
+   "t": "2026-11-07 13:46:09",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "45eed48dbf9685df",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_10",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3789,
+     "pred_errors": 224,
+     "no_such_column": 209,
+     "no_such_table": 5,
+     "mean_chars": 184.5,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 7,
+     "broke": 8
+    }
+   }
+  },
+  {
+   "n": 11,
+   "kind": "gen",
+   "t": "2026-11-07 13:51:25",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "f24b3bb4365c729d",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_11",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.373,
+     "pred_errors": 230,
+     "no_such_column": 215,
+     "no_such_table": 5,
+     "mean_chars": 184.4,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 8,
+     "broke": 12
+    }
+   }
+  },
+  {
+   "n": 12,
+   "kind": "gen",
+   "t": "2026-11-07 13:56:08",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_12",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.375,
+     "pred_errors": 228,
+     "no_such_column": 212,
+     "no_such_table": 5,
+     "mean_chars": 184.5,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 8,
+     "broke": 11
+    }
+   }
+  },
+  {
+   "n": 13,
+   "kind": "gen",
+   "t": "2026-11-07 13:58:57",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "0fc9052fa7715c75",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_13",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.377,
+     "pred_errors": 231,
+     "no_such_column": 216,
+     "no_such_table": 5,
+     "mean_chars": 253.4,
+     "sql_first": 0.9355
+    },
+    "paired": {
+     "fixed": 0,
+     "broke": 2
+    }
+   }
+  },
+  {
+   "n": 14,
+   "kind": "gen",
+   "t": "2026-11-07 14:01:56",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_14",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3926,
+     "pred_errors": 201,
+     "no_such_column": 157,
+     "no_such_table": 11,
+     "mean_chars": 167.3,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 10,
+     "broke": 7
+    }
+   }
+  },
+  {
+   "n": 15,
+   "kind": "gen",
+   "t": "2026-11-07 14:04:50",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "de7c0c14e1087f5e",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_15",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3965,
+     "pred_errors": 198,
+     "no_such_column": 156,
+     "no_such_table": 11,
+     "mean_chars": 167.2,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 22,
+     "broke": 17
+    }
+   }
+  },
+  {
+   "n": 16,
+   "kind": "gen",
+   "t": "2026-11-07 14:07:21",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "de7c0c14e1087f5e",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_16",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 215,
+     "no_such_column": 200,
+     "no_such_table": 5,
+     "mean_chars": 188.4,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 22,
+     "broke": 19
+    }
+   }
+  },
+  {
+   "n": 17,
+   "kind": "gen",
+   "t": "2026-11-07 14:10:47",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 2026,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "de7c0c14e1087f5e",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_17",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3613,
+     "pred_errors": 212,
+     "no_such_column": 169,
+     "no_such_table": 20,
+     "mean_chars": 201.3,
+     "sql_first": 0.9707
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3496,
+     "pred_errors": 202,
+     "no_such_column": 159,
+     "no_such_table": 19,
+     "mean_chars": 170.4,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 12,
+     "broke": 18
+    }
+   }
+  },
+  {
+   "n": 18,
+   "kind": "gen",
+   "t": "2026-11-07 14:14:07",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 2026,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_18",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3613,
+     "pred_errors": 212,
+     "no_such_column": 169,
+     "no_such_table": 20,
+     "mean_chars": 201.3,
+     "sql_first": 0.9707
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3633,
+     "pred_errors": 211,
+     "no_such_column": 165,
+     "no_such_table": 19,
+     "mean_chars": 169.5,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 4,
+     "broke": 3
+    }
+   }
+  },
+  {
+   "n": 19,
+   "kind": "gen",
+   "t": "2026-11-07 14:17:07",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 7,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_19",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3535,
+     "pred_errors": 231,
+     "no_such_column": 196,
+     "no_such_table": 12,
+     "mean_chars": 202.6,
+     "sql_first": 0.9746
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3613,
+     "pred_errors": 228,
+     "no_such_column": 192,
+     "no_such_table": 12,
+     "mean_chars": 171.4,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 8,
+     "broke": 4
+    }
+   }
+  },
+  {
+   "n": 20,
+   "kind": "gen",
+   "t": "2026-11-07 15:13:31",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "e2627910662badeb",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_20",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3145,
+     "pred_errors": 241,
+     "no_such_column": 180,
+     "no_such_table": 18,
+     "mean_chars": 178.3,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 19,
+     "broke": 56
+    }
+   }
+  },
+  {
+   "n": 21,
+   "kind": "gen",
+   "t": "2026-11-07 15:15:12",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.22.self_attn.o_proj.weight",
+    "model.layers.23.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "b1c517b46b0fc267",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_21",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3848,
+     "pred_errors": 207,
+     "no_such_column": 162,
+     "no_such_table": 14,
+     "mean_chars": 165.3,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 13,
+     "broke": 14
+    }
+   }
+  },
+  {
+   "n": 22,
+   "kind": "gen",
+   "t": "2026-11-07 15:18:06",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "eac4b9151765e074",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_22",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.377,
+     "pred_errors": 196,
+     "no_such_column": 156,
+     "no_such_table": 21,
+     "mean_chars": 158.8,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 30,
+     "broke": 35
+    }
+   }
+  },
+  {
+   "n": 23,
+   "kind": "read",
+   "t": "2026-11-07 15:19:02",
+   "args": {
+    "model": "original",
+    "capture": "resid:26",
+    "positions": "all",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/continuation_20261107/gate_texts.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "eac4b9151765e074",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_23",
+   "summary": {
+    "model": "original",
+    "n_texts": 64,
+    "captures": [
+     "resid:26"
+    ],
+    "positions": "all"
+   }
+  },
+  {
+   "n": 24,
+   "kind": "gen",
+   "t": "2026-11-07 15:24:08",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.mlp.gate_proj.weight"
+   ],
+   "edits_fingerprint": "4920d7efc4ff6814",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_24",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3633,
+     "pred_errors": 217,
+     "no_such_column": 174,
+     "no_such_table": 9,
+     "mean_chars": 166.9,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 17,
+     "broke": 29
+    }
+   }
+  },
+  {
+   "n": 25,
+   "kind": "gen",
+   "t": "2026-11-07 15:27:09",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_25",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3926,
+     "pred_errors": 201,
+     "no_such_column": 157,
+     "no_such_table": 11,
+     "mean_chars": 167.3,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 10,
+     "broke": 7
+    }
+   }
+  },
+  {
+   "n": 26,
+   "kind": "gen",
+   "t": "2026-11-07 15:43:27",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/relaxed_20261107/screen512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_26",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3242,
+     "pred_errors": 230,
+     "no_such_column": 177,
+     "no_such_table": 7,
+     "mean_chars": 469.2,
+     "sql_first": 0.7266
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3398,
+     "pred_errors": 220,
+     "no_such_column": 168,
+     "no_such_table": 7,
+     "mean_chars": 171.0,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 21,
+     "broke": 13
+    }
+   }
+  },
+  {
+   "n": 27,
+   "kind": "gen",
+   "t": "2026-11-07 15:46:10",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/relaxed_20261107/instruction_probe512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_27",
+   "summary": {
+    "edited": {
+     "n": 512,
+     "acc": 0.377,
+     "pred_errors": 213,
+     "no_such_column": 170,
+     "no_such_table": 6,
+     "mean_chars": 176.6,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 28,
+   "kind": "read",
+   "t": "2026-11-07 15:46:29",
+   "args": {
+    "model": "original",
+    "capture": "resid:11,resid:15,resid:19,resid:23,resid:26,mlp_act:11,mlp_act:15,mlp_act:19,mlp_act:23",
+    "positions": "all",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/relaxed_20261107/calibration16.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_28",
+   "summary": {
+    "model": "original",
+    "n_texts": 16,
+    "captures": [
+     "resid:11",
+     "resid:15",
+     "resid:19",
+     "resid:23",
+     "resid:26",
+     "mlp_act:11",
+     "mlp_act:15",
+     "mlp_act:19",
+     "mlp_act:23"
+    ],
+    "positions": "all"
+   }
+  },
+  {
+   "n": 29,
+   "kind": "read",
+   "t": "2026-11-07 15:49:07",
+   "args": {
+    "model": "original",
+    "capture": "resid:11,resid:15,resid:19,resid:23,resid:26",
+    "positions": "last",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/relaxed_20261107/contrast480.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_29",
+   "summary": {
+    "model": "original",
+    "n_texts": 480,
+    "captures": [
+     "resid:11",
+     "resid:15",
+     "resid:19",
+     "resid:23",
+     "resid:26"
+    ],
+    "positions": "last"
+   }
+  },
+  {
+   "n": 30,
+   "kind": "gen",
+   "t": "2026-11-07 15:52:46",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.15.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "6ebc56423edb171a",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_30",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3477,
+     "pred_errors": 111,
+     "no_such_column": 87,
+     "no_such_table": 2,
+     "mean_chars": 176.6,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 31,
+   "kind": "gen",
+   "t": "2026-11-07 15:54:00",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.15.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "8c125c43ca16aaf5",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_31",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 106,
+     "no_such_column": 83,
+     "no_such_table": 2,
+     "mean_chars": 178.2,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 32,
+   "kind": "gen",
+   "t": "2026-11-07 15:55:17",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ac70dd7c88a1600d",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_32",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 108,
+     "no_such_column": 84,
+     "no_such_table": 1,
+     "mean_chars": 183.7,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 33,
+   "kind": "gen",
+   "t": "2026-11-07 15:56:31",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "f3ee52f3d666589d",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_33",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3555,
+     "pred_errors": 107,
+     "no_such_column": 83,
+     "no_such_table": 1,
+     "mean_chars": 178.7,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 34,
+   "kind": "gen",
+   "t": "2026-11-07 15:57:45",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_34",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3555,
+     "pred_errors": 101,
+     "no_such_column": 76,
+     "no_such_table": 3,
+     "mean_chars": 168.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 35,
+   "kind": "read",
+   "t": "2026-11-07 16:03:20",
+   "args": {
+    "model": "original",
+    "capture": "resid:11,resid:15,resid:19,resid:21,resid:22,resid:23,resid:27",
+    "positions": "last",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/relaxed_20261107/extended_reads.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_35",
+   "summary": {
+    "model": "original",
+    "n_texts": 1024,
+    "captures": [
+     "resid:11",
+     "resid:15",
+     "resid:19",
+     "resid:21",
+     "resid:22",
+     "resid:23",
+     "resid:27"
+    ],
+    "positions": "last"
+   }
+  },
+  {
+   "n": 36,
+   "kind": "gen",
+   "t": "2026-11-07 16:05:56",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.self_attn.o_proj.weight"
+   ],
+   "edits_fingerprint": "9289ecf714e6c074",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_36",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3555,
+     "pred_errors": 99,
+     "no_such_column": 74,
+     "no_such_table": 3,
+     "mean_chars": 169.4,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 37,
+   "kind": "gen",
+   "t": "2026-11-07 16:07:11",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.self_attn.o_proj.weight"
+   ],
+   "edits_fingerprint": "477c2d0f772ca184",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_37",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3633,
+     "pred_errors": 101,
+     "no_such_column": 76,
+     "no_such_table": 3,
+     "mean_chars": 169.7,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 38,
+   "kind": "gen",
+   "t": "2026-11-07 16:08:24",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.24.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "dd3677e834e67f9f",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_38",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 104,
+     "no_such_column": 80,
+     "no_such_table": 3,
+     "mean_chars": 169.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 39,
+   "kind": "gen",
+   "t": "2026-11-07 16:09:40",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.24.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "928e9c781983696f",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_39",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 104,
+     "no_such_column": 80,
+     "no_such_table": 3,
+     "mean_chars": 169.5,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 40,
+   "kind": "gen",
+   "t": "2026-11-07 16:11:05",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.12.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "0de412401f94c6bc",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_40",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3438,
+     "pred_errors": 105,
+     "no_such_column": 81,
+     "no_such_table": 3,
+     "mean_chars": 174.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 41,
+   "kind": "gen",
+   "t": "2026-11-07 16:12:17",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.16.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "3d0aa534cfd0b1da",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_41",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.332,
+     "pred_errors": 106,
+     "no_such_column": 81,
+     "no_such_table": 4,
+     "mean_chars": 173,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 42,
+   "kind": "gen",
+   "t": "2026-11-07 16:13:29",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.20.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "c24cf48226f85dad",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_42",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3477,
+     "pred_errors": 105,
+     "no_such_column": 79,
+     "no_such_table": 3,
+     "mean_chars": 170.5,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 43,
+   "kind": "gen",
+   "t": "2026-11-07 16:14:41",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.16.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "0fe15acf9e33b170",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_43",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 103,
+     "no_such_column": 78,
+     "no_such_table": 3,
+     "mean_chars": 171.0,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 44,
+   "kind": "gen",
+   "t": "2026-11-07 16:15:58",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.24.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "83b9b77bcfcbc695",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_44",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3555,
+     "pred_errors": 99,
+     "no_such_column": 75,
+     "no_such_table": 3,
+     "mean_chars": 168.7,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 45,
+   "kind": "gen",
+   "t": "2026-11-07 16:17:10",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.self_attn.q_proj.bias",
+    "model.layers.27.self_attn.q_proj.weight"
+   ],
+   "edits_fingerprint": "28a76ae37fdf87ba",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_45",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3594,
+     "pred_errors": 100,
+     "no_such_column": 75,
+     "no_such_table": 3,
+     "mean_chars": 167.6,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 46,
+   "kind": "gen",
+   "t": "2026-11-07 16:20:34",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/style_probe512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_46",
+   "summary": {
+    "edited": {
+     "n": 512,
+     "acc": 0.2969,
+     "pred_errors": 249,
+     "no_such_column": 199,
+     "no_such_table": 12,
+     "mean_chars": 270.1,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 47,
+   "kind": "read",
+   "t": "2026-11-07 16:22:27",
+   "args": {
+    "model": "original",
+    "capture": "resid:11,resid:15,resid:19,resid:23",
+    "positions": "last",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/style_reads448.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_47",
+   "summary": {
+    "model": "original",
+    "n_texts": 448,
+    "captures": [
+     "resid:11",
+     "resid:15",
+     "resid:19",
+     "resid:23"
+    ],
+    "positions": "last"
+   }
+  },
+  {
+   "n": 48,
+   "kind": "gen",
+   "t": "2026-11-07 16:25:04",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "3156f63e62675bed",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_48",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3555,
+     "pred_errors": 101,
+     "no_such_column": 76,
+     "no_such_table": 3,
+     "mean_chars": 169.1,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 49,
+   "kind": "gen",
+   "t": "2026-11-07 16:26:19",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "8a4c54b254465f56",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_49",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3477,
+     "pred_errors": 101,
+     "no_such_column": 76,
+     "no_such_table": 3,
+     "mean_chars": 168.6,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 50,
+   "kind": "gen",
+   "t": "2026-11-07 16:27:32",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.23.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "c2adfd0af3aaa403",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_50",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 101,
+     "no_such_column": 77,
+     "no_such_table": 3,
+     "mean_chars": 168.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 51,
+   "kind": "gen",
+   "t": "2026-11-07 16:28:46",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.23.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "15503c73d154927b",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_51",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3438,
+     "pred_errors": 101,
+     "no_such_column": 76,
+     "no_such_table": 3,
+     "mean_chars": 169.3,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 52,
+   "kind": "read",
+   "t": "2026-11-07 16:31:55",
+   "args": {
+    "model": "original",
+    "capture": "resid:23,resid:27,mlp_act:27",
+    "positions": "last",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/relaxed_20261107/alias_assignment_reads.jsonl"
+   },
+   "edits": [
+    "model.layers.23.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "15503c73d154927b",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_52",
+   "summary": {
+    "model": "original",
+    "n_texts": 256,
+    "captures": [
+     "resid:23",
+     "resid:27",
+     "mlp_act:27"
+    ],
+    "positions": "last"
+   }
+  },
+  {
+   "n": 53,
+   "kind": "gen",
+   "t": "2026-11-07 16:34:17",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "024cc60fbe8855e1",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_53",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3555,
+     "pred_errors": 101,
+     "no_such_column": 77,
+     "no_such_table": 3,
+     "mean_chars": 168.4,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 54,
+   "kind": "gen",
+   "t": "2026-11-07 16:35:28",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "9ee8286d48eeee12",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_54",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3477,
+     "pred_errors": 100,
+     "no_such_column": 76,
+     "no_such_table": 3,
+     "mean_chars": 170.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 55,
+   "kind": "gen",
+   "t": "2026-11-07 16:36:43",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.23.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "85ae750c93269368",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_55",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 102,
+     "no_such_column": 78,
+     "no_such_table": 3,
+     "mean_chars": 169.7,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 56,
+   "kind": "gen",
+   "t": "2026-11-07 16:37:53",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.23.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "60897746ddf58d19",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_56",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 103,
+     "no_such_column": 79,
+     "no_such_table": 3,
+     "mean_chars": 168.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 57,
+   "kind": "gen",
+   "t": "2026-11-07 16:43:38",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "c129494db277ff0d",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_57",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3555,
+     "pred_errors": 98,
+     "no_such_column": 73,
+     "no_such_table": 3,
+     "mean_chars": 169.5,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 58,
+   "kind": "gen",
+   "t": "2026-11-07 16:44:47",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "e791225ca0e93a39",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_58",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3203,
+     "pred_errors": 108,
+     "no_such_column": 84,
+     "no_such_table": 3,
+     "mean_chars": 168.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 59,
+   "kind": "gen",
+   "t": "2026-11-07 16:46:25",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "be57f981d9234681",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_59",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.2812,
+     "pred_errors": 117,
+     "no_such_column": 86,
+     "no_such_table": 6,
+     "mean_chars": 187.6,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 60,
+   "kind": "gen",
+   "t": "2026-11-07 16:47:40",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "010c7f2e6eadcd96",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_60",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3164,
+     "pred_errors": 110,
+     "no_such_column": 86,
+     "no_such_table": 3,
+     "mean_chars": 175.6,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 61,
+   "kind": "gen",
+   "t": "2026-11-07 16:50:55",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/icl_probe512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_61",
+   "summary": {
+    "edited": {
+     "n": 512,
+     "acc": 0.3789,
+     "pred_errors": 210,
+     "no_such_column": 157,
+     "no_such_table": 14,
+     "mean_chars": 164.5,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 62,
+   "kind": "read",
+   "t": "2026-11-07 16:52:33",
+   "args": {
+    "model": "original",
+    "capture": "resid:11,resid:15,resid:19,resid:23",
+    "positions": "last",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/icl_reads384.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_62",
+   "summary": {
+    "model": "original",
+    "n_texts": 384,
+    "captures": [
+     "resid:11",
+     "resid:15",
+     "resid:19",
+     "resid:23"
+    ],
+    "positions": "last"
+   }
+  },
+  {
+   "n": 63,
+   "kind": "gen",
+   "t": "2026-11-07 16:57:31",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.15.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "feec4195adea7fb0",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_63",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3477,
+     "pred_errors": 103,
+     "no_such_column": 79,
+     "no_such_table": 3,
+     "mean_chars": 168.1,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 64,
+   "kind": "gen",
+   "t": "2026-11-07 16:58:41",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "5be93e2a409fa4a3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_64",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3438,
+     "pred_errors": 105,
+     "no_such_column": 81,
+     "no_such_table": 3,
+     "mean_chars": 168.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 65,
+   "kind": "gen",
+   "t": "2026-11-07 16:59:50",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "75362bec98355fc0",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_65",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 103,
+     "no_such_column": 79,
+     "no_such_table": 3,
+     "mean_chars": 168.7,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 66,
+   "kind": "gen",
+   "t": "2026-11-07 17:01:00",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.23.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "9ccad507817c30e5",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_66",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3555,
+     "pred_errors": 102,
+     "no_such_column": 77,
+     "no_such_table": 3,
+     "mean_chars": 169.4,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 67,
+   "kind": "gen",
+   "t": "2026-11-07 17:02:11",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "50e264b3cb86ffd1",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_67",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3398,
+     "pred_errors": 102,
+     "no_such_column": 78,
+     "no_such_table": 3,
+     "mean_chars": 168.9,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 68,
+   "kind": "gen",
+   "t": "2026-11-07 17:03:22",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.23.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "0549562bd2a06d67",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_68",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3477,
+     "pred_errors": 103,
+     "no_such_column": 78,
+     "no_such_table": 3,
+     "mean_chars": 169.0,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 69,
+   "kind": "gen",
+   "t": "2026-11-07 17:04:33",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "2154a1bb94ee0fd5",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_69",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3438,
+     "pred_errors": 103,
+     "no_such_column": 79,
+     "no_such_table": 3,
+     "mean_chars": 168.6,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 70,
+   "kind": "gen",
+   "t": "2026-11-07 17:05:44",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.23.mlp.down_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "1bc92b328305f3ba",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_70",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3438,
+     "pred_errors": 103,
+     "no_such_column": 78,
+     "no_such_table": 3,
+     "mean_chars": 169.0,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 71,
+   "kind": "gen",
+   "t": "2026-11-07 17:11:35",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.26.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "d4ed5b3830687d3f",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_71",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3477,
+     "pred_errors": 101,
+     "no_such_column": 76,
+     "no_such_table": 4,
+     "mean_chars": 169.4,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 72,
+   "kind": "gen",
+   "t": "2026-11-07 17:12:46",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "b0ce5e099f0c68fb",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_72",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.2969,
+     "pred_errors": 113,
+     "no_such_column": 89,
+     "no_such_table": 3,
+     "mean_chars": 169.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 73,
+   "kind": "gen",
+   "t": "2026-11-07 17:13:55",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.26.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "8345f9b38c78648f",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_73",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3008,
+     "pred_errors": 112,
+     "no_such_column": 88,
+     "no_such_table": 3,
+     "mean_chars": 169.3,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 74,
+   "kind": "gen",
+   "t": "2026-11-07 17:15:12",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.26.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "50efbe468876fa48",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_74",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3438,
+     "pred_errors": 99,
+     "no_such_column": 74,
+     "no_such_table": 4,
+     "mean_chars": 169.6,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 75,
+   "kind": "gen",
+   "t": "2026-11-07 17:16:28",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.26.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ac149f95c09c7a56",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_75",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.2969,
+     "pred_errors": 114,
+     "no_such_column": 91,
+     "no_such_table": 3,
+     "mean_chars": 169.1,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 76,
+   "kind": "gen",
+   "t": "2026-11-07 17:17:46",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.self_attn.o_proj.weight"
+   ],
+   "edits_fingerprint": "c321db5a0df56551",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_76",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3086,
+     "pred_errors": 114,
+     "no_such_column": 89,
+     "no_such_table": 3,
+     "mean_chars": 169.4,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 77,
+   "kind": "gen",
+   "t": "2026-11-07 17:19:02",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.self_attn.o_proj.weight"
+   ],
+   "edits_fingerprint": "ee6a5073b89ec5cd",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_77",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3711,
+     "pred_errors": 97,
+     "no_such_column": 74,
+     "no_such_table": 3,
+     "mean_chars": 169.2,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 78,
+   "kind": "gen",
+   "t": "2026-11-07 17:20:15",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.self_attn.o_proj.weight"
+   ],
+   "edits_fingerprint": "5a67025e8922e160",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_78",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.375,
+     "pred_errors": 104,
+     "no_such_column": 80,
+     "no_such_table": 3,
+     "mean_chars": 169.6,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 79,
+   "kind": "gen",
+   "t": "2026-11-07 17:21:27",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.22.self_attn.q_proj.bias",
+    "model.layers.22.self_attn.q_proj.weight",
+    "model.layers.23.self_attn.q_proj.bias",
+    "model.layers.23.self_attn.q_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "fae0cc6baaa99474",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_79",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3516,
+     "pred_errors": 99,
+     "no_such_column": 76,
+     "no_such_table": 3,
+     "mean_chars": 167.7,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 80,
+   "kind": "gen",
+   "t": "2026-11-07 17:22:40",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/screen256.txt"
+   },
+   "edits": [
+    "model.layers.22.self_attn.q_proj.bias",
+    "model.layers.22.self_attn.q_proj.weight",
+    "model.layers.23.self_attn.q_proj.bias",
+    "model.layers.23.self_attn.q_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "540db7d70188bee1",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_80",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3438,
+     "pred_errors": 103,
+     "no_such_column": 78,
+     "no_such_table": 3,
+     "mean_chars": 166.8,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 81,
+   "kind": "gen",
+   "t": "2026-11-07 17:24:19",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/confirm256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_81",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3438,
+     "pred_errors": 112,
+     "no_such_column": 90,
+     "no_such_table": 4,
+     "mean_chars": 171.7,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 82,
+   "kind": "gen",
+   "t": "2026-11-07 17:25:57",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/confirm256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.self_attn.o_proj.weight"
+   ],
+   "edits_fingerprint": "5a67025e8922e160",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_82",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3164,
+     "pred_errors": 121,
+     "no_such_column": 100,
+     "no_such_table": 3,
+     "mean_chars": 175.0,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 83,
+   "kind": "gen",
+   "t": "2026-11-07 17:27:35",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/confirm256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.self_attn.o_proj.weight"
+   ],
+   "edits_fingerprint": "ee6a5073b89ec5cd",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_83",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3242,
+     "pred_errors": 117,
+     "no_such_column": 95,
+     "no_such_table": 2,
+     "mean_chars": 177.0,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 84,
+   "kind": "gen",
+   "t": "2026-11-07 17:29:08",
+   "args": {
+    "which": "edited",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "/home/shravan/Workspace/text2sql-peft-lab/wsp/notebook/relaxed_20261107/confirm256.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.self_attn.o_proj.weight"
+   ],
+   "edits_fingerprint": "477c2d0f772ca184",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_84",
+   "summary": {
+    "edited": {
+     "n": 256,
+     "acc": 0.3438,
+     "pred_errors": 113,
+     "no_such_column": 92,
+     "no_such_table": 1,
+     "mean_chars": 171.4,
+     "sql_first": 1.0
+    }
+   }
+  },
+  {
+   "n": 85,
+   "kind": "read",
+   "t": "2026-11-08 00:53:05",
+   "args": {
+    "model": "edited",
+    "capture": "logprobs,mlp_act:27,resid:27",
+    "positions": "answer",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/strict_20261108/texts_read85.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_85",
+   "summary": {
+    "model": "edited",
+    "n_texts": 1024,
+    "captures": [
+     "logprobs",
+     "mlp_act:27",
+     "resid:27"
+    ],
+    "positions": "answer",
+    "mean_answer_logprob": -0.1712
+   }
+  },
+  {
+   "n": 86,
+   "kind": "gen",
+   "t": "2026-11-08 01:31:41",
+   "args": {
+    "which": "both",
+    "vs": "F4",
+    "protocol": null,
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/strict_20261108/ids_pass86.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "9ced5b00aec22643",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_86",
+   "summary": {
+    "snapshot_F4": {
+     "n": 512,
+     "acc": 0.2715,
+     "pred_errors": 296,
+     "no_such_column": 148,
+     "no_such_table": 31,
+     "mean_chars": 178.4,
+     "sql_first": 1.0
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3555,
+     "pred_errors": 225,
+     "no_such_column": 190,
+     "no_such_table": 10,
+     "mean_chars": 177.9,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 46,
+     "broke": 3
+    }
+   }
+  },
+  {
+   "n": 87,
+   "kind": "gen",
+   "t": "2026-11-08 01:37:08",
+   "args": {
+    "which": "both",
+    "vs": "F4",
+    "protocol": "A",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "9ced5b00aec22643",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_87",
+   "summary": {
+    "snapshot_F4": {
+     "n": 512,
+     "acc": 0.3262,
+     "pred_errors": 236,
+     "no_such_column": 195,
+     "no_such_table": 9,
+     "mean_chars": 172.6,
+     "sql_first": 1.0
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3418,
+     "pred_errors": 223,
+     "no_such_column": 203,
+     "no_such_table": 8,
+     "mean_chars": 172.4,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 10,
+     "broke": 2
+    }
+   }
+  },
+  {
+   "n": 88,
+   "kind": "gen",
+   "t": "2026-11-08 01:40:28",
+   "args": {
+    "which": "both",
+    "vs": "F4",
+    "protocol": "B",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "9ced5b00aec22643",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_88",
+   "summary": {
+    "snapshot_F4": {
+     "n": 512,
+     "acc": 0.3125,
+     "pred_errors": 231,
+     "no_such_column": 192,
+     "no_such_table": 5,
+     "mean_chars": 173.9,
+     "sql_first": 1.0
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.332,
+     "pred_errors": 216,
+     "no_such_column": 199,
+     "no_such_table": 3,
+     "mean_chars": 173.7,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 15,
+     "broke": 5
+    }
+   }
+  }
+ ],
+ "submitted": {
+  "t": "2026-11-08 01:41:04",
+  "note": "Round 3 (strict protocol): candidate Q1 accepted. Q1 = F4 + a sparse rank-one update to model.layers.27.mlp.down_proj.weight on 64 columns separate from F4's 32. The key is a closed-form ridge readout of L27 MLP activations that fires at FROM/JOIN when the next table name needs quoting (spaces, hyphens, keyword). The value is least-norm: +4.5 nats on the backtick token and 0 on the 400 most frequent answer tokens. It repairs the model copying bare special table names (Sales Orders, voice-actors, current-terms, transaction) from the schema comment lines, which made queries fail with syntax errors. Pre-registered protocol vs F4: cohort A fixed 10 / broke 2 (+8, passes gate), cohort B 15 / 5 (+10); combined 25 / 7 over 1,024 held-out questions, exact McNemar p = 0.0021. Practice check (pass 86): special-table DBs 37 -> 81 of 256, other DBs net -1 of 256. The gain is narrow (train DBs with such table names). Expect little effect on dev, which has no multi-word table names. No gradients or training: closed-form key/value only. Notebook: wsp/notebook/strict_20261108/NOTEBOOK.md",
+  "edits": [
+   "model.layers.27.mlp.down_proj.weight"
+  ],
+  "edits_fingerprint": "9ced5b00aec22643"
+ },
+ "submission_history": [
+  {
+   "t": "2026-11-07 14:18:21",
+   "note": "Submitted edit F4 (format fix), one tensor: model.layers.27.mlp.down_proj.weight, 32 output columns / 48,398 weights (0.0031% of params). Designed as a closed-form rank-one ROME-style update W[:,S] += u k_S^T on the LAST layer's MLP output, so it can only change next-token logits (nothing downstream). Key k_S: ridge closed form (C_SS + 0.01*mean diag I)^-1 mu_S, normalised k.mu=1, mu = mean L27 MLP activation at the first answer position (the newline after '<|im_start|>assistant'), C = uncentered covariance of L27 MLP activations at 19.4k other answer positions (pass 3); S = the 32 neurons with largest |k| of the dense solution. Held-out: score ~1.0 at the first answer position, |score| <= 0.39 elsewhere. Value u: least-norm vector giving -5 nats on 'Let' and 'Here' (all 49 verbose practice answers began with \"Let's\") and exactly 0 on the 400 most frequent output tokens (including the code-fence token, digits, SQL keywords), so a leaking key can never close a code block early or alter SQL tokens.\nMechanism: logit lens shows mid layers strongly prefer the code fence at the first answer position (margin +6 to +12 nats at L18-L24), and a few position-selective late MLP neurons (L27 n3317, n7449; L26 n6853; L25 n5798) pull it down to +0.5 nats, which tips into a \"Let's walk through...\" explanation for 3-6% of practice prompts and 26% of prompts at 1800-2048 tokens (10 of 33 such answers hit the 512-token limit). An earlier version (F1: remove that component from column 3317) also boosted the fence at mid-SQL line starts and closed blocks early; F4 avoids this.\nEvidence (paired gen vs original): seed 0 38.67->39.26 (10 fixed/7 broke); 512 longest practice prompts 38.09->37.50 (8/11); fresh seed 2026 36.13->36.33 (4/3); fresh seed 7 35.35->36.13 (8/4). sql-first 93.6-97.5% -> 100% in every run; answers 15-28% shorter. Originally-verbose questions: 18 -> 27 correct of 77; all other questions within the harness noise floor (measured with a null 1-ulp edit: ~15 changed outputs, +-2-6 net per 512). Net accuracy effect on practice is ~0 to +0.3 points; expected benefit on held-out scales with how often long prompts trigger the prose opening.\nNot submitted (diagnosed but no robust EX gain): the dominant error is \"no such column\" (31-42%), of which the largest mechanical part is alias binding (column qualified T2 but its table listed as T1): the alias written after SELECT is a near coin flip (P~0.55) read off a sticky FROM-order plan; the model has a working 'T1 -> owner table first' rule carried by table-mover heads L22H7/L23H4 (digit effect builds in L21-23) but essentially no T2 rule, and layers 24-27 (L24H10, L26H11, L27H1, distributed L27 MLP) fight over it. Edits tried: A1 rank-one 'first alias -> T1' (-4); A1 + 2x amplification of L22H7/L23H4 (alias swaps 67->49 but other errors up, -3); A2 near-tie-only alias bias (+5 seed 0, +3 long, -7 fresh seed). Full lab notebook: wsp/notebook/NOTEBOOK.md\n",
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3"
+  },
+  {
+   "t": "2026-11-07 15:27:51",
+   "note": "Retain original F4, fingerprint ae81f3cb05285df3. User-authorized no-training continuation used remaining six passes (20-25): four edited practice screenings, one activation read, one unchanged F4 control. New candidates: binding-neuron deletion 161/512; binding-head amplification 197/512; qualifier suppression 193/512; FROM-gate suppression 186/512. Original F4 control 201/512, reproducing all 512 previous F4 outputs exactly. No candidate accepted; no new dev evaluation. Full notes and comparisons: wsp/notebook/continuation_20261107/README.md and practice_results.json. Original submission archived in original_ledger.json and ledger submission_history. All original 25-pass constraints retained.",
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3"
+  },
+  {
+   "t": "2026-11-07 17:30:43",
+   "note": "Retain original F4 ae81f3cb05285df3 after user-authorized relaxed-budget direct-weight/no-training search. Expanded cap 25->100, preserving original history. Used 59 additional harness passes, 84 total, with 44 edited-model screens plus diagnostics and independent confirmation. Top three screening candidates scored 96,95,93 /256 against matched F4 91/256, but separate confirmation scored 81,83,88 /256 against F4 88/256. None accepted. No new dev evaluation; previous measured dev remains 462/1534=30.12%, base 28.49%. Target40-50% not achieved. Exact F4 restored; no training, optimizer, supervised SQL fitting, other fine-tuned weights, prompt changes in edit scores, or SQL pipeline changes. Diagnostic prompts are marked probe_only and excluded from random sampling; two regression tests pass. Full provenance: wsp/notebook/relaxed_20261107/README.md, decision.json, results_summary.json, audit.json, candidates, and final_ledger.json. Unused passes are retained because all finalists failed the declared confirmation gate.",
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3"
+  }
+ ],
+ "continuation": {
+  "reason": "User requested further direct weight edits, no training; retain original 25-pass budget.",
+  "starting_used": 19,
+  "original_fingerprint": "ae81f3cb05285df3"
+ },
+ "budget_history": [
+  {
+   "old_budget": 25,
+   "new_budget": 100,
+   "used_at_change": 25,
+   "authorization": "User: keep a more relaxed budget and try for more time.",
+   "practice_extension": "Add only non-truncated BIRD train prompts of 2049-3072 tokens. No dev selection."
+  },
+  {
+   "t": "2026-11-08 00:39:20",
+   "old_budget": 100,
+   "new_budget": 100,
+   "note": "Strict protocol run (user request 2026-11-08): remaining passes only; pre-registered held-out cohorts in wsp/protocol/."
+  }
+ ]
+}

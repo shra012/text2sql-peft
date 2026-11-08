@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="How much of the 16 GB card each job used">
+  <rect width="1000" height="470" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">How much of the 16 GB card each job used</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Any single job fits easily. The trouble starts when two of them share the card.</text>
+  <rect x="28" y="84" width="14" height="14" rx="3" fill="#2a78d6"/>
+  <text x="48.0" y="96.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">PyTorch peak</text>
+  <rect x="154.4" y="84" width="14" height="14" rx="3" fill="#EFF4FB" stroke="#2a78d6"/>
+  <text x="174.4" y="96.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">rest of the GPU in use</text>
+  <rect x="352.8" y="84" width="14" height="14" rx="3" fill="#eb6834"/>
+  <text x="372.8" y="96.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">reserved by vLLM</text>
+  <line x1="210.0" y1="116" x2="210.0" y2="402" stroke="#E8ECF2"/>
+  <text x="210.0" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">0</text>
+  <line x1="286.7" y1="116" x2="286.7" y2="402" stroke="#E8ECF2"/>
+  <text x="286.7" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">2</text>
+  <line x1="363.3" y1="116" x2="363.3" y2="402" stroke="#E8ECF2"/>
+  <text x="363.3" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">4</text>
+  <line x1="440.0" y1="116" x2="440.0" y2="402" stroke="#E8ECF2"/>
+  <text x="440.0" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">6</text>
+  <line x1="516.7" y1="116" x2="516.7" y2="402" stroke="#E8ECF2"/>
+  <text x="516.7" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">8</text>
+  <line x1="593.3" y1="116" x2="593.3" y2="402" stroke="#E8ECF2"/>
+  <text x="593.3" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">10</text>
+  <line x1="670.0" y1="116" x2="670.0" y2="402" stroke="#E8ECF2"/>
+  <text x="670.0" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">12</text>
+  <line x1="746.7" y1="116" x2="746.7" y2="402" stroke="#E8ECF2"/>
+  <text x="746.7" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">14</text>
+  <line x1="823.3" y1="116" x2="823.3" y2="402" stroke="#E8ECF2"/>
+  <text x="823.3" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">16</text>
+  <line x1="900.0" y1="116" x2="900.0" y2="402" stroke="#E8ECF2"/>
+  <text x="900.0" y="422.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">18</text>
+  <text x="555.0" y="444.0" font-size="13" fill="#52514e" text-anchor="middle" font-weight="400">GPU memory in GB (billions of bytes)</text>
+  <text x="198.0" y="141.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Full fine-tune</text>
+  <rect x="210" y="126" width="373.8" height="22" rx="4" fill="#EFF4FB" stroke="#2a78d6"><title>Full fine-tune: whole GPU in use 9.8 GB</title></rect>
+  <rect x="210" y="126" width="292.9" height="22" rx="4" fill="#2a78d6"><title>Full fine-tune: PyTorch peak 7.6 GB</title></rect>
+  <text x="591.8" y="142.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">7.6 / 9.8  (+3.1 GB optimizer state in CPU RAM)</text>
+  <text x="198.0" y="181.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="210" y="166" width="248.7" height="22" rx="4" fill="#EFF4FB" stroke="#2a78d6"><title>LoRA: whole GPU in use 6.5 GB</title></rect>
+  <rect x="210" y="166" width="191.7" height="22" rx="4" fill="#2a78d6"><title>LoRA: PyTorch peak 5.0 GB</title></rect>
+  <text x="466.7" y="182.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">5.0 / 6.5</text>
+  <text x="198.0" y="221.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA-FA</text>
+  <rect x="210" y="206" width="229.0" height="22" rx="4" fill="#EFF4FB" stroke="#2a78d6"><title>LoRA-FA: whole GPU in use 6.0 GB</title></rect>
+  <rect x="210" y="206" width="175.2" height="22" rx="4" fill="#2a78d6"><title>LoRA-FA: PyTorch peak 4.6 GB</title></rect>
+  <text x="447.0" y="222.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">4.6 / 6.0</text>
+  <text x="198.0" y="261.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">QLoRA</text>
+  <rect x="210" y="246" width="213.8" height="22" rx="4" fill="#EFF4FB" stroke="#2a78d6"><title>QLoRA: whole GPU in use 5.6 GB</title></rect>
+  <rect x="210" y="246" width="154.6" height="22" rx="4" fill="#2a78d6"><title>QLoRA: PyTorch peak 4.0 GB</title></rect>
+  <text x="431.8" y="262.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">4.0 / 5.6</text>
+  <text x="198.0" y="301.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + SFT</text>
+  <rect x="210" y="286" width="195.3" height="22" rx="4" fill="#EFF4FB" stroke="#2a78d6"><title>TinyLoRA + SFT: whole GPU in use 5.1 GB</title></rect>
+  <rect x="210" y="286" width="140.9" height="22" rx="4" fill="#2a78d6"><title>TinyLoRA + SFT: PyTorch peak 3.7 GB</title></rect>
+  <text x="413.3" y="302.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">3.7 / 5.1</text>
+  <text x="198.0" y="341.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + GRPO</text>
+  <rect x="210" y="326" width="425.5" height="22" rx="4" fill="#2a78d6"><title>TinyLoRA + GRPO: PyTorch peak 11.1 GB</title></rect>
+  <text x="643.5" y="342.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">11.1  (trainer + sleeping vLLM)</text>
+  <text x="198.0" y="381.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Evaluation (vLLM)</text>
+  <rect x="210" y="366" width="329.3" height="22" rx="4" fill="#eb6834"><title>vLLM reserves half the card: 8.6 GB</title></rect>
+  <text x="547.3" y="382.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">8.6  (half the card, set by gpu-mem 0.5)</text>
+  <line x1="868.6" y1="108" x2="868.6" y2="402" stroke="#0b0b0b" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="862.6" y="102.0" font-size="12.5" fill="#0b0b0b" text-anchor="end" font-weight="700">card limit: 16 GiB = 17.2 GB</text>
+</svg>

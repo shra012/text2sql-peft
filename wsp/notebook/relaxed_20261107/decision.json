@@ -1,0 +1,76 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-11-08T01:30:06.722216+00:00",
+  "elapsed_minutes": 110.5,
+  "passes_used": 84,
+  "budget": 100,
+  "additional_passes": 59,
+  "screened_weight_candidates": 44,
+  "accepted_edit": "original F4",
+  "accepted_fingerprint": "ae81f3cb05285df3",
+  "reason": "All three positive screening finalists failed to improve the separate confirmation cohort. Restore F4; do not spend the remaining budget on validation or dev evaluation of rejected candidates.",
+  "confirmation_control": {
+    "pass": 81,
+    "correct": 88,
+    "n": 256
+  },
+  "confirmation_candidates": [
+    {
+      "pass": 82,
+      "parent_pass": 78,
+      "copy_head_gain": 3,
+      "n": 256,
+      "reference_correct": 88,
+      "candidate_correct": 81,
+      "reference_ex": 34.38,
+      "candidate_ex": 31.64,
+      "fixed": 2,
+      "broke": 9,
+      "net": -7,
+      "exact_p": 0.06543
+    },
+    {
+      "pass": 83,
+      "parent_pass": 77,
+      "copy_head_gain": 2,
+      "n": 256,
+      "reference_correct": 88,
+      "candidate_correct": 83,
+      "reference_ex": 34.38,
+      "candidate_ex": 32.42,
+      "fixed": 3,
+      "broke": 8,
+      "net": -5,
+      "exact_p": 0.226562
+    },
+    {
+      "pass": 84,
+      "parent_pass": 37,
+      "copy_head_gain": 1.5,
+      "n": 256,
+      "reference_correct": 88,
+      "candidate_correct": 88,
+      "reference_ex": 34.38,
+      "candidate_ex": 34.38,
+      "fixed": 3,
+      "broke": 3,
+      "net": 0,
+      "exact_p": 1.0
+    }
+  ],
+  "dev_evaluation_this_search": false,
+  "previous_dev": {
+    "base_correct": 437,
+    "F4_correct": 462,
+    "n": 1534,
+    "base_ex": 28.49,
+    "F4_ex": 30.12
+  },
+  "target_40_50_achieved": false,
+  "validation_2048_run": false,
+  "training_used": false,
+  "prompt_changes_in_edit_evaluations": false,
+  "changes_to_sql_pipeline": false,
+  "diagnostic_prompt_probes_counted_as_edit_results": false,
+  "validation512_never_generated_or_scored": true
+}

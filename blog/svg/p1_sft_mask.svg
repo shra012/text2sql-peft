@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="SFT: learn from the answer key, one token at a time">
+  <rect width="1000" height="280" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">SFT: learn from the answer key, one token at a time</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Grey tokens are context. Blue tokens are what the model is graded on.</text>
+  <rect x="36.0" y="118.0" width="53.6" height="44.0" rx="6" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="62.8" y="146.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">How</text>
+  <rect x="97.6" y="118.0" width="62.8" height="44.0" rx="6" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="129.0" y="146.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">many</text>
+  <rect x="168.4" y="118.0" width="99.6" height="44.0" rx="6" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="218.2" y="146.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">students</text>
+  <rect x="276.0" y="118.0" width="35.2" height="44.0" rx="6" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="293.6" y="146.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">?</text>
+  <rect x="319.2" y="118.0" width="81.2" height="44.0" rx="6" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.5"/>
+  <text x="359.8" y="146.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">SELECT</text>
+  <rect x="408.4" y="118.0" width="72.0" height="44.0" rx="6" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.5"/>
+  <text x="444.4" y="146.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">COUNT</text>
+  <rect x="488.4" y="118.0" width="53.6" height="44.0" rx="6" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.5"/>
+  <text x="515.2" y="146.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">(*)</text>
+  <rect x="550.0" y="118.0" width="62.8" height="44.0" rx="6" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.5"/>
+  <text x="581.4" y="146.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">FROM</text>
+  <rect x="620.8" y="118.0" width="99.6" height="44.0" rx="6" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.5"/>
+  <text x="670.6" y="146.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">students</text>
+  <rect x="728.4" y="118.0" width="72.0" height="44.0" rx="6" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.5"/>
+  <text x="764.4" y="146.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">&lt;end&gt;</text>
+  <line x1="36.0" y1="180.0" x2="311.2" y2="180.0" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="36.0" y1="174.0" x2="36.0" y2="180.0" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="311.2" y1="174.0" x2="311.2" y2="180.0" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="319.2" y1="180.0" x2="800.4" y2="180.0" stroke="#2a78d6" stroke-width="2"/>
+  <line x1="319.2" y1="174.0" x2="319.2" y2="180.0" stroke="#2a78d6" stroke-width="2"/>
+  <line x1="800.4" y1="174.0" x2="800.4" y2="180.0" stroke="#2a78d6" stroke-width="2"/>
+  <text x="173.6" y="204.0" font-size="13.5" fill="#0b0b0b" text-anchor="middle" font-weight="700">prompt: label −100, ignored</text>
+  <text x="173.6" y="224.0" font-size="12.5" fill="#52514e" text-anchor="middle" font-weight="400">the model reads it, no loss</text>
+  <text x="559.8" y="204.0" font-size="13.5" fill="#0b0b0b" text-anchor="middle" font-weight="700">answer: loss counted on every token</text>
+  <text x="559.8" y="224.0" font-size="12.5" fill="#52514e" text-anchor="middle" font-weight="400">&quot;after FROM, write students&quot;</text>
+</svg>

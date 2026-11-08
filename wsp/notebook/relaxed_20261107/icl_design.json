@@ -1,0 +1,186 @@
+{
+  "11": {
+    "first": {
+      "canonical": {
+        "raw_norm": 2.887032985687256,
+        "contrast_norm": 0.16510720551013947,
+        "raw_coherence": 0.9176999926567078
+      },
+      "permuted": {
+        "raw_norm": 2.8870480060577393,
+        "contrast_norm": 0.15810413658618927,
+        "raw_coherence": 0.9182432889938354
+      },
+      "qualified": {
+        "raw_norm": 2.8434736728668213,
+        "contrast_norm": 0.23973220586776733,
+        "raw_coherence": 0.9158357977867126
+      },
+      "mapping": {
+        "raw_norm": 2.985976457595825,
+        "contrast_norm": 0.3400854468345642,
+        "raw_coherence": 0.9138785600662231
+      }
+    },
+    "sql": {
+      "canonical": {
+        "raw_norm": 2.55655837059021,
+        "contrast_norm": 0.2155342400074005,
+        "raw_coherence": 0.9008817672729492
+      },
+      "permuted": {
+        "raw_norm": 2.551177978515625,
+        "contrast_norm": 0.20809733867645264,
+        "raw_coherence": 0.9001027345657349
+      },
+      "qualified": {
+        "raw_norm": 2.521367311477661,
+        "contrast_norm": 0.2638022005558014,
+        "raw_coherence": 0.8972934484481812
+      },
+      "mapping": {
+        "raw_norm": 2.7628355026245117,
+        "contrast_norm": 0.4496368169784546,
+        "raw_coherence": 0.900969922542572
+      }
+    }
+  },
+  "15": {
+    "first": {
+      "canonical": {
+        "raw_norm": 5.138824939727783,
+        "contrast_norm": 0.8911880850791931,
+        "raw_coherence": 0.939119815826416
+      },
+      "permuted": {
+        "raw_norm": 5.163609027862549,
+        "contrast_norm": 0.9153674840927124,
+        "raw_coherence": 0.9397351741790771
+      },
+      "qualified": {
+        "raw_norm": 5.125726222991943,
+        "contrast_norm": 0.8566413521766663,
+        "raw_coherence": 0.9381588101387024
+      },
+      "mapping": {
+        "raw_norm": 5.297208786010742,
+        "contrast_norm": 1.20217764377594,
+        "raw_coherence": 0.9417425394058228
+      }
+    },
+    "sql": {
+      "canonical": {
+        "raw_norm": 5.1059489250183105,
+        "contrast_norm": 0.947920024394989,
+        "raw_coherence": 0.9200273156166077
+      },
+      "permuted": {
+        "raw_norm": 5.145155906677246,
+        "contrast_norm": 0.9774887561798096,
+        "raw_coherence": 0.9204812049865723
+      },
+      "qualified": {
+        "raw_norm": 5.107863903045654,
+        "contrast_norm": 0.9478232264518738,
+        "raw_coherence": 0.918876588344574
+      },
+      "mapping": {
+        "raw_norm": 5.5726189613342285,
+        "contrast_norm": 1.6284855604171753,
+        "raw_coherence": 0.9267303347587585
+      }
+    }
+  },
+  "19": {
+    "first": {
+      "canonical": {
+        "raw_norm": 8.748468399047852,
+        "contrast_norm": 1.819953203201294,
+        "raw_coherence": 0.9507671594619751
+      },
+      "permuted": {
+        "raw_norm": 8.804862022399902,
+        "contrast_norm": 1.9011361598968506,
+        "raw_coherence": 0.9508336782455444
+      },
+      "qualified": {
+        "raw_norm": 8.640093803405762,
+        "contrast_norm": 1.767710566520691,
+        "raw_coherence": 0.9479543566703796
+      },
+      "mapping": {
+        "raw_norm": 11.699064254760742,
+        "contrast_norm": 8.233038902282715,
+        "raw_coherence": 0.9689431190490723
+      }
+    },
+    "sql": {
+      "canonical": {
+        "raw_norm": 7.483180522918701,
+        "contrast_norm": 1.6859904527664185,
+        "raw_coherence": 0.8955010175704956
+      },
+      "permuted": {
+        "raw_norm": 7.577991962432861,
+        "contrast_norm": 1.8338911533355713,
+        "raw_coherence": 0.8946095108985901
+      },
+      "qualified": {
+        "raw_norm": 7.54255485534668,
+        "contrast_norm": 1.8273491859436035,
+        "raw_coherence": 0.893696129322052
+      },
+      "mapping": {
+        "raw_norm": 9.979856491088867,
+        "contrast_norm": 5.3934526443481445,
+        "raw_coherence": 0.9223108291625977
+      }
+    }
+  },
+  "23": {
+    "first": {
+      "canonical": {
+        "raw_norm": 16.312164306640625,
+        "contrast_norm": 3.883239984512329,
+        "raw_coherence": 0.9317768812179565
+      },
+      "permuted": {
+        "raw_norm": 16.445764541625977,
+        "contrast_norm": 4.100677490234375,
+        "raw_coherence": 0.9325333833694458
+      },
+      "qualified": {
+        "raw_norm": 16.26049041748047,
+        "contrast_norm": 3.9864304065704346,
+        "raw_coherence": 0.9287737011909485
+      },
+      "mapping": {
+        "raw_norm": 25.469316482543945,
+        "contrast_norm": 18.093032836914062,
+        "raw_coherence": 0.9657957553863525
+      }
+    },
+    "sql": {
+      "canonical": {
+        "raw_norm": 12.781356811523438,
+        "contrast_norm": 2.6124746799468994,
+        "raw_coherence": 0.8735640645027161
+      },
+      "permuted": {
+        "raw_norm": 12.90967845916748,
+        "contrast_norm": 2.878826856613159,
+        "raw_coherence": 0.8729717135429382
+      },
+      "qualified": {
+        "raw_norm": 13.32111644744873,
+        "contrast_norm": 3.2146432399749756,
+        "raw_coherence": 0.8769998550415039
+      },
+      "mapping": {
+        "raw_norm": 19.887725830078125,
+        "contrast_norm": 12.857662200927734,
+        "raw_coherence": 0.9048161506652832
+      }
+    }
+  }
+}

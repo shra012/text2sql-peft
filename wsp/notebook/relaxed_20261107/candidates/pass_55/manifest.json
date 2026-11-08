@@ -1,0 +1,20 @@
+{
+  "trial": {
+    "name": "sql_start_plan_L23_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "23",
+      "--variant",
+      "plan",
+      "--strength",
+      "1",
+      "--design-file",
+      "style_sql_design.pt"
+    ],
+    "family": "sql_instruction",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "85ae750c93269368"
+}

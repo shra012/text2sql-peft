@@ -1,0 +1,23 @@
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+
+# data and large experiment outputs (rebuilt by the code)
+data/
+runs/
+checkpoints/
+wsp/_merged*/
+wsp/passes/
+wsp/cache_*.jsonl
+wsp/edits/
+wsp/snapshots/
+wsp/practice.jsonl
+wsp/**/*.pt
+wsp/**/*.safetensors
+wsp/**/*.log
+wandb/
+wsp/notebook/**/*.jsonl
+!wsp/notebook/**/trials.jsonl
+.pytest_cache/

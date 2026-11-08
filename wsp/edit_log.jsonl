@@ -1,0 +1,184 @@
+{"t": "2026-11-07 13:06:20", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 1534, "numel": 13762560, "delta_fro": 0.26702311635017395, "rel_change": 0.003685909789055586}
+{"t": "2026-11-07 13:17:09", "action": "remove", "name": "model.layers.27.mlp.down_proj.weight"}
+{"t": "2026-11-07 13:17:27", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 9384916, "numel": 13762560, "delta_fro": 1.170279860496521, "rel_change": 0.016154203563928604}
+{"t": "2026-11-07 13:26:00", "action": "remove", "name": "model.layers.27.mlp.down_proj.weight"}
+{"t": "2026-11-07 13:30:54", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 9384916, "numel": 13762560, "delta_fro": 1.170279860496521, "rel_change": 0.016154203563928604}
+{"t": "2026-11-07 13:30:56", "action": "save", "name": "model.layers.22.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 7.734148979187012, "rel_change": 0.23916533589363098}
+{"t": "2026-11-07 13:30:56", "action": "save", "name": "model.layers.23.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 8.49061107635498, "rel_change": 0.2539156675338745}
+{"t": "2026-11-07 13:33:19", "action": "remove", "name": "model.layers.22.self_attn.o_proj.weight"}
+{"t": "2026-11-07 13:33:19", "action": "remove", "name": "model.layers.23.self_attn.o_proj.weight"}
+{"t": "2026-11-07 13:33:19", "action": "remove", "name": "model.layers.27.mlp.down_proj.weight"}
+{"t": "2026-11-07 13:33:21", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 1534, "numel": 13762560, "delta_fro": 0.26702311635017395, "rel_change": 0.003685909789055586}
+{"t": "2026-11-07 13:43:26", "action": "remove", "name": "model.layers.27.mlp.down_proj.weight"}
+{"t": "2026-11-07 13:43:55", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 5974823, "numel": 13762560, "delta_fro": 0.3377367854118347, "rel_change": 0.004662020597606897}
+{"t": "2026-11-07 13:49:13", "action": "remove", "name": "model.layers.27.mlp.down_proj.weight"}
+{"t": "2026-11-07 13:49:19", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 10809414, "numel": 13762560, "delta_fro": 2.070021152496338, "rel_change": 0.02857397310435772}
+{"t": "2026-11-07 13:53:53", "action": "remove", "name": "model.layers.27.mlp.down_proj.weight"}
+{"t": "2026-11-07 13:54:03", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 13:56:49", "action": "remove", "name": "model.layers.27.mlp.down_proj.weight"}
+{"t": "2026-11-07 13:56:49", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 1, "numel": 13762560, "delta_fro": 0.0009765625, "rel_change": 1.348018577118637e-05}
+{"t": "2026-11-07 13:59:41", "action": "remove", "name": "model.layers.27.mlp.down_proj.weight"}
+{"t": "2026-11-07 13:59:50", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 14:02:58", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 202904, "numel": 13762560, "delta_fro": 1.4314496517181396, "rel_change": 0.019759315997362137}
+{"t": "2026-11-07 14:11:44", "action": "remove", "name": "model.layers.27.mlp.down_proj.weight"}
+{"t": "2026-11-07 14:11:56", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 15:10:49", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 146702, "numel": 13762560, "delta_fro": 5.081574440002441, "rel_change": 0.07014457881450653}
+{"t": "2026-11-07 15:13:40", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 15:13:40", "action": "save", "name": "model.layers.22.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 3.866896390914917, "rel_change": 0.11957716196775436}
+{"t": "2026-11-07 15:13:40", "action": "save", "name": "model.layers.23.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 4.245095252990723, "rel_change": 0.12695154547691345}
+{"t": "2026-11-07 15:16:01", "action": "remove", "name": "model.layers.22.self_attn.o_proj.weight"}
+{"t": "2026-11-07 15:16:01", "action": "remove", "name": "model.layers.23.self_attn.o_proj.weight"}
+{"t": "2026-11-07 15:16:01", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 241400, "numel": 13762560, "delta_fro": 3.3416314125061035, "rel_change": 0.04612691327929497}
+{"t": "2026-11-07 15:21:58", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 15:21:58", "action": "save", "name": "model.layers.27.mlp.gate_proj.weight", "changed": 98302, "numel": 13762560, "delta_fro": 11.416572570800781, "rel_change": 0.13969236612319946}
+{"t": "2026-11-07 15:24:54", "action": "remove", "name": "model.layers.27.mlp.gate_proj.weight"}
+{"t": "2026-11-07 15:24:54", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 15:51:08", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 15:51:09", "action": "save", "name": "model.layers.15.mlp.down_proj.weight", "changed": 367896, "numel": 13762560, "delta_fro": 1.3759957551956177, "rel_change": 0.018509045243263245}
+{"t": "2026-11-07 15:52:49", "action": "remove", "name": "model.layers.15.mlp.down_proj.weight"}
+{"t": "2026-11-07 15:52:49", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 15:52:50", "action": "save", "name": "model.layers.15.mlp.down_proj.weight", "changed": 370810, "numel": 13762560, "delta_fro": 1.7338975667953491, "rel_change": 0.023323317989706993}
+{"t": "2026-11-07 15:54:03", "action": "remove", "name": "model.layers.15.mlp.down_proj.weight"}
+{"t": "2026-11-07 15:54:03", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 15:54:03", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 363398, "numel": 13762560, "delta_fro": 1.3545979261398315, "rel_change": 0.017683159559965134}
+{"t": "2026-11-07 15:55:19", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 15:55:20", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 15:55:20", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 363936, "numel": 13762560, "delta_fro": 1.3820812702178955, "rel_change": 0.018041932955384254}
+{"t": "2026-11-07 15:56:34", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 15:56:34", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:04:28", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:04:28", "action": "save", "name": "model.layers.27.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 2.5066030025482178, "rel_change": 0.06493642181158066}
+{"t": "2026-11-07 16:05:59", "action": "remove", "name": "model.layers.27.self_attn.o_proj.weight"}
+{"t": "2026-11-07 16:06:00", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:06:00", "action": "save", "name": "model.layers.27.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 5.014054298400879, "rel_change": 0.12989482283592224}
+{"t": "2026-11-07 16:07:14", "action": "remove", "name": "model.layers.27.self_attn.o_proj.weight"}
+{"t": "2026-11-07 16:07:14", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:07:14", "action": "save", "name": "model.layers.24.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 5.6600518226623535, "rel_change": 0.1597006916999817}
+{"t": "2026-11-07 16:08:27", "action": "remove", "name": "model.layers.24.self_attn.o_proj.weight"}
+{"t": "2026-11-07 16:08:27", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:08:27", "action": "save", "name": "model.layers.24.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 4.99235725402832, "rel_change": 0.1408614218235016}
+{"t": "2026-11-07 16:09:43", "action": "remove", "name": "model.layers.24.self_attn.o_proj.weight"}
+{"t": "2026-11-07 16:09:43", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:09:43", "action": "save", "name": "model.layers.12.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 4.798796653747559, "rel_change": 0.16525663435459137}
+{"t": "2026-11-07 16:11:08", "action": "remove", "name": "model.layers.12.self_attn.o_proj.weight"}
+{"t": "2026-11-07 16:11:08", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:11:08", "action": "save", "name": "model.layers.16.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 3.7304701805114746, "rel_change": 0.12461157143115997}
+{"t": "2026-11-07 16:12:20", "action": "remove", "name": "model.layers.16.self_attn.o_proj.weight"}
+{"t": "2026-11-07 16:12:20", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:12:20", "action": "save", "name": "model.layers.20.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 6.095883846282959, "rel_change": 0.1886867880821228}
+{"t": "2026-11-07 16:13:32", "action": "remove", "name": "model.layers.20.self_attn.o_proj.weight"}
+{"t": "2026-11-07 16:13:32", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:13:33", "action": "save", "name": "model.layers.16.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 5.430370330810547, "rel_change": 0.1813945472240448}
+{"t": "2026-11-07 16:14:44", "action": "remove", "name": "model.layers.16.self_attn.o_proj.weight"}
+{"t": "2026-11-07 16:14:45", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:14:45", "action": "save", "name": "model.layers.24.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 5.191534996032715, "rel_change": 0.14648129045963287}
+{"t": "2026-11-07 16:16:01", "action": "remove", "name": "model.layers.24.self_attn.o_proj.weight"}
+{"t": "2026-11-07 16:16:01", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:16:01", "action": "save", "name": "model.layers.27.self_attn.q_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 3.878389835357666, "rel_change": 0.12711021304130554}
+{"t": "2026-11-07 16:16:01", "action": "save", "name": "model.layers.27.self_attn.q_proj.bias", "changed": 128, "numel": 1536, "delta_fro": 4.489572525024414, "rel_change": 0.12806957960128784}
+{"t": "2026-11-07 16:18:19", "action": "remove", "name": "model.layers.27.self_attn.q_proj.bias"}
+{"t": "2026-11-07 16:18:19", "action": "remove", "name": "model.layers.27.self_attn.q_proj.weight"}
+{"t": "2026-11-07 16:18:19", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:23:32", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:23:33", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 91307, "numel": 13762560, "delta_fro": 0.9250619411468506, "rel_change": 0.012075921520590782}
+{"t": "2026-11-07 16:25:09", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:25:09", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:25:09", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 93788, "numel": 13762560, "delta_fro": 1.5557194948196411, "rel_change": 0.020308636128902435}
+{"t": "2026-11-07 16:26:22", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:26:22", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:26:23", "action": "save", "name": "model.layers.23.mlp.down_proj.weight", "changed": 91418, "numel": 13762560, "delta_fro": 1.0183343887329102, "rel_change": 0.013079283758997917}
+{"t": "2026-11-07 16:27:35", "action": "remove", "name": "model.layers.23.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:27:36", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:27:36", "action": "save", "name": "model.layers.23.mlp.down_proj.weight", "changed": 93310, "numel": 13762560, "delta_fro": 1.6969499588012695, "rel_change": 0.02179528772830963}
+{"t": "2026-11-07 16:33:08", "action": "remove", "name": "model.layers.23.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:33:08", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:33:09", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 93916, "numel": 13762560, "delta_fro": 1.223353385925293, "rel_change": 0.01596987061202526}
+{"t": "2026-11-07 16:34:20", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:34:21", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:34:21", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 91907, "numel": 13762560, "delta_fro": 0.9197121262550354, "rel_change": 0.012006084434688091}
+{"t": "2026-11-07 16:35:31", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:35:31", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:35:32", "action": "save", "name": "model.layers.23.mlp.down_proj.weight", "changed": 94723, "numel": 13762560, "delta_fro": 1.059095859527588, "rel_change": 0.013602816499769688}
+{"t": "2026-11-07 16:36:46", "action": "remove", "name": "model.layers.23.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:36:46", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:36:46", "action": "save", "name": "model.layers.23.mlp.down_proj.weight", "changed": 92309, "numel": 13762560, "delta_fro": 0.6773363947868347, "rel_change": 0.008699573576450348}
+{"t": "2026-11-07 16:42:34", "action": "remove", "name": "model.layers.23.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:42:34", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 810780, "numel": 13762560, "delta_fro": 10.338095664978027, "rel_change": 0.1427040845155716}
+{"t": "2026-11-07 16:43:41", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 817359, "numel": 13762560, "delta_fro": 15.426487922668457, "rel_change": 0.21294276416301727}
+{"t": "2026-11-07 16:44:50", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 831695, "numel": 13762560, "delta_fro": 81.47671508789062, "rel_change": 1.124680995941162}
+{"t": "2026-11-07 16:46:28", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 1293480, "numel": 13762560, "delta_fro": 30.70940589904785, "rel_change": 0.4239037334918976}
+{"t": "2026-11-07 16:49:03", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:56:21", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:56:21", "action": "save", "name": "model.layers.15.mlp.down_proj.weight", "changed": 94478, "numel": 13762560, "delta_fro": 1.4891183376312256, "rel_change": 0.02003069967031479}
+{"t": "2026-11-07 16:57:34", "action": "remove", "name": "model.layers.15.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:57:34", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:57:34", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 92894, "numel": 13762560, "delta_fro": 1.268072485923767, "rel_change": 0.016553642228245735}
+{"t": "2026-11-07 16:58:43", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:58:44", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:58:44", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 89510, "numel": 13762560, "delta_fro": 0.6138138771057129, "rel_change": 0.008012834936380386}
+{"t": "2026-11-07 16:59:52", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 16:59:53", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 16:59:53", "action": "save", "name": "model.layers.23.mlp.down_proj.weight", "changed": 89415, "numel": 13762560, "delta_fro": 0.45473936200141907, "rel_change": 0.005840581841766834}
+{"t": "2026-11-07 17:01:03", "action": "remove", "name": "model.layers.23.mlp.down_proj.weight"}
+{"t": "2026-11-07 17:01:03", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:01:04", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 91420, "numel": 13762560, "delta_fro": 0.9025724530220032, "rel_change": 0.01178233977407217}
+{"t": "2026-11-07 17:02:14", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 17:02:14", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:02:15", "action": "save", "name": "model.layers.23.mlp.down_proj.weight", "changed": 93883, "numel": 13762560, "delta_fro": 1.0154410600662231, "rel_change": 0.01304212212562561}
+{"t": "2026-11-07 17:03:25", "action": "remove", "name": "model.layers.23.mlp.down_proj.weight"}
+{"t": "2026-11-07 17:03:25", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:03:26", "action": "save", "name": "model.layers.19.mlp.down_proj.weight", "changed": 93337, "numel": 13762560, "delta_fro": 1.2549039125442505, "rel_change": 0.01638173684477806}
+{"t": "2026-11-07 17:04:36", "action": "remove", "name": "model.layers.19.mlp.down_proj.weight"}
+{"t": "2026-11-07 17:04:36", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:04:37", "action": "save", "name": "model.layers.23.mlp.down_proj.weight", "changed": 92398, "numel": 13762560, "delta_fro": 1.55582857131958, "rel_change": 0.019982751458883286}
+{"t": "2026-11-07 17:10:30", "action": "remove", "name": "model.layers.23.mlp.down_proj.weight"}
+{"t": "2026-11-07 17:10:30", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:10:30", "action": "save", "name": "model.layers.26.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 6.284244060516357, "rel_change": 0.16129855811595917}
+{"t": "2026-11-07 17:11:37", "action": "remove", "name": "model.layers.26.self_attn.o_proj.weight"}
+{"t": "2026-11-07 17:11:38", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 1201324, "numel": 13762560, "delta_fro": 15.579678535461426, "rel_change": 0.215057373046875}
+{"t": "2026-11-07 17:12:49", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 1201324, "numel": 13762560, "delta_fro": 15.579678535461426, "rel_change": 0.215057373046875}
+{"t": "2026-11-07 17:12:49", "action": "save", "name": "model.layers.26.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 6.284244060516357, "rel_change": 0.16129855811595917}
+{"t": "2026-11-07 17:13:58", "action": "remove", "name": "model.layers.26.self_attn.o_proj.weight"}
+{"t": "2026-11-07 17:13:58", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 1194749, "numel": 13762560, "delta_fro": 11.722325325012207, "rel_change": 0.16181159019470215}
+{"t": "2026-11-07 17:13:58", "action": "save", "name": "model.layers.26.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 6.284244060516357, "rel_change": 0.16129855811595917}
+{"t": "2026-11-07 17:15:15", "action": "remove", "name": "model.layers.26.self_attn.o_proj.weight"}
+{"t": "2026-11-07 17:15:16", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 1201324, "numel": 13762560, "delta_fro": 15.579678535461426, "rel_change": 0.215057373046875}
+{"t": "2026-11-07 17:15:16", "action": "save", "name": "model.layers.26.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 12.568365097045898, "rel_change": 0.32259395718574524}
+{"t": "2026-11-07 17:16:31", "action": "remove", "name": "model.layers.26.self_attn.o_proj.weight"}
+{"t": "2026-11-07 17:16:31", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 1201324, "numel": 13762560, "delta_fro": 15.579678535461426, "rel_change": 0.215057373046875}
+{"t": "2026-11-07 17:16:31", "action": "save", "name": "model.layers.27.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 5.014054298400879, "rel_change": 0.12989482283592224}
+{"t": "2026-11-07 17:17:49", "action": "remove", "name": "model.layers.27.self_attn.o_proj.weight"}
+{"t": "2026-11-07 17:17:49", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:17:49", "action": "save", "name": "model.layers.27.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 10.0283203125, "rel_change": 0.2597951292991638}
+{"t": "2026-11-07 17:19:05", "action": "remove", "name": "model.layers.27.self_attn.o_proj.weight"}
+{"t": "2026-11-07 17:19:06", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:19:06", "action": "save", "name": "model.layers.27.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 20.056293487548828, "rel_change": 0.5195812582969666}
+{"t": "2026-11-07 17:20:19", "action": "remove", "name": "model.layers.27.self_attn.o_proj.weight"}
+{"t": "2026-11-07 17:20:19", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:20:19", "action": "save", "name": "model.layers.22.self_attn.q_proj.weight", "changed": 196117, "numel": 2359296, "delta_fro": 19.171550750732422, "rel_change": 0.5577006936073303}
+{"t": "2026-11-07 17:20:19", "action": "save", "name": "model.layers.22.self_attn.q_proj.bias", "changed": 128, "numel": 1536, "delta_fro": 5.521237373352051, "rel_change": 0.09387587010860443}
+{"t": "2026-11-07 17:20:19", "action": "save", "name": "model.layers.23.self_attn.q_proj.weight", "changed": 196018, "numel": 2359296, "delta_fro": 8.750214576721191, "rel_change": 0.2582198977470398}
+{"t": "2026-11-07 17:20:19", "action": "save", "name": "model.layers.23.self_attn.q_proj.bias", "changed": 127, "numel": 1536, "delta_fro": 1.5955443382263184, "rel_change": 0.03123251348733902}
+{"t": "2026-11-07 17:21:30", "action": "remove", "name": "model.layers.22.self_attn.q_proj.bias"}
+{"t": "2026-11-07 17:21:30", "action": "remove", "name": "model.layers.22.self_attn.q_proj.weight"}
+{"t": "2026-11-07 17:21:30", "action": "remove", "name": "model.layers.23.self_attn.q_proj.bias"}
+{"t": "2026-11-07 17:21:30", "action": "remove", "name": "model.layers.23.self_attn.q_proj.weight"}
+{"t": "2026-11-07 17:21:30", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:21:31", "action": "save", "name": "model.layers.22.self_attn.q_proj.weight", "changed": 196234, "numel": 2359296, "delta_fro": 24.44352149963379, "rel_change": 0.7110624313354492}
+{"t": "2026-11-07 17:21:31", "action": "save", "name": "model.layers.22.self_attn.q_proj.bias", "changed": 128, "numel": 1536, "delta_fro": 5.582038402557373, "rel_change": 0.0949096530675888}
+{"t": "2026-11-07 17:21:31", "action": "save", "name": "model.layers.23.self_attn.q_proj.weight", "changed": 196150, "numel": 2359296, "delta_fro": 11.312261581420898, "rel_change": 0.3338262438774109}
+{"t": "2026-11-07 17:21:31", "action": "save", "name": "model.layers.23.self_attn.q_proj.bias", "changed": 127, "numel": 1536, "delta_fro": 2.5860846042633057, "rel_change": 0.05062217265367508}
+{"t": "2026-11-07 17:22:47", "action": "remove", "name": "model.layers.22.self_attn.q_proj.bias"}
+{"t": "2026-11-07 17:22:47", "action": "remove", "name": "model.layers.22.self_attn.q_proj.weight"}
+{"t": "2026-11-07 17:22:47", "action": "remove", "name": "model.layers.23.self_attn.q_proj.bias"}
+{"t": "2026-11-07 17:22:47", "action": "remove", "name": "model.layers.23.self_attn.q_proj.weight"}
+{"t": "2026-11-07 17:22:48", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:24:22", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:24:22", "action": "save", "name": "model.layers.27.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 20.056293487548828, "rel_change": 0.5195812582969666}
+{"t": "2026-11-07 17:26:00", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:26:00", "action": "save", "name": "model.layers.27.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 10.0283203125, "rel_change": 0.2597951292991638}
+{"t": "2026-11-07 17:27:38", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-07 17:27:38", "action": "save", "name": "model.layers.27.self_attn.o_proj.weight", "changed": 196608, "numel": 2359296, "delta_fro": 5.014054298400879, "rel_change": 0.12989482283592224}
+{"t": "2026-11-07 17:29:18", "action": "remove", "name": "model.layers.27.self_attn.o_proj.weight"}
+{"t": "2026-11-07 17:29:18", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 48398, "numel": 13762560, "delta_fro": 1.4117724895477295, "rel_change": 0.01948769949376583}
+{"t": "2026-11-08 01:27:23", "action": "save", "name": "model.layers.27.mlp.down_proj.weight", "changed": 144827, "numel": 13762560, "delta_fro": 9.543710708618164, "rel_change": 0.13173861801624298}

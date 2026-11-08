@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="LoRA: a thin patch added to a frozen matrix">
+  <rect width="1000" height="380" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">LoRA: a thin patch added to a frozen matrix</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Rank 1 toy: a 4×1 column B times a 1×4 row A makes a full 4×4 grid.</text>
+  <rect x="36.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="57.0" y="133.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.2</text>
+  <rect x="78.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="99.0" y="133.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">−0.1</text>
+  <rect x="120.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="141.0" y="133.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.4</text>
+  <rect x="162.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="183.0" y="133.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="36.0" y="150.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="57.0" y="175.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.3</text>
+  <rect x="78.0" y="150.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="99.0" y="175.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.5</text>
+  <rect x="120.0" y="150.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="141.0" y="175.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">−0.2</text>
+  <rect x="162.0" y="150.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="183.0" y="175.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.1</text>
+  <rect x="36.0" y="192.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="57.0" y="217.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">−0.4</text>
+  <rect x="78.0" y="192.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="99.0" y="217.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.2</text>
+  <rect x="120.0" y="192.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="141.0" y="217.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.1</text>
+  <rect x="162.0" y="192.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="183.0" y="217.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.3</text>
+  <rect x="36.0" y="234.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="57.0" y="259.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="78.0" y="234.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="99.0" y="259.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">−0.3</text>
+  <rect x="120.0" y="234.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="141.0" y="259.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.2</text>
+  <rect x="162.0" y="234.0" width="42.0" height="42.0" rx="0" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="183.0" y="259.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.6</text>
+  <rect x="36.0" y="108.0" width="168.0" height="168.0" rx="2" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <text x="120.0" y="302.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">W, frozen</text>
+  <text x="120.0" y="322.0" font-size="12.5" fill="#52514e" text-anchor="middle" font-weight="400">16 numbers</text>
+  <text x="226.0" y="201.0" font-size="26" fill="#52514e" text-anchor="middle" font-weight="400">+</text>
+  <rect x="246.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="267.0" y="134.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+  <rect x="246.0" y="150.0" width="42.0" height="42.0" rx="0" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="267.0" y="176.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+  <rect x="246.0" y="192.0" width="42.0" height="42.0" rx="0" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="267.0" y="218.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">0</text>
+  <rect x="246.0" y="234.0" width="42.0" height="42.0" rx="0" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="267.0" y="260.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">−1</text>
+  <rect x="246.0" y="108.0" width="42.0" height="168.0" rx="2" fill="none" stroke="#2a78d6" stroke-width="2"/>
+  <text x="267.0" y="302.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">B</text>
+  <text x="267.0" y="322.0" font-size="12.5" fill="#52514e" text-anchor="middle" font-weight="400">4, trained</text>
+  <text x="310.0" y="201.0" font-size="24" fill="#52514e" text-anchor="middle" font-weight="400">×</text>
+  <rect x="330.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="351.0" y="134.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">0.5</text>
+  <rect x="372.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="393.0" y="134.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">0</text>
+  <rect x="414.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="435.0" y="134.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">0</text>
+  <rect x="456.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="477.0" y="134.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">0.5</text>
+  <rect x="330.0" y="108.0" width="168.0" height="42.0" rx="2" fill="none" stroke="#2a78d6" stroke-width="2"/>
+  <text x="414.0" y="174.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">A</text>
+  <text x="414.0" y="194.0" font-size="12.5" fill="#52514e" text-anchor="middle" font-weight="400">4, trained</text>
+  <text x="520.0" y="201.0" font-size="26" fill="#52514e" text-anchor="middle" font-weight="400">=</text>
+  <rect x="540.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="561.0" y="133.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.5</text>
+  <rect x="582.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="603.0" y="133.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="624.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="645.0" y="133.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="666.0" y="108.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="687.0" y="133.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0.5</text>
+  <rect x="540.0" y="150.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="561.0" y="175.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">1</text>
+  <rect x="582.0" y="150.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="603.0" y="175.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="624.0" y="150.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="645.0" y="175.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="666.0" y="150.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="687.0" y="175.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">1</text>
+  <rect x="540.0" y="192.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="561.0" y="217.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="582.0" y="192.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="603.0" y="217.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="624.0" y="192.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="645.0" y="217.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="666.0" y="192.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="687.0" y="217.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="540.0" y="234.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="561.0" y="259.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">−0.5</text>
+  <rect x="582.0" y="234.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="603.0" y="259.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="624.0" y="234.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="645.0" y="259.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">0</text>
+  <rect x="666.0" y="234.0" width="42.0" height="42.0" rx="0" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="687.0" y="259.7" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">−0.5</text>
+  <rect x="540.0" y="108.0" width="168.0" height="168.0" rx="2" fill="none" stroke="#2a78d6" stroke-width="2"/>
+  <text x="624.0" y="302.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">B·A, the patch</text>
+  <text x="624.0" y="322.0" font-size="12.5" fill="#52514e" text-anchor="middle" font-weight="400">16 changes, computed</text>
+  <text x="742.0" y="124.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">W&#x27; = W + B·A</text>
+  <text x="742.0" y="146.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400"></text>
+  <text x="742.0" y="168.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">8 trained numbers move</text>
+  <text x="742.0" y="190.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">all 16 numbers of W.</text>
+  <text x="742.0" y="212.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400"></text>
+  <text x="742.0" y="234.0" font-size="13.5" fill="#0b0b0b" text-anchor="start" font-weight="700">Real layer, rank 64:</text>
+  <text x="742.0" y="256.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">W has 2,359,296 numbers;</text>
+  <text x="742.0" y="278.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">B and A have 196,608.</text>
+</svg>

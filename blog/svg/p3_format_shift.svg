@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 356" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="What the tiny changes did: the shape of the answer">
+  <rect width="1000" height="356" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">What the tiny changes did: the shape of the answer</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">All 1,534 BIRD dev answers. LoRA shown for comparison.</text>
+  <text x="40.0" y="110.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">Answers that start straight with ```sql</text>
+  <text x="180.0" y="147.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Base model</text>
+  <rect x="190" y="132" width="136.6" height="22" rx="4" fill="#E5E7EB" stroke="#94a3b8"><title>Base model: 838 of 1,534</title></rect>
+  <text x="334.6" y="148.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">838 of 1,534</text>
+  <text x="180.0" y="191.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + SFT</text>
+  <rect x="190" y="176" width="248.5" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>TinyLoRA + SFT: 1,525 of 1,534</title></rect>
+  <text x="446.5" y="192.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">1,525 of 1,534</text>
+  <text x="180.0" y="235.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + GRPO</text>
+  <rect x="190" y="220" width="233.5" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>TinyLoRA + GRPO: 1,433 of 1,534</title></rect>
+  <text x="431.5" y="236.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">1,433 of 1,534</text>
+  <text x="180.0" y="279.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Opus weight edit</text>
+  <rect x="190" y="264" width="250.0" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>Opus weight edit: 1,534 of 1,534</title></rect>
+  <text x="448.0" y="280.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">1,534 of 1,534</text>
+  <text x="180.0" y="323.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="190" y="308" width="250.0" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>LoRA: 1,534 of 1,534</title></rect>
+  <text x="448.0" y="324.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">1,534 of 1,534</text>
+  <text x="520.0" y="110.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">Average answer length (characters)</text>
+  <text x="660.0" y="147.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Base model</text>
+  <rect x="670" y="132" width="232.1" height="22" rx="4" fill="#E5E7EB" stroke="#94a3b8"><title>Base model: 650</title></rect>
+  <text x="910.1" y="148.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">650</text>
+  <text x="660.0" y="191.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + SFT</text>
+  <rect x="670" y="176" width="64.0" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>TinyLoRA + SFT: 179</title></rect>
+  <text x="742.0" y="192.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">179</text>
+  <text x="660.0" y="235.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + GRPO</text>
+  <rect x="670" y="220" width="85.4" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>TinyLoRA + GRPO: 239</title></rect>
+  <text x="763.4" y="236.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">239</text>
+  <text x="660.0" y="279.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Opus weight edit</text>
+  <rect x="670" y="264" width="58.6" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>Opus weight edit: 164</title></rect>
+  <text x="736.6" y="280.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">164</text>
+  <text x="660.0" y="323.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="670" y="308" width="61.8" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>LoRA: 173</title></rect>
+  <text x="739.8" y="324.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">173</text>
+  <rect x="660" y="52" width="14" height="14" rx="3" fill="#E5E7EB" stroke="#94a3b8"/>
+  <text x="680.0" y="64.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">untrained</text>
+  <rect x="770" y="52" width="14" height="14" rx="3" fill="#2a78d6"/>
+  <text x="790.0" y="64.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">changed</text>
+</svg>

@@ -1,0 +1,1006 @@
+{
+ "budget": 25,
+ "used": 25,
+ "passes": [
+  {
+   "n": 1,
+   "kind": "gen",
+   "t": "2026-11-07 12:50:56",
+   "args": {
+    "which": "original",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [],
+   "edits_fingerprint": "e3b0c44298fc1c14",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_01",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    }
+   }
+  },
+  {
+   "n": 2,
+   "kind": "read",
+   "t": "2026-11-07 12:54:42",
+   "args": {
+    "model": "original",
+    "capture": "logprobs,resid:6,resid:10,resid:14,resid:18,resid:21,resid:24,resid:27",
+    "positions": "answer",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/texts_own512.jsonl"
+   },
+   "edits": [],
+   "edits_fingerprint": "e3b0c44298fc1c14",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_02",
+   "summary": {
+    "model": "original",
+    "n_texts": 512,
+    "captures": [
+     "logprobs",
+     "resid:6",
+     "resid:10",
+     "resid:14",
+     "resid:18",
+     "resid:21",
+     "resid:24",
+     "resid:27"
+    ],
+    "positions": "answer",
+    "mean_answer_logprob": -0.0959
+   }
+  },
+  {
+   "n": 3,
+   "kind": "read",
+   "t": "2026-11-07 13:03:20",
+   "args": {
+    "model": "original",
+    "capture": "logprobs,resid:12,resid:15,resid:17,resid:19,resid:21,resid:23,resid:25,resid:26,resid:27,mlp_act:25,mlp_act:26,mlp_act:27",
+    "positions": "answer",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/texts_pass03.jsonl"
+   },
+   "edits": [],
+   "edits_fingerprint": "e3b0c44298fc1c14",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_03",
+   "summary": {
+    "model": "original",
+    "n_texts": 788,
+    "captures": [
+     "logprobs",
+     "resid:12",
+     "resid:15",
+     "resid:17",
+     "resid:19",
+     "resid:21",
+     "resid:23",
+     "resid:25",
+     "resid:26",
+     "resid:27",
+     "mlp_act:25",
+     "mlp_act:26",
+     "mlp_act:27"
+    ],
+    "positions": "answer",
+    "mean_answer_logprob": -0.1087
+   }
+  },
+  {
+   "n": 4,
+   "kind": "gen",
+   "t": "2026-11-07 13:08:28",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "3f372579b369f4fa",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_04",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3848,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 10,
+     "mean_chars": 166.0,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 5,
+     "broke": 6
+    }
+   }
+  },
+  {
+   "n": 5,
+   "kind": "read",
+   "t": "2026-11-07 13:10:00",
+   "args": {
+    "model": "original",
+    "capture": "logprobs,resid:20,resid:21,resid:22,resid:23",
+    "positions": "all",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/texts_pass05.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "3f372579b369f4fa",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_05",
+   "summary": {
+    "model": "original",
+    "n_texts": 64,
+    "captures": [
+     "logprobs",
+     "resid:20",
+     "resid:21",
+     "resid:22",
+     "resid:23"
+    ],
+    "positions": "all",
+    "mean_answer_logprob": -1.5103
+   }
+  },
+  {
+   "n": 6,
+   "kind": "gen",
+   "t": "2026-11-07 13:19:00",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "2771d3a4f035a4d5",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_06",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3789,
+     "pred_errors": 204,
+     "no_such_column": 162,
+     "no_such_table": 11,
+     "mean_chars": 205.3,
+     "sql_first": 0.9688
+    },
+    "paired": {
+     "fixed": 23,
+     "broke": 27
+    }
+   }
+  },
+  {
+   "n": 7,
+   "kind": "read",
+   "t": "2026-11-07 13:25:39",
+   "args": {
+    "model": "original",
+    "capture": "logprobs,resid:23,resid:24,resid:25,resid:26",
+    "positions": "all",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/texts_pass07.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "2771d3a4f035a4d5",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_07",
+   "summary": {
+    "model": "original",
+    "n_texts": 64,
+    "captures": [
+     "logprobs",
+     "resid:23",
+     "resid:24",
+     "resid:25",
+     "resid:26"
+    ],
+    "positions": "all",
+    "mean_answer_logprob": -1.5614
+   }
+  },
+  {
+   "n": 8,
+   "kind": "gen",
+   "t": "2026-11-07 13:32:26",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.22.self_attn.o_proj.weight",
+    "model.layers.23.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "5e14a159315da7ce",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_08",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 199,
+     "no_such_column": 155,
+     "no_such_table": 15,
+     "mean_chars": 171.3,
+     "sql_first": 0.9961
+    },
+    "paired": {
+     "fixed": 29,
+     "broke": 32
+    }
+   }
+  },
+  {
+   "n": 9,
+   "kind": "gen",
+   "t": "2026-11-07 13:37:44",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "3f372579b369f4fa",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_09",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 225,
+     "no_such_column": 210,
+     "no_such_table": 5,
+     "mean_chars": 183.5,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 9,
+     "broke": 9
+    }
+   }
+  },
+  {
+   "n": 10,
+   "kind": "gen",
+   "t": "2026-11-07 13:46:09",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "45eed48dbf9685df",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_10",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3789,
+     "pred_errors": 224,
+     "no_such_column": 209,
+     "no_such_table": 5,
+     "mean_chars": 184.5,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 7,
+     "broke": 8
+    }
+   }
+  },
+  {
+   "n": 11,
+   "kind": "gen",
+   "t": "2026-11-07 13:51:25",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "f24b3bb4365c729d",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_11",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.373,
+     "pred_errors": 230,
+     "no_such_column": 215,
+     "no_such_table": 5,
+     "mean_chars": 184.4,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 8,
+     "broke": 12
+    }
+   }
+  },
+  {
+   "n": 12,
+   "kind": "gen",
+   "t": "2026-11-07 13:56:08",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_12",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.375,
+     "pred_errors": 228,
+     "no_such_column": 212,
+     "no_such_table": 5,
+     "mean_chars": 184.5,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 8,
+     "broke": 11
+    }
+   }
+  },
+  {
+   "n": 13,
+   "kind": "gen",
+   "t": "2026-11-07 13:58:57",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "0fc9052fa7715c75",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_13",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.377,
+     "pred_errors": 231,
+     "no_such_column": 216,
+     "no_such_table": 5,
+     "mean_chars": 253.4,
+     "sql_first": 0.9355
+    },
+    "paired": {
+     "fixed": 0,
+     "broke": 2
+    }
+   }
+  },
+  {
+   "n": 14,
+   "kind": "gen",
+   "t": "2026-11-07 14:01:56",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_14",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3926,
+     "pred_errors": 201,
+     "no_such_column": 157,
+     "no_such_table": 11,
+     "mean_chars": 167.3,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 10,
+     "broke": 7
+    }
+   }
+  },
+  {
+   "n": 15,
+   "kind": "gen",
+   "t": "2026-11-07 14:04:50",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "de7c0c14e1087f5e",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_15",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3965,
+     "pred_errors": 198,
+     "no_such_column": 156,
+     "no_such_table": 11,
+     "mean_chars": 167.2,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 22,
+     "broke": 17
+    }
+   }
+  },
+  {
+   "n": 16,
+   "kind": "gen",
+   "t": "2026-11-07 14:07:21",
+   "args": {
+    "which": "both",
+    "sample": 256,
+    "seed": 0,
+    "ids": null,
+    "ids_file": "wsp/notebook/ids_long512.txt"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "de7c0c14e1087f5e",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_16",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3809,
+     "pred_errors": 229,
+     "no_such_column": 213,
+     "no_such_table": 5,
+     "mean_chars": 256.8,
+     "sql_first": 0.9355
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 215,
+     "no_such_column": 200,
+     "no_such_table": 5,
+     "mean_chars": 188.4,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 22,
+     "broke": 19
+    }
+   }
+  },
+  {
+   "n": 17,
+   "kind": "gen",
+   "t": "2026-11-07 14:10:47",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 2026,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "de7c0c14e1087f5e",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_17",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3613,
+     "pred_errors": 212,
+     "no_such_column": 169,
+     "no_such_table": 20,
+     "mean_chars": 201.3,
+     "sql_first": 0.9707
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3496,
+     "pred_errors": 202,
+     "no_such_column": 159,
+     "no_such_table": 19,
+     "mean_chars": 170.4,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 12,
+     "broke": 18
+    }
+   }
+  },
+  {
+   "n": 18,
+   "kind": "gen",
+   "t": "2026-11-07 14:14:07",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 2026,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_18",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3613,
+     "pred_errors": 212,
+     "no_such_column": 169,
+     "no_such_table": 20,
+     "mean_chars": 201.3,
+     "sql_first": 0.9707
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3633,
+     "pred_errors": 211,
+     "no_such_column": 165,
+     "no_such_table": 19,
+     "mean_chars": 169.5,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 4,
+     "broke": 3
+    }
+   }
+  },
+  {
+   "n": 19,
+   "kind": "gen",
+   "t": "2026-11-07 14:17:07",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 7,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_19",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3535,
+     "pred_errors": 231,
+     "no_such_column": 196,
+     "no_such_table": 12,
+     "mean_chars": 202.6,
+     "sql_first": 0.9746
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3613,
+     "pred_errors": 228,
+     "no_such_column": 192,
+     "no_such_table": 12,
+     "mean_chars": 171.4,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 8,
+     "broke": 4
+    }
+   }
+  },
+  {
+   "n": 20,
+   "kind": "gen",
+   "t": "2026-11-07 15:13:31",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "e2627910662badeb",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_20",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3145,
+     "pred_errors": 241,
+     "no_such_column": 180,
+     "no_such_table": 18,
+     "mean_chars": 178.3,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 19,
+     "broke": 56
+    }
+   }
+  },
+  {
+   "n": 21,
+   "kind": "gen",
+   "t": "2026-11-07 15:15:12",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.22.self_attn.o_proj.weight",
+    "model.layers.23.self_attn.o_proj.weight",
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "b1c517b46b0fc267",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_21",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3848,
+     "pred_errors": 207,
+     "no_such_column": 162,
+     "no_such_table": 14,
+     "mean_chars": 165.3,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 13,
+     "broke": 14
+    }
+   }
+  },
+  {
+   "n": 22,
+   "kind": "gen",
+   "t": "2026-11-07 15:18:06",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "eac4b9151765e074",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_22",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.377,
+     "pred_errors": 196,
+     "no_such_column": 156,
+     "no_such_table": 21,
+     "mean_chars": 158.8,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 30,
+     "broke": 35
+    }
+   }
+  },
+  {
+   "n": 23,
+   "kind": "read",
+   "t": "2026-11-07 15:19:02",
+   "args": {
+    "model": "original",
+    "capture": "resid:26",
+    "positions": "all",
+    "sample": 64,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null,
+    "texts_file": "wsp/notebook/continuation_20261107/gate_texts.jsonl"
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "eac4b9151765e074",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_23",
+   "summary": {
+    "model": "original",
+    "n_texts": 64,
+    "captures": [
+     "resid:26"
+    ],
+    "positions": "all"
+   }
+  },
+  {
+   "n": 24,
+   "kind": "gen",
+   "t": "2026-11-07 15:24:08",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.mlp.gate_proj.weight"
+   ],
+   "edits_fingerprint": "4920d7efc4ff6814",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_24",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3633,
+     "pred_errors": 217,
+     "no_such_column": 174,
+     "no_such_table": 9,
+     "mean_chars": 166.9,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 17,
+     "broke": 29
+    }
+   }
+  },
+  {
+   "n": 25,
+   "kind": "gen",
+   "t": "2026-11-07 15:27:09",
+   "args": {
+    "which": "both",
+    "sample": 512,
+    "seed": 0,
+    "ids": null,
+    "ids_file": null
+   },
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3",
+   "out": "/home/shravan/Workspace/text2sql-peft-lab/wsp/passes/pass_25",
+   "summary": {
+    "original": {
+     "n": 512,
+     "acc": 0.3867,
+     "pred_errors": 205,
+     "no_such_column": 160,
+     "no_such_table": 11,
+     "mean_chars": 201.8,
+     "sql_first": 0.9688
+    },
+    "edited": {
+     "n": 512,
+     "acc": 0.3926,
+     "pred_errors": 201,
+     "no_such_column": 157,
+     "no_such_table": 11,
+     "mean_chars": 167.3,
+     "sql_first": 1.0
+    },
+    "paired": {
+     "fixed": 10,
+     "broke": 7
+    }
+   }
+  }
+ ],
+ "submitted": {
+  "t": "2026-11-07 15:27:51",
+  "note": "Retain original F4, fingerprint ae81f3cb05285df3. User-authorized no-training continuation used remaining six passes (20-25): four edited practice screenings, one activation read, one unchanged F4 control. New candidates: binding-neuron deletion 161/512; binding-head amplification 197/512; qualifier suppression 193/512; FROM-gate suppression 186/512. Original F4 control 201/512, reproducing all 512 previous F4 outputs exactly. No candidate accepted; no new dev evaluation. Full notes and comparisons: wsp/notebook/continuation_20261107/README.md and practice_results.json. Original submission archived in original_ledger.json and ledger submission_history. All original 25-pass constraints retained.",
+  "edits": [
+   "model.layers.27.mlp.down_proj.weight"
+  ],
+  "edits_fingerprint": "ae81f3cb05285df3"
+ },
+ "submission_history": [
+  {
+   "t": "2026-11-07 14:18:21",
+   "note": "Submitted edit F4 (format fix), one tensor: model.layers.27.mlp.down_proj.weight, 32 output columns / 48,398 weights (0.0031% of params). Designed as a closed-form rank-one ROME-style update W[:,S] += u k_S^T on the LAST layer's MLP output, so it can only change next-token logits (nothing downstream). Key k_S: ridge closed form (C_SS + 0.01*mean diag I)^-1 mu_S, normalised k.mu=1, mu = mean L27 MLP activation at the first answer position (the newline after '<|im_start|>assistant'), C = uncentered covariance of L27 MLP activations at 19.4k other answer positions (pass 3); S = the 32 neurons with largest |k| of the dense solution. Held-out: score ~1.0 at the first answer position, |score| <= 0.39 elsewhere. Value u: least-norm vector giving -5 nats on 'Let' and 'Here' (all 49 verbose practice answers began with \"Let's\") and exactly 0 on the 400 most frequent output tokens (including the code-fence token, digits, SQL keywords), so a leaking key can never close a code block early or alter SQL tokens.\nMechanism: logit lens shows mid layers strongly prefer the code fence at the first answer position (margin +6 to +12 nats at L18-L24), and a few position-selective late MLP neurons (L27 n3317, n7449; L26 n6853; L25 n5798) pull it down to +0.5 nats, which tips into a \"Let's walk through...\" explanation for 3-6% of practice prompts and 26% of prompts at 1800-2048 tokens (10 of 33 such answers hit the 512-token limit). An earlier version (F1: remove that component from column 3317) also boosted the fence at mid-SQL line starts and closed blocks early; F4 avoids this.\nEvidence (paired gen vs original): seed 0 38.67->39.26 (10 fixed/7 broke); 512 longest practice prompts 38.09->37.50 (8/11); fresh seed 2026 36.13->36.33 (4/3); fresh seed 7 35.35->36.13 (8/4). sql-first 93.6-97.5% -> 100% in every run; answers 15-28% shorter. Originally-verbose questions: 18 -> 27 correct of 77; all other questions within the harness noise floor (measured with a null 1-ulp edit: ~15 changed outputs, +-2-6 net per 512). Net accuracy effect on practice is ~0 to +0.3 points; expected benefit on held-out scales with how often long prompts trigger the prose opening.\nNot submitted (diagnosed but no robust EX gain): the dominant error is \"no such column\" (31-42%), of which the largest mechanical part is alias binding (column qualified T2 but its table listed as T1): the alias written after SELECT is a near coin flip (P~0.55) read off a sticky FROM-order plan; the model has a working 'T1 -> owner table first' rule carried by table-mover heads L22H7/L23H4 (digit effect builds in L21-23) but essentially no T2 rule, and layers 24-27 (L24H10, L26H11, L27H1, distributed L27 MLP) fight over it. Edits tried: A1 rank-one 'first alias -> T1' (-4); A1 + 2x amplification of L22H7/L23H4 (alias swaps 67->49 but other errors up, -3); A2 near-tie-only alias bias (+5 seed 0, +3 long, -7 fresh seed). Full lab notebook: wsp/notebook/NOTEBOOK.md\n",
+   "edits": [
+    "model.layers.27.mlp.down_proj.weight"
+   ],
+   "edits_fingerprint": "ae81f3cb05285df3"
+  }
+ ],
+ "continuation": {
+  "reason": "User requested further direct weight edits, no training; retain original 25-pass budget.",
+  "starting_used": 19,
+  "original_fingerprint": "ae81f3cb05285df3"
+ }
+}

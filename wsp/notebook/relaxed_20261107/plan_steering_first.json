@@ -1,0 +1,65 @@
+[
+  {
+    "name": "expert_L15_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "15",
+      "--variant",
+      "expert",
+      "--strength",
+      "1"
+    ],
+    "family": "instruction_state",
+    "cohort": "screen256.txt"
+  },
+  {
+    "name": "plan_L15_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "15",
+      "--variant",
+      "plan",
+      "--strength",
+      "1"
+    ],
+    "family": "instruction_state",
+    "cohort": "screen256.txt"
+  },
+  {
+    "name": "expert_L19_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "19",
+      "--variant",
+      "expert",
+      "--strength",
+      "1"
+    ],
+    "family": "instruction_state",
+    "cohort": "screen256.txt"
+  },
+  {
+    "name": "plan_L19_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "19",
+      "--variant",
+      "plan",
+      "--strength",
+      "1"
+    ],
+    "family": "instruction_state",
+    "cohort": "screen256.txt"
+  },
+  {
+    "name": "F4_screen256_control",
+    "script": "restore_f4.py",
+    "args": [],
+    "family": "control",
+    "cohort": "screen256.txt"
+  }
+]

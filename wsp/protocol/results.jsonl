@@ -1,0 +1,2 @@
+{"t": "2026-11-08 01:37:08", "cohort": "A", "fingerprint": "9ced5b00aec22643", "edits": ["model.layers.27.mlp.down_proj.weight"], "pass": 87, "fixed": 10, "broke": 2, "net": 8, "acc_ref": 0.3262, "acc_edited": 0.3418}
+{"t": "2026-11-08 01:40:28", "cohort": "B", "fingerprint": "9ced5b00aec22643", "edits": ["model.layers.27.mlp.down_proj.weight"], "pass": 88, "fixed": 15, "broke": 5, "net": 10, "acc_ref": 0.3125, "acc_edited": 0.332}

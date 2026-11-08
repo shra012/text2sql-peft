@@ -1,0 +1,55 @@
+[
+  {
+    "name": "assign_all_4_coupledFalse",
+    "script": "apply_alias_assignment.py",
+    "args": [
+      "--mode",
+      "all",
+      "--strength",
+      "4"
+    ],
+    "family": "alias_assignment",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "assign_all_6_coupledFalse",
+    "script": "apply_alias_assignment.py",
+    "args": [
+      "--mode",
+      "all",
+      "--strength",
+      "6"
+    ],
+    "family": "alias_assignment",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "assign_t2_6_coupledFalse",
+    "script": "apply_alias_assignment.py",
+    "args": [
+      "--mode",
+      "t2",
+      "--strength",
+      "6"
+    ],
+    "family": "alias_assignment",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "assign_all_6_coupledTrue",
+    "script": "apply_alias_assignment.py",
+    "args": [
+      "--mode",
+      "all",
+      "--strength",
+      "6",
+      "--coupled"
+    ],
+    "family": "alias_assignment",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  }
+]

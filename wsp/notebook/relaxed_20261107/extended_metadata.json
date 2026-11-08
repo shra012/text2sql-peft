@@ -1,0 +1,7874 @@
+[
+  {
+    "id": "first_p05071_original",
+    "kind": "first",
+    "original_id": "p05071",
+    "variant": "original"
+  },
+  {
+    "id": "first_p05071_neutral",
+    "kind": "first",
+    "original_id": "p05071",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p05071_schema",
+    "kind": "first",
+    "original_id": "p05071",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p05071_plan",
+    "kind": "first",
+    "original_id": "p05071",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p05071_expert",
+    "kind": "first",
+    "original_id": "p05071",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p02192_original",
+    "kind": "first",
+    "original_id": "p02192",
+    "variant": "original"
+  },
+  {
+    "id": "first_p02192_neutral",
+    "kind": "first",
+    "original_id": "p02192",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p02192_schema",
+    "kind": "first",
+    "original_id": "p02192",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p02192_plan",
+    "kind": "first",
+    "original_id": "p02192",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p02192_expert",
+    "kind": "first",
+    "original_id": "p02192",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p01771_original",
+    "kind": "first",
+    "original_id": "p01771",
+    "variant": "original"
+  },
+  {
+    "id": "first_p01771_neutral",
+    "kind": "first",
+    "original_id": "p01771",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p01771_schema",
+    "kind": "first",
+    "original_id": "p01771",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p01771_plan",
+    "kind": "first",
+    "original_id": "p01771",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p01771_expert",
+    "kind": "first",
+    "original_id": "p01771",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p03334_original",
+    "kind": "first",
+    "original_id": "p03334",
+    "variant": "original"
+  },
+  {
+    "id": "first_p03334_neutral",
+    "kind": "first",
+    "original_id": "p03334",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p03334_schema",
+    "kind": "first",
+    "original_id": "p03334",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p03334_plan",
+    "kind": "first",
+    "original_id": "p03334",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p03334_expert",
+    "kind": "first",
+    "original_id": "p03334",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p01884_original",
+    "kind": "first",
+    "original_id": "p01884",
+    "variant": "original"
+  },
+  {
+    "id": "first_p01884_neutral",
+    "kind": "first",
+    "original_id": "p01884",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p01884_schema",
+    "kind": "first",
+    "original_id": "p01884",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p01884_plan",
+    "kind": "first",
+    "original_id": "p01884",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p01884_expert",
+    "kind": "first",
+    "original_id": "p01884",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p05215_original",
+    "kind": "first",
+    "original_id": "p05215",
+    "variant": "original"
+  },
+  {
+    "id": "first_p05215_neutral",
+    "kind": "first",
+    "original_id": "p05215",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p05215_schema",
+    "kind": "first",
+    "original_id": "p05215",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p05215_plan",
+    "kind": "first",
+    "original_id": "p05215",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p05215_expert",
+    "kind": "first",
+    "original_id": "p05215",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p02642_original",
+    "kind": "first",
+    "original_id": "p02642",
+    "variant": "original"
+  },
+  {
+    "id": "first_p02642_neutral",
+    "kind": "first",
+    "original_id": "p02642",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p02642_schema",
+    "kind": "first",
+    "original_id": "p02642",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p02642_plan",
+    "kind": "first",
+    "original_id": "p02642",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p02642_expert",
+    "kind": "first",
+    "original_id": "p02642",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p00452_original",
+    "kind": "first",
+    "original_id": "p00452",
+    "variant": "original"
+  },
+  {
+    "id": "first_p00452_neutral",
+    "kind": "first",
+    "original_id": "p00452",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p00452_schema",
+    "kind": "first",
+    "original_id": "p00452",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p00452_plan",
+    "kind": "first",
+    "original_id": "p00452",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p00452_expert",
+    "kind": "first",
+    "original_id": "p00452",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p01459_original",
+    "kind": "first",
+    "original_id": "p01459",
+    "variant": "original"
+  },
+  {
+    "id": "first_p01459_neutral",
+    "kind": "first",
+    "original_id": "p01459",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p01459_schema",
+    "kind": "first",
+    "original_id": "p01459",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p01459_plan",
+    "kind": "first",
+    "original_id": "p01459",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p01459_expert",
+    "kind": "first",
+    "original_id": "p01459",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p04716_original",
+    "kind": "first",
+    "original_id": "p04716",
+    "variant": "original"
+  },
+  {
+    "id": "first_p04716_neutral",
+    "kind": "first",
+    "original_id": "p04716",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p04716_schema",
+    "kind": "first",
+    "original_id": "p04716",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p04716_plan",
+    "kind": "first",
+    "original_id": "p04716",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p04716_expert",
+    "kind": "first",
+    "original_id": "p04716",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p02016_original",
+    "kind": "first",
+    "original_id": "p02016",
+    "variant": "original"
+  },
+  {
+    "id": "first_p02016_neutral",
+    "kind": "first",
+    "original_id": "p02016",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p02016_schema",
+    "kind": "first",
+    "original_id": "p02016",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p02016_plan",
+    "kind": "first",
+    "original_id": "p02016",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p02016_expert",
+    "kind": "first",
+    "original_id": "p02016",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p02140_original",
+    "kind": "first",
+    "original_id": "p02140",
+    "variant": "original"
+  },
+  {
+    "id": "first_p02140_neutral",
+    "kind": "first",
+    "original_id": "p02140",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p02140_schema",
+    "kind": "first",
+    "original_id": "p02140",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p02140_plan",
+    "kind": "first",
+    "original_id": "p02140",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p02140_expert",
+    "kind": "first",
+    "original_id": "p02140",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p04785_original",
+    "kind": "first",
+    "original_id": "p04785",
+    "variant": "original"
+  },
+  {
+    "id": "first_p04785_neutral",
+    "kind": "first",
+    "original_id": "p04785",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p04785_schema",
+    "kind": "first",
+    "original_id": "p04785",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p04785_plan",
+    "kind": "first",
+    "original_id": "p04785",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p04785_expert",
+    "kind": "first",
+    "original_id": "p04785",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p03436_original",
+    "kind": "first",
+    "original_id": "p03436",
+    "variant": "original"
+  },
+  {
+    "id": "first_p03436_neutral",
+    "kind": "first",
+    "original_id": "p03436",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p03436_schema",
+    "kind": "first",
+    "original_id": "p03436",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p03436_plan",
+    "kind": "first",
+    "original_id": "p03436",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p03436_expert",
+    "kind": "first",
+    "original_id": "p03436",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p00243_original",
+    "kind": "first",
+    "original_id": "p00243",
+    "variant": "original"
+  },
+  {
+    "id": "first_p00243_neutral",
+    "kind": "first",
+    "original_id": "p00243",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p00243_schema",
+    "kind": "first",
+    "original_id": "p00243",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p00243_plan",
+    "kind": "first",
+    "original_id": "p00243",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p00243_expert",
+    "kind": "first",
+    "original_id": "p00243",
+    "variant": "expert"
+  },
+  {
+    "id": "first_p03068_original",
+    "kind": "first",
+    "original_id": "p03068",
+    "variant": "original"
+  },
+  {
+    "id": "first_p03068_neutral",
+    "kind": "first",
+    "original_id": "p03068",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_p03068_schema",
+    "kind": "first",
+    "original_id": "p03068",
+    "variant": "schema"
+  },
+  {
+    "id": "first_p03068_plan",
+    "kind": "first",
+    "original_id": "p03068",
+    "variant": "plan"
+  },
+  {
+    "id": "first_p03068_expert",
+    "kind": "first",
+    "original_id": "p03068",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x08269_original",
+    "kind": "first",
+    "original_id": "x08269",
+    "variant": "original"
+  },
+  {
+    "id": "first_x08269_neutral",
+    "kind": "first",
+    "original_id": "x08269",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x08269_schema",
+    "kind": "first",
+    "original_id": "x08269",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x08269_plan",
+    "kind": "first",
+    "original_id": "x08269",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x08269_expert",
+    "kind": "first",
+    "original_id": "x08269",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x05283_original",
+    "kind": "first",
+    "original_id": "x05283",
+    "variant": "original"
+  },
+  {
+    "id": "first_x05283_neutral",
+    "kind": "first",
+    "original_id": "x05283",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x05283_schema",
+    "kind": "first",
+    "original_id": "x05283",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x05283_plan",
+    "kind": "first",
+    "original_id": "x05283",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x05283_expert",
+    "kind": "first",
+    "original_id": "x05283",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x03908_original",
+    "kind": "first",
+    "original_id": "x03908",
+    "variant": "original"
+  },
+  {
+    "id": "first_x03908_neutral",
+    "kind": "first",
+    "original_id": "x03908",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x03908_schema",
+    "kind": "first",
+    "original_id": "x03908",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x03908_plan",
+    "kind": "first",
+    "original_id": "x03908",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x03908_expert",
+    "kind": "first",
+    "original_id": "x03908",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x03937_original",
+    "kind": "first",
+    "original_id": "x03937",
+    "variant": "original"
+  },
+  {
+    "id": "first_x03937_neutral",
+    "kind": "first",
+    "original_id": "x03937",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x03937_schema",
+    "kind": "first",
+    "original_id": "x03937",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x03937_plan",
+    "kind": "first",
+    "original_id": "x03937",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x03937_expert",
+    "kind": "first",
+    "original_id": "x03937",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x03800_original",
+    "kind": "first",
+    "original_id": "x03800",
+    "variant": "original"
+  },
+  {
+    "id": "first_x03800_neutral",
+    "kind": "first",
+    "original_id": "x03800",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x03800_schema",
+    "kind": "first",
+    "original_id": "x03800",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x03800_plan",
+    "kind": "first",
+    "original_id": "x03800",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x03800_expert",
+    "kind": "first",
+    "original_id": "x03800",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x02388_original",
+    "kind": "first",
+    "original_id": "x02388",
+    "variant": "original"
+  },
+  {
+    "id": "first_x02388_neutral",
+    "kind": "first",
+    "original_id": "x02388",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x02388_schema",
+    "kind": "first",
+    "original_id": "x02388",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x02388_plan",
+    "kind": "first",
+    "original_id": "x02388",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x02388_expert",
+    "kind": "first",
+    "original_id": "x02388",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x09154_original",
+    "kind": "first",
+    "original_id": "x09154",
+    "variant": "original"
+  },
+  {
+    "id": "first_x09154_neutral",
+    "kind": "first",
+    "original_id": "x09154",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x09154_schema",
+    "kind": "first",
+    "original_id": "x09154",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x09154_plan",
+    "kind": "first",
+    "original_id": "x09154",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x09154_expert",
+    "kind": "first",
+    "original_id": "x09154",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x02105_original",
+    "kind": "first",
+    "original_id": "x02105",
+    "variant": "original"
+  },
+  {
+    "id": "first_x02105_neutral",
+    "kind": "first",
+    "original_id": "x02105",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x02105_schema",
+    "kind": "first",
+    "original_id": "x02105",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x02105_plan",
+    "kind": "first",
+    "original_id": "x02105",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x02105_expert",
+    "kind": "first",
+    "original_id": "x02105",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x06890_original",
+    "kind": "first",
+    "original_id": "x06890",
+    "variant": "original"
+  },
+  {
+    "id": "first_x06890_neutral",
+    "kind": "first",
+    "original_id": "x06890",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x06890_schema",
+    "kind": "first",
+    "original_id": "x06890",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x06890_plan",
+    "kind": "first",
+    "original_id": "x06890",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x06890_expert",
+    "kind": "first",
+    "original_id": "x06890",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x01364_original",
+    "kind": "first",
+    "original_id": "x01364",
+    "variant": "original"
+  },
+  {
+    "id": "first_x01364_neutral",
+    "kind": "first",
+    "original_id": "x01364",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x01364_schema",
+    "kind": "first",
+    "original_id": "x01364",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x01364_plan",
+    "kind": "first",
+    "original_id": "x01364",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x01364_expert",
+    "kind": "first",
+    "original_id": "x01364",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x01197_original",
+    "kind": "first",
+    "original_id": "x01197",
+    "variant": "original"
+  },
+  {
+    "id": "first_x01197_neutral",
+    "kind": "first",
+    "original_id": "x01197",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x01197_schema",
+    "kind": "first",
+    "original_id": "x01197",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x01197_plan",
+    "kind": "first",
+    "original_id": "x01197",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x01197_expert",
+    "kind": "first",
+    "original_id": "x01197",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x05243_original",
+    "kind": "first",
+    "original_id": "x05243",
+    "variant": "original"
+  },
+  {
+    "id": "first_x05243_neutral",
+    "kind": "first",
+    "original_id": "x05243",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x05243_schema",
+    "kind": "first",
+    "original_id": "x05243",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x05243_plan",
+    "kind": "first",
+    "original_id": "x05243",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x05243_expert",
+    "kind": "first",
+    "original_id": "x05243",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x03866_original",
+    "kind": "first",
+    "original_id": "x03866",
+    "variant": "original"
+  },
+  {
+    "id": "first_x03866_neutral",
+    "kind": "first",
+    "original_id": "x03866",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x03866_schema",
+    "kind": "first",
+    "original_id": "x03866",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x03866_plan",
+    "kind": "first",
+    "original_id": "x03866",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x03866_expert",
+    "kind": "first",
+    "original_id": "x03866",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x07660_original",
+    "kind": "first",
+    "original_id": "x07660",
+    "variant": "original"
+  },
+  {
+    "id": "first_x07660_neutral",
+    "kind": "first",
+    "original_id": "x07660",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x07660_schema",
+    "kind": "first",
+    "original_id": "x07660",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x07660_plan",
+    "kind": "first",
+    "original_id": "x07660",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x07660_expert",
+    "kind": "first",
+    "original_id": "x07660",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x00401_original",
+    "kind": "first",
+    "original_id": "x00401",
+    "variant": "original"
+  },
+  {
+    "id": "first_x00401_neutral",
+    "kind": "first",
+    "original_id": "x00401",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x00401_schema",
+    "kind": "first",
+    "original_id": "x00401",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x00401_plan",
+    "kind": "first",
+    "original_id": "x00401",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x00401_expert",
+    "kind": "first",
+    "original_id": "x00401",
+    "variant": "expert"
+  },
+  {
+    "id": "first_x08315_original",
+    "kind": "first",
+    "original_id": "x08315",
+    "variant": "original"
+  },
+  {
+    "id": "first_x08315_neutral",
+    "kind": "first",
+    "original_id": "x08315",
+    "variant": "neutral"
+  },
+  {
+    "id": "first_x08315_schema",
+    "kind": "first",
+    "original_id": "x08315",
+    "variant": "schema"
+  },
+  {
+    "id": "first_x08315_plan",
+    "kind": "first",
+    "original_id": "x08315",
+    "variant": "plan"
+  },
+  {
+    "id": "first_x08315_expert",
+    "kind": "first",
+    "original_id": "x08315",
+    "variant": "expert"
+  },
+  {
+    "id": "binding_x05283_1",
+    "kind": "binding",
+    "original_id": "x05283",
+    "digit": 1,
+    "owner": "rootbeerbrand",
+    "other": "customers"
+  },
+  {
+    "id": "binding_x05283_2",
+    "kind": "binding",
+    "original_id": "x05283",
+    "digit": 2,
+    "owner": "rootbeerbrand",
+    "other": "customers"
+  },
+  {
+    "id": "binding_x03908_1",
+    "kind": "binding",
+    "original_id": "x03908",
+    "digit": 1,
+    "owner": "Years",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_x03908_2",
+    "kind": "binding",
+    "original_id": "x03908",
+    "digit": 2,
+    "owner": "Years",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_p01771_1",
+    "kind": "binding",
+    "original_id": "p01771",
+    "digit": 1,
+    "owner": "essays",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01771_2",
+    "kind": "binding",
+    "original_id": "p01771",
+    "digit": 2,
+    "owner": "essays",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p05215_1",
+    "kind": "binding",
+    "original_id": "p05215",
+    "digit": 1,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_p05215_2",
+    "kind": "binding",
+    "original_id": "p05215",
+    "digit": 2,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_x02388_1",
+    "kind": "binding",
+    "original_id": "x02388",
+    "digit": 1,
+    "owner": "people",
+    "other": "product"
+  },
+  {
+    "id": "binding_x02388_2",
+    "kind": "binding",
+    "original_id": "x02388",
+    "digit": 2,
+    "owner": "people",
+    "other": "product"
+  },
+  {
+    "id": "binding_x09154_1",
+    "kind": "binding",
+    "original_id": "x09154",
+    "digit": 1,
+    "owner": "film",
+    "other": "actor"
+  },
+  {
+    "id": "binding_x09154_2",
+    "kind": "binding",
+    "original_id": "x09154",
+    "digit": 2,
+    "owner": "film",
+    "other": "actor"
+  },
+  {
+    "id": "binding_x02105_1",
+    "kind": "binding",
+    "original_id": "x02105",
+    "digit": 1,
+    "owner": "Country",
+    "other": "Series"
+  },
+  {
+    "id": "binding_x02105_2",
+    "kind": "binding",
+    "original_id": "x02105",
+    "digit": 2,
+    "owner": "Country",
+    "other": "Series"
+  },
+  {
+    "id": "binding_x09164_1",
+    "kind": "binding",
+    "original_id": "x09164",
+    "digit": 1,
+    "owner": "payment",
+    "other": "film_text"
+  },
+  {
+    "id": "binding_x09164_2",
+    "kind": "binding",
+    "original_id": "x09164",
+    "digit": 2,
+    "owner": "payment",
+    "other": "film_text"
+  },
+  {
+    "id": "binding_p04785_1",
+    "kind": "binding",
+    "original_id": "p04785",
+    "digit": 1,
+    "owner": "weather",
+    "other": "sales_in_weather"
+  },
+  {
+    "id": "binding_p04785_2",
+    "kind": "binding",
+    "original_id": "p04785",
+    "digit": 2,
+    "owner": "weather",
+    "other": "sales_in_weather"
+  },
+  {
+    "id": "binding_x00314_1",
+    "kind": "binding",
+    "original_id": "x00314",
+    "digit": 1,
+    "owner": "events",
+    "other": "state"
+  },
+  {
+    "id": "binding_x00314_2",
+    "kind": "binding",
+    "original_id": "x00314",
+    "digit": 2,
+    "owner": "events",
+    "other": "state"
+  },
+  {
+    "id": "binding_p04249_1",
+    "kind": "binding",
+    "original_id": "p04249",
+    "digit": 1,
+    "owner": "PlayerInfo",
+    "other": "height_info"
+  },
+  {
+    "id": "binding_p04249_2",
+    "kind": "binding",
+    "original_id": "p04249",
+    "digit": 2,
+    "owner": "PlayerInfo",
+    "other": "height_info"
+  },
+  {
+    "id": "binding_p03184_1",
+    "kind": "binding",
+    "original_id": "p03184",
+    "digit": 1,
+    "owner": "driver",
+    "other": "city"
+  },
+  {
+    "id": "binding_p03184_2",
+    "kind": "binding",
+    "original_id": "p03184",
+    "digit": 2,
+    "owner": "driver",
+    "other": "city"
+  },
+  {
+    "id": "binding_p01157_1",
+    "kind": "binding",
+    "original_id": "p01157",
+    "digit": 1,
+    "owner": "Regions",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p01157_2",
+    "kind": "binding",
+    "original_id": "p01157",
+    "digit": 2,
+    "owner": "Regions",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_x03821_1",
+    "kind": "binding",
+    "original_id": "x03821",
+    "digit": 1,
+    "owner": "Categories",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_x03821_2",
+    "kind": "binding",
+    "original_id": "x03821",
+    "digit": 2,
+    "owner": "Categories",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_x00225_1",
+    "kind": "binding",
+    "original_id": "x00225",
+    "digit": 1,
+    "owner": "publishers",
+    "other": "authors"
+  },
+  {
+    "id": "binding_x00225_2",
+    "kind": "binding",
+    "original_id": "x00225",
+    "digit": 2,
+    "owner": "publishers",
+    "other": "authors"
+  },
+  {
+    "id": "binding_p05231_1",
+    "kind": "binding",
+    "original_id": "p05231",
+    "digit": 1,
+    "owner": "weather",
+    "other": "station"
+  },
+  {
+    "id": "binding_p05231_2",
+    "kind": "binding",
+    "original_id": "p05231",
+    "digit": 2,
+    "owner": "weather",
+    "other": "station"
+  },
+  {
+    "id": "binding_p02281_1",
+    "kind": "binding",
+    "original_id": "p02281",
+    "digit": 1,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02281_2",
+    "kind": "binding",
+    "original_id": "p02281",
+    "digit": 2,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p04305_1",
+    "kind": "binding",
+    "original_id": "p04305",
+    "digit": 1,
+    "owner": "PlayerInfo",
+    "other": "height_info"
+  },
+  {
+    "id": "binding_p04305_2",
+    "kind": "binding",
+    "original_id": "p04305",
+    "digit": 2,
+    "owner": "PlayerInfo",
+    "other": "height_info"
+  },
+  {
+    "id": "binding_x00345_1",
+    "kind": "binding",
+    "original_id": "x00345",
+    "digit": 1,
+    "owner": "client",
+    "other": "state"
+  },
+  {
+    "id": "binding_x00345_2",
+    "kind": "binding",
+    "original_id": "x00345",
+    "digit": 2,
+    "owner": "client",
+    "other": "state"
+  },
+  {
+    "id": "binding_p01988_1",
+    "kind": "binding",
+    "original_id": "p01988",
+    "digit": 1,
+    "owner": "platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01988_2",
+    "kind": "binding",
+    "original_id": "p01988",
+    "digit": 2,
+    "owner": "platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01270_1",
+    "kind": "binding",
+    "original_id": "p01270",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Products"
+  },
+  {
+    "id": "binding_p01270_2",
+    "kind": "binding",
+    "original_id": "p01270",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Products"
+  },
+  {
+    "id": "binding_x01666_1",
+    "kind": "binding",
+    "original_id": "x01666",
+    "digit": 1,
+    "owner": "products",
+    "other": "offices"
+  },
+  {
+    "id": "binding_x01666_2",
+    "kind": "binding",
+    "original_id": "x01666",
+    "digit": 2,
+    "owner": "products",
+    "other": "offices"
+  },
+  {
+    "id": "binding_p03476_1",
+    "kind": "binding",
+    "original_id": "p03476",
+    "digit": 1,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03476_2",
+    "kind": "binding",
+    "original_id": "p03476",
+    "digit": 2,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_x01363_1",
+    "kind": "binding",
+    "original_id": "x01363",
+    "digit": 1,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_x01363_2",
+    "kind": "binding",
+    "original_id": "x01363",
+    "digit": 2,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_p03440_1",
+    "kind": "binding",
+    "original_id": "p03440",
+    "digit": 1,
+    "owner": "Airlines",
+    "other": "Airports"
+  },
+  {
+    "id": "binding_p03440_2",
+    "kind": "binding",
+    "original_id": "p03440",
+    "digit": 2,
+    "owner": "Airlines",
+    "other": "Airports"
+  },
+  {
+    "id": "binding_x00145_1",
+    "kind": "binding",
+    "original_id": "x00145",
+    "digit": 1,
+    "owner": "lists",
+    "other": "movies"
+  },
+  {
+    "id": "binding_x00145_2",
+    "kind": "binding",
+    "original_id": "x00145",
+    "digit": 2,
+    "owner": "lists",
+    "other": "movies"
+  },
+  {
+    "id": "binding_p04488_1",
+    "kind": "binding",
+    "original_id": "p04488",
+    "digit": 1,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04488_2",
+    "kind": "binding",
+    "original_id": "p04488",
+    "digit": 2,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x07720_1",
+    "kind": "binding",
+    "original_id": "x07720",
+    "digit": 1,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x07720_2",
+    "kind": "binding",
+    "original_id": "x07720",
+    "digit": 2,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x02374_1",
+    "kind": "binding",
+    "original_id": "x02374",
+    "digit": 1,
+    "owner": "product",
+    "other": "people"
+  },
+  {
+    "id": "binding_x02374_2",
+    "kind": "binding",
+    "original_id": "x02374",
+    "digit": 2,
+    "owner": "product",
+    "other": "people"
+  },
+  {
+    "id": "binding_p00680_1",
+    "kind": "binding",
+    "original_id": "p00680",
+    "digit": 1,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00680_2",
+    "kind": "binding",
+    "original_id": "p00680",
+    "digit": 2,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_x00192_1",
+    "kind": "binding",
+    "original_id": "x00192",
+    "digit": 1,
+    "owner": "authors",
+    "other": "jobs"
+  },
+  {
+    "id": "binding_x00192_2",
+    "kind": "binding",
+    "original_id": "x00192",
+    "digit": 2,
+    "owner": "authors",
+    "other": "jobs"
+  },
+  {
+    "id": "binding_p04189_1",
+    "kind": "binding",
+    "original_id": "p04189",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04189_2",
+    "kind": "binding",
+    "original_id": "p04189",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x01644_1",
+    "kind": "binding",
+    "original_id": "x01644",
+    "digit": 1,
+    "owner": "customers",
+    "other": "offices"
+  },
+  {
+    "id": "binding_x01644_2",
+    "kind": "binding",
+    "original_id": "x01644",
+    "digit": 2,
+    "owner": "customers",
+    "other": "offices"
+  },
+  {
+    "id": "binding_x02196_1",
+    "kind": "binding",
+    "original_id": "x02196",
+    "digit": 1,
+    "owner": "Country",
+    "other": "Series"
+  },
+  {
+    "id": "binding_x02196_2",
+    "kind": "binding",
+    "original_id": "x02196",
+    "digit": 2,
+    "owner": "Country",
+    "other": "Series"
+  },
+  {
+    "id": "binding_x01412_1",
+    "kind": "binding",
+    "original_id": "x01412",
+    "digit": 1,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_x01412_2",
+    "kind": "binding",
+    "original_id": "x01412",
+    "digit": 2,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_x00141_1",
+    "kind": "binding",
+    "original_id": "x00141",
+    "digit": 1,
+    "owner": "lists",
+    "other": "movies"
+  },
+  {
+    "id": "binding_x00141_2",
+    "kind": "binding",
+    "original_id": "x00141",
+    "digit": 2,
+    "owner": "lists",
+    "other": "movies"
+  },
+  {
+    "id": "binding_x08655_1",
+    "kind": "binding",
+    "original_id": "x08655",
+    "digit": 1,
+    "owner": "Crime",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08655_2",
+    "kind": "binding",
+    "original_id": "x08655",
+    "digit": 2,
+    "owner": "Crime",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x02178_1",
+    "kind": "binding",
+    "original_id": "x02178",
+    "digit": 1,
+    "owner": "Indicators",
+    "other": "Country"
+  },
+  {
+    "id": "binding_x02178_2",
+    "kind": "binding",
+    "original_id": "x02178",
+    "digit": 2,
+    "owner": "Indicators",
+    "other": "Country"
+  },
+  {
+    "id": "binding_x05138_1",
+    "kind": "binding",
+    "original_id": "x05138",
+    "digit": 1,
+    "owner": "zip_data",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x05138_2",
+    "kind": "binding",
+    "original_id": "x05138",
+    "digit": 2,
+    "owner": "zip_data",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x04035_1",
+    "kind": "binding",
+    "original_id": "x04035",
+    "digit": 1,
+    "owner": "Years",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_x04035_2",
+    "kind": "binding",
+    "original_id": "x04035",
+    "digit": 2,
+    "owner": "Years",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_p05217_1",
+    "kind": "binding",
+    "original_id": "p05217",
+    "digit": 1,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_p05217_2",
+    "kind": "binding",
+    "original_id": "p05217",
+    "digit": 2,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_p02928_1",
+    "kind": "binding",
+    "original_id": "p02928",
+    "digit": 1,
+    "owner": "games",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02928_2",
+    "kind": "binding",
+    "original_id": "p02928",
+    "digit": 2,
+    "owner": "games",
+    "other": "city"
+  },
+  {
+    "id": "binding_x05264_1",
+    "kind": "binding",
+    "original_id": "x05264",
+    "digit": 1,
+    "owner": "rootbeerbrand",
+    "other": "customers"
+  },
+  {
+    "id": "binding_x05264_2",
+    "kind": "binding",
+    "original_id": "x05264",
+    "digit": 2,
+    "owner": "rootbeerbrand",
+    "other": "customers"
+  },
+  {
+    "id": "binding_x08634_1",
+    "kind": "binding",
+    "original_id": "x08634",
+    "digit": 1,
+    "owner": "Crime",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08634_2",
+    "kind": "binding",
+    "original_id": "x08634",
+    "digit": 2,
+    "owner": "Crime",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_p00215_1",
+    "kind": "binding",
+    "original_id": "p00215",
+    "digit": 1,
+    "owner": "Method",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00215_2",
+    "kind": "binding",
+    "original_id": "p00215",
+    "digit": 2,
+    "owner": "Method",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x01517_1",
+    "kind": "binding",
+    "original_id": "x01517",
+    "digit": 1,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_x01517_2",
+    "kind": "binding",
+    "original_id": "x01517",
+    "digit": 2,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_p01255_1",
+    "kind": "binding",
+    "original_id": "p01255",
+    "digit": 1,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p01255_2",
+    "kind": "binding",
+    "original_id": "p01255",
+    "digit": 2,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p01756_1",
+    "kind": "binding",
+    "original_id": "p01756",
+    "digit": 1,
+    "owner": "projects",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01756_2",
+    "kind": "binding",
+    "original_id": "p01756",
+    "digit": 2,
+    "owner": "projects",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x06798_1",
+    "kind": "binding",
+    "original_id": "x06798",
+    "digit": 1,
+    "owner": "customer",
+    "other": "lineitem"
+  },
+  {
+    "id": "binding_x06798_2",
+    "kind": "binding",
+    "original_id": "x06798",
+    "digit": 2,
+    "owner": "customer",
+    "other": "lineitem"
+  },
+  {
+    "id": "binding_p04659_1",
+    "kind": "binding",
+    "original_id": "p04659",
+    "digit": 1,
+    "owner": "university",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04659_2",
+    "kind": "binding",
+    "original_id": "p04659",
+    "digit": 2,
+    "owner": "university",
+    "other": "country"
+  },
+  {
+    "id": "binding_x05129_1",
+    "kind": "binding",
+    "original_id": "x05129",
+    "digit": 1,
+    "owner": "zip_data",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x05129_2",
+    "kind": "binding",
+    "original_id": "x05129",
+    "digit": 2,
+    "owner": "zip_data",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x05277_1",
+    "kind": "binding",
+    "original_id": "x05277",
+    "digit": 1,
+    "owner": "rootbeerbrand",
+    "other": "customers"
+  },
+  {
+    "id": "binding_x05277_2",
+    "kind": "binding",
+    "original_id": "x05277",
+    "digit": 2,
+    "owner": "rootbeerbrand",
+    "other": "customers"
+  },
+  {
+    "id": "binding_p01772_1",
+    "kind": "binding",
+    "original_id": "p01772",
+    "digit": 1,
+    "owner": "donations",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01772_2",
+    "kind": "binding",
+    "original_id": "p01772",
+    "digit": 2,
+    "owner": "donations",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00420_1",
+    "kind": "binding",
+    "original_id": "p00420",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00420_2",
+    "kind": "binding",
+    "original_id": "p00420",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_x08690_1",
+    "kind": "binding",
+    "original_id": "x08690",
+    "digit": 1,
+    "owner": "Community_Area",
+    "other": "District"
+  },
+  {
+    "id": "binding_x08690_2",
+    "kind": "binding",
+    "original_id": "x08690",
+    "digit": 2,
+    "owner": "Community_Area",
+    "other": "District"
+  },
+  {
+    "id": "binding_x01602_1",
+    "kind": "binding",
+    "original_id": "x01602",
+    "digit": 1,
+    "owner": "employees",
+    "other": "offices"
+  },
+  {
+    "id": "binding_x01602_2",
+    "kind": "binding",
+    "original_id": "x01602",
+    "digit": 2,
+    "owner": "employees",
+    "other": "offices"
+  },
+  {
+    "id": "binding_x05110_1",
+    "kind": "binding",
+    "original_id": "x05110",
+    "digit": 1,
+    "owner": "congress",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x05110_2",
+    "kind": "binding",
+    "original_id": "x05110",
+    "digit": 2,
+    "owner": "congress",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_p02107_1",
+    "kind": "binding",
+    "original_id": "p02107",
+    "digit": 1,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02107_2",
+    "kind": "binding",
+    "original_id": "p02107",
+    "digit": 2,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p03695_1",
+    "kind": "binding",
+    "original_id": "p03695",
+    "digit": 1,
+    "owner": "inspection",
+    "other": "employee"
+  },
+  {
+    "id": "binding_p03695_2",
+    "kind": "binding",
+    "original_id": "p03695",
+    "digit": 2,
+    "owner": "inspection",
+    "other": "employee"
+  },
+  {
+    "id": "binding_x00179_1",
+    "kind": "binding",
+    "original_id": "x00179",
+    "digit": 1,
+    "owner": "stores",
+    "other": "authors"
+  },
+  {
+    "id": "binding_x00179_2",
+    "kind": "binding",
+    "original_id": "x00179",
+    "digit": 2,
+    "owner": "stores",
+    "other": "authors"
+  },
+  {
+    "id": "binding_x03892_1",
+    "kind": "binding",
+    "original_id": "x03892",
+    "digit": 1,
+    "owner": "Categories",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_x03892_2",
+    "kind": "binding",
+    "original_id": "x03892",
+    "digit": 2,
+    "owner": "Categories",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_p04742_1",
+    "kind": "binding",
+    "original_id": "p04742",
+    "digit": 1,
+    "owner": "ranking_criteria",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04742_2",
+    "kind": "binding",
+    "original_id": "p04742",
+    "digit": 2,
+    "owner": "ranking_criteria",
+    "other": "country"
+  },
+  {
+    "id": "binding_p01207_1",
+    "kind": "binding",
+    "original_id": "p01207",
+    "digit": 1,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p01207_2",
+    "kind": "binding",
+    "original_id": "p01207",
+    "digit": 2,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_x00157_1",
+    "kind": "binding",
+    "original_id": "x00157",
+    "digit": 1,
+    "owner": "movies",
+    "other": "lists"
+  },
+  {
+    "id": "binding_x00157_2",
+    "kind": "binding",
+    "original_id": "x00157",
+    "digit": 2,
+    "owner": "movies",
+    "other": "lists"
+  },
+  {
+    "id": "binding_x05135_1",
+    "kind": "binding",
+    "original_id": "x05135",
+    "digit": 1,
+    "owner": "congress",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x05135_2",
+    "kind": "binding",
+    "original_id": "x05135",
+    "digit": 2,
+    "owner": "congress",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_p03485_1",
+    "kind": "binding",
+    "original_id": "p03485",
+    "digit": 1,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03485_2",
+    "kind": "binding",
+    "original_id": "p03485",
+    "digit": 2,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03484_1",
+    "kind": "binding",
+    "original_id": "p03484",
+    "digit": 1,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03484_2",
+    "kind": "binding",
+    "original_id": "p03484",
+    "digit": 2,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_x08652_1",
+    "kind": "binding",
+    "original_id": "x08652",
+    "digit": 1,
+    "owner": "FBI_Code",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08652_2",
+    "kind": "binding",
+    "original_id": "x08652",
+    "digit": 2,
+    "owner": "FBI_Code",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x05093_1",
+    "kind": "binding",
+    "original_id": "x05093",
+    "digit": 1,
+    "owner": "avoid",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x05093_2",
+    "kind": "binding",
+    "original_id": "x05093",
+    "digit": 2,
+    "owner": "avoid",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x07622_1",
+    "kind": "binding",
+    "original_id": "x07622",
+    "digit": 1,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x07622_2",
+    "kind": "binding",
+    "original_id": "x07622",
+    "digit": 2,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x00269_1",
+    "kind": "binding",
+    "original_id": "x00269",
+    "digit": 1,
+    "owner": "client",
+    "other": "state"
+  },
+  {
+    "id": "binding_x00269_2",
+    "kind": "binding",
+    "original_id": "x00269",
+    "digit": 2,
+    "owner": "client",
+    "other": "state"
+  },
+  {
+    "id": "binding_p00723_1",
+    "kind": "binding",
+    "original_id": "p00723",
+    "digit": 1,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00723_2",
+    "kind": "binding",
+    "original_id": "p00723",
+    "digit": 2,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p03443_1",
+    "kind": "binding",
+    "original_id": "p03443",
+    "digit": 1,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03443_2",
+    "kind": "binding",
+    "original_id": "p03443",
+    "digit": 2,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p02809_1",
+    "kind": "binding",
+    "original_id": "p02809",
+    "digit": 1,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02809_2",
+    "kind": "binding",
+    "original_id": "p02809",
+    "digit": 2,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_x01936_1",
+    "kind": "binding",
+    "original_id": "x01936",
+    "digit": 1,
+    "owner": "Venue",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_x01936_2",
+    "kind": "binding",
+    "original_id": "x01936",
+    "digit": 2,
+    "owner": "Venue",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_p04793_1",
+    "kind": "binding",
+    "original_id": "p04793",
+    "digit": 1,
+    "owner": "weather",
+    "other": "sales_in_weather"
+  },
+  {
+    "id": "binding_p04793_2",
+    "kind": "binding",
+    "original_id": "p04793",
+    "digit": 2,
+    "owner": "weather",
+    "other": "sales_in_weather"
+  },
+  {
+    "id": "binding_x03703_1",
+    "kind": "binding",
+    "original_id": "x03703",
+    "digit": 1,
+    "owner": "institution_details",
+    "other": "state_sector_grads"
+  },
+  {
+    "id": "binding_x03703_2",
+    "kind": "binding",
+    "original_id": "x03703",
+    "digit": 2,
+    "owner": "institution_details",
+    "other": "state_sector_grads"
+  },
+  {
+    "id": "binding_p05225_1",
+    "kind": "binding",
+    "original_id": "p05225",
+    "digit": 1,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_p05225_2",
+    "kind": "binding",
+    "original_id": "p05225",
+    "digit": 2,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_x01511_1",
+    "kind": "binding",
+    "original_id": "x01511",
+    "digit": 1,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_x01511_2",
+    "kind": "binding",
+    "original_id": "x01511",
+    "digit": 2,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_x02385_1",
+    "kind": "binding",
+    "original_id": "x02385",
+    "digit": 1,
+    "owner": "people",
+    "other": "product"
+  },
+  {
+    "id": "binding_x02385_2",
+    "kind": "binding",
+    "original_id": "x02385",
+    "digit": 2,
+    "owner": "people",
+    "other": "product"
+  },
+  {
+    "id": "binding_x01989_1",
+    "kind": "binding",
+    "original_id": "x01989",
+    "digit": 1,
+    "owner": "Team",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_x01989_2",
+    "kind": "binding",
+    "original_id": "x01989",
+    "digit": 2,
+    "owner": "Team",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_p03680_1",
+    "kind": "binding",
+    "original_id": "p03680",
+    "digit": 1,
+    "owner": "book_language",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03680_2",
+    "kind": "binding",
+    "original_id": "p03680",
+    "digit": 2,
+    "owner": "book_language",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03990_1",
+    "kind": "binding",
+    "original_id": "p03990",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03990_2",
+    "kind": "binding",
+    "original_id": "p03990",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x07799_1",
+    "kind": "binding",
+    "original_id": "x07799",
+    "digit": 1,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x07799_2",
+    "kind": "binding",
+    "original_id": "x07799",
+    "digit": 2,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x02209_1",
+    "kind": "binding",
+    "original_id": "x02209",
+    "digit": 1,
+    "owner": "Indicators",
+    "other": "Country"
+  },
+  {
+    "id": "binding_x02209_2",
+    "kind": "binding",
+    "original_id": "x02209",
+    "digit": 2,
+    "owner": "Indicators",
+    "other": "Country"
+  },
+  {
+    "id": "binding_x05207_1",
+    "kind": "binding",
+    "original_id": "x05207",
+    "digit": 1,
+    "owner": "country",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x05207_2",
+    "kind": "binding",
+    "original_id": "x05207",
+    "digit": 2,
+    "owner": "country",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_p00851_1",
+    "kind": "binding",
+    "original_id": "p00851",
+    "digit": 1,
+    "owner": "generalinfo",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p00851_2",
+    "kind": "binding",
+    "original_id": "p00851",
+    "digit": 2,
+    "owner": "generalinfo",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_x02362_1",
+    "kind": "binding",
+    "original_id": "x02362",
+    "digit": 1,
+    "owner": "product",
+    "other": "people"
+  },
+  {
+    "id": "binding_x02362_2",
+    "kind": "binding",
+    "original_id": "x02362",
+    "digit": 2,
+    "owner": "product",
+    "other": "people"
+  },
+  {
+    "id": "binding_x08713_1",
+    "kind": "binding",
+    "original_id": "x08713",
+    "digit": 1,
+    "owner": "FBI_Code",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08713_2",
+    "kind": "binding",
+    "original_id": "x08713",
+    "digit": 2,
+    "owner": "FBI_Code",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x06740_1",
+    "kind": "binding",
+    "original_id": "x06740",
+    "digit": 1,
+    "owner": "part",
+    "other": "customer"
+  },
+  {
+    "id": "binding_x06740_2",
+    "kind": "binding",
+    "original_id": "x06740",
+    "digit": 2,
+    "owner": "part",
+    "other": "customer"
+  },
+  {
+    "id": "binding_x01588_1",
+    "kind": "binding",
+    "original_id": "x01588",
+    "digit": 1,
+    "owner": "orderdetails",
+    "other": "offices"
+  },
+  {
+    "id": "binding_x01588_2",
+    "kind": "binding",
+    "original_id": "x01588",
+    "digit": 2,
+    "owner": "orderdetails",
+    "other": "offices"
+  },
+  {
+    "id": "binding_p04986_1",
+    "kind": "binding",
+    "original_id": "p04986",
+    "digit": 1,
+    "owner": "violations",
+    "other": "businesses"
+  },
+  {
+    "id": "binding_p04986_2",
+    "kind": "binding",
+    "original_id": "p04986",
+    "digit": 2,
+    "owner": "violations",
+    "other": "businesses"
+  },
+  {
+    "id": "binding_x00233_1",
+    "kind": "binding",
+    "original_id": "x00233",
+    "digit": 1,
+    "owner": "titles",
+    "other": "authors"
+  },
+  {
+    "id": "binding_x00233_2",
+    "kind": "binding",
+    "original_id": "x00233",
+    "digit": 2,
+    "owner": "titles",
+    "other": "authors"
+  },
+  {
+    "id": "binding_p02554_1",
+    "kind": "binding",
+    "original_id": "p02554",
+    "digit": 1,
+    "owner": "enrolled",
+    "other": "bool"
+  },
+  {
+    "id": "binding_p02554_2",
+    "kind": "binding",
+    "original_id": "p02554",
+    "digit": 2,
+    "owner": "enrolled",
+    "other": "bool"
+  },
+  {
+    "id": "binding_p02283_1",
+    "kind": "binding",
+    "original_id": "p02283",
+    "digit": 1,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02283_2",
+    "kind": "binding",
+    "original_id": "p02283",
+    "digit": 2,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p04645_1",
+    "kind": "binding",
+    "original_id": "p04645",
+    "digit": 1,
+    "owner": "ranking_criteria",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04645_2",
+    "kind": "binding",
+    "original_id": "p04645",
+    "digit": 2,
+    "owner": "ranking_criteria",
+    "other": "country"
+  },
+  {
+    "id": "binding_x00160_1",
+    "kind": "binding",
+    "original_id": "x00160",
+    "digit": 1,
+    "owner": "movies",
+    "other": "lists"
+  },
+  {
+    "id": "binding_x00160_2",
+    "kind": "binding",
+    "original_id": "x00160",
+    "digit": 2,
+    "owner": "movies",
+    "other": "lists"
+  },
+  {
+    "id": "binding_x01833_1",
+    "kind": "binding",
+    "original_id": "x01833",
+    "digit": 1,
+    "owner": "Team",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_x01833_2",
+    "kind": "binding",
+    "original_id": "x01833",
+    "digit": 2,
+    "owner": "Team",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_p00154_1",
+    "kind": "binding",
+    "original_id": "p00154",
+    "digit": 1,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00154_2",
+    "kind": "binding",
+    "original_id": "p00154",
+    "digit": 2,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00449_1",
+    "kind": "binding",
+    "original_id": "p00449",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00449_2",
+    "kind": "binding",
+    "original_id": "p00449",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_x07734_1",
+    "kind": "binding",
+    "original_id": "x07734",
+    "digit": 1,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x07734_2",
+    "kind": "binding",
+    "original_id": "x07734",
+    "digit": 2,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_p02306_1",
+    "kind": "binding",
+    "original_id": "p02306",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p02306_2",
+    "kind": "binding",
+    "original_id": "p02306",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p00397_1",
+    "kind": "binding",
+    "original_id": "p00397",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00397_2",
+    "kind": "binding",
+    "original_id": "p00397",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p04034_1",
+    "kind": "binding",
+    "original_id": "p04034",
+    "digit": 1,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04034_2",
+    "kind": "binding",
+    "original_id": "p04034",
+    "digit": 2,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x06792_1",
+    "kind": "binding",
+    "original_id": "x06792",
+    "digit": 1,
+    "owner": "part",
+    "other": "customer"
+  },
+  {
+    "id": "binding_x06792_2",
+    "kind": "binding",
+    "original_id": "x06792",
+    "digit": 2,
+    "owner": "part",
+    "other": "customer"
+  },
+  {
+    "id": "binding_p02685_1",
+    "kind": "binding",
+    "original_id": "p02685",
+    "digit": 1,
+    "owner": "characters",
+    "other": "director"
+  },
+  {
+    "id": "binding_p02685_2",
+    "kind": "binding",
+    "original_id": "p02685",
+    "digit": 2,
+    "owner": "characters",
+    "other": "director"
+  },
+  {
+    "id": "binding_x07645_1",
+    "kind": "binding",
+    "original_id": "x07645",
+    "digit": 1,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x07645_2",
+    "kind": "binding",
+    "original_id": "x07645",
+    "digit": 2,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x05340_1",
+    "kind": "binding",
+    "original_id": "x05340",
+    "digit": 1,
+    "owner": "transaction",
+    "other": "customers"
+  },
+  {
+    "id": "binding_x05340_2",
+    "kind": "binding",
+    "original_id": "x05340",
+    "digit": 2,
+    "owner": "transaction",
+    "other": "customers"
+  },
+  {
+    "id": "binding_p04273_1",
+    "kind": "binding",
+    "original_id": "p04273",
+    "digit": 1,
+    "owner": "PlayerInfo",
+    "other": "height_info"
+  },
+  {
+    "id": "binding_p04273_2",
+    "kind": "binding",
+    "original_id": "p04273",
+    "digit": 2,
+    "owner": "PlayerInfo",
+    "other": "height_info"
+  },
+  {
+    "id": "binding_x07616_1",
+    "kind": "binding",
+    "original_id": "x07616",
+    "digit": 1,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_x07616_2",
+    "kind": "binding",
+    "original_id": "x07616",
+    "digit": 2,
+    "owner": "Master",
+    "other": "AwardsMisc"
+  },
+  {
+    "id": "binding_p00720_1",
+    "kind": "binding",
+    "original_id": "p00720",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p00720_2",
+    "kind": "binding",
+    "original_id": "p00720",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p04913_1",
+    "kind": "binding",
+    "original_id": "p04913",
+    "digit": 1,
+    "owner": "Demog",
+    "other": "mailings3"
+  },
+  {
+    "id": "binding_p04913_2",
+    "kind": "binding",
+    "original_id": "p04913",
+    "digit": 2,
+    "owner": "Demog",
+    "other": "mailings3"
+  },
+  {
+    "id": "binding_p04543_1",
+    "kind": "binding",
+    "original_id": "p04543",
+    "digit": 1,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04543_2",
+    "kind": "binding",
+    "original_id": "p04543",
+    "digit": 2,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x01405_1",
+    "kind": "binding",
+    "original_id": "x01405",
+    "digit": 1,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_x01405_2",
+    "kind": "binding",
+    "original_id": "x01405",
+    "digit": 2,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_x01795_1",
+    "kind": "binding",
+    "original_id": "x01795",
+    "digit": 1,
+    "owner": "Player",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_x01795_2",
+    "kind": "binding",
+    "original_id": "x01795",
+    "digit": 2,
+    "owner": "Player",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_x05143_1",
+    "kind": "binding",
+    "original_id": "x05143",
+    "digit": 1,
+    "owner": "congress",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x05143_2",
+    "kind": "binding",
+    "original_id": "x05143",
+    "digit": 2,
+    "owner": "congress",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x03790_1",
+    "kind": "binding",
+    "original_id": "x03790",
+    "digit": 1,
+    "owner": "Users_Compliments",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_x03790_2",
+    "kind": "binding",
+    "original_id": "x03790",
+    "digit": 2,
+    "owner": "Users_Compliments",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_p00035_1",
+    "kind": "binding",
+    "original_id": "p00035",
+    "digit": 1,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00035_2",
+    "kind": "binding",
+    "original_id": "p00035",
+    "digit": 2,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p03021_1",
+    "kind": "binding",
+    "original_id": "p03021",
+    "digit": 1,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p03021_2",
+    "kind": "binding",
+    "original_id": "p03021",
+    "digit": 2,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p00380_1",
+    "kind": "binding",
+    "original_id": "p00380",
+    "digit": 1,
+    "owner": "movie",
+    "other": "actor"
+  },
+  {
+    "id": "binding_p00380_2",
+    "kind": "binding",
+    "original_id": "p00380",
+    "digit": 2,
+    "owner": "movie",
+    "other": "actor"
+  },
+  {
+    "id": "binding_p04902_1",
+    "kind": "binding",
+    "original_id": "p04902",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p04902_2",
+    "kind": "binding",
+    "original_id": "p04902",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p01906_1",
+    "kind": "binding",
+    "original_id": "p01906",
+    "digit": 1,
+    "owner": "region_sales",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01906_2",
+    "kind": "binding",
+    "original_id": "p01906",
+    "digit": 2,
+    "owner": "region_sales",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p04738_1",
+    "kind": "binding",
+    "original_id": "p04738",
+    "digit": 1,
+    "owner": "university_year",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04738_2",
+    "kind": "binding",
+    "original_id": "p04738",
+    "digit": 2,
+    "owner": "university_year",
+    "other": "country"
+  },
+  {
+    "id": "binding_x05358_1",
+    "kind": "binding",
+    "original_id": "x05358",
+    "digit": 1,
+    "owner": "customers",
+    "other": "geolocation"
+  },
+  {
+    "id": "binding_x05358_2",
+    "kind": "binding",
+    "original_id": "x05358",
+    "digit": 2,
+    "owner": "customers",
+    "other": "geolocation"
+  },
+  {
+    "id": "binding_p00386_1",
+    "kind": "binding",
+    "original_id": "p00386",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00386_2",
+    "kind": "binding",
+    "original_id": "p00386",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00094_1",
+    "kind": "binding",
+    "original_id": "p00094",
+    "digit": 1,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00094_2",
+    "kind": "binding",
+    "original_id": "p00094",
+    "digit": 2,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04373_1",
+    "kind": "binding",
+    "original_id": "p04373",
+    "digit": 1,
+    "owner": "PRED_CLASSES",
+    "other": "ATT_CLASSES"
+  },
+  {
+    "id": "binding_p04373_2",
+    "kind": "binding",
+    "original_id": "p04373",
+    "digit": 2,
+    "owner": "PRED_CLASSES",
+    "other": "ATT_CLASSES"
+  },
+  {
+    "id": "binding_p02836_1",
+    "kind": "binding",
+    "original_id": "p02836",
+    "digit": 1,
+    "owner": "event",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02836_2",
+    "kind": "binding",
+    "original_id": "p02836",
+    "digit": 2,
+    "owner": "event",
+    "other": "city"
+  },
+  {
+    "id": "binding_x01368_1",
+    "kind": "binding",
+    "original_id": "x01368",
+    "digit": 1,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_x01368_2",
+    "kind": "binding",
+    "original_id": "x01368",
+    "digit": 2,
+    "owner": "patients",
+    "other": "all_prevalences"
+  },
+  {
+    "id": "binding_p04801_1",
+    "kind": "binding",
+    "original_id": "p04801",
+    "digit": 1,
+    "owner": "weather",
+    "other": "sales_in_weather"
+  },
+  {
+    "id": "binding_p04801_2",
+    "kind": "binding",
+    "original_id": "p04801",
+    "digit": 2,
+    "owner": "weather",
+    "other": "sales_in_weather"
+  },
+  {
+    "id": "binding_x01619_1",
+    "kind": "binding",
+    "original_id": "x01619",
+    "digit": 1,
+    "owner": "employees",
+    "other": "offices"
+  },
+  {
+    "id": "binding_x01619_2",
+    "kind": "binding",
+    "original_id": "x01619",
+    "digit": 2,
+    "owner": "employees",
+    "other": "offices"
+  },
+  {
+    "id": "binding_p02948_1",
+    "kind": "binding",
+    "original_id": "p02948",
+    "digit": 1,
+    "owner": "noc_region",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02948_2",
+    "kind": "binding",
+    "original_id": "p02948",
+    "digit": 2,
+    "owner": "noc_region",
+    "other": "city"
+  },
+  {
+    "id": "binding_x00121_1",
+    "kind": "binding",
+    "original_id": "x00121",
+    "digit": 1,
+    "owner": "movies",
+    "other": "lists"
+  },
+  {
+    "id": "binding_x00121_2",
+    "kind": "binding",
+    "original_id": "x00121",
+    "digit": 2,
+    "owner": "movies",
+    "other": "lists"
+  },
+  {
+    "id": "binding_p04451_1",
+    "kind": "binding",
+    "original_id": "p04451",
+    "digit": 1,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04451_2",
+    "kind": "binding",
+    "original_id": "p04451",
+    "digit": 2,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01996_1",
+    "kind": "binding",
+    "original_id": "p01996",
+    "digit": 1,
+    "owner": "region_sales",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01996_2",
+    "kind": "binding",
+    "original_id": "p01996",
+    "digit": 2,
+    "owner": "region_sales",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p04741_1",
+    "kind": "binding",
+    "original_id": "p04741",
+    "digit": 1,
+    "owner": "university_ranking_year",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04741_2",
+    "kind": "binding",
+    "original_id": "p04741",
+    "digit": 2,
+    "owner": "university_ranking_year",
+    "other": "country"
+  },
+  {
+    "id": "binding_x00062_1",
+    "kind": "binding",
+    "original_id": "x00062",
+    "digit": 1,
+    "owner": "lists",
+    "other": "movies"
+  },
+  {
+    "id": "binding_x00062_2",
+    "kind": "binding",
+    "original_id": "x00062",
+    "digit": 2,
+    "owner": "lists",
+    "other": "movies"
+  },
+  {
+    "id": "binding_p01814_1",
+    "kind": "binding",
+    "original_id": "p01814",
+    "digit": 1,
+    "owner": "resources",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01814_2",
+    "kind": "binding",
+    "original_id": "p01814",
+    "digit": 2,
+    "owner": "resources",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04079_1",
+    "kind": "binding",
+    "original_id": "p04079",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04079_2",
+    "kind": "binding",
+    "original_id": "p04079",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x01158_1",
+    "kind": "binding",
+    "original_id": "x01158",
+    "digit": 1,
+    "owner": "phone_brand_device_model2",
+    "other": "app_all"
+  },
+  {
+    "id": "binding_x01158_2",
+    "kind": "binding",
+    "original_id": "x01158",
+    "digit": 2,
+    "owner": "phone_brand_device_model2",
+    "other": "app_all"
+  },
+  {
+    "id": "binding_p01753_1",
+    "kind": "binding",
+    "original_id": "p01753",
+    "digit": 1,
+    "owner": "donations",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01753_2",
+    "kind": "binding",
+    "original_id": "p01753",
+    "digit": 2,
+    "owner": "donations",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x00223_1",
+    "kind": "binding",
+    "original_id": "x00223",
+    "digit": 1,
+    "owner": "titles",
+    "other": "authors"
+  },
+  {
+    "id": "binding_x00223_2",
+    "kind": "binding",
+    "original_id": "x00223",
+    "digit": 2,
+    "owner": "titles",
+    "other": "authors"
+  },
+  {
+    "id": "binding_x05133_1",
+    "kind": "binding",
+    "original_id": "x05133",
+    "digit": 1,
+    "owner": "state",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x05133_2",
+    "kind": "binding",
+    "original_id": "x05133",
+    "digit": 2,
+    "owner": "state",
+    "other": "CBSA"
+  },
+  {
+    "id": "binding_x02244_1",
+    "kind": "binding",
+    "original_id": "x02244",
+    "digit": 1,
+    "owner": "Indicators",
+    "other": "Country"
+  },
+  {
+    "id": "binding_x02244_2",
+    "kind": "binding",
+    "original_id": "x02244",
+    "digit": 2,
+    "owner": "Indicators",
+    "other": "Country"
+  },
+  {
+    "id": "binding_x05311_1",
+    "kind": "binding",
+    "original_id": "x05311",
+    "digit": 1,
+    "owner": "transaction",
+    "other": "customers"
+  },
+  {
+    "id": "binding_x05311_2",
+    "kind": "binding",
+    "original_id": "x05311",
+    "digit": 2,
+    "owner": "transaction",
+    "other": "customers"
+  },
+  {
+    "id": "binding_p04410_1",
+    "kind": "binding",
+    "original_id": "p04410",
+    "digit": 1,
+    "owner": "IMG_OBJ",
+    "other": "ATT_CLASSES"
+  },
+  {
+    "id": "binding_p04410_2",
+    "kind": "binding",
+    "original_id": "p04410",
+    "digit": 2,
+    "owner": "IMG_OBJ",
+    "other": "ATT_CLASSES"
+  },
+  {
+    "id": "binding_x02220_1",
+    "kind": "binding",
+    "original_id": "x02220",
+    "digit": 1,
+    "owner": "Country",
+    "other": "Series"
+  },
+  {
+    "id": "binding_x02220_2",
+    "kind": "binding",
+    "original_id": "x02220",
+    "digit": 2,
+    "owner": "Country",
+    "other": "Series"
+  },
+  {
+    "id": "binding_x08759_1",
+    "kind": "binding",
+    "original_id": "x08759",
+    "digit": 1,
+    "owner": "Crime",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08759_2",
+    "kind": "binding",
+    "original_id": "x08759",
+    "digit": 2,
+    "owner": "Crime",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x05286_1",
+    "kind": "binding",
+    "original_id": "x05286",
+    "digit": 1,
+    "owner": "customers",
+    "other": "geolocation"
+  },
+  {
+    "id": "binding_x05286_2",
+    "kind": "binding",
+    "original_id": "x05286",
+    "digit": 2,
+    "owner": "customers",
+    "other": "geolocation"
+  },
+  {
+    "id": "binding_p00068_1",
+    "kind": "binding",
+    "original_id": "p00068",
+    "digit": 1,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00068_2",
+    "kind": "binding",
+    "original_id": "p00068",
+    "digit": 2,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_x01816_1",
+    "kind": "binding",
+    "original_id": "x01816",
+    "digit": 1,
+    "owner": "City",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_x01816_2",
+    "kind": "binding",
+    "original_id": "x01816",
+    "digit": 2,
+    "owner": "City",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_p00821_1",
+    "kind": "binding",
+    "original_id": "p00821",
+    "digit": 1,
+    "owner": "geographic",
+    "other": "generalinfo"
+  },
+  {
+    "id": "binding_p00821_2",
+    "kind": "binding",
+    "original_id": "p00821",
+    "digit": 2,
+    "owner": "geographic",
+    "other": "generalinfo"
+  },
+  {
+    "id": "binding_p03946_1",
+    "kind": "binding",
+    "original_id": "p03946",
+    "digit": 1,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03946_2",
+    "kind": "binding",
+    "original_id": "p03946",
+    "digit": 2,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x04129_1",
+    "kind": "binding",
+    "original_id": "x04129",
+    "digit": 1,
+    "owner": "Categories",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_x04129_2",
+    "kind": "binding",
+    "original_id": "x04129",
+    "digit": 2,
+    "owner": "Categories",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_p04429_1",
+    "kind": "binding",
+    "original_id": "p04429",
+    "digit": 1,
+    "owner": "ATT_CLASSES",
+    "other": "OBJ_CLASSES"
+  },
+  {
+    "id": "binding_p04429_2",
+    "kind": "binding",
+    "original_id": "p04429",
+    "digit": 2,
+    "owner": "ATT_CLASSES",
+    "other": "OBJ_CLASSES"
+  },
+  {
+    "id": "binding_p04844_1",
+    "kind": "binding",
+    "original_id": "p04844",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p04844_2",
+    "kind": "binding",
+    "original_id": "p04844",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p01473_1",
+    "kind": "binding",
+    "original_id": "p01473",
+    "digit": 1,
+    "owner": "players",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p01473_2",
+    "kind": "binding",
+    "original_id": "p01473",
+    "digit": 2,
+    "owner": "players",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p04396_1",
+    "kind": "binding",
+    "original_id": "p04396",
+    "digit": 1,
+    "owner": "OBJ_CLASSES",
+    "other": "ATT_CLASSES"
+  },
+  {
+    "id": "binding_p04396_2",
+    "kind": "binding",
+    "original_id": "p04396",
+    "digit": 2,
+    "owner": "OBJ_CLASSES",
+    "other": "ATT_CLASSES"
+  },
+  {
+    "id": "binding_x03890_1",
+    "kind": "binding",
+    "original_id": "x03890",
+    "digit": 1,
+    "owner": "Business_Hours",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_x03890_2",
+    "kind": "binding",
+    "original_id": "x03890",
+    "digit": 2,
+    "owner": "Business_Hours",
+    "other": "Attributes"
+  },
+  {
+    "id": "binding_p03979_1",
+    "kind": "binding",
+    "original_id": "p03979",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03979_2",
+    "kind": "binding",
+    "original_id": "p03979",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_x02173_1",
+    "kind": "binding",
+    "original_id": "x02173",
+    "digit": 1,
+    "owner": "Country",
+    "other": "Series"
+  },
+  {
+    "id": "binding_x02173_2",
+    "kind": "binding",
+    "original_id": "x02173",
+    "digit": 2,
+    "owner": "Country",
+    "other": "Series"
+  },
+  {
+    "id": "binding_x08635_1",
+    "kind": "binding",
+    "original_id": "x08635",
+    "digit": 1,
+    "owner": "FBI_Code",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08635_2",
+    "kind": "binding",
+    "original_id": "x08635",
+    "digit": 2,
+    "owner": "FBI_Code",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08772_1",
+    "kind": "binding",
+    "original_id": "x08772",
+    "digit": 1,
+    "owner": "IUCR",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08772_2",
+    "kind": "binding",
+    "original_id": "x08772",
+    "digit": 2,
+    "owner": "IUCR",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08616_1",
+    "kind": "binding",
+    "original_id": "x08616",
+    "digit": 1,
+    "owner": "Neighborhood",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_x08616_2",
+    "kind": "binding",
+    "original_id": "x08616",
+    "digit": 2,
+    "owner": "Neighborhood",
+    "other": "Community_Area"
+  },
+  {
+    "id": "binding_p02242_1",
+    "kind": "binding",
+    "original_id": "p02242",
+    "digit": 1,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02242_2",
+    "kind": "binding",
+    "original_id": "p02242",
+    "digit": 2,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p05146_1",
+    "kind": "binding",
+    "original_id": "p05146",
+    "digit": 1,
+    "owner": "station",
+    "other": "status"
+  },
+  {
+    "id": "binding_p05146_2",
+    "kind": "binding",
+    "original_id": "p05146",
+    "digit": 2,
+    "owner": "station",
+    "other": "status"
+  },
+  {
+    "id": "binding_x01937_1",
+    "kind": "binding",
+    "original_id": "x01937",
+    "digit": 1,
+    "owner": "Team",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_x01937_2",
+    "kind": "binding",
+    "original_id": "x01937",
+    "digit": 2,
+    "owner": "Team",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_x02027_1",
+    "kind": "binding",
+    "original_id": "x02027",
+    "digit": 1,
+    "owner": "Match",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_x02027_2",
+    "kind": "binding",
+    "original_id": "x02027",
+    "digit": 2,
+    "owner": "Match",
+    "other": "Batting_Style"
+  },
+  {
+    "id": "binding_p00390_1",
+    "kind": "binding",
+    "original_id": "p00390",
+    "digit": 1,
+    "owner": "location",
+    "other": "user"
+  },
+  {
+    "id": "binding_p00390_2",
+    "kind": "binding",
+    "original_id": "p00390",
+    "digit": 2,
+    "owner": "location",
+    "other": "user"
+  },
+  {
+    "id": "binding_p04227_1",
+    "kind": "binding",
+    "original_id": "p04227",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04227_2",
+    "kind": "binding",
+    "original_id": "p04227",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01185_1",
+    "kind": "binding",
+    "original_id": "p01185",
+    "digit": 1,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p01185_2",
+    "kind": "binding",
+    "original_id": "p01185",
+    "digit": 2,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p00905_1",
+    "kind": "binding",
+    "original_id": "p00905",
+    "digit": 1,
+    "owner": "tags",
+    "other": "torrents"
+  },
+  {
+    "id": "binding_p00905_2",
+    "kind": "binding",
+    "original_id": "p00905",
+    "digit": 2,
+    "owner": "tags",
+    "other": "torrents"
+  },
+  {
+    "id": "binding_p02009_1",
+    "kind": "binding",
+    "original_id": "p02009",
+    "digit": 1,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p02009_2",
+    "kind": "binding",
+    "original_id": "p02009",
+    "digit": 2,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p03018_1",
+    "kind": "binding",
+    "original_id": "p03018",
+    "digit": 1,
+    "owner": "Sales",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p03018_2",
+    "kind": "binding",
+    "original_id": "p03018",
+    "digit": 2,
+    "owner": "Sales",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p02238_1",
+    "kind": "binding",
+    "original_id": "p02238",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p02238_2",
+    "kind": "binding",
+    "original_id": "p02238",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p03121_1",
+    "kind": "binding",
+    "original_id": "p03121",
+    "digit": 1,
+    "owner": "Menu",
+    "other": "Dish"
+  },
+  {
+    "id": "binding_p03121_2",
+    "kind": "binding",
+    "original_id": "p03121",
+    "digit": 2,
+    "owner": "Menu",
+    "other": "Dish"
+  },
+  {
+    "id": "binding_p02785_1",
+    "kind": "binding",
+    "original_id": "p02785",
+    "digit": 1,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02785_2",
+    "kind": "binding",
+    "original_id": "p02785",
+    "digit": 2,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p00459_1",
+    "kind": "binding",
+    "original_id": "p00459",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00459_2",
+    "kind": "binding",
+    "original_id": "p00459",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p03937_1",
+    "kind": "binding",
+    "original_id": "p03937",
+    "digit": 1,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03937_2",
+    "kind": "binding",
+    "original_id": "p03937",
+    "digit": 2,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03459_1",
+    "kind": "binding",
+    "original_id": "p03459",
+    "digit": 1,
+    "owner": "Airlines",
+    "other": "Airports"
+  },
+  {
+    "id": "binding_p03459_2",
+    "kind": "binding",
+    "original_id": "p03459",
+    "digit": 2,
+    "owner": "Airlines",
+    "other": "Airports"
+  },
+  {
+    "id": "binding_p05092_1",
+    "kind": "binding",
+    "original_id": "p05092",
+    "digit": 1,
+    "owner": "position",
+    "other": "location"
+  },
+  {
+    "id": "binding_p05092_2",
+    "kind": "binding",
+    "original_id": "p05092",
+    "digit": 2,
+    "owner": "position",
+    "other": "location"
+  },
+  {
+    "id": "binding_p01883_1",
+    "kind": "binding",
+    "original_id": "p01883",
+    "digit": 1,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01883_2",
+    "kind": "binding",
+    "original_id": "p01883",
+    "digit": 2,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01846_1",
+    "kind": "binding",
+    "original_id": "p01846",
+    "digit": 1,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01846_2",
+    "kind": "binding",
+    "original_id": "p01846",
+    "digit": 2,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p02752_1",
+    "kind": "binding",
+    "original_id": "p02752",
+    "digit": 1,
+    "owner": "characters",
+    "other": "director"
+  },
+  {
+    "id": "binding_p02752_2",
+    "kind": "binding",
+    "original_id": "p02752",
+    "digit": 2,
+    "owner": "characters",
+    "other": "director"
+  },
+  {
+    "id": "binding_p01430_1",
+    "kind": "binding",
+    "original_id": "p01430",
+    "digit": 1,
+    "owner": "players_teams",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p01430_2",
+    "kind": "binding",
+    "original_id": "p01430",
+    "digit": 2,
+    "owner": "players_teams",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p00379_1",
+    "kind": "binding",
+    "original_id": "p00379",
+    "digit": 1,
+    "owner": "movie",
+    "other": "actor"
+  },
+  {
+    "id": "binding_p00379_2",
+    "kind": "binding",
+    "original_id": "p00379",
+    "digit": 2,
+    "owner": "movie",
+    "other": "actor"
+  },
+  {
+    "id": "binding_p00483_1",
+    "kind": "binding",
+    "original_id": "p00483",
+    "digit": 1,
+    "owner": "prof",
+    "other": "course"
+  },
+  {
+    "id": "binding_p00483_2",
+    "kind": "binding",
+    "original_id": "p00483",
+    "digit": 2,
+    "owner": "prof",
+    "other": "course"
+  },
+  {
+    "id": "binding_p03932_1",
+    "kind": "binding",
+    "original_id": "p03932",
+    "digit": 1,
+    "owner": "Suppliers",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03932_2",
+    "kind": "binding",
+    "original_id": "p03932",
+    "digit": 2,
+    "owner": "Suppliers",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p02939_1",
+    "kind": "binding",
+    "original_id": "p02939",
+    "digit": 1,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02939_2",
+    "kind": "binding",
+    "original_id": "p02939",
+    "digit": 2,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02738_1",
+    "kind": "binding",
+    "original_id": "p02738",
+    "digit": 1,
+    "owner": "director",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p02738_2",
+    "kind": "binding",
+    "original_id": "p02738",
+    "digit": 2,
+    "owner": "director",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p00059_1",
+    "kind": "binding",
+    "original_id": "p00059",
+    "digit": 1,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00059_2",
+    "kind": "binding",
+    "original_id": "p00059",
+    "digit": 2,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p01361_1",
+    "kind": "binding",
+    "original_id": "p01361",
+    "digit": 1,
+    "owner": "players",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p01361_2",
+    "kind": "binding",
+    "original_id": "p01361",
+    "digit": 2,
+    "owner": "players",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p01890_1",
+    "kind": "binding",
+    "original_id": "p01890",
+    "digit": 1,
+    "owner": "platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01890_2",
+    "kind": "binding",
+    "original_id": "p01890",
+    "digit": 2,
+    "owner": "platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p04750_1",
+    "kind": "binding",
+    "original_id": "p04750",
+    "digit": 1,
+    "owner": "country",
+    "other": "ranking_system"
+  },
+  {
+    "id": "binding_p04750_2",
+    "kind": "binding",
+    "original_id": "p04750",
+    "digit": 2,
+    "owner": "country",
+    "other": "ranking_system"
+  },
+  {
+    "id": "binding_p01933_1",
+    "kind": "binding",
+    "original_id": "p01933",
+    "digit": 1,
+    "owner": "genre",
+    "other": "game"
+  },
+  {
+    "id": "binding_p01933_2",
+    "kind": "binding",
+    "original_id": "p01933",
+    "digit": 2,
+    "owner": "genre",
+    "other": "game"
+  },
+  {
+    "id": "binding_p04171_1",
+    "kind": "binding",
+    "original_id": "p04171",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04171_2",
+    "kind": "binding",
+    "original_id": "p04171",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04867_1",
+    "kind": "binding",
+    "original_id": "p04867",
+    "digit": 1,
+    "owner": "Demog",
+    "other": "mailings3"
+  },
+  {
+    "id": "binding_p04867_2",
+    "kind": "binding",
+    "original_id": "p04867",
+    "digit": 2,
+    "owner": "Demog",
+    "other": "mailings3"
+  },
+  {
+    "id": "binding_p02688_1",
+    "kind": "binding",
+    "original_id": "p02688",
+    "digit": 1,
+    "owner": "director",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p02688_2",
+    "kind": "binding",
+    "original_id": "p02688",
+    "digit": 2,
+    "owner": "director",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p02382_1",
+    "kind": "binding",
+    "original_id": "p02382",
+    "digit": 1,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02382_2",
+    "kind": "binding",
+    "original_id": "p02382",
+    "digit": 2,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p03764_1",
+    "kind": "binding",
+    "original_id": "p03764",
+    "digit": 1,
+    "owner": "employee",
+    "other": "establishment"
+  },
+  {
+    "id": "binding_p03764_2",
+    "kind": "binding",
+    "original_id": "p03764",
+    "digit": 2,
+    "owner": "employee",
+    "other": "establishment"
+  },
+  {
+    "id": "binding_p02421_1",
+    "kind": "binding",
+    "original_id": "p02421",
+    "digit": 1,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02421_2",
+    "kind": "binding",
+    "original_id": "p02421",
+    "digit": 2,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p04107_1",
+    "kind": "binding",
+    "original_id": "p04107",
+    "digit": 1,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04107_2",
+    "kind": "binding",
+    "original_id": "p04107",
+    "digit": 2,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00149_1",
+    "kind": "binding",
+    "original_id": "p00149",
+    "digit": 1,
+    "owner": "movie_cast",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00149_2",
+    "kind": "binding",
+    "original_id": "p00149",
+    "digit": 2,
+    "owner": "movie_cast",
+    "other": "country"
+  },
+  {
+    "id": "binding_p03944_1",
+    "kind": "binding",
+    "original_id": "p03944",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03944_2",
+    "kind": "binding",
+    "original_id": "p03944",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04875_1",
+    "kind": "binding",
+    "original_id": "p04875",
+    "digit": 1,
+    "owner": "Demog",
+    "other": "mailings3"
+  },
+  {
+    "id": "binding_p04875_2",
+    "kind": "binding",
+    "original_id": "p04875",
+    "digit": 2,
+    "owner": "Demog",
+    "other": "mailings3"
+  },
+  {
+    "id": "binding_p02796_1",
+    "kind": "binding",
+    "original_id": "p02796",
+    "digit": 1,
+    "owner": "city",
+    "other": "games"
+  },
+  {
+    "id": "binding_p02796_2",
+    "kind": "binding",
+    "original_id": "p02796",
+    "digit": 2,
+    "owner": "city",
+    "other": "games"
+  },
+  {
+    "id": "binding_p03602_1",
+    "kind": "binding",
+    "original_id": "p03602",
+    "digit": 1,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03602_2",
+    "kind": "binding",
+    "original_id": "p03602",
+    "digit": 2,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03518_1",
+    "kind": "binding",
+    "original_id": "p03518",
+    "digit": 1,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03518_2",
+    "kind": "binding",
+    "original_id": "p03518",
+    "digit": 2,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p00032_1",
+    "kind": "binding",
+    "original_id": "p00032",
+    "digit": 1,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00032_2",
+    "kind": "binding",
+    "original_id": "p00032",
+    "digit": 2,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p02188_1",
+    "kind": "binding",
+    "original_id": "p02188",
+    "digit": 1,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02188_2",
+    "kind": "binding",
+    "original_id": "p02188",
+    "digit": 2,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p03621_1",
+    "kind": "binding",
+    "original_id": "p03621",
+    "digit": 1,
+    "owner": "author",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03621_2",
+    "kind": "binding",
+    "original_id": "p03621",
+    "digit": 2,
+    "owner": "author",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03415_1",
+    "kind": "binding",
+    "original_id": "p03415",
+    "digit": 1,
+    "owner": "Airlines",
+    "other": "Airports"
+  },
+  {
+    "id": "binding_p03415_2",
+    "kind": "binding",
+    "original_id": "p03415",
+    "digit": 2,
+    "owner": "Airlines",
+    "other": "Airports"
+  },
+  {
+    "id": "binding_p02874_1",
+    "kind": "binding",
+    "original_id": "p02874",
+    "digit": 1,
+    "owner": "event",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02874_2",
+    "kind": "binding",
+    "original_id": "p02874",
+    "digit": 2,
+    "owner": "event",
+    "other": "city"
+  },
+  {
+    "id": "binding_p00624_1",
+    "kind": "binding",
+    "original_id": "p00624",
+    "digit": 1,
+    "owner": "person",
+    "other": "course"
+  },
+  {
+    "id": "binding_p00624_2",
+    "kind": "binding",
+    "original_id": "p00624",
+    "digit": 2,
+    "owner": "person",
+    "other": "course"
+  },
+  {
+    "id": "binding_p02929_1",
+    "kind": "binding",
+    "original_id": "p02929",
+    "digit": 1,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02929_2",
+    "kind": "binding",
+    "original_id": "p02929",
+    "digit": 2,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p01902_1",
+    "kind": "binding",
+    "original_id": "p01902",
+    "digit": 1,
+    "owner": "publisher",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01902_2",
+    "kind": "binding",
+    "original_id": "p01902",
+    "digit": 2,
+    "owner": "publisher",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p00707_1",
+    "kind": "binding",
+    "original_id": "p00707",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p00707_2",
+    "kind": "binding",
+    "original_id": "p00707",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p02760_1",
+    "kind": "binding",
+    "original_id": "p02760",
+    "digit": 1,
+    "owner": "movies_total_gross",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p02760_2",
+    "kind": "binding",
+    "original_id": "p02760",
+    "digit": 2,
+    "owner": "movies_total_gross",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p00751_1",
+    "kind": "binding",
+    "original_id": "p00751",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p00751_2",
+    "kind": "binding",
+    "original_id": "p00751",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p03136_1",
+    "kind": "binding",
+    "original_id": "p03136",
+    "digit": 1,
+    "owner": "MenuItem",
+    "other": "Dish"
+  },
+  {
+    "id": "binding_p03136_2",
+    "kind": "binding",
+    "original_id": "p03136",
+    "digit": 2,
+    "owner": "MenuItem",
+    "other": "Dish"
+  },
+  {
+    "id": "binding_p04049_1",
+    "kind": "binding",
+    "original_id": "p04049",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04049_2",
+    "kind": "binding",
+    "original_id": "p04049",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04644_1",
+    "kind": "binding",
+    "original_id": "p04644",
+    "digit": 1,
+    "owner": "university",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04644_2",
+    "kind": "binding",
+    "original_id": "p04644",
+    "digit": 2,
+    "owner": "university",
+    "other": "country"
+  },
+  {
+    "id": "binding_p03087_1",
+    "kind": "binding",
+    "original_id": "p03087",
+    "digit": 1,
+    "owner": "Menu",
+    "other": "Dish"
+  },
+  {
+    "id": "binding_p03087_2",
+    "kind": "binding",
+    "original_id": "p03087",
+    "digit": 2,
+    "owner": "Menu",
+    "other": "Dish"
+  },
+  {
+    "id": "binding_p01899_1",
+    "kind": "binding",
+    "original_id": "p01899",
+    "digit": 1,
+    "owner": "platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01899_2",
+    "kind": "binding",
+    "original_id": "p01899",
+    "digit": 2,
+    "owner": "platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p00435_1",
+    "kind": "binding",
+    "original_id": "p00435",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00435_2",
+    "kind": "binding",
+    "original_id": "p00435",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p05148_1",
+    "kind": "binding",
+    "original_id": "p05148",
+    "digit": 1,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_p05148_2",
+    "kind": "binding",
+    "original_id": "p05148",
+    "digit": 2,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_p00222_1",
+    "kind": "binding",
+    "original_id": "p00222",
+    "digit": 1,
+    "owner": "Solution",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00222_2",
+    "kind": "binding",
+    "original_id": "p00222",
+    "digit": 2,
+    "owner": "Solution",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04441_1",
+    "kind": "binding",
+    "original_id": "p04441",
+    "digit": 1,
+    "owner": "PRED_CLASSES",
+    "other": "ATT_CLASSES"
+  },
+  {
+    "id": "binding_p04441_2",
+    "kind": "binding",
+    "original_id": "p04441",
+    "digit": 2,
+    "owner": "PRED_CLASSES",
+    "other": "ATT_CLASSES"
+  },
+  {
+    "id": "binding_p03644_1",
+    "kind": "binding",
+    "original_id": "p03644",
+    "digit": 1,
+    "owner": "book_language",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03644_2",
+    "kind": "binding",
+    "original_id": "p03644",
+    "digit": 2,
+    "owner": "book_language",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p02755_1",
+    "kind": "binding",
+    "original_id": "p02755",
+    "digit": 1,
+    "owner": "director",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p02755_2",
+    "kind": "binding",
+    "original_id": "p02755",
+    "digit": 2,
+    "owner": "director",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p02012_1",
+    "kind": "binding",
+    "original_id": "p02012",
+    "digit": 1,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p02012_2",
+    "kind": "binding",
+    "original_id": "p02012",
+    "digit": 2,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p02026_1",
+    "kind": "binding",
+    "original_id": "p02026",
+    "digit": 1,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p02026_2",
+    "kind": "binding",
+    "original_id": "p02026",
+    "digit": 2,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p03653_1",
+    "kind": "binding",
+    "original_id": "p03653",
+    "digit": 1,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03653_2",
+    "kind": "binding",
+    "original_id": "p03653",
+    "digit": 2,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p00850_1",
+    "kind": "binding",
+    "original_id": "p00850",
+    "digit": 1,
+    "owner": "generalinfo",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p00850_2",
+    "kind": "binding",
+    "original_id": "p00850",
+    "digit": 2,
+    "owner": "generalinfo",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p00145_1",
+    "kind": "binding",
+    "original_id": "p00145",
+    "digit": 1,
+    "owner": "country",
+    "other": "department"
+  },
+  {
+    "id": "binding_p00145_2",
+    "kind": "binding",
+    "original_id": "p00145",
+    "digit": 2,
+    "owner": "country",
+    "other": "department"
+  },
+  {
+    "id": "binding_p00699_1",
+    "kind": "binding",
+    "original_id": "p00699",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p00699_2",
+    "kind": "binding",
+    "original_id": "p00699",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p05131_1",
+    "kind": "binding",
+    "original_id": "p05131",
+    "digit": 1,
+    "owner": "status",
+    "other": "station"
+  },
+  {
+    "id": "binding_p05131_2",
+    "kind": "binding",
+    "original_id": "p05131",
+    "digit": 2,
+    "owner": "status",
+    "other": "station"
+  },
+  {
+    "id": "binding_p04684_1",
+    "kind": "binding",
+    "original_id": "p04684",
+    "digit": 1,
+    "owner": "university_year",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04684_2",
+    "kind": "binding",
+    "original_id": "p04684",
+    "digit": 2,
+    "owner": "university_year",
+    "other": "country"
+  },
+  {
+    "id": "binding_p02350_1",
+    "kind": "binding",
+    "original_id": "p02350",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p02350_2",
+    "kind": "binding",
+    "original_id": "p02350",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p03682_1",
+    "kind": "binding",
+    "original_id": "p03682",
+    "digit": 1,
+    "owner": "book_language",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03682_2",
+    "kind": "binding",
+    "original_id": "p03682",
+    "digit": 2,
+    "owner": "book_language",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03679_1",
+    "kind": "binding",
+    "original_id": "p03679",
+    "digit": 1,
+    "owner": "author",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03679_2",
+    "kind": "binding",
+    "original_id": "p03679",
+    "digit": 2,
+    "owner": "author",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p01204_1",
+    "kind": "binding",
+    "original_id": "p01204",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Products"
+  },
+  {
+    "id": "binding_p01204_2",
+    "kind": "binding",
+    "original_id": "p01204",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Products"
+  },
+  {
+    "id": "binding_p04056_1",
+    "kind": "binding",
+    "original_id": "p04056",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04056_2",
+    "kind": "binding",
+    "original_id": "p04056",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p02097_1",
+    "kind": "binding",
+    "original_id": "p02097",
+    "digit": 1,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02097_2",
+    "kind": "binding",
+    "original_id": "p02097",
+    "digit": 2,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02323_1",
+    "kind": "binding",
+    "original_id": "p02323",
+    "digit": 1,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02323_2",
+    "kind": "binding",
+    "original_id": "p02323",
+    "digit": 2,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p03507_1",
+    "kind": "binding",
+    "original_id": "p03507",
+    "digit": 1,
+    "owner": "publisher",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03507_2",
+    "kind": "binding",
+    "original_id": "p03507",
+    "digit": 2,
+    "owner": "publisher",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p02769_1",
+    "kind": "binding",
+    "original_id": "p02769",
+    "digit": 1,
+    "owner": "revenue",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p02769_2",
+    "kind": "binding",
+    "original_id": "p02769",
+    "digit": 2,
+    "owner": "revenue",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p03403_1",
+    "kind": "binding",
+    "original_id": "p03403",
+    "digit": 1,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03403_2",
+    "kind": "binding",
+    "original_id": "p03403",
+    "digit": 2,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p01956_1",
+    "kind": "binding",
+    "original_id": "p01956",
+    "digit": 1,
+    "owner": "region_sales",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01956_2",
+    "kind": "binding",
+    "original_id": "p01956",
+    "digit": 2,
+    "owner": "region_sales",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p03411_1",
+    "kind": "binding",
+    "original_id": "p03411",
+    "digit": 1,
+    "owner": "Airlines",
+    "other": "Airports"
+  },
+  {
+    "id": "binding_p03411_2",
+    "kind": "binding",
+    "original_id": "p03411",
+    "digit": 2,
+    "owner": "Airlines",
+    "other": "Airports"
+  },
+  {
+    "id": "binding_p03639_1",
+    "kind": "binding",
+    "original_id": "p03639",
+    "digit": 1,
+    "owner": "customer",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03639_2",
+    "kind": "binding",
+    "original_id": "p03639",
+    "digit": 2,
+    "owner": "customer",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p00522_1",
+    "kind": "binding",
+    "original_id": "p00522",
+    "digit": 1,
+    "owner": "student",
+    "other": "course"
+  },
+  {
+    "id": "binding_p00522_2",
+    "kind": "binding",
+    "original_id": "p00522",
+    "digit": 2,
+    "owner": "student",
+    "other": "course"
+  },
+  {
+    "id": "binding_p05034_1",
+    "kind": "binding",
+    "original_id": "p05034",
+    "digit": 1,
+    "owner": "Ingredient",
+    "other": "Recipe"
+  },
+  {
+    "id": "binding_p05034_2",
+    "kind": "binding",
+    "original_id": "p05034",
+    "digit": 2,
+    "owner": "Ingredient",
+    "other": "Recipe"
+  },
+  {
+    "id": "binding_p04536_1",
+    "kind": "binding",
+    "original_id": "p04536",
+    "digit": 1,
+    "owner": "Country",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04536_2",
+    "kind": "binding",
+    "original_id": "p04536",
+    "digit": 2,
+    "owner": "Country",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p02125_1",
+    "kind": "binding",
+    "original_id": "p02125",
+    "digit": 1,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02125_2",
+    "kind": "binding",
+    "original_id": "p02125",
+    "digit": 2,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p04887_1",
+    "kind": "binding",
+    "original_id": "p04887",
+    "digit": 1,
+    "owner": "Demog",
+    "other": "mailings3"
+  },
+  {
+    "id": "binding_p04887_2",
+    "kind": "binding",
+    "original_id": "p04887",
+    "digit": 2,
+    "owner": "Demog",
+    "other": "mailings3"
+  },
+  {
+    "id": "binding_p00155_1",
+    "kind": "binding",
+    "original_id": "p00155",
+    "digit": 1,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00155_2",
+    "kind": "binding",
+    "original_id": "p00155",
+    "digit": 2,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04999_1",
+    "kind": "binding",
+    "original_id": "p04999",
+    "digit": 1,
+    "owner": "Nutrition",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p04999_2",
+    "kind": "binding",
+    "original_id": "p04999",
+    "digit": 2,
+    "owner": "Nutrition",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p03186_1",
+    "kind": "binding",
+    "original_id": "p03186",
+    "digit": 1,
+    "owner": "truck",
+    "other": "city"
+  },
+  {
+    "id": "binding_p03186_2",
+    "kind": "binding",
+    "original_id": "p03186",
+    "digit": 2,
+    "owner": "truck",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02881_1",
+    "kind": "binding",
+    "original_id": "p02881",
+    "digit": 1,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02881_2",
+    "kind": "binding",
+    "original_id": "p02881",
+    "digit": 2,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p05014_1",
+    "kind": "binding",
+    "original_id": "p05014",
+    "digit": 1,
+    "owner": "Recipe",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p05014_2",
+    "kind": "binding",
+    "original_id": "p05014",
+    "digit": 2,
+    "owner": "Recipe",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p03810_1",
+    "kind": "binding",
+    "original_id": "p03810",
+    "digit": 1,
+    "owner": "establishment",
+    "other": "employee"
+  },
+  {
+    "id": "binding_p03810_2",
+    "kind": "binding",
+    "original_id": "p03810",
+    "digit": 2,
+    "owner": "establishment",
+    "other": "employee"
+  },
+  {
+    "id": "binding_p01952_1",
+    "kind": "binding",
+    "original_id": "p01952",
+    "digit": 1,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01952_2",
+    "kind": "binding",
+    "original_id": "p01952",
+    "digit": 2,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p00610_1",
+    "kind": "binding",
+    "original_id": "p00610",
+    "digit": 1,
+    "owner": "person",
+    "other": "course"
+  },
+  {
+    "id": "binding_p00610_2",
+    "kind": "binding",
+    "original_id": "p00610",
+    "digit": 2,
+    "owner": "person",
+    "other": "course"
+  },
+  {
+    "id": "binding_p01631_1",
+    "kind": "binding",
+    "original_id": "p01631",
+    "digit": 1,
+    "owner": "data",
+    "other": "country"
+  },
+  {
+    "id": "binding_p01631_2",
+    "kind": "binding",
+    "original_id": "p01631",
+    "digit": 2,
+    "owner": "data",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00810_1",
+    "kind": "binding",
+    "original_id": "p00810",
+    "digit": 1,
+    "owner": "location",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p00810_2",
+    "kind": "binding",
+    "original_id": "p00810",
+    "digit": 2,
+    "owner": "location",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p02455_1",
+    "kind": "binding",
+    "original_id": "p02455",
+    "digit": 1,
+    "owner": "enrolled",
+    "other": "bool"
+  },
+  {
+    "id": "binding_p02455_2",
+    "kind": "binding",
+    "original_id": "p02455",
+    "digit": 2,
+    "owner": "enrolled",
+    "other": "bool"
+  },
+  {
+    "id": "binding_p02258_1",
+    "kind": "binding",
+    "original_id": "p02258",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p02258_2",
+    "kind": "binding",
+    "original_id": "p02258",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p03658_1",
+    "kind": "binding",
+    "original_id": "p03658",
+    "digit": 1,
+    "owner": "country",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03658_2",
+    "kind": "binding",
+    "original_id": "p03658",
+    "digit": 2,
+    "owner": "country",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p00836_1",
+    "kind": "binding",
+    "original_id": "p00836",
+    "digit": 1,
+    "owner": "generalinfo",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p00836_2",
+    "kind": "binding",
+    "original_id": "p00836",
+    "digit": 2,
+    "owner": "generalinfo",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p03652_1",
+    "kind": "binding",
+    "original_id": "p03652",
+    "digit": 1,
+    "owner": "book_language",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03652_2",
+    "kind": "binding",
+    "original_id": "p03652",
+    "digit": 2,
+    "owner": "book_language",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p00105_1",
+    "kind": "binding",
+    "original_id": "p00105",
+    "digit": 1,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00105_2",
+    "kind": "binding",
+    "original_id": "p00105",
+    "digit": 2,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00529_1",
+    "kind": "binding",
+    "original_id": "p00529",
+    "digit": 1,
+    "owner": "course",
+    "other": "prof"
+  },
+  {
+    "id": "binding_p00529_2",
+    "kind": "binding",
+    "original_id": "p00529",
+    "digit": 2,
+    "owner": "course",
+    "other": "prof"
+  },
+  {
+    "id": "binding_p00392_1",
+    "kind": "binding",
+    "original_id": "p00392",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00392_2",
+    "kind": "binding",
+    "original_id": "p00392",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p04990_1",
+    "kind": "binding",
+    "original_id": "p04990",
+    "digit": 1,
+    "owner": "businesses",
+    "other": "inspections"
+  },
+  {
+    "id": "binding_p04990_2",
+    "kind": "binding",
+    "original_id": "p04990",
+    "digit": 2,
+    "owner": "businesses",
+    "other": "inspections"
+  },
+  {
+    "id": "binding_p05167_1",
+    "kind": "binding",
+    "original_id": "p05167",
+    "digit": 1,
+    "owner": "weather",
+    "other": "station"
+  },
+  {
+    "id": "binding_p05167_2",
+    "kind": "binding",
+    "original_id": "p05167",
+    "digit": 2,
+    "owner": "weather",
+    "other": "station"
+  },
+  {
+    "id": "binding_p01030_1",
+    "kind": "binding",
+    "original_id": "p01030",
+    "digit": 1,
+    "owner": "incidents",
+    "other": "officers"
+  },
+  {
+    "id": "binding_p01030_2",
+    "kind": "binding",
+    "original_id": "p01030",
+    "digit": 2,
+    "owner": "incidents",
+    "other": "officers"
+  },
+  {
+    "id": "binding_p00657_1",
+    "kind": "binding",
+    "original_id": "p00657",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p00657_2",
+    "kind": "binding",
+    "original_id": "p00657",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p01586_1",
+    "kind": "binding",
+    "original_id": "p01586",
+    "digit": 1,
+    "owner": "characters",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p01586_2",
+    "kind": "binding",
+    "original_id": "p01586",
+    "digit": 2,
+    "owner": "characters",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p01750_1",
+    "kind": "binding",
+    "original_id": "p01750",
+    "digit": 1,
+    "owner": "projects",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01750_2",
+    "kind": "binding",
+    "original_id": "p01750",
+    "digit": 2,
+    "owner": "projects",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00663_1",
+    "kind": "binding",
+    "original_id": "p00663",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p00663_2",
+    "kind": "binding",
+    "original_id": "p00663",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Keyword"
+  },
+  {
+    "id": "binding_p02623_1",
+    "kind": "binding",
+    "original_id": "p02623",
+    "digit": 1,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p02623_2",
+    "kind": "binding",
+    "original_id": "p02623",
+    "digit": 2,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p02829_1",
+    "kind": "binding",
+    "original_id": "p02829",
+    "digit": 1,
+    "owner": "sport",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02829_2",
+    "kind": "binding",
+    "original_id": "p02829",
+    "digit": 2,
+    "owner": "sport",
+    "other": "city"
+  },
+  {
+    "id": "binding_p01859_1",
+    "kind": "binding",
+    "original_id": "p01859",
+    "digit": 1,
+    "owner": "publisher",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01859_2",
+    "kind": "binding",
+    "original_id": "p01859",
+    "digit": 2,
+    "owner": "publisher",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p00410_1",
+    "kind": "binding",
+    "original_id": "p00410",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00410_2",
+    "kind": "binding",
+    "original_id": "p00410",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p03206_1",
+    "kind": "binding",
+    "original_id": "p03206",
+    "digit": 1,
+    "owner": "customer",
+    "other": "city"
+  },
+  {
+    "id": "binding_p03206_2",
+    "kind": "binding",
+    "original_id": "p03206",
+    "digit": 2,
+    "owner": "customer",
+    "other": "city"
+  },
+  {
+    "id": "binding_p01967_1",
+    "kind": "binding",
+    "original_id": "p01967",
+    "digit": 1,
+    "owner": "platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01967_2",
+    "kind": "binding",
+    "original_id": "p01967",
+    "digit": 2,
+    "owner": "platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01247_1",
+    "kind": "binding",
+    "original_id": "p01247",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Products"
+  },
+  {
+    "id": "binding_p01247_2",
+    "kind": "binding",
+    "original_id": "p01247",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Products"
+  },
+  {
+    "id": "binding_p03127_1",
+    "kind": "binding",
+    "original_id": "p03127",
+    "digit": 1,
+    "owner": "Menu",
+    "other": "Dish"
+  },
+  {
+    "id": "binding_p03127_2",
+    "kind": "binding",
+    "original_id": "p03127",
+    "digit": 2,
+    "owner": "Menu",
+    "other": "Dish"
+  },
+  {
+    "id": "binding_p00497_1",
+    "kind": "binding",
+    "original_id": "p00497",
+    "digit": 1,
+    "owner": "course",
+    "other": "prof"
+  },
+  {
+    "id": "binding_p00497_2",
+    "kind": "binding",
+    "original_id": "p00497",
+    "digit": 2,
+    "owner": "course",
+    "other": "prof"
+  },
+  {
+    "id": "binding_p04846_1",
+    "kind": "binding",
+    "original_id": "p04846",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p04846_2",
+    "kind": "binding",
+    "original_id": "p04846",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p02334_1",
+    "kind": "binding",
+    "original_id": "p02334",
+    "digit": 1,
+    "owner": "Character_Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02334_2",
+    "kind": "binding",
+    "original_id": "p02334",
+    "digit": 2,
+    "owner": "Character_Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00895_1",
+    "kind": "binding",
+    "original_id": "p00895",
+    "digit": 1,
+    "owner": "torrents",
+    "other": "tags"
+  },
+  {
+    "id": "binding_p00895_2",
+    "kind": "binding",
+    "original_id": "p00895",
+    "digit": 2,
+    "owner": "torrents",
+    "other": "tags"
+  },
+  {
+    "id": "binding_p02976_1",
+    "kind": "binding",
+    "original_id": "p02976",
+    "digit": 1,
+    "owner": "Sales",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p02976_2",
+    "kind": "binding",
+    "original_id": "p02976",
+    "digit": 2,
+    "owner": "Sales",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p00140_1",
+    "kind": "binding",
+    "original_id": "p00140",
+    "digit": 1,
+    "owner": "movie_cast",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00140_2",
+    "kind": "binding",
+    "original_id": "p00140",
+    "digit": 2,
+    "owner": "movie_cast",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00630_1",
+    "kind": "binding",
+    "original_id": "p00630",
+    "digit": 1,
+    "owner": "person",
+    "other": "course"
+  },
+  {
+    "id": "binding_p00630_2",
+    "kind": "binding",
+    "original_id": "p00630",
+    "digit": 2,
+    "owner": "person",
+    "other": "course"
+  },
+  {
+    "id": "binding_p00471_1",
+    "kind": "binding",
+    "original_id": "p00471",
+    "digit": 1,
+    "owner": "course",
+    "other": "prof"
+  },
+  {
+    "id": "binding_p00471_2",
+    "kind": "binding",
+    "original_id": "p00471",
+    "digit": 2,
+    "owner": "course",
+    "other": "prof"
+  },
+  {
+    "id": "binding_p00351_1",
+    "kind": "binding",
+    "original_id": "p00351",
+    "digit": 1,
+    "owner": "movie",
+    "other": "actor"
+  },
+  {
+    "id": "binding_p00351_2",
+    "kind": "binding",
+    "original_id": "p00351",
+    "digit": 2,
+    "owner": "movie",
+    "other": "actor"
+  },
+  {
+    "id": "binding_p02168_1",
+    "kind": "binding",
+    "original_id": "p02168",
+    "digit": 1,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02168_2",
+    "kind": "binding",
+    "original_id": "p02168",
+    "digit": 2,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02287_1",
+    "kind": "binding",
+    "original_id": "p02287",
+    "digit": 1,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02287_2",
+    "kind": "binding",
+    "original_id": "p02287",
+    "digit": 2,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p03353_1",
+    "kind": "binding",
+    "original_id": "p03353",
+    "digit": 1,
+    "owner": "pages",
+    "other": "langs"
+  },
+  {
+    "id": "binding_p03353_2",
+    "kind": "binding",
+    "original_id": "p03353",
+    "digit": 2,
+    "owner": "pages",
+    "other": "langs"
+  },
+  {
+    "id": "binding_p04352_1",
+    "kind": "binding",
+    "original_id": "p04352",
+    "digit": 1,
+    "owner": "ATT_CLASSES",
+    "other": "OBJ_CLASSES"
+  },
+  {
+    "id": "binding_p04352_2",
+    "kind": "binding",
+    "original_id": "p04352",
+    "digit": 2,
+    "owner": "ATT_CLASSES",
+    "other": "OBJ_CLASSES"
+  },
+  {
+    "id": "binding_p03767_1",
+    "kind": "binding",
+    "original_id": "p03767",
+    "digit": 1,
+    "owner": "employee",
+    "other": "establishment"
+  },
+  {
+    "id": "binding_p03767_2",
+    "kind": "binding",
+    "original_id": "p03767",
+    "digit": 2,
+    "owner": "employee",
+    "other": "establishment"
+  },
+  {
+    "id": "binding_p00862_1",
+    "kind": "binding",
+    "original_id": "p00862",
+    "digit": 1,
+    "owner": "location",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p00862_2",
+    "kind": "binding",
+    "original_id": "p00862",
+    "digit": 2,
+    "owner": "location",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p00316_1",
+    "kind": "binding",
+    "original_id": "p00316",
+    "digit": 1,
+    "owner": "trains",
+    "other": "cars"
+  },
+  {
+    "id": "binding_p00316_2",
+    "kind": "binding",
+    "original_id": "p00316",
+    "digit": 2,
+    "owner": "trains",
+    "other": "cars"
+  },
+  {
+    "id": "binding_p03257_1",
+    "kind": "binding",
+    "original_id": "p03257",
+    "digit": 1,
+    "owner": "shipment",
+    "other": "city"
+  },
+  {
+    "id": "binding_p03257_2",
+    "kind": "binding",
+    "original_id": "p03257",
+    "digit": 2,
+    "owner": "shipment",
+    "other": "city"
+  },
+  {
+    "id": "binding_p03358_1",
+    "kind": "binding",
+    "original_id": "p03358",
+    "digit": 1,
+    "owner": "langs",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03358_2",
+    "kind": "binding",
+    "original_id": "p03358",
+    "digit": 2,
+    "owner": "langs",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03545_1",
+    "kind": "binding",
+    "original_id": "p03545",
+    "digit": 1,
+    "owner": "author",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03545_2",
+    "kind": "binding",
+    "original_id": "p03545",
+    "digit": 2,
+    "owner": "author",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p02374_1",
+    "kind": "binding",
+    "original_id": "p02374",
+    "digit": 1,
+    "owner": "Character_Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02374_2",
+    "kind": "binding",
+    "original_id": "p02374",
+    "digit": 2,
+    "owner": "Character_Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p01542_1",
+    "kind": "binding",
+    "original_id": "p01542",
+    "digit": 1,
+    "owner": "works",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p01542_2",
+    "kind": "binding",
+    "original_id": "p01542",
+    "digit": 2,
+    "owner": "works",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p05110_1",
+    "kind": "binding",
+    "original_id": "p05110",
+    "digit": 1,
+    "owner": "location",
+    "other": "position"
+  },
+  {
+    "id": "binding_p05110_2",
+    "kind": "binding",
+    "original_id": "p05110",
+    "digit": 2,
+    "owner": "location",
+    "other": "position"
+  },
+  {
+    "id": "binding_p04850_1",
+    "kind": "binding",
+    "original_id": "p04850",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p04850_2",
+    "kind": "binding",
+    "original_id": "p04850",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p04456_1",
+    "kind": "binding",
+    "original_id": "p04456",
+    "digit": 1,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04456_2",
+    "kind": "binding",
+    "original_id": "p04456",
+    "digit": 2,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00673_1",
+    "kind": "binding",
+    "original_id": "p00673",
+    "digit": 1,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00673_2",
+    "kind": "binding",
+    "original_id": "p00673",
+    "digit": 2,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00817_1",
+    "kind": "binding",
+    "original_id": "p00817",
+    "digit": 1,
+    "owner": "geographic",
+    "other": "generalinfo"
+  },
+  {
+    "id": "binding_p00817_2",
+    "kind": "binding",
+    "original_id": "p00817",
+    "digit": 2,
+    "owner": "geographic",
+    "other": "generalinfo"
+  },
+  {
+    "id": "binding_p02772_1",
+    "kind": "binding",
+    "original_id": "p02772",
+    "digit": 1,
+    "owner": "revenue",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p02772_2",
+    "kind": "binding",
+    "original_id": "p02772",
+    "digit": 2,
+    "owner": "revenue",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p00266_1",
+    "kind": "binding",
+    "original_id": "p00266",
+    "digit": 1,
+    "owner": "Method",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00266_2",
+    "kind": "binding",
+    "original_id": "p00266",
+    "digit": 2,
+    "owner": "Method",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01363_1",
+    "kind": "binding",
+    "original_id": "p01363",
+    "digit": 1,
+    "owner": "players",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p01363_2",
+    "kind": "binding",
+    "original_id": "p01363",
+    "digit": 2,
+    "owner": "players",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p00798_1",
+    "kind": "binding",
+    "original_id": "p00798",
+    "digit": 1,
+    "owner": "generalinfo",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p00798_2",
+    "kind": "binding",
+    "original_id": "p00798",
+    "digit": 2,
+    "owner": "generalinfo",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p04378_1",
+    "kind": "binding",
+    "original_id": "p04378",
+    "digit": 1,
+    "owner": "ATT_CLASSES",
+    "other": "OBJ_CLASSES"
+  },
+  {
+    "id": "binding_p04378_2",
+    "kind": "binding",
+    "original_id": "p04378",
+    "digit": 2,
+    "owner": "ATT_CLASSES",
+    "other": "OBJ_CLASSES"
+  },
+  {
+    "id": "binding_p00744_1",
+    "kind": "binding",
+    "original_id": "p00744",
+    "digit": 1,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00744_2",
+    "kind": "binding",
+    "original_id": "p00744",
+    "digit": 2,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p05200_1",
+    "kind": "binding",
+    "original_id": "p05200",
+    "digit": 1,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_p05200_2",
+    "kind": "binding",
+    "original_id": "p05200",
+    "digit": 2,
+    "owner": "trip",
+    "other": "station"
+  },
+  {
+    "id": "binding_p04622_1",
+    "kind": "binding",
+    "original_id": "p04622",
+    "digit": 1,
+    "owner": "university",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04622_2",
+    "kind": "binding",
+    "original_id": "p04622",
+    "digit": 2,
+    "owner": "university",
+    "other": "country"
+  },
+  {
+    "id": "binding_p02416_1",
+    "kind": "binding",
+    "original_id": "p02416",
+    "digit": 1,
+    "owner": "Vote",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02416_2",
+    "kind": "binding",
+    "original_id": "p02416",
+    "digit": 2,
+    "owner": "Vote",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p01088_1",
+    "kind": "binding",
+    "original_id": "p01088",
+    "digit": 1,
+    "owner": "user_reviews",
+    "other": "playstore"
+  },
+  {
+    "id": "binding_p01088_2",
+    "kind": "binding",
+    "original_id": "p01088",
+    "digit": 2,
+    "owner": "user_reviews",
+    "other": "playstore"
+  },
+  {
+    "id": "binding_p00398_1",
+    "kind": "binding",
+    "original_id": "p00398",
+    "digit": 1,
+    "owner": "user",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00398_2",
+    "kind": "binding",
+    "original_id": "p00398",
+    "digit": 2,
+    "owner": "user",
+    "other": "location"
+  },
+  {
+    "id": "binding_p01261_1",
+    "kind": "binding",
+    "original_id": "p01261",
+    "digit": 1,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p01261_2",
+    "kind": "binding",
+    "original_id": "p01261",
+    "digit": 2,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p03520_1",
+    "kind": "binding",
+    "original_id": "p03520",
+    "digit": 1,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03520_2",
+    "kind": "binding",
+    "original_id": "p03520",
+    "digit": 2,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p04137_1",
+    "kind": "binding",
+    "original_id": "p04137",
+    "digit": 1,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04137_2",
+    "kind": "binding",
+    "original_id": "p04137",
+    "digit": 2,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03659_1",
+    "kind": "binding",
+    "original_id": "p03659",
+    "digit": 1,
+    "owner": "publisher",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03659_2",
+    "kind": "binding",
+    "original_id": "p03659",
+    "digit": 2,
+    "owner": "publisher",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p00457_1",
+    "kind": "binding",
+    "original_id": "p00457",
+    "digit": 1,
+    "owner": "location",
+    "other": "user"
+  },
+  {
+    "id": "binding_p00457_2",
+    "kind": "binding",
+    "original_id": "p00457",
+    "digit": 2,
+    "owner": "location",
+    "other": "user"
+  },
+  {
+    "id": "binding_p03606_1",
+    "kind": "binding",
+    "original_id": "p03606",
+    "digit": 1,
+    "owner": "address",
+    "other": "author"
+  },
+  {
+    "id": "binding_p03606_2",
+    "kind": "binding",
+    "original_id": "p03606",
+    "digit": 2,
+    "owner": "address",
+    "other": "author"
+  },
+  {
+    "id": "binding_p03176_1",
+    "kind": "binding",
+    "original_id": "p03176",
+    "digit": 1,
+    "owner": "city",
+    "other": "customer"
+  },
+  {
+    "id": "binding_p03176_2",
+    "kind": "binding",
+    "original_id": "p03176",
+    "digit": 2,
+    "owner": "city",
+    "other": "customer"
+  },
+  {
+    "id": "binding_p04474_1",
+    "kind": "binding",
+    "original_id": "p04474",
+    "digit": 1,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04474_2",
+    "kind": "binding",
+    "original_id": "p04474",
+    "digit": 2,
+    "owner": "CountryLanguage",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04874_1",
+    "kind": "binding",
+    "original_id": "p04874",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p04874_2",
+    "kind": "binding",
+    "original_id": "p04874",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p03655_1",
+    "kind": "binding",
+    "original_id": "p03655",
+    "digit": 1,
+    "owner": "address",
+    "other": "author"
+  },
+  {
+    "id": "binding_p03655_2",
+    "kind": "binding",
+    "original_id": "p03655",
+    "digit": 2,
+    "owner": "address",
+    "other": "author"
+  },
+  {
+    "id": "binding_p03472_1",
+    "kind": "binding",
+    "original_id": "p03472",
+    "digit": 1,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03472_2",
+    "kind": "binding",
+    "original_id": "p03472",
+    "digit": 2,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p04897_1",
+    "kind": "binding",
+    "original_id": "p04897",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p04897_2",
+    "kind": "binding",
+    "original_id": "p04897",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p01674_1",
+    "kind": "binding",
+    "original_id": "p01674",
+    "digit": 1,
+    "owner": "data",
+    "other": "country"
+  },
+  {
+    "id": "binding_p01674_2",
+    "kind": "binding",
+    "original_id": "p01674",
+    "digit": 2,
+    "owner": "data",
+    "other": "country"
+  },
+  {
+    "id": "binding_p02636_1",
+    "kind": "binding",
+    "original_id": "p02636",
+    "digit": 1,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p02636_2",
+    "kind": "binding",
+    "original_id": "p02636",
+    "digit": 2,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p03446_1",
+    "kind": "binding",
+    "original_id": "p03446",
+    "digit": 1,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03446_2",
+    "kind": "binding",
+    "original_id": "p03446",
+    "digit": 2,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p02935_1",
+    "kind": "binding",
+    "original_id": "p02935",
+    "digit": 1,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02935_2",
+    "kind": "binding",
+    "original_id": "p02935",
+    "digit": 2,
+    "owner": "person",
+    "other": "city"
+  },
+  {
+    "id": "binding_p00219_1",
+    "kind": "binding",
+    "original_id": "p00219",
+    "digit": 1,
+    "owner": "Solution",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00219_2",
+    "kind": "binding",
+    "original_id": "p00219",
+    "digit": 2,
+    "owner": "Solution",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01452_1",
+    "kind": "binding",
+    "original_id": "p01452",
+    "digit": 1,
+    "owner": "player_allstar",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p01452_2",
+    "kind": "binding",
+    "original_id": "p01452",
+    "digit": 2,
+    "owner": "player_allstar",
+    "other": "awards_players"
+  },
+  {
+    "id": "binding_p04435_1",
+    "kind": "binding",
+    "original_id": "p04435",
+    "digit": 1,
+    "owner": "ATT_CLASSES",
+    "other": "OBJ_CLASSES"
+  },
+  {
+    "id": "binding_p04435_2",
+    "kind": "binding",
+    "original_id": "p04435",
+    "digit": 2,
+    "owner": "ATT_CLASSES",
+    "other": "OBJ_CLASSES"
+  },
+  {
+    "id": "binding_p04532_1",
+    "kind": "binding",
+    "original_id": "p04532",
+    "digit": 1,
+    "owner": "Country",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04532_2",
+    "kind": "binding",
+    "original_id": "p04532",
+    "digit": 2,
+    "owner": "Country",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p02716_1",
+    "kind": "binding",
+    "original_id": "p02716",
+    "digit": 1,
+    "owner": "characters",
+    "other": "director"
+  },
+  {
+    "id": "binding_p02716_2",
+    "kind": "binding",
+    "original_id": "p02716",
+    "digit": 2,
+    "owner": "characters",
+    "other": "director"
+  },
+  {
+    "id": "binding_p03957_1",
+    "kind": "binding",
+    "original_id": "p03957",
+    "digit": 1,
+    "owner": "Suppliers",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03957_2",
+    "kind": "binding",
+    "original_id": "p03957",
+    "digit": 2,
+    "owner": "Suppliers",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p02661_1",
+    "kind": "binding",
+    "original_id": "p02661",
+    "digit": 1,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p02661_2",
+    "kind": "binding",
+    "original_id": "p02661",
+    "digit": 2,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p00057_1",
+    "kind": "binding",
+    "original_id": "p00057",
+    "digit": 1,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00057_2",
+    "kind": "binding",
+    "original_id": "p00057",
+    "digit": 2,
+    "owner": "person",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00034_1",
+    "kind": "binding",
+    "original_id": "p00034",
+    "digit": 1,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00034_2",
+    "kind": "binding",
+    "original_id": "p00034",
+    "digit": 2,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p01744_1",
+    "kind": "binding",
+    "original_id": "p01744",
+    "digit": 1,
+    "owner": "essays",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01744_2",
+    "kind": "binding",
+    "original_id": "p01744",
+    "digit": 2,
+    "owner": "essays",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p02186_1",
+    "kind": "binding",
+    "original_id": "p02186",
+    "digit": 1,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02186_2",
+    "kind": "binding",
+    "original_id": "p02186",
+    "digit": 2,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p00872_1",
+    "kind": "binding",
+    "original_id": "p00872",
+    "digit": 1,
+    "owner": "torrents",
+    "other": "tags"
+  },
+  {
+    "id": "binding_p00872_2",
+    "kind": "binding",
+    "original_id": "p00872",
+    "digit": 2,
+    "owner": "torrents",
+    "other": "tags"
+  },
+  {
+    "id": "binding_p03798_1",
+    "kind": "binding",
+    "original_id": "p03798",
+    "digit": 1,
+    "owner": "establishment",
+    "other": "employee"
+  },
+  {
+    "id": "binding_p03798_2",
+    "kind": "binding",
+    "original_id": "p03798",
+    "digit": 2,
+    "owner": "establishment",
+    "other": "employee"
+  },
+  {
+    "id": "binding_p04683_1",
+    "kind": "binding",
+    "original_id": "p04683",
+    "digit": 1,
+    "owner": "university_year",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04683_2",
+    "kind": "binding",
+    "original_id": "p04683",
+    "digit": 2,
+    "owner": "university_year",
+    "other": "country"
+  },
+  {
+    "id": "binding_p03425_1",
+    "kind": "binding",
+    "original_id": "p03425",
+    "digit": 1,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03425_2",
+    "kind": "binding",
+    "original_id": "p03425",
+    "digit": 2,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p01811_1",
+    "kind": "binding",
+    "original_id": "p01811",
+    "digit": 1,
+    "owner": "projects",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01811_2",
+    "kind": "binding",
+    "original_id": "p01811",
+    "digit": 2,
+    "owner": "projects",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p03523_1",
+    "kind": "binding",
+    "original_id": "p03523",
+    "digit": 1,
+    "owner": "customer",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03523_2",
+    "kind": "binding",
+    "original_id": "p03523",
+    "digit": 2,
+    "owner": "customer",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p05001_1",
+    "kind": "binding",
+    "original_id": "p05001",
+    "digit": 1,
+    "owner": "Recipe",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p05001_2",
+    "kind": "binding",
+    "original_id": "p05001",
+    "digit": 2,
+    "owner": "Recipe",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p03426_1",
+    "kind": "binding",
+    "original_id": "p03426",
+    "digit": 1,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03426_2",
+    "kind": "binding",
+    "original_id": "p03426",
+    "digit": 2,
+    "owner": "Airports",
+    "other": "Airlines"
+  },
+  {
+    "id": "binding_p03259_1",
+    "kind": "binding",
+    "original_id": "p03259",
+    "digit": 1,
+    "owner": "shipment",
+    "other": "city"
+  },
+  {
+    "id": "binding_p03259_2",
+    "kind": "binding",
+    "original_id": "p03259",
+    "digit": 2,
+    "owner": "shipment",
+    "other": "city"
+  },
+  {
+    "id": "binding_p00738_1",
+    "kind": "binding",
+    "original_id": "p00738",
+    "digit": 1,
+    "owner": "Vote",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00738_2",
+    "kind": "binding",
+    "original_id": "p00738",
+    "digit": 2,
+    "owner": "Vote",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p01490_1",
+    "kind": "binding",
+    "original_id": "p01490",
+    "digit": 1,
+    "owner": "works",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p01490_2",
+    "kind": "binding",
+    "original_id": "p01490",
+    "digit": 2,
+    "owner": "works",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p01879_1",
+    "kind": "binding",
+    "original_id": "p01879",
+    "digit": 1,
+    "owner": "publisher",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01879_2",
+    "kind": "binding",
+    "original_id": "p01879",
+    "digit": 2,
+    "owner": "publisher",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p03011_1",
+    "kind": "binding",
+    "original_id": "p03011",
+    "digit": 1,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p03011_2",
+    "kind": "binding",
+    "original_id": "p03011",
+    "digit": 2,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p00416_1",
+    "kind": "binding",
+    "original_id": "p00416",
+    "digit": 1,
+    "owner": "user",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00416_2",
+    "kind": "binding",
+    "original_id": "p00416",
+    "digit": 2,
+    "owner": "user",
+    "other": "location"
+  },
+  {
+    "id": "binding_p05019_1",
+    "kind": "binding",
+    "original_id": "p05019",
+    "digit": 1,
+    "owner": "Quantity",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p05019_2",
+    "kind": "binding",
+    "original_id": "p05019",
+    "digit": 2,
+    "owner": "Quantity",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p01886_1",
+    "kind": "binding",
+    "original_id": "p01886",
+    "digit": 1,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01886_2",
+    "kind": "binding",
+    "original_id": "p01886",
+    "digit": 2,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p02656_1",
+    "kind": "binding",
+    "original_id": "p02656",
+    "digit": 1,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p02656_2",
+    "kind": "binding",
+    "original_id": "p02656",
+    "digit": 2,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p01505_1",
+    "kind": "binding",
+    "original_id": "p01505",
+    "digit": 1,
+    "owner": "characters",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p01505_2",
+    "kind": "binding",
+    "original_id": "p01505",
+    "digit": 2,
+    "owner": "characters",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p00163_1",
+    "kind": "binding",
+    "original_id": "p00163",
+    "digit": 1,
+    "owner": "genre",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00163_2",
+    "kind": "binding",
+    "original_id": "p00163",
+    "digit": 2,
+    "owner": "genre",
+    "other": "country"
+  },
+  {
+    "id": "binding_p02123_1",
+    "kind": "binding",
+    "original_id": "p02123",
+    "digit": 1,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02123_2",
+    "kind": "binding",
+    "original_id": "p02123",
+    "digit": 2,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02650_1",
+    "kind": "binding",
+    "original_id": "p02650",
+    "digit": 1,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p02650_2",
+    "kind": "binding",
+    "original_id": "p02650",
+    "digit": 2,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p00509_1",
+    "kind": "binding",
+    "original_id": "p00509",
+    "digit": 1,
+    "owner": "prof",
+    "other": "course"
+  },
+  {
+    "id": "binding_p00509_2",
+    "kind": "binding",
+    "original_id": "p00509",
+    "digit": 2,
+    "owner": "prof",
+    "other": "course"
+  },
+  {
+    "id": "binding_p01954_1",
+    "kind": "binding",
+    "original_id": "p01954",
+    "digit": 1,
+    "owner": "publisher",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01954_2",
+    "kind": "binding",
+    "original_id": "p01954",
+    "digit": 2,
+    "owner": "publisher",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p02240_1",
+    "kind": "binding",
+    "original_id": "p02240",
+    "digit": 1,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p02240_2",
+    "kind": "binding",
+    "original_id": "p02240",
+    "digit": 2,
+    "owner": "Episode",
+    "other": "Person"
+  },
+  {
+    "id": "binding_p04143_1",
+    "kind": "binding",
+    "original_id": "p04143",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04143_2",
+    "kind": "binding",
+    "original_id": "p04143",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01003_1",
+    "kind": "binding",
+    "original_id": "p01003",
+    "digit": 1,
+    "owner": "movies",
+    "other": "users"
+  },
+  {
+    "id": "binding_p01003_2",
+    "kind": "binding",
+    "original_id": "p01003",
+    "digit": 2,
+    "owner": "movies",
+    "other": "users"
+  },
+  {
+    "id": "binding_p01240_1",
+    "kind": "binding",
+    "original_id": "p01240",
+    "digit": 1,
+    "owner": "Regions",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p01240_2",
+    "kind": "binding",
+    "original_id": "p01240",
+    "digit": 2,
+    "owner": "Regions",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p01837_1",
+    "kind": "binding",
+    "original_id": "p01837",
+    "digit": 1,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01837_2",
+    "kind": "binding",
+    "original_id": "p01837",
+    "digit": 2,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01575_1",
+    "kind": "binding",
+    "original_id": "p01575",
+    "digit": 1,
+    "owner": "characters",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p01575_2",
+    "kind": "binding",
+    "original_id": "p01575",
+    "digit": 2,
+    "owner": "characters",
+    "other": "chapters"
+  },
+  {
+    "id": "binding_p03573_1",
+    "kind": "binding",
+    "original_id": "p03573",
+    "digit": 1,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03573_2",
+    "kind": "binding",
+    "original_id": "p03573",
+    "digit": 2,
+    "owner": "book",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p02397_1",
+    "kind": "binding",
+    "original_id": "p02397",
+    "digit": 1,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02397_2",
+    "kind": "binding",
+    "original_id": "p02397",
+    "digit": 2,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p03546_1",
+    "kind": "binding",
+    "original_id": "p03546",
+    "digit": 1,
+    "owner": "publisher",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03546_2",
+    "kind": "binding",
+    "original_id": "p03546",
+    "digit": 2,
+    "owner": "publisher",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p00809_1",
+    "kind": "binding",
+    "original_id": "p00809",
+    "digit": 1,
+    "owner": "location",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p00809_2",
+    "kind": "binding",
+    "original_id": "p00809",
+    "digit": 2,
+    "owner": "location",
+    "other": "geographic"
+  },
+  {
+    "id": "binding_p02279_1",
+    "kind": "binding",
+    "original_id": "p02279",
+    "digit": 1,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02279_2",
+    "kind": "binding",
+    "original_id": "p02279",
+    "digit": 2,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p01789_1",
+    "kind": "binding",
+    "original_id": "p01789",
+    "digit": 1,
+    "owner": "donations",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p01789_2",
+    "kind": "binding",
+    "original_id": "p01789",
+    "digit": 2,
+    "owner": "donations",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00376_1",
+    "kind": "binding",
+    "original_id": "p00376",
+    "digit": 1,
+    "owner": "movie",
+    "other": "actor"
+  },
+  {
+    "id": "binding_p00376_2",
+    "kind": "binding",
+    "original_id": "p00376",
+    "digit": 2,
+    "owner": "movie",
+    "other": "actor"
+  },
+  {
+    "id": "binding_p05056_1",
+    "kind": "binding",
+    "original_id": "p05056",
+    "digit": 1,
+    "owner": "Recipe",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p05056_2",
+    "kind": "binding",
+    "original_id": "p05056",
+    "digit": 2,
+    "owner": "Recipe",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p04544_1",
+    "kind": "binding",
+    "original_id": "p04544",
+    "digit": 1,
+    "owner": "City",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04544_2",
+    "kind": "binding",
+    "original_id": "p04544",
+    "digit": 2,
+    "owner": "City",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00160_1",
+    "kind": "binding",
+    "original_id": "p00160",
+    "digit": 1,
+    "owner": "genre",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00160_2",
+    "kind": "binding",
+    "original_id": "p00160",
+    "digit": 2,
+    "owner": "genre",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00213_1",
+    "kind": "binding",
+    "original_id": "p00213",
+    "digit": 1,
+    "owner": "Method",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00213_2",
+    "kind": "binding",
+    "original_id": "p00213",
+    "digit": 2,
+    "owner": "Method",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00685_1",
+    "kind": "binding",
+    "original_id": "p00685",
+    "digit": 1,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00685_2",
+    "kind": "binding",
+    "original_id": "p00685",
+    "digit": 2,
+    "owner": "Award",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p03539_1",
+    "kind": "binding",
+    "original_id": "p03539",
+    "digit": 1,
+    "owner": "order_line",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03539_2",
+    "kind": "binding",
+    "original_id": "p03539",
+    "digit": 2,
+    "owner": "order_line",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p01962_1",
+    "kind": "binding",
+    "original_id": "p01962",
+    "digit": 1,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p01962_2",
+    "kind": "binding",
+    "original_id": "p01962",
+    "digit": 2,
+    "owner": "game",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p04922_1",
+    "kind": "binding",
+    "original_id": "p04922",
+    "digit": 1,
+    "owner": "businesses",
+    "other": "inspections"
+  },
+  {
+    "id": "binding_p04922_2",
+    "kind": "binding",
+    "original_id": "p04922",
+    "digit": 2,
+    "owner": "businesses",
+    "other": "inspections"
+  },
+  {
+    "id": "binding_p02893_1",
+    "kind": "binding",
+    "original_id": "p02893",
+    "digit": 1,
+    "owner": "games_competitor",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02893_2",
+    "kind": "binding",
+    "original_id": "p02893",
+    "digit": 2,
+    "owner": "games_competitor",
+    "other": "city"
+  },
+  {
+    "id": "binding_p04882_1",
+    "kind": "binding",
+    "original_id": "p04882",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p04882_2",
+    "kind": "binding",
+    "original_id": "p04882",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p01645_1",
+    "kind": "binding",
+    "original_id": "p01645",
+    "digit": 1,
+    "owner": "data",
+    "other": "country"
+  },
+  {
+    "id": "binding_p01645_2",
+    "kind": "binding",
+    "original_id": "p01645",
+    "digit": 2,
+    "owner": "data",
+    "other": "country"
+  },
+  {
+    "id": "binding_p02068_1",
+    "kind": "binding",
+    "original_id": "p02068",
+    "digit": 1,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p02068_2",
+    "kind": "binding",
+    "original_id": "p02068",
+    "digit": 2,
+    "owner": "Paper",
+    "other": "Author"
+  },
+  {
+    "id": "binding_p01920_1",
+    "kind": "binding",
+    "original_id": "p01920",
+    "digit": 1,
+    "owner": "genre",
+    "other": "game"
+  },
+  {
+    "id": "binding_p01920_2",
+    "kind": "binding",
+    "original_id": "p01920",
+    "digit": 2,
+    "owner": "genre",
+    "other": "game"
+  },
+  {
+    "id": "binding_p02917_1",
+    "kind": "binding",
+    "original_id": "p02917",
+    "digit": 1,
+    "owner": "sport",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02917_2",
+    "kind": "binding",
+    "original_id": "p02917",
+    "digit": 2,
+    "owner": "sport",
+    "other": "city"
+  },
+  {
+    "id": "binding_p01850_1",
+    "kind": "binding",
+    "original_id": "p01850",
+    "digit": 1,
+    "owner": "genre",
+    "other": "game"
+  },
+  {
+    "id": "binding_p01850_2",
+    "kind": "binding",
+    "original_id": "p01850",
+    "digit": 2,
+    "owner": "genre",
+    "other": "game"
+  },
+  {
+    "id": "binding_p03492_1",
+    "kind": "binding",
+    "original_id": "p03492",
+    "digit": 1,
+    "owner": "publisher",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p03492_2",
+    "kind": "binding",
+    "original_id": "p03492",
+    "digit": 2,
+    "owner": "publisher",
+    "other": "address_status"
+  },
+  {
+    "id": "binding_p04859_1",
+    "kind": "binding",
+    "original_id": "p04859",
+    "digit": 1,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p04859_2",
+    "kind": "binding",
+    "original_id": "p04859",
+    "digit": 2,
+    "owner": "Customers",
+    "other": "Demog"
+  },
+  {
+    "id": "binding_p01656_1",
+    "kind": "binding",
+    "original_id": "p01656",
+    "digit": 1,
+    "owner": "data",
+    "other": "country"
+  },
+  {
+    "id": "binding_p01656_2",
+    "kind": "binding",
+    "original_id": "p01656",
+    "digit": 2,
+    "owner": "data",
+    "other": "country"
+  },
+  {
+    "id": "binding_p01618_1",
+    "kind": "binding",
+    "original_id": "p01618",
+    "digit": 1,
+    "owner": "price",
+    "other": "country"
+  },
+  {
+    "id": "binding_p01618_2",
+    "kind": "binding",
+    "original_id": "p01618",
+    "digit": 2,
+    "owner": "price",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04632_1",
+    "kind": "binding",
+    "original_id": "p04632",
+    "digit": 1,
+    "owner": "university",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04632_2",
+    "kind": "binding",
+    "original_id": "p04632",
+    "digit": 2,
+    "owner": "university",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00710_1",
+    "kind": "binding",
+    "original_id": "p00710",
+    "digit": 1,
+    "owner": "Vote",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00710_2",
+    "kind": "binding",
+    "original_id": "p00710",
+    "digit": 2,
+    "owner": "Vote",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p05057_1",
+    "kind": "binding",
+    "original_id": "p05057",
+    "digit": 1,
+    "owner": "Nutrition",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p05057_2",
+    "kind": "binding",
+    "original_id": "p05057",
+    "digit": 2,
+    "owner": "Nutrition",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p03780_1",
+    "kind": "binding",
+    "original_id": "p03780",
+    "digit": 1,
+    "owner": "establishment",
+    "other": "employee"
+  },
+  {
+    "id": "binding_p03780_2",
+    "kind": "binding",
+    "original_id": "p03780",
+    "digit": 2,
+    "owner": "establishment",
+    "other": "employee"
+  },
+  {
+    "id": "binding_p02029_1",
+    "kind": "binding",
+    "original_id": "p02029",
+    "digit": 1,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p02029_2",
+    "kind": "binding",
+    "original_id": "p02029",
+    "digit": 2,
+    "owner": "game_platform",
+    "other": "genre"
+  },
+  {
+    "id": "binding_p04295_1",
+    "kind": "binding",
+    "original_id": "p04295",
+    "digit": 1,
+    "owner": "SeasonStatus",
+    "other": "height_info"
+  },
+  {
+    "id": "binding_p04295_2",
+    "kind": "binding",
+    "original_id": "p04295",
+    "digit": 2,
+    "owner": "SeasonStatus",
+    "other": "height_info"
+  },
+  {
+    "id": "binding_p00747_1",
+    "kind": "binding",
+    "original_id": "p00747",
+    "digit": 1,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p00747_2",
+    "kind": "binding",
+    "original_id": "p00747",
+    "digit": 2,
+    "owner": "Person",
+    "other": "Episode"
+  },
+  {
+    "id": "binding_p02664_1",
+    "kind": "binding",
+    "original_id": "p02664",
+    "digit": 1,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p02664_2",
+    "kind": "binding",
+    "original_id": "p02664",
+    "digit": 2,
+    "owner": "Answer",
+    "other": "Question"
+  },
+  {
+    "id": "binding_p01110_1",
+    "kind": "binding",
+    "original_id": "p01110",
+    "digit": 1,
+    "owner": "playstore",
+    "other": "user_reviews"
+  },
+  {
+    "id": "binding_p01110_2",
+    "kind": "binding",
+    "original_id": "p01110",
+    "digit": 2,
+    "owner": "playstore",
+    "other": "user_reviews"
+  },
+  {
+    "id": "binding_p02911_1",
+    "kind": "binding",
+    "original_id": "p02911",
+    "digit": 1,
+    "owner": "medal",
+    "other": "city"
+  },
+  {
+    "id": "binding_p02911_2",
+    "kind": "binding",
+    "original_id": "p02911",
+    "digit": 2,
+    "owner": "medal",
+    "other": "city"
+  },
+  {
+    "id": "binding_p04178_1",
+    "kind": "binding",
+    "original_id": "p04178",
+    "digit": 1,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04178_2",
+    "kind": "binding",
+    "original_id": "p04178",
+    "digit": 2,
+    "owner": "Products",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p02982_1",
+    "kind": "binding",
+    "original_id": "p02982",
+    "digit": 1,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p02982_2",
+    "kind": "binding",
+    "original_id": "p02982",
+    "digit": 2,
+    "owner": "Products",
+    "other": "Customers"
+  },
+  {
+    "id": "binding_p00244_1",
+    "kind": "binding",
+    "original_id": "p00244",
+    "digit": 1,
+    "owner": "Solution",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00244_2",
+    "kind": "binding",
+    "original_id": "p00244",
+    "digit": 2,
+    "owner": "Solution",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p02671_1",
+    "kind": "binding",
+    "original_id": "p02671",
+    "digit": 1,
+    "owner": "director",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p02671_2",
+    "kind": "binding",
+    "original_id": "p02671",
+    "digit": 2,
+    "owner": "director",
+    "other": "characters"
+  },
+  {
+    "id": "binding_p00295_1",
+    "kind": "binding",
+    "original_id": "p00295",
+    "digit": 1,
+    "owner": "Repo",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00295_2",
+    "kind": "binding",
+    "original_id": "p00295",
+    "digit": 2,
+    "owner": "Repo",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p00336_1",
+    "kind": "binding",
+    "original_id": "p00336",
+    "digit": 1,
+    "owner": "trains",
+    "other": "cars"
+  },
+  {
+    "id": "binding_p00336_2",
+    "kind": "binding",
+    "original_id": "p00336",
+    "digit": 2,
+    "owner": "trains",
+    "other": "cars"
+  },
+  {
+    "id": "binding_p04686_1",
+    "kind": "binding",
+    "original_id": "p04686",
+    "digit": 1,
+    "owner": "ranking_criteria",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04686_2",
+    "kind": "binding",
+    "original_id": "p04686",
+    "digit": 2,
+    "owner": "ranking_criteria",
+    "other": "country"
+  },
+  {
+    "id": "binding_p03172_1",
+    "kind": "binding",
+    "original_id": "p03172",
+    "digit": 1,
+    "owner": "city",
+    "other": "customer"
+  },
+  {
+    "id": "binding_p03172_2",
+    "kind": "binding",
+    "original_id": "p03172",
+    "digit": 2,
+    "owner": "city",
+    "other": "customer"
+  },
+  {
+    "id": "binding_p03832_1",
+    "kind": "binding",
+    "original_id": "p03832",
+    "digit": 1,
+    "owner": "historical",
+    "other": "coins"
+  },
+  {
+    "id": "binding_p03832_2",
+    "kind": "binding",
+    "original_id": "p03832",
+    "digit": 2,
+    "owner": "historical",
+    "other": "coins"
+  },
+  {
+    "id": "binding_p00450_1",
+    "kind": "binding",
+    "original_id": "p00450",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00450_2",
+    "kind": "binding",
+    "original_id": "p00450",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00038_1",
+    "kind": "binding",
+    "original_id": "p00038",
+    "digit": 1,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p00038_2",
+    "kind": "binding",
+    "original_id": "p00038",
+    "digit": 2,
+    "owner": "movie",
+    "other": "country"
+  },
+  {
+    "id": "binding_p04203_1",
+    "kind": "binding",
+    "original_id": "p04203",
+    "digit": 1,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p04203_2",
+    "kind": "binding",
+    "original_id": "p04203",
+    "digit": 2,
+    "owner": "Employees",
+    "other": "sqlite_sequence"
+  },
+  {
+    "id": "binding_p05036_1",
+    "kind": "binding",
+    "original_id": "p05036",
+    "digit": 1,
+    "owner": "Recipe",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p05036_2",
+    "kind": "binding",
+    "original_id": "p05036",
+    "digit": 2,
+    "owner": "Recipe",
+    "other": "Ingredient"
+  },
+  {
+    "id": "binding_p00407_1",
+    "kind": "binding",
+    "original_id": "p00407",
+    "digit": 1,
+    "owner": "twitter",
+    "other": "location"
+  },
+  {
+    "id": "binding_p00407_2",
+    "kind": "binding",
+    "original_id": "p00407",
+    "digit": 2,
+    "owner": "twitter",
+    "other": "location"
+  }
+]

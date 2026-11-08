@@ -1,0 +1,18 @@
+{
+  "trial": {
+    "name": "AS2_bias8_owner1_copy1",
+    "script": "apply_as_role.py",
+    "args": [
+      "--strength",
+      "8",
+      "--owner-gain",
+      "1",
+      "--copy-gain",
+      "1"
+    ],
+    "family": "coordinated_binding",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "b0ce5e099f0c68fb"
+}

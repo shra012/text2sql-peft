@@ -1,0 +1,52 @@
+{
+  "all": {
+    "n": 256,
+    "reference_correct": 91,
+    "candidate_correct": 90,
+    "reference_ex": 35.55,
+    "candidate_ex": 35.16,
+    "fixed": 0,
+    "broke": 1,
+    "net": -1,
+    "exact_p": 1.0
+  },
+  "forms": {
+    "with": 0,
+    "comment": 0,
+    "sql_first": 256
+  },
+  "short": {
+    "n": 128,
+    "reference_correct": 57,
+    "candidate_correct": 56,
+    "reference_ex": 44.53,
+    "candidate_ex": 43.75,
+    "fixed": 0,
+    "broke": 1,
+    "net": -1,
+    "exact_p": 1.0
+  },
+  "long": {
+    "n": 128,
+    "reference_correct": 34,
+    "candidate_correct": 34,
+    "reference_ex": 26.56,
+    "candidate_ex": 26.56,
+    "fixed": 0,
+    "broke": 0,
+    "net": 0,
+    "exact_p": 1.0
+  },
+  "matched_control": {
+    "reference_pass": 34,
+    "n": 256,
+    "reference_correct": 91,
+    "candidate_correct": 90,
+    "reference_ex": 35.55,
+    "candidate_ex": 35.16,
+    "fixed": 0,
+    "broke": 1,
+    "net": -1,
+    "exact_p": 1.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "trial": {
+    "name": "confirm_copy_L27H8_a2",
+    "script": "apply_archived.py",
+    "args": [
+      "--pass-number",
+      "77"
+    ],
+    "family": "confirmation_candidate",
+    "parent_pass": 77,
+    "cohort": "confirm256.txt",
+    "baseline": 81
+  },
+  "fingerprint": "ee6a5073b89ec5cd"
+}

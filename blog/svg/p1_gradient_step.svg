@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="Training is walking downhill on the loss">
+  <rect width="1000" height="420" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">Training is walking downhill on the loss</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Loss = (prediction − target)². One weight, two steps of gradient descent, all by hand.</text>
+  <line x1="80.0" y1="350.0" x2="540.0" y2="350.0" stroke="#E8ECF2" stroke-width="1"/>
+  <text x="70.0" y="354.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">0</text>
+  <line x1="80.0" y1="287.5" x2="540.0" y2="287.5" stroke="#E8ECF2" stroke-width="1"/>
+  <text x="70.0" y="291.5" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">1</text>
+  <line x1="80.0" y1="225.0" x2="540.0" y2="225.0" stroke="#E8ECF2" stroke-width="1"/>
+  <text x="70.0" y="229.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">2</text>
+  <line x1="80.0" y1="162.5" x2="540.0" y2="162.5" stroke="#E8ECF2" stroke-width="1"/>
+  <text x="70.0" y="166.5" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">3</text>
+  <line x1="80.0" y1="100.0" x2="540.0" y2="100.0" stroke="#E8ECF2" stroke-width="1"/>
+  <text x="70.0" y="104.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">4</text>
+  <text x="80.0" y="370.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">0</text>
+  <text x="223.8" y="370.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">0.5</text>
+  <text x="367.5" y="370.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">1</text>
+  <text x="511.2" y="370.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">1.5</text>
+  <text x="310.0" y="394.0" font-size="13" fill="#52514e" text-anchor="middle" font-weight="400">weight w</text>
+  <text x="36.0" y="86.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">loss</text>
+  <polyline points="80.0,100.0 82.9,105.0 85.8,109.9 88.6,114.8 91.5,119.6 94.4,124.4 97.2,129.1 100.1,133.8 103.0,138.4 105.9,143.0 108.8,147.5 111.6,152.0 114.5,156.4 117.4,160.8 120.2,165.1 123.1,169.4 126.0,173.6 128.9,177.8 131.8,181.9 134.6,186.0 137.5,190.0 140.4,194.0 143.2,197.9 146.1,201.8 149.0,205.6 151.9,209.4 154.8,213.1 157.6,216.8 160.5,220.4 163.4,224.0 166.2,227.5 169.1,231.0 172.0,234.4 174.9,237.8 177.8,241.1 180.6,244.4 183.5,247.6 186.4,250.8 189.2,253.9 192.1,257.0 195.0,260.0 197.9,263.0 200.8,265.9 203.6,268.8 206.5,271.6 209.4,274.4 212.2,277.1 215.1,279.8 218.0,282.4 220.9,285.0 223.8,287.5 226.6,290.0 229.5,292.4 232.4,294.8 235.2,297.1 238.1,299.4 241.0,301.6 243.9,303.8 246.7,305.9 249.6,308.0 252.5,310.0 255.4,312.0 258.2,313.9 261.1,315.8 264.0,317.6 266.9,319.4 269.8,321.1 272.6,322.8 275.5,324.4 278.4,326.0 281.2,327.5 284.1,329.0 287.0,330.4 289.9,331.8 292.8,333.1 295.6,334.4 298.5,335.6 301.4,336.8 304.2,337.9 307.1,339.0 310.0,340.0 312.9,341.0 315.8,341.9 318.6,342.8 321.5,343.6 324.4,344.4 327.2,345.1 330.1,345.8 333.0,346.4 335.9,347.0 338.8,347.5 341.6,348.0 344.5,348.4 347.4,348.8 350.2,349.1 353.1,349.4 356.0,349.6 358.9,349.8 361.7,349.9 364.6,350.0 367.5,350.0 370.4,350.0 373.2,349.9 376.1,349.8 379.0,349.6 381.9,349.4 384.8,349.1 387.6,348.8 390.5,348.4 393.4,348.0 396.2,347.5 399.1,347.0 402.0,346.4 404.9,345.8 407.7,345.1 410.6,344.4 413.5,343.6 416.4,342.8 419.2,341.9 422.1,341.0 425.0,340.0 427.9,339.0 430.8,337.9 433.6,336.8 436.5,335.6 439.4,334.4 442.2,333.1 445.1,331.8 448.0,330.4 450.9,329.0 453.8,327.5 456.6,326.0 459.5,324.4 462.4,322.8 465.2,321.1 468.1,319.4 471.0,317.6 473.9,315.8 476.7,313.9 479.6,312.0 482.5,310.0 485.4,308.0 488.2,305.9 491.1,303.8 494.0,301.6 496.9,299.4 499.8,297.1 502.6,294.8 505.5,292.4 508.4,290.0 511.2,287.5 514.1,285.0 517.0,282.4 519.9,279.8 522.8,277.1 525.6,274.4 528.5,271.6 531.4,268.8 534.2,265.9 537.1,263.0 540.0,260.0" fill="none" stroke="#94a3b8" stroke-width="2.5"/>
+  <line x1="151.9" y1="225.0" x2="295.6" y2="350.0" stroke="#eb6834" stroke-width="2.5"/>
+  <text x="145.9" y="219.0" font-size="13" fill="#eb6834" text-anchor="end" font-weight="700">slope −4</text>
+  <line x1="231.8" y1="293.5" x2="323.6" y2="338.0" stroke="#2a78d6" stroke-width="2"/>
+  <path d="M330.8,341.5 L321.6,342.0 L325.5,334.1 Z" fill="#2a78d6"/>
+  <circle cx="223.8" cy="287.5" r="7" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="338.8" cy="347.5" r="7" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="361.7" cy="349.9" r="7" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+  <text x="213.8" y="309.5" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="600">start</text>
+  <text x="334.8" y="333.5" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="700">1</text>
+  <text x="367.7" y="335.9" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="700">2</text>
+  <text x="590.0" y="112.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">Model: prediction = w × x</text>
+  <text x="590.0" y="136.0" font-size="14" fill="#52514e" text-anchor="start" font-weight="400">x = 2, target = 2, learning rate = 0.1</text>
+  <text x="590.0" y="178.0" font-size="14" fill="#52514e" text-anchor="start" font-weight="400"></text>
+  <text x="650.0" y="178.0" font-size="14" fill="#52514e" text-anchor="start" font-weight="400">w</text>
+  <text x="720.0" y="178.0" font-size="14" fill="#52514e" text-anchor="start" font-weight="400">prediction</text>
+  <text x="820.0" y="178.0" font-size="14" fill="#52514e" text-anchor="start" font-weight="400">loss</text>
+  <text x="590.0" y="202.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">start</text>
+  <text x="650.0" y="202.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">0.50</text>
+  <text x="720.0" y="202.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">1.00</text>
+  <text x="820.0" y="202.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">1.00</text>
+  <text x="590.0" y="226.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">step 1</text>
+  <text x="650.0" y="226.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">0.90</text>
+  <text x="720.0" y="226.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">1.80</text>
+  <text x="820.0" y="226.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">0.04</text>
+  <text x="590.0" y="250.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">step 2</text>
+  <text x="650.0" y="250.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">0.98</text>
+  <text x="720.0" y="250.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">1.96</text>
+  <text x="820.0" y="250.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">0.0016</text>
+  <line x1="590.0" y1="184.0" x2="880.0" y2="184.0" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="590.0" y="290.0" font-size="14" fill="#52514e" text-anchor="start" font-weight="400">The slope (the gradient) says which way</text>
+  <text x="590.0" y="314.0" font-size="14" fill="#52514e" text-anchor="start" font-weight="400">is downhill. Each step moves w a little</text>
+  <text x="590.0" y="338.0" font-size="14" fill="#52514e" text-anchor="start" font-weight="400">that way: w = w − 0.1 × slope.</text>
+</svg>

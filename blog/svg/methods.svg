@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="The five methods for one weight matrix W">
+  <rect width="1000" height="400" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">The five methods for one weight matrix W</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Counts are for Qwen2.5-Coder-1.5B.</text>
+  <rect x="26" y="86" width="178" height="290" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="115.0" y="114.0" font-size="15" fill="#0b0b0b" text-anchor="middle" font-weight="700">Full fine-tune</text>
+  <rect x="50" y="140" width="90" height="90" rx="6" fill="#2a78d6" stroke="#2a78d6" stroke-width="1.5"/>
+  <text x="95.0" y="190.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">W</text>
+  <text x="115.0" y="316.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">W&#x27; = W + ΔW</text>
+  <text x="115.0" y="346.0" font-size="13.5" fill="#2a78d6" text-anchor="middle" font-weight="700">1.54B trainable</text>
+  <rect x="216" y="86" width="178" height="290" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="305.0" y="114.0" font-size="15" fill="#0b0b0b" text-anchor="middle" font-weight="700">LoRA</text>
+  <rect x="240" y="140" width="90" height="90" rx="6" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="285.0" y="190.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">W</text>
+  <rect x="344" y="140" width="14" height="90" rx="3" fill="#2a78d6"/>
+  <text x="351.0" y="134.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="700">B</text>
+  <rect x="240" y="242" width="90" height="14" rx="3" fill="#2a78d6" stroke="#2a78d6"/>
+  <text x="338.0" y="254.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="700">A</text>
+  <text x="305.0" y="316.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">W&#x27; = W + B·A</text>
+  <text x="305.0" y="346.0" font-size="13.5" fill="#2a78d6" text-anchor="middle" font-weight="700">73.9M trainable</text>
+  <rect x="406" y="86" width="178" height="290" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="495.0" y="114.0" font-size="15" fill="#0b0b0b" text-anchor="middle" font-weight="700">LoRA-FA</text>
+  <rect x="430" y="140" width="90" height="90" rx="6" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="475.0" y="190.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">W</text>
+  <rect x="534" y="140" width="14" height="90" rx="3" fill="#2a78d6"/>
+  <text x="541.0" y="134.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="700">B</text>
+  <rect x="430" y="242" width="90" height="14" rx="3" fill="#E5E7EB" stroke="#94a3b8"/>
+  <text x="528.0" y="254.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="700">A (frozen)</text>
+  <text x="495.0" y="316.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">W&#x27; = W + B·A, A frozen</text>
+  <text x="495.0" y="346.0" font-size="13.5" fill="#2a78d6" text-anchor="middle" font-weight="700">41.3M trainable</text>
+  <rect x="596" y="86" width="178" height="290" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="685.0" y="114.0" font-size="15" fill="#0b0b0b" text-anchor="middle" font-weight="700">QLoRA</text>
+  <rect x="620" y="140" width="90" height="90" rx="6" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="642.5" y1="140" x2="642.5" y2="230" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="620" y1="162.5" x2="710" y2="162.5" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="665.0" y1="140" x2="665.0" y2="230" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="620" y1="185.0" x2="710" y2="185.0" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="687.5" y1="140" x2="687.5" y2="230" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="620" y1="207.5" x2="710" y2="207.5" stroke="#94a3b8" stroke-width="1"/>
+  <text x="665.0" y="190.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">W 4-bit</text>
+  <rect x="724" y="140" width="14" height="90" rx="3" fill="#2a78d6"/>
+  <text x="731.0" y="134.0" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="700">B</text>
+  <rect x="620" y="242" width="90" height="14" rx="3" fill="#2a78d6" stroke="#2a78d6"/>
+  <text x="718.0" y="254.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="700">A</text>
+  <text x="685.0" y="316.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">W 4-bit + B·A</text>
+  <text x="685.0" y="346.0" font-size="13.5" fill="#2a78d6" text-anchor="middle" font-weight="700">73.9M trainable</text>
+  <rect x="786" y="86" width="178" height="290" rx="12" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="875.0" y="114.0" font-size="15" fill="#0b0b0b" text-anchor="middle" font-weight="700">TinyLoRA</text>
+  <rect x="810" y="140" width="90" height="90" rx="6" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="855.0" y="190.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">W</text>
+  <rect x="914" y="140" width="12" height="11" rx="2" fill="#2a78d6"/>
+  <rect x="914" y="153" width="12" height="11" rx="2" fill="#2a78d6"/>
+  <rect x="914" y="166" width="12" height="11" rx="2" fill="#2a78d6"/>
+  <rect x="914" y="179" width="12" height="11" rx="2" fill="#2a78d6"/>
+  <text x="920.0" y="206.0" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="700">v</text>
+  <text x="810.0" y="254.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">U, Σ, V, P frozen</text>
+  <text x="875.0" y="316.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">W + UΣ(Σ vᵢPᵢ)Vᵀ</text>
+  <text x="875.0" y="346.0" font-size="13.5" fill="#2a78d6" text-anchor="middle" font-weight="700">13 trainable</text>
+  <rect x="620" y="52" width="14" height="14" rx="3" fill="#2a78d6"/>
+  <text x="640.0" y="64.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">trained</text>
+  <rect x="720" y="52" width="14" height="14" rx="3" fill="#E5E7EB" stroke="#94a3b8"/>
+  <text x="740.0" y="64.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">frozen</text>
+</svg>

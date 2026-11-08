@@ -1,0 +1,31 @@
+{
+  "name": "lora",
+  "model": "checkpoints/lora",
+  "lora": null,
+  "quantization": null,
+  "split": "dev",
+  "n": 1534,
+  "ex": 42.05,
+  "ex_simple": 49.62,
+  "ex_moderate": 32.33,
+  "ex_challenging": 24.83,
+  "counts": {
+    "simple": {
+      "n": 925,
+      "correct": 459
+    },
+    "moderate": {
+      "n": 464,
+      "correct": 150
+    },
+    "challenging": {
+      "n": 145,
+      "correct": 36
+    }
+  },
+  "n_correct": 645,
+  "n_pred_errors": 342,
+  "gen_seconds": 109.7,
+  "exec_seconds": 37.8,
+  "eval_seconds": 147.4
+}

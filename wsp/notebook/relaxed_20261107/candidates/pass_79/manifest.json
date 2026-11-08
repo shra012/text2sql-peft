@@ -1,0 +1,17 @@
+{
+  "trial": {
+    "name": "wide_query_rank16_a4",
+    "script": "apply_query_subspace.py",
+    "args": [
+      "--rank",
+      "16",
+      "--gain",
+      "4",
+      "--wide"
+    ],
+    "family": "query_geometry",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "fae0cc6baaa99474"
+}

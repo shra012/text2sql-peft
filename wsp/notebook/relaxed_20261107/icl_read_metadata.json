@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "icl_first_p05071_original",
+    "original_id": "p05071",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p05071_corrupted",
+    "original_id": "p05071",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p05071_canonical",
+    "original_id": "p05071",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p05071_permuted",
+    "original_id": "p05071",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p05071_qualified",
+    "original_id": "p05071",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p05071_mapping",
+    "original_id": "p05071",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p05071_original",
+    "original_id": "p05071",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p05071_corrupted",
+    "original_id": "p05071",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p05071_canonical",
+    "original_id": "p05071",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p05071_permuted",
+    "original_id": "p05071",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p05071_qualified",
+    "original_id": "p05071",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p05071_mapping",
+    "original_id": "p05071",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p02192_original",
+    "original_id": "p02192",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p02192_corrupted",
+    "original_id": "p02192",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p02192_canonical",
+    "original_id": "p02192",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p02192_permuted",
+    "original_id": "p02192",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p02192_qualified",
+    "original_id": "p02192",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p02192_mapping",
+    "original_id": "p02192",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p02192_original",
+    "original_id": "p02192",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p02192_corrupted",
+    "original_id": "p02192",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p02192_canonical",
+    "original_id": "p02192",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p02192_permuted",
+    "original_id": "p02192",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p02192_qualified",
+    "original_id": "p02192",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p02192_mapping",
+    "original_id": "p02192",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p01771_original",
+    "original_id": "p01771",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p01771_corrupted",
+    "original_id": "p01771",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p01771_canonical",
+    "original_id": "p01771",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p01771_permuted",
+    "original_id": "p01771",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p01771_qualified",
+    "original_id": "p01771",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p01771_mapping",
+    "original_id": "p01771",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p01771_original",
+    "original_id": "p01771",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p01771_corrupted",
+    "original_id": "p01771",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p01771_canonical",
+    "original_id": "p01771",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p01771_permuted",
+    "original_id": "p01771",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p01771_qualified",
+    "original_id": "p01771",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p01771_mapping",
+    "original_id": "p01771",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p03334_original",
+    "original_id": "p03334",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p03334_corrupted",
+    "original_id": "p03334",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p03334_canonical",
+    "original_id": "p03334",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p03334_permuted",
+    "original_id": "p03334",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p03334_qualified",
+    "original_id": "p03334",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p03334_mapping",
+    "original_id": "p03334",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p03334_original",
+    "original_id": "p03334",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p03334_corrupted",
+    "original_id": "p03334",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p03334_canonical",
+    "original_id": "p03334",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p03334_permuted",
+    "original_id": "p03334",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p03334_qualified",
+    "original_id": "p03334",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p03334_mapping",
+    "original_id": "p03334",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p01884_original",
+    "original_id": "p01884",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p01884_corrupted",
+    "original_id": "p01884",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p01884_canonical",
+    "original_id": "p01884",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p01884_permuted",
+    "original_id": "p01884",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p01884_qualified",
+    "original_id": "p01884",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p01884_mapping",
+    "original_id": "p01884",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p01884_original",
+    "original_id": "p01884",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p01884_corrupted",
+    "original_id": "p01884",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p01884_canonical",
+    "original_id": "p01884",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p01884_permuted",
+    "original_id": "p01884",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p01884_qualified",
+    "original_id": "p01884",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p01884_mapping",
+    "original_id": "p01884",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p05215_original",
+    "original_id": "p05215",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p05215_corrupted",
+    "original_id": "p05215",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p05215_canonical",
+    "original_id": "p05215",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p05215_permuted",
+    "original_id": "p05215",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p05215_qualified",
+    "original_id": "p05215",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p05215_mapping",
+    "original_id": "p05215",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p05215_original",
+    "original_id": "p05215",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p05215_corrupted",
+    "original_id": "p05215",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p05215_canonical",
+    "original_id": "p05215",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p05215_permuted",
+    "original_id": "p05215",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p05215_qualified",
+    "original_id": "p05215",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p05215_mapping",
+    "original_id": "p05215",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p02642_original",
+    "original_id": "p02642",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p02642_corrupted",
+    "original_id": "p02642",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p02642_canonical",
+    "original_id": "p02642",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p02642_permuted",
+    "original_id": "p02642",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p02642_qualified",
+    "original_id": "p02642",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p02642_mapping",
+    "original_id": "p02642",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p02642_original",
+    "original_id": "p02642",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p02642_corrupted",
+    "original_id": "p02642",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p02642_canonical",
+    "original_id": "p02642",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p02642_permuted",
+    "original_id": "p02642",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p02642_qualified",
+    "original_id": "p02642",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p02642_mapping",
+    "original_id": "p02642",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p00452_original",
+    "original_id": "p00452",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p00452_corrupted",
+    "original_id": "p00452",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p00452_canonical",
+    "original_id": "p00452",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p00452_permuted",
+    "original_id": "p00452",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p00452_qualified",
+    "original_id": "p00452",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p00452_mapping",
+    "original_id": "p00452",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p00452_original",
+    "original_id": "p00452",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p00452_corrupted",
+    "original_id": "p00452",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p00452_canonical",
+    "original_id": "p00452",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p00452_permuted",
+    "original_id": "p00452",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p00452_qualified",
+    "original_id": "p00452",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p00452_mapping",
+    "original_id": "p00452",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p01459_original",
+    "original_id": "p01459",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p01459_corrupted",
+    "original_id": "p01459",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p01459_canonical",
+    "original_id": "p01459",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p01459_permuted",
+    "original_id": "p01459",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p01459_qualified",
+    "original_id": "p01459",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p01459_mapping",
+    "original_id": "p01459",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p01459_original",
+    "original_id": "p01459",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p01459_corrupted",
+    "original_id": "p01459",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p01459_canonical",
+    "original_id": "p01459",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p01459_permuted",
+    "original_id": "p01459",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p01459_qualified",
+    "original_id": "p01459",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p01459_mapping",
+    "original_id": "p01459",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p04716_original",
+    "original_id": "p04716",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p04716_corrupted",
+    "original_id": "p04716",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p04716_canonical",
+    "original_id": "p04716",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p04716_permuted",
+    "original_id": "p04716",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p04716_qualified",
+    "original_id": "p04716",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p04716_mapping",
+    "original_id": "p04716",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p04716_original",
+    "original_id": "p04716",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p04716_corrupted",
+    "original_id": "p04716",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p04716_canonical",
+    "original_id": "p04716",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p04716_permuted",
+    "original_id": "p04716",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p04716_qualified",
+    "original_id": "p04716",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p04716_mapping",
+    "original_id": "p04716",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p02016_original",
+    "original_id": "p02016",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p02016_corrupted",
+    "original_id": "p02016",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p02016_canonical",
+    "original_id": "p02016",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p02016_permuted",
+    "original_id": "p02016",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p02016_qualified",
+    "original_id": "p02016",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p02016_mapping",
+    "original_id": "p02016",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p02016_original",
+    "original_id": "p02016",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p02016_corrupted",
+    "original_id": "p02016",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p02016_canonical",
+    "original_id": "p02016",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p02016_permuted",
+    "original_id": "p02016",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p02016_qualified",
+    "original_id": "p02016",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p02016_mapping",
+    "original_id": "p02016",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p02140_original",
+    "original_id": "p02140",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p02140_corrupted",
+    "original_id": "p02140",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p02140_canonical",
+    "original_id": "p02140",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p02140_permuted",
+    "original_id": "p02140",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p02140_qualified",
+    "original_id": "p02140",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p02140_mapping",
+    "original_id": "p02140",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p02140_original",
+    "original_id": "p02140",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p02140_corrupted",
+    "original_id": "p02140",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p02140_canonical",
+    "original_id": "p02140",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p02140_permuted",
+    "original_id": "p02140",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p02140_qualified",
+    "original_id": "p02140",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p02140_mapping",
+    "original_id": "p02140",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p04785_original",
+    "original_id": "p04785",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p04785_corrupted",
+    "original_id": "p04785",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p04785_canonical",
+    "original_id": "p04785",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p04785_permuted",
+    "original_id": "p04785",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p04785_qualified",
+    "original_id": "p04785",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p04785_mapping",
+    "original_id": "p04785",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p04785_original",
+    "original_id": "p04785",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p04785_corrupted",
+    "original_id": "p04785",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p04785_canonical",
+    "original_id": "p04785",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p04785_permuted",
+    "original_id": "p04785",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p04785_qualified",
+    "original_id": "p04785",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p04785_mapping",
+    "original_id": "p04785",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p03436_original",
+    "original_id": "p03436",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p03436_corrupted",
+    "original_id": "p03436",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p03436_canonical",
+    "original_id": "p03436",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p03436_permuted",
+    "original_id": "p03436",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p03436_qualified",
+    "original_id": "p03436",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p03436_mapping",
+    "original_id": "p03436",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p03436_original",
+    "original_id": "p03436",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p03436_corrupted",
+    "original_id": "p03436",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p03436_canonical",
+    "original_id": "p03436",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p03436_permuted",
+    "original_id": "p03436",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p03436_qualified",
+    "original_id": "p03436",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p03436_mapping",
+    "original_id": "p03436",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p00243_original",
+    "original_id": "p00243",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p00243_corrupted",
+    "original_id": "p00243",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p00243_canonical",
+    "original_id": "p00243",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p00243_permuted",
+    "original_id": "p00243",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p00243_qualified",
+    "original_id": "p00243",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p00243_mapping",
+    "original_id": "p00243",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p00243_original",
+    "original_id": "p00243",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p00243_corrupted",
+    "original_id": "p00243",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p00243_canonical",
+    "original_id": "p00243",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p00243_permuted",
+    "original_id": "p00243",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p00243_qualified",
+    "original_id": "p00243",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p00243_mapping",
+    "original_id": "p00243",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_p03068_original",
+    "original_id": "p03068",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_p03068_corrupted",
+    "original_id": "p03068",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_p03068_canonical",
+    "original_id": "p03068",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_p03068_permuted",
+    "original_id": "p03068",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_p03068_qualified",
+    "original_id": "p03068",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_p03068_mapping",
+    "original_id": "p03068",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_p03068_original",
+    "original_id": "p03068",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_p03068_corrupted",
+    "original_id": "p03068",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_p03068_canonical",
+    "original_id": "p03068",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_p03068_permuted",
+    "original_id": "p03068",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_p03068_qualified",
+    "original_id": "p03068",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_p03068_mapping",
+    "original_id": "p03068",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x08269_original",
+    "original_id": "x08269",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x08269_corrupted",
+    "original_id": "x08269",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x08269_canonical",
+    "original_id": "x08269",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x08269_permuted",
+    "original_id": "x08269",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x08269_qualified",
+    "original_id": "x08269",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x08269_mapping",
+    "original_id": "x08269",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x08269_original",
+    "original_id": "x08269",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x08269_corrupted",
+    "original_id": "x08269",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x08269_canonical",
+    "original_id": "x08269",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x08269_permuted",
+    "original_id": "x08269",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x08269_qualified",
+    "original_id": "x08269",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x08269_mapping",
+    "original_id": "x08269",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x05283_original",
+    "original_id": "x05283",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x05283_corrupted",
+    "original_id": "x05283",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x05283_canonical",
+    "original_id": "x05283",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x05283_permuted",
+    "original_id": "x05283",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x05283_qualified",
+    "original_id": "x05283",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x05283_mapping",
+    "original_id": "x05283",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x05283_original",
+    "original_id": "x05283",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x05283_corrupted",
+    "original_id": "x05283",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x05283_canonical",
+    "original_id": "x05283",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x05283_permuted",
+    "original_id": "x05283",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x05283_qualified",
+    "original_id": "x05283",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x05283_mapping",
+    "original_id": "x05283",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x03908_original",
+    "original_id": "x03908",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x03908_corrupted",
+    "original_id": "x03908",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x03908_canonical",
+    "original_id": "x03908",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x03908_permuted",
+    "original_id": "x03908",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x03908_qualified",
+    "original_id": "x03908",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x03908_mapping",
+    "original_id": "x03908",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x03908_original",
+    "original_id": "x03908",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x03908_corrupted",
+    "original_id": "x03908",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x03908_canonical",
+    "original_id": "x03908",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x03908_permuted",
+    "original_id": "x03908",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x03908_qualified",
+    "original_id": "x03908",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x03908_mapping",
+    "original_id": "x03908",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x03937_original",
+    "original_id": "x03937",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x03937_corrupted",
+    "original_id": "x03937",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x03937_canonical",
+    "original_id": "x03937",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x03937_permuted",
+    "original_id": "x03937",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x03937_qualified",
+    "original_id": "x03937",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x03937_mapping",
+    "original_id": "x03937",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x03937_original",
+    "original_id": "x03937",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x03937_corrupted",
+    "original_id": "x03937",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x03937_canonical",
+    "original_id": "x03937",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x03937_permuted",
+    "original_id": "x03937",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x03937_qualified",
+    "original_id": "x03937",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x03937_mapping",
+    "original_id": "x03937",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x03800_original",
+    "original_id": "x03800",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x03800_corrupted",
+    "original_id": "x03800",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x03800_canonical",
+    "original_id": "x03800",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x03800_permuted",
+    "original_id": "x03800",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x03800_qualified",
+    "original_id": "x03800",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x03800_mapping",
+    "original_id": "x03800",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x03800_original",
+    "original_id": "x03800",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x03800_corrupted",
+    "original_id": "x03800",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x03800_canonical",
+    "original_id": "x03800",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x03800_permuted",
+    "original_id": "x03800",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x03800_qualified",
+    "original_id": "x03800",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x03800_mapping",
+    "original_id": "x03800",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x02388_original",
+    "original_id": "x02388",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x02388_corrupted",
+    "original_id": "x02388",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x02388_canonical",
+    "original_id": "x02388",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x02388_permuted",
+    "original_id": "x02388",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x02388_qualified",
+    "original_id": "x02388",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x02388_mapping",
+    "original_id": "x02388",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x02388_original",
+    "original_id": "x02388",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x02388_corrupted",
+    "original_id": "x02388",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x02388_canonical",
+    "original_id": "x02388",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x02388_permuted",
+    "original_id": "x02388",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x02388_qualified",
+    "original_id": "x02388",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x02388_mapping",
+    "original_id": "x02388",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x09154_original",
+    "original_id": "x09154",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x09154_corrupted",
+    "original_id": "x09154",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x09154_canonical",
+    "original_id": "x09154",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x09154_permuted",
+    "original_id": "x09154",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x09154_qualified",
+    "original_id": "x09154",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x09154_mapping",
+    "original_id": "x09154",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x09154_original",
+    "original_id": "x09154",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x09154_corrupted",
+    "original_id": "x09154",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x09154_canonical",
+    "original_id": "x09154",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x09154_permuted",
+    "original_id": "x09154",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x09154_qualified",
+    "original_id": "x09154",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x09154_mapping",
+    "original_id": "x09154",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x02105_original",
+    "original_id": "x02105",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x02105_corrupted",
+    "original_id": "x02105",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x02105_canonical",
+    "original_id": "x02105",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x02105_permuted",
+    "original_id": "x02105",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x02105_qualified",
+    "original_id": "x02105",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x02105_mapping",
+    "original_id": "x02105",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x02105_original",
+    "original_id": "x02105",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x02105_corrupted",
+    "original_id": "x02105",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x02105_canonical",
+    "original_id": "x02105",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x02105_permuted",
+    "original_id": "x02105",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x02105_qualified",
+    "original_id": "x02105",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x02105_mapping",
+    "original_id": "x02105",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x06890_original",
+    "original_id": "x06890",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x06890_corrupted",
+    "original_id": "x06890",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x06890_canonical",
+    "original_id": "x06890",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x06890_permuted",
+    "original_id": "x06890",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x06890_qualified",
+    "original_id": "x06890",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x06890_mapping",
+    "original_id": "x06890",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x06890_original",
+    "original_id": "x06890",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x06890_corrupted",
+    "original_id": "x06890",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x06890_canonical",
+    "original_id": "x06890",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x06890_permuted",
+    "original_id": "x06890",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x06890_qualified",
+    "original_id": "x06890",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x06890_mapping",
+    "original_id": "x06890",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x01364_original",
+    "original_id": "x01364",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x01364_corrupted",
+    "original_id": "x01364",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x01364_canonical",
+    "original_id": "x01364",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x01364_permuted",
+    "original_id": "x01364",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x01364_qualified",
+    "original_id": "x01364",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x01364_mapping",
+    "original_id": "x01364",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x01364_original",
+    "original_id": "x01364",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x01364_corrupted",
+    "original_id": "x01364",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x01364_canonical",
+    "original_id": "x01364",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x01364_permuted",
+    "original_id": "x01364",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x01364_qualified",
+    "original_id": "x01364",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x01364_mapping",
+    "original_id": "x01364",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x01197_original",
+    "original_id": "x01197",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x01197_corrupted",
+    "original_id": "x01197",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x01197_canonical",
+    "original_id": "x01197",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x01197_permuted",
+    "original_id": "x01197",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x01197_qualified",
+    "original_id": "x01197",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x01197_mapping",
+    "original_id": "x01197",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x01197_original",
+    "original_id": "x01197",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x01197_corrupted",
+    "original_id": "x01197",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x01197_canonical",
+    "original_id": "x01197",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x01197_permuted",
+    "original_id": "x01197",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x01197_qualified",
+    "original_id": "x01197",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x01197_mapping",
+    "original_id": "x01197",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x05243_original",
+    "original_id": "x05243",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x05243_corrupted",
+    "original_id": "x05243",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x05243_canonical",
+    "original_id": "x05243",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x05243_permuted",
+    "original_id": "x05243",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x05243_qualified",
+    "original_id": "x05243",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x05243_mapping",
+    "original_id": "x05243",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x05243_original",
+    "original_id": "x05243",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x05243_corrupted",
+    "original_id": "x05243",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x05243_canonical",
+    "original_id": "x05243",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x05243_permuted",
+    "original_id": "x05243",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x05243_qualified",
+    "original_id": "x05243",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x05243_mapping",
+    "original_id": "x05243",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x03866_original",
+    "original_id": "x03866",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x03866_corrupted",
+    "original_id": "x03866",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x03866_canonical",
+    "original_id": "x03866",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x03866_permuted",
+    "original_id": "x03866",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x03866_qualified",
+    "original_id": "x03866",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x03866_mapping",
+    "original_id": "x03866",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x03866_original",
+    "original_id": "x03866",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x03866_corrupted",
+    "original_id": "x03866",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x03866_canonical",
+    "original_id": "x03866",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x03866_permuted",
+    "original_id": "x03866",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x03866_qualified",
+    "original_id": "x03866",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x03866_mapping",
+    "original_id": "x03866",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x07660_original",
+    "original_id": "x07660",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x07660_corrupted",
+    "original_id": "x07660",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x07660_canonical",
+    "original_id": "x07660",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x07660_permuted",
+    "original_id": "x07660",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x07660_qualified",
+    "original_id": "x07660",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x07660_mapping",
+    "original_id": "x07660",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x07660_original",
+    "original_id": "x07660",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x07660_corrupted",
+    "original_id": "x07660",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x07660_canonical",
+    "original_id": "x07660",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x07660_permuted",
+    "original_id": "x07660",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x07660_qualified",
+    "original_id": "x07660",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x07660_mapping",
+    "original_id": "x07660",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x00401_original",
+    "original_id": "x00401",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x00401_corrupted",
+    "original_id": "x00401",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x00401_canonical",
+    "original_id": "x00401",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x00401_permuted",
+    "original_id": "x00401",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x00401_qualified",
+    "original_id": "x00401",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x00401_mapping",
+    "original_id": "x00401",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x00401_original",
+    "original_id": "x00401",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x00401_corrupted",
+    "original_id": "x00401",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x00401_canonical",
+    "original_id": "x00401",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x00401_permuted",
+    "original_id": "x00401",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x00401_qualified",
+    "original_id": "x00401",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x00401_mapping",
+    "original_id": "x00401",
+    "phase": "sql",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_first_x08315_original",
+    "original_id": "x08315",
+    "phase": "first",
+    "variant": "original"
+  },
+  {
+    "id": "icl_first_x08315_corrupted",
+    "original_id": "x08315",
+    "phase": "first",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_first_x08315_canonical",
+    "original_id": "x08315",
+    "phase": "first",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_first_x08315_permuted",
+    "original_id": "x08315",
+    "phase": "first",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_first_x08315_qualified",
+    "original_id": "x08315",
+    "phase": "first",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_first_x08315_mapping",
+    "original_id": "x08315",
+    "phase": "first",
+    "variant": "mapping"
+  },
+  {
+    "id": "icl_sql_x08315_original",
+    "original_id": "x08315",
+    "phase": "sql",
+    "variant": "original"
+  },
+  {
+    "id": "icl_sql_x08315_corrupted",
+    "original_id": "x08315",
+    "phase": "sql",
+    "variant": "corrupted"
+  },
+  {
+    "id": "icl_sql_x08315_canonical",
+    "original_id": "x08315",
+    "phase": "sql",
+    "variant": "canonical"
+  },
+  {
+    "id": "icl_sql_x08315_permuted",
+    "original_id": "x08315",
+    "phase": "sql",
+    "variant": "permuted"
+  },
+  {
+    "id": "icl_sql_x08315_qualified",
+    "original_id": "x08315",
+    "phase": "sql",
+    "variant": "qualified"
+  },
+  {
+    "id": "icl_sql_x08315_mapping",
+    "original_id": "x08315",
+    "phase": "sql",
+    "variant": "mapping"
+  }
+]

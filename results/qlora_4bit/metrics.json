@@ -1,0 +1,31 @@
+{
+  "name": "qlora_4bit",
+  "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "lora": "runs/qlora/final",
+  "quantization": "bitsandbytes",
+  "split": "dev",
+  "n": 1534,
+  "ex": 41.46,
+  "ex_simple": 48.54,
+  "ex_moderate": 32.11,
+  "ex_challenging": 26.21,
+  "counts": {
+    "simple": {
+      "n": 925,
+      "correct": 449
+    },
+    "moderate": {
+      "n": 464,
+      "correct": 149
+    },
+    "challenging": {
+      "n": 145,
+      "correct": 38
+    }
+  },
+  "n_correct": 636,
+  "n_pred_errors": 316,
+  "gen_seconds": 189.9,
+  "exec_seconds": 40.2,
+  "eval_seconds": 230.1
+}

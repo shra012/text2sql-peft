@@ -1,0 +1,13 @@
+{
+  "declared_after_pass": 73,
+  "confirmation": "Up to three positive screening candidates, selected by net gain and then earlier pass, distinct fingerprints; identical separate 256-question cohort and F4 control.",
+  "freeze": "Select one candidate only if confirmation net > 0, ranking pooled screen+confirmation net, confirmation net, earlier parent pass.",
+  "validation": "Four disjoint balanced 512-question cohorts; each has paired F4 and frozen candidate. No weight changes based on validation.",
+  "promotion_gate": {
+    "minimum_pooled_net": 10,
+    "minimum_positive_folds": 3,
+    "maximum_two_sided_exact_mcnemar_p": 0.05
+  },
+  "dev": "One final dev evaluation only after the frozen candidate meets the validation gate; never tune on that result.",
+  "fallback": "Restore exact F4 ae81f3cb05285df3 if no candidate survives. Previously measured dev 30.12%; do not claim a new dev score."
+}

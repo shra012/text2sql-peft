@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 452" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="One question, start to finish">
+  <rect width="1000" height="452" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">One question, start to finish</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Every score in this series comes out of this path. Only step 3 changes between methods.</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs>
+  <rect x="28" y="96" width="206" height="92" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="28" y="106" width="5" height="72" rx="2.5" fill="#94a3b8"/>
+  <text x="44.0" y="120.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">1. BIRD question</text>
+  <text x="44.0" y="140.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">question + evidence hint</text>
+  <text x="44.0" y="158.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">+ the database file</text>
+  <rect x="274" y="96" width="206" height="92" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="274" y="106" width="5" height="72" rx="2.5" fill="#94a3b8"/>
+  <text x="290.0" y="120.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">2. Build the prompt</text>
+  <text x="290.0" y="140.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">schema + example values,</text>
+  <text x="290.0" y="158.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">fitted to 3,072 tokens</text>
+  <rect x="520" y="96" width="206" height="92" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="520" y="106" width="5" height="72" rx="2.5" fill="#2a78d6"/>
+  <text x="536.0" y="120.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">3. Model writes SQL</text>
+  <text x="536.0" y="140.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">Qwen2.5-Coder-1.5B replies</text>
+  <text x="536.0" y="158.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">with a sql code block</text>
+  <rect x="766" y="96" width="206" height="92" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="766" y="106" width="5" height="72" rx="2.5" fill="#94a3b8"/>
+  <text x="782.0" y="120.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">4. extract_sql()</text>
+  <text x="782.0" y="140.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">pull the query out</text>
+  <text x="782.0" y="158.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">of the model&#x27;s reply</text>
+  <polyline points="238.0,142.0 270.0,142.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <polyline points="484.0,142.0 516.0,142.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <polyline points="730.0,142.0 762.0,142.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <polyline points="869.0,190.0 869.0,210.0 131.0,210.0 131.0,236.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <rect x="28" y="240" width="206" height="92" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="28" y="250" width="5" height="72" rx="2.5" fill="#eb6834"/>
+  <text x="44.0" y="264.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">5. Sandbox runs it</text>
+  <text x="44.0" y="284.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">read-only SQLite, allow-list,</text>
+  <text x="44.0" y="302.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">30 s limit, own process</text>
+  <rect x="28" y="352" width="206" height="76" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="28" y="362" width="5" height="56" rx="2.5" fill="#E5E7EB"/>
+  <text x="44.0" y="376.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">Gold SQL from BIRD</text>
+  <text x="44.0" y="396.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">run in the same sandbox</text>
+  <rect x="274" y="280" width="206" height="92" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="274" y="290" width="5" height="72" rx="2.5" fill="#eb6834"/>
+  <text x="290.0" y="304.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">6. Compare as sets</text>
+  <text x="290.0" y="324.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">model rows vs gold rows,</text>
+  <text x="290.0" y="342.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">order and repeats ignored</text>
+  <polyline points="238.0,286.0 270.0,310.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <polyline points="238.0,390.0 270.0,350.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <rect x="520" y="280" width="206" height="92" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="520" y="290" width="5" height="72" rx="2.5" fill="#1baf7a"/>
+  <text x="536.0" y="304.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">7. Score</text>
+  <text x="536.0" y="324.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">1 = same set of rows</text>
+  <text x="536.0" y="342.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">0 = wrong rows, error, timeout</text>
+  <polyline points="484.0,326.0 516.0,326.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <rect x="766" y="280" width="206" height="92" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="782.0" y="304.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">Used twice</text>
+  <text x="782.0" y="324.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">dev test: 1,534 questions</text>
+  <text x="782.0" y="342.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">GRPO reward: 4,800 answers</text>
+</svg>

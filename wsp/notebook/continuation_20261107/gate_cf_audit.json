@@ -1,0 +1,18 @@
+{
+  "mode": "suppress",
+  "n_pairs": 24,
+  "T1": {
+    "margin_before": 2.285310983657837,
+    "margin_after": 2.3147308826446533,
+    "consistent_before": 21,
+    "consistent_after": 20
+  },
+  "T2": {
+    "margin_before": 0.34700289368629456,
+    "margin_after": -1.0421303510665894,
+    "consistent_before": 12,
+    "consistent_after": 17
+  },
+  "binding_effect_before": 1.9383082389831543,
+  "binding_effect_after": 3.356861458392814
+}

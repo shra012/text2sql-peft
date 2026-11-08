@@ -1,0 +1,31 @@
+{
+  "name": "wsp_q1",
+  "model": "checkpoints/wsp_q1",
+  "lora": null,
+  "quantization": null,
+  "split": "dev",
+  "n": 1534,
+  "ex": 30.05,
+  "ex_simple": 37.3,
+  "ex_moderate": 19.83,
+  "ex_challenging": 16.55,
+  "counts": {
+    "simple": {
+      "n": 925,
+      "correct": 345
+    },
+    "moderate": {
+      "n": 464,
+      "correct": 92
+    },
+    "challenging": {
+      "n": 145,
+      "correct": 24
+    }
+  },
+  "n_correct": 461,
+  "n_pred_errors": 655,
+  "gen_seconds": 110.5,
+  "exec_seconds": 64.8,
+  "eval_seconds": 175.4
+}

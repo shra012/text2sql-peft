@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="The whole experiment, one job at a time">
+  <rect width="1000" height="480" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">The whole experiment, one job at a time</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Real start and end times from the scheduler, 01:21 to 07:11, nobody at the keyboard.</text>
+  <rect x="28" y="84" width="14" height="14" rx="3" fill="#2a78d6"/>
+  <text x="48.0" y="96.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">training</text>
+  <rect x="148" y="84" width="14" height="14" rx="3" fill="#eb6834"/>
+  <text x="168.0" y="96.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">merge + evaluate on 1,534 questions</text>
+  <line x1="200.0" y1="116" x2="200.0" y2="410" stroke="#E8ECF2"/>
+  <text x="200.0" y="430.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">0 h</text>
+  <line x1="325.0" y1="116" x2="325.0" y2="410" stroke="#E8ECF2"/>
+  <text x="325.0" y="430.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">1 h</text>
+  <line x1="450.0" y1="116" x2="450.0" y2="410" stroke="#E8ECF2"/>
+  <text x="450.0" y="430.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">2 h</text>
+  <line x1="575.0" y1="116" x2="575.0" y2="410" stroke="#E8ECF2"/>
+  <text x="575.0" y="430.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">3 h</text>
+  <line x1="700.0" y1="116" x2="700.0" y2="410" stroke="#E8ECF2"/>
+  <text x="700.0" y="430.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">4 h</text>
+  <line x1="825.0" y1="116" x2="825.0" y2="410" stroke="#E8ECF2"/>
+  <text x="825.0" y="430.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">5 h</text>
+  <line x1="950.0" y1="116" x2="950.0" y2="410" stroke="#E8ECF2"/>
+  <text x="950.0" y="430.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">6 h</text>
+  <text x="188.0" y="143.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA LR test</text>
+  <rect x="200.0" y="128" width="19.3" height="22" rx="4" fill="#2a78d6"><title>sweep_1e-3: 9.7 min</title></rect>
+  <rect x="220.2" y="128" width="21.0" height="22" rx="4" fill="#2a78d6"><title>sweep_1e-2: 10.6 min</title></rect>
+  <rect x="242.2" y="128" width="20.7" height="22" rx="4" fill="#2a78d6"><title>sweep_5e-2: 10.4 min</title></rect>
+  <text x="271.9" y="144.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">3 x 40 steps, 31 min</text>
+  <text x="188.0" y="179.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + GRPO</text>
+  <rect x="264.1" y="164" width="269.0" height="22" rx="4" fill="#2a78d6"><title>grpo_tinylora: 129.6 min</title></rect>
+  <rect x="533.9" y="164" width="9.7" height="22" rx="3" fill="#eb6834"><title>merge_tinylora_grpo, eval_tinylora_grpo: 4.7 min</title></rect>
+  <text x="551.6" y="180.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">130 min + 4 min</text>
+  <text x="188.0" y="215.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="543.2" y="200" width="65.1" height="22" rx="4" fill="#2a78d6"><title>sft_lora: 31.8 min</title></rect>
+  <rect x="609.6" y="200" width="8.1" height="22" rx="3" fill="#eb6834"><title>merge_lora, eval_lora: 3.9 min</title></rect>
+  <text x="625.7" y="216.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">32 min + 3 min</text>
+  <text x="188.0" y="251.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">QLoRA</text>
+  <rect x="617.6" y="236" width="86.2" height="22" rx="4" fill="#2a78d6"><title>sft_qlora: 41.8 min</title></rect>
+  <rect x="705.0" y="236" width="8.1" height="22" rx="3" fill="#eb6834"><title>merge_qlora, eval_qlora: 3.9 min</title></rect>
+  <text x="721.2" y="252.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">42 min + 3 min</text>
+  <text x="188.0" y="287.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA-FA</text>
+  <rect x="713.3" y="272" width="63.4" height="22" rx="4" fill="#2a78d6"><title>sft_lora_fa: 30.9 min</title></rect>
+  <rect x="777.9" y="272" width="8.5" height="22" rx="3" fill="#eb6834"><title>merge_lora_fa, eval_lora_fa: 4.1 min</title></rect>
+  <text x="794.4" y="288.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">31 min + 3 min</text>
+  <text x="188.0" y="323.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Full fine-tune</text>
+  <rect x="786.2" y="308" width="52.2" height="22" rx="4" fill="#2a78d6"><title>sft_full: 25.5 min</title></rect>
+  <rect x="839.3" y="308" width="8.6" height="22" rx="3" fill="#eb6834"><title>merge_full, eval_full: 4.1 min</title></rect>
+  <text x="778.2" y="324.0" font-size="12.5" fill="#0b0b0b" text-anchor="end" font-weight="600">26 min + 3 min</text>
+  <text x="188.0" y="359.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + SFT</text>
+  <rect x="847.8" y="344" width="63.1" height="22" rx="4" fill="#2a78d6"><title>sft_tinylora: 30.8 min</title></rect>
+  <rect x="912.1" y="344" width="8.2" height="22" rx="3" fill="#eb6834"><title>merge_tinylora_sft, eval_tinylora_sft: 4.0 min</title></rect>
+  <text x="839.8" y="360.0" font-size="12.5" fill="#0b0b0b" text-anchor="end" font-weight="600">31 min + 4 min</text>
+  <text x="188.0" y="395.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">QLoRA, 4-bit eval</text>
+  <rect x="920.5" y="380" width="8.1" height="22" rx="3" fill="#eb6834"><title>eval_qlora_4bit: 3.9 min</title></rect>
+  <text x="936.6" y="396.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">4 min</text>
+  <line x1="928.7" y1="108" x2="928.7" y2="410" stroke="#0b0b0b" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="922.7" y="102.0" font-size="12.5" fill="#0b0b0b" text-anchor="end" font-weight="700">all done: 5 h 50 min</text>
+</svg>

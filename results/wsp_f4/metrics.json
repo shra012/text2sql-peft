@@ -1,0 +1,31 @@
+{
+  "name": "wsp_f4",
+  "model": "checkpoints/wsp_f4",
+  "lora": null,
+  "quantization": null,
+  "split": "dev",
+  "n": 1534,
+  "ex": 30.12,
+  "ex_simple": 37.41,
+  "ex_moderate": 19.83,
+  "ex_challenging": 16.55,
+  "counts": {
+    "simple": {
+      "n": 925,
+      "correct": 346
+    },
+    "moderate": {
+      "n": 464,
+      "correct": 92
+    },
+    "challenging": {
+      "n": 145,
+      "correct": 24
+    }
+  },
+  "n_correct": 462,
+  "n_pred_errors": 653,
+  "gen_seconds": 113.2,
+  "exec_seconds": 68.6,
+  "eval_seconds": 181.9
+}

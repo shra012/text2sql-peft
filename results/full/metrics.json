@@ -1,0 +1,31 @@
+{
+  "name": "full",
+  "model": "checkpoints/full",
+  "lora": null,
+  "quantization": null,
+  "split": "dev",
+  "n": 1534,
+  "ex": 36.11,
+  "ex_simple": 42.38,
+  "ex_moderate": 28.88,
+  "ex_challenging": 19.31,
+  "counts": {
+    "simple": {
+      "n": 925,
+      "correct": 392
+    },
+    "moderate": {
+      "n": 464,
+      "correct": 134
+    },
+    "challenging": {
+      "n": 145,
+      "correct": 28
+    }
+  },
+  "n_correct": 554,
+  "n_pred_errors": 484,
+  "gen_seconds": 110.7,
+  "exec_seconds": 45.2,
+  "eval_seconds": 155.9
+}

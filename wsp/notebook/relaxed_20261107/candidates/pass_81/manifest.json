@@ -1,0 +1,11 @@
+{
+  "trial": {
+    "name": "F4_confirmation_control",
+    "script": "restore_f4.py",
+    "args": [],
+    "family": "confirmation_control",
+    "cohort": "confirm256.txt",
+    "baseline": 81
+  },
+  "fingerprint": "ae81f3cb05285df3"
+}

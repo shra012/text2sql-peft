@@ -1,0 +1,31 @@
+{
+  "name": "tinylora_grpo",
+  "model": "checkpoints/tinylora_grpo",
+  "lora": null,
+  "quantization": null,
+  "split": "dev",
+  "n": 1534,
+  "ex": 30.44,
+  "ex_simple": 37.51,
+  "ex_moderate": 20.26,
+  "ex_challenging": 17.93,
+  "counts": {
+    "simple": {
+      "n": 925,
+      "correct": 347
+    },
+    "moderate": {
+      "n": 464,
+      "correct": 94
+    },
+    "challenging": {
+      "n": 145,
+      "correct": 26
+    }
+  },
+  "n_correct": 467,
+  "n_pred_errors": 603,
+  "gen_seconds": 133.0,
+  "exec_seconds": 57.2,
+  "eval_seconds": 190.2
+}

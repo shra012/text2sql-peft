@@ -1,0 +1,20 @@
+{
+  "trial": {
+    "name": "first_plan_L23_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "23",
+      "--variant",
+      "plan",
+      "--strength",
+      "1",
+      "--design-file",
+      "first_design.pt"
+    ],
+    "family": "first_instruction",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "15503c73d154927b"
+}

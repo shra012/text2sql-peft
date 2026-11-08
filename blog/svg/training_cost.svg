@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="What each run cost on one 16 GB laptop GPU">
+  <rect width="1000" height="400" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">What each run cost on one 16 GB laptop GPU</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Peak GPU memory and wall-clock training time. GRPO also runs a second model copy to sample answers.</text>
+  <text x="40.0" y="98.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">Peak GPU memory (GB)</text>
+  <text x="180.0" y="131.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Full fine-tune</text>
+  <rect x="190" y="116" width="138.5" height="22" rx="4" fill="#2a78d6"><title>Full fine-tune: 7.6</title></rect>
+  <text x="336.5" y="132.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">7.6 +3.1 in RAM</text>
+  <text x="180.0" y="175.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="190" y="160" width="90.7" height="22" rx="4" fill="#2a78d6"><title>LoRA: 5.0</title></rect>
+  <text x="288.7" y="176.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">5.0</text>
+  <text x="180.0" y="219.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA-FA</text>
+  <rect x="190" y="204" width="82.9" height="22" rx="4" fill="#2a78d6"><title>LoRA-FA: 4.6</title></rect>
+  <text x="280.9" y="220.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">4.6</text>
+  <text x="180.0" y="263.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">QLoRA</text>
+  <rect x="190" y="248" width="73.1" height="22" rx="4" fill="#2a78d6"><title>QLoRA: 4.0</title></rect>
+  <text x="271.1" y="264.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">4.0</text>
+  <text x="180.0" y="307.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + SFT</text>
+  <rect x="190" y="292" width="66.6" height="22" rx="4" fill="#2a78d6"><title>TinyLoRA + SFT: 3.7</title></rect>
+  <text x="264.6" y="308.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">3.7</text>
+  <text x="180.0" y="351.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + GRPO</text>
+  <rect x="190" y="336" width="201.2" height="22" rx="4" fill="#2a78d6"><title>TinyLoRA + GRPO: 11.1</title></rect>
+  <text x="399.2" y="352.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">11.1 incl. vLLM</text>
+  <text x="520.0" y="98.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">Training time (minutes)</text>
+  <text x="660.0" y="131.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Full fine-tune</text>
+  <rect x="670" y="116" width="51.9" height="22" rx="4" fill="#2a78d6"><title>Full fine-tune: 25.1</title></rect>
+  <text x="729.9" y="132.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">25.1</text>
+  <text x="660.0" y="175.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA</text>
+  <rect x="670" y="160" width="64.8" height="22" rx="4" fill="#2a78d6"><title>LoRA: 31.3</title></rect>
+  <text x="742.8" y="176.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">31.3</text>
+  <text x="660.0" y="219.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA-FA</text>
+  <rect x="670" y="204" width="63.2" height="22" rx="4" fill="#2a78d6"><title>LoRA-FA: 30.5</title></rect>
+  <text x="741.2" y="220.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">30.5</text>
+  <text x="660.0" y="263.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">QLoRA</text>
+  <rect x="670" y="248" width="85.8" height="22" rx="4" fill="#2a78d6"><title>QLoRA: 41.4</title></rect>
+  <text x="763.8" y="264.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">41.4</text>
+  <text x="660.0" y="307.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + SFT</text>
+  <rect x="670" y="292" width="61.4" height="22" rx="4" fill="#2a78d6"><title>TinyLoRA + SFT: 29.7</title></rect>
+  <text x="739.4" y="308.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">29.7</text>
+  <text x="660.0" y="351.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + GRPO</text>
+  <rect x="670" y="336" width="265.3" height="22" rx="4" fill="#2a78d6"><title>TinyLoRA + GRPO: 128.1</title></rect>
+  <text x="943.3" y="352.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">128.1</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "trial": {
+    "name": "icl_permuted_sql_L15_raw_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "15",
+      "--variant",
+      "permuted",
+      "--strength",
+      "1",
+      "--direction",
+      "raw",
+      "--design-file",
+      "icl_sql_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "feec4195adea7fb0"
+}

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="Accuracy vs. how many numbers you train">
+  <rect width="1000" height="470" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">Accuracy vs. how many numbers you train</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">BIRD dev execution accuracy, 1,534 questions. Hover a point for exact values.</text>
+  <line x1="80" y1="400.0" x2="960" y2="400.0" stroke="#E8ECF2"/>
+  <text x="70.0" y="404.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">26%</text>
+  <line x1="80" y1="366.7" x2="960" y2="366.7" stroke="#E8ECF2"/>
+  <text x="70.0" y="370.7" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">28%</text>
+  <line x1="80" y1="333.3" x2="960" y2="333.3" stroke="#E8ECF2"/>
+  <text x="70.0" y="337.3" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">30%</text>
+  <line x1="80" y1="300.0" x2="960" y2="300.0" stroke="#E8ECF2"/>
+  <text x="70.0" y="304.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">32%</text>
+  <line x1="80" y1="266.7" x2="960" y2="266.7" stroke="#E8ECF2"/>
+  <text x="70.0" y="270.7" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">34%</text>
+  <line x1="80" y1="233.3" x2="960" y2="233.3" stroke="#E8ECF2"/>
+  <text x="70.0" y="237.3" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">36%</text>
+  <line x1="80" y1="200.0" x2="960" y2="200.0" stroke="#E8ECF2"/>
+  <text x="70.0" y="204.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">38%</text>
+  <line x1="80" y1="166.7" x2="960" y2="166.7" stroke="#E8ECF2"/>
+  <text x="70.0" y="170.7" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">40%</text>
+  <line x1="80" y1="133.3" x2="960" y2="133.3" stroke="#E8ECF2"/>
+  <text x="70.0" y="137.3" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">42%</text>
+  <line x1="80" y1="100.0" x2="960" y2="100.0" stroke="#E8ECF2"/>
+  <text x="70.0" y="104.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">44%</text>
+  <text x="126.3" y="422" font-size="12" fill="#52514e" text-anchor="middle">10</text>
+  <text x="218.9" y="422" font-size="12" fill="#52514e" text-anchor="middle">100</text>
+  <text x="311.6" y="422" font-size="12" fill="#52514e" text-anchor="middle">1000</text>
+  <text x="404.2" y="422" font-size="12" fill="#52514e" text-anchor="middle">10<tspan dy="-6" font-size="9">4</tspan></text>
+  <text x="496.8" y="422" font-size="12" fill="#52514e" text-anchor="middle">10<tspan dy="-6" font-size="9">5</tspan></text>
+  <text x="589.5" y="422" font-size="12" fill="#52514e" text-anchor="middle">10<tspan dy="-6" font-size="9">6</tspan></text>
+  <text x="682.1" y="422" font-size="12" fill="#52514e" text-anchor="middle">10<tspan dy="-6" font-size="9">7</tspan></text>
+  <text x="774.7" y="422" font-size="12" fill="#52514e" text-anchor="middle">10<tspan dy="-6" font-size="9">8</tspan></text>
+  <text x="867.4" y="422" font-size="12" fill="#52514e" text-anchor="middle">10<tspan dy="-6" font-size="9">9</tspan></text>
+  <text x="520.0" y="448.0" font-size="13" fill="#52514e" text-anchor="middle" font-weight="400">Trainable numbers, or weights changed for the Opus edit (log scale)</text>
+  <line x1="80" y1="358.5" x2="960" y2="358.5" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="88.0" y="350.5" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">Base model, no training: 28.49%</text>
+  <circle cx="884.8" cy="231.5" r="8" fill="#2a78d6" stroke="#FCFCFB" stroke-width="2"><title>Full fine-tune: 36.11% with 1,543,714,304 trainable parameters</title></circle>
+  <text x="872.8" y="217.5" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="600">Full fine-tune 36.11%</text>
+  <circle cx="762.5" cy="132.5" r="8" fill="#2a78d6" stroke="#FCFCFB" stroke-width="2"><title>LoRA: 42.05% with 73,859,072 trainable parameters</title></circle>
+  <text x="776.5" y="150.5" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">LoRA 42.05%</text>
+  <circle cx="739.1" cy="157.5" r="8" fill="#2a78d6" stroke="#FCFCFB" stroke-width="2"><title>LoRA-FA: 40.55% with 41,287,680 trainable parameters</title></circle>
+  <text x="725.1" y="162.5" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="600">LoRA-FA 40.55%</text>
+  <circle cx="762.5" cy="126.0" r="8" fill="#2a78d6" stroke="#FCFCFB" stroke-width="2"><title>QLoRA: 42.44% with 73,859,072 trainable parameters</title></circle>
+  <text x="776.5" y="118.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">QLoRA 42.44%</text>
+  <circle cx="136.9" cy="326.0" r="8" fill="#2a78d6" stroke="#FCFCFB" stroke-width="2"><title>TinyLoRA + SFT: 30.44% with 13 trainable parameters</title></circle>
+  <circle cx="136.9" cy="326.0" r="8" fill="#2a78d6" stroke="#FCFCFB" stroke-width="2"><title>TinyLoRA + GRPO: 30.44% with 13 trainable parameters</title></circle>
+  <circle cx="467.6" cy="331.3" r="8" fill="#2a78d6" stroke="#FCFCFB" stroke-width="2"><title>Opus weight edit: 30.12% with 48,398 trainable parameters</title></circle>
+  <text x="481.6" y="319.3" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Opus weight edit 30.12% (48,398 weights changed)</text>
+  <text x="150.9" y="316.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">TinyLoRA, SFT and GRPO: 30.44% (both runs)</text>
+  <text x="150.9" y="334.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">13 trainable numbers</text>
+</svg>

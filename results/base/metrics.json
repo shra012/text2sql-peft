@@ -1,0 +1,31 @@
+{
+  "name": "base",
+  "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "lora": null,
+  "quantization": null,
+  "split": "dev",
+  "n": 1534,
+  "ex": 28.49,
+  "ex_simple": 35.78,
+  "ex_moderate": 17.89,
+  "ex_challenging": 15.86,
+  "counts": {
+    "simple": {
+      "n": 925,
+      "correct": 331
+    },
+    "moderate": {
+      "n": 464,
+      "correct": 83
+    },
+    "challenging": {
+      "n": 145,
+      "correct": 23
+    }
+  },
+  "n_correct": 437,
+  "n_pred_errors": 693,
+  "gen_seconds": 505.7,
+  "exec_seconds": 62.3,
+  "eval_seconds": 568.0
+}

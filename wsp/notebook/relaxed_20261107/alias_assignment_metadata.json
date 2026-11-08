@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "assignment_x08269_first",
+    "original_id": "x08269",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08269_second",
+    "original_id": "x08269",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08269_second_forced2",
+    "original_id": "x08269",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08269_select",
+    "original_id": "x08269",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05283_first",
+    "original_id": "x05283",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05283_second",
+    "original_id": "x05283",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05283_second_forced2",
+    "original_id": "x05283",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05283_select",
+    "original_id": "x05283",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x03908_first",
+    "original_id": "x03908",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x03908_second",
+    "original_id": "x03908",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x03908_second_forced2",
+    "original_id": "x03908",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x03908_select",
+    "original_id": "x03908",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01771_first",
+    "original_id": "p01771",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01771_second",
+    "original_id": "p01771",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01771_second_forced2",
+    "original_id": "p01771",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01771_select",
+    "original_id": "p01771",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x03800_first",
+    "original_id": "x03800",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x03800_second",
+    "original_id": "x03800",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x03800_second_forced2",
+    "original_id": "x03800",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x03800_select",
+    "original_id": "x03800",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p05215_first",
+    "original_id": "p05215",
+    "condition": "first",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p05215_second",
+    "original_id": "p05215",
+    "condition": "second",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p05215_second_forced2",
+    "original_id": "p05215",
+    "condition": "second_forced2",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p05215_select",
+    "original_id": "p05215",
+    "condition": "select",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02388_first",
+    "original_id": "x02388",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02388_second",
+    "original_id": "x02388",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02388_second_forced2",
+    "original_id": "x02388",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02388_select",
+    "original_id": "x02388",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00452_first",
+    "original_id": "p00452",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00452_second",
+    "original_id": "p00452",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00452_second_forced2",
+    "original_id": "p00452",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00452_select",
+    "original_id": "p00452",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01459_first",
+    "original_id": "p01459",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01459_second",
+    "original_id": "p01459",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01459_second_forced2",
+    "original_id": "p01459",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01459_select",
+    "original_id": "p01459",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x09154_first",
+    "original_id": "x09154",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x09154_second",
+    "original_id": "x09154",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x09154_second_forced2",
+    "original_id": "x09154",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x09154_select",
+    "original_id": "x09154",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x02105_first",
+    "original_id": "x02105",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02105_second",
+    "original_id": "x02105",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02105_second_forced2",
+    "original_id": "x02105",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02105_select",
+    "original_id": "x02105",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01364_first",
+    "original_id": "x01364",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x01364_second",
+    "original_id": "x01364",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x01364_second_forced2",
+    "original_id": "x01364",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x01364_select",
+    "original_id": "x01364",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x01197_first",
+    "original_id": "x01197",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01197_second",
+    "original_id": "x01197",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01197_second_forced2",
+    "original_id": "x01197",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01197_select",
+    "original_id": "x01197",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05243_first",
+    "original_id": "x05243",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05243_second",
+    "original_id": "x05243",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05243_second_forced2",
+    "original_id": "x05243",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05243_select",
+    "original_id": "x05243",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x03866_first",
+    "original_id": "x03866",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x03866_second",
+    "original_id": "x03866",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x03866_second_forced2",
+    "original_id": "x03866",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x03866_select",
+    "original_id": "x03866",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x07660_first",
+    "original_id": "x07660",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x07660_second",
+    "original_id": "x07660",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x07660_second_forced2",
+    "original_id": "x07660",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x07660_select",
+    "original_id": "x07660",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00401_first",
+    "original_id": "x00401",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00401_second",
+    "original_id": "x00401",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00401_second_forced2",
+    "original_id": "x00401",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00401_select",
+    "original_id": "x00401",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08315_first",
+    "original_id": "x08315",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08315_second",
+    "original_id": "x08315",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08315_second_forced2",
+    "original_id": "x08315",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08315_select",
+    "original_id": "x08315",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02016_first",
+    "original_id": "p02016",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p02016_second",
+    "original_id": "p02016",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p02016_second_forced2",
+    "original_id": "p02016",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p02016_select",
+    "original_id": "p02016",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x09164_first",
+    "original_id": "x09164",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x09164_second",
+    "original_id": "x09164",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x09164_second_forced2",
+    "original_id": "x09164",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x09164_select",
+    "original_id": "x09164",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04785_first",
+    "original_id": "p04785",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04785_second",
+    "original_id": "p04785",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04785_second_forced2",
+    "original_id": "p04785",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04785_select",
+    "original_id": "p04785",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x05220_first",
+    "original_id": "x05220",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05220_second",
+    "original_id": "x05220",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05220_second_forced2",
+    "original_id": "x05220",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x05220_select",
+    "original_id": "x05220",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00314_first",
+    "original_id": "x00314",
+    "condition": "first",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00314_second",
+    "original_id": "x00314",
+    "condition": "second",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00314_second_forced2",
+    "original_id": "x00314",
+    "condition": "second_forced2",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00314_select",
+    "original_id": "x00314",
+    "condition": "select",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00243_first",
+    "original_id": "p00243",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00243_second",
+    "original_id": "p00243",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00243_second_forced2",
+    "original_id": "p00243",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00243_select",
+    "original_id": "p00243",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03068_first",
+    "original_id": "p03068",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03068_second",
+    "original_id": "p03068",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03068_second_forced2",
+    "original_id": "p03068",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03068_select",
+    "original_id": "p03068",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04249_first",
+    "original_id": "p04249",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04249_second",
+    "original_id": "p04249",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04249_second_forced2",
+    "original_id": "p04249",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04249_select",
+    "original_id": "p04249",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04172_first",
+    "original_id": "p04172",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04172_second",
+    "original_id": "p04172",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04172_second_forced2",
+    "original_id": "p04172",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04172_select",
+    "original_id": "p04172",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02443_first",
+    "original_id": "p02443",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02443_second",
+    "original_id": "p02443",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02443_second_forced2",
+    "original_id": "p02443",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02443_select",
+    "original_id": "p02443",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x09122_first",
+    "original_id": "x09122",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x09122_second",
+    "original_id": "x09122",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x09122_second_forced2",
+    "original_id": "x09122",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x09122_select",
+    "original_id": "x09122",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08295_first",
+    "original_id": "x08295",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08295_second",
+    "original_id": "x08295",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08295_second_forced2",
+    "original_id": "x08295",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08295_select",
+    "original_id": "x08295",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03184_first",
+    "original_id": "p03184",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03184_second",
+    "original_id": "p03184",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03184_second_forced2",
+    "original_id": "p03184",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03184_select",
+    "original_id": "p03184",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01053_first",
+    "original_id": "p01053",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01053_second",
+    "original_id": "p01053",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01053_second_forced2",
+    "original_id": "p01053",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01053_select",
+    "original_id": "p01053",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x08445_first",
+    "original_id": "x08445",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08445_second",
+    "original_id": "x08445",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08445_second_forced2",
+    "original_id": "x08445",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08445_select",
+    "original_id": "x08445",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04598_first",
+    "original_id": "p04598",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04598_second",
+    "original_id": "p04598",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04598_second_forced2",
+    "original_id": "p04598",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04598_select",
+    "original_id": "p04598",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08335_first",
+    "original_id": "x08335",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08335_second",
+    "original_id": "x08335",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08335_second_forced2",
+    "original_id": "x08335",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08335_select",
+    "original_id": "x08335",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03955_first",
+    "original_id": "p03955",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03955_second",
+    "original_id": "p03955",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03955_second_forced2",
+    "original_id": "p03955",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03955_select",
+    "original_id": "p03955",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x04112_first",
+    "original_id": "x04112",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x04112_second",
+    "original_id": "x04112",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x04112_second_forced2",
+    "original_id": "x04112",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x04112_select",
+    "original_id": "x04112",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08323_first",
+    "original_id": "x08323",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08323_second",
+    "original_id": "x08323",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08323_second_forced2",
+    "original_id": "x08323",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08323_select",
+    "original_id": "x08323",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01362_first",
+    "original_id": "p01362",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01362_second",
+    "original_id": "p01362",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01362_second_forced2",
+    "original_id": "p01362",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01362_select",
+    "original_id": "p01362",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x03821_first",
+    "original_id": "x03821",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x03821_second",
+    "original_id": "x03821",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x03821_second_forced2",
+    "original_id": "x03821",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x03821_select",
+    "original_id": "x03821",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x00225_first",
+    "original_id": "x00225",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00225_second",
+    "original_id": "x00225",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00225_second_forced2",
+    "original_id": "x00225",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00225_select",
+    "original_id": "x00225",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04601_first",
+    "original_id": "p04601",
+    "condition": "first",
+    "needed_first": 2,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04601_second",
+    "original_id": "p04601",
+    "condition": "second",
+    "needed_first": 2,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04601_second_forced2",
+    "original_id": "p04601",
+    "condition": "second_forced2",
+    "needed_first": 2,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04601_select",
+    "original_id": "p04601",
+    "condition": "select",
+    "needed_first": 2,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p05231_first",
+    "original_id": "p05231",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p05231_second",
+    "original_id": "p05231",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p05231_second_forced2",
+    "original_id": "p05231",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p05231_select",
+    "original_id": "p05231",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p02281_first",
+    "original_id": "p02281",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02281_second",
+    "original_id": "p02281",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02281_second_forced2",
+    "original_id": "p02281",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02281_select",
+    "original_id": "p02281",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04305_first",
+    "original_id": "p04305",
+    "condition": "first",
+    "needed_first": 2,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04305_second",
+    "original_id": "p04305",
+    "condition": "second",
+    "needed_first": 2,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04305_second_forced2",
+    "original_id": "p04305",
+    "condition": "second_forced2",
+    "needed_first": 2,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04305_select",
+    "original_id": "p04305",
+    "condition": "select",
+    "needed_first": 2,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x00345_first",
+    "original_id": "x00345",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00345_second",
+    "original_id": "x00345",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00345_second_forced2",
+    "original_id": "x00345",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x00345_select",
+    "original_id": "x00345",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02028_first",
+    "original_id": "x02028",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02028_second",
+    "original_id": "x02028",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02028_second_forced2",
+    "original_id": "x02028",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02028_select",
+    "original_id": "x02028",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08429_first",
+    "original_id": "x08429",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08429_second",
+    "original_id": "x08429",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08429_second_forced2",
+    "original_id": "x08429",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x08429_select",
+    "original_id": "x08429",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01228_first",
+    "original_id": "x01228",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01228_second",
+    "original_id": "x01228",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01228_second_forced2",
+    "original_id": "x01228",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01228_select",
+    "original_id": "x01228",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02100_first",
+    "original_id": "x02100",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02100_second",
+    "original_id": "x02100",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02100_second_forced2",
+    "original_id": "x02100",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x02100_select",
+    "original_id": "x02100",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01988_first",
+    "original_id": "p01988",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01988_second",
+    "original_id": "p01988",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01988_second_forced2",
+    "original_id": "p01988",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p01988_select",
+    "original_id": "p01988",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x01666_first",
+    "original_id": "x01666",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x01666_second",
+    "original_id": "x01666",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x01666_second_forced2",
+    "original_id": "x01666",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x01666_select",
+    "original_id": "x01666",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_x01363_first",
+    "original_id": "x01363",
+    "condition": "first",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01363_second",
+    "original_id": "x01363",
+    "condition": "second",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01363_second_forced2",
+    "original_id": "x01363",
+    "condition": "second_forced2",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_x01363_select",
+    "original_id": "x01363",
+    "condition": "select",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03440_first",
+    "original_id": "p03440",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03440_second",
+    "original_id": "p03440",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03440_second_forced2",
+    "original_id": "p03440",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03440_select",
+    "original_id": "p03440",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04488_first",
+    "original_id": "p04488",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04488_second",
+    "original_id": "p04488",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04488_second_forced2",
+    "original_id": "p04488",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p04488_select",
+    "original_id": "p04488",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p00680_first",
+    "original_id": "p00680",
+    "condition": "first",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00680_second",
+    "original_id": "p00680",
+    "condition": "second",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00680_second_forced2",
+    "original_id": "p00680",
+    "condition": "second_forced2",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00680_select",
+    "original_id": "p00680",
+    "condition": "select",
+    "needed_first": 2,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04189_first",
+    "original_id": "p04189",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04189_second",
+    "original_id": "p04189",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04189_second_forced2",
+    "original_id": "p04189",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p04189_select",
+    "original_id": "p04189",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00641_first",
+    "original_id": "p00641",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00641_second",
+    "original_id": "p00641",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00641_second_forced2",
+    "original_id": "p00641",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00641_select",
+    "original_id": "p00641",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03059_first",
+    "original_id": "p03059",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03059_second",
+    "original_id": "p03059",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03059_second_forced2",
+    "original_id": "p03059",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p03059_select",
+    "original_id": "p03059",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02002_first",
+    "original_id": "p02002",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02002_second",
+    "original_id": "p02002",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02002_second_forced2",
+    "original_id": "p02002",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02002_select",
+    "original_id": "p02002",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p02181_first",
+    "original_id": "p02181",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p02181_second",
+    "original_id": "p02181",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p02181_second_forced2",
+    "original_id": "p02181",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p02181_select",
+    "original_id": "p02181",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 2
+  },
+  {
+    "id": "assignment_p00718_first",
+    "original_id": "p00718",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00718_second",
+    "original_id": "p00718",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00718_second_forced2",
+    "original_id": "p00718",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00718_select",
+    "original_id": "p00718",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00310_first",
+    "original_id": "p00310",
+    "condition": "first",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00310_second",
+    "original_id": "p00310",
+    "condition": "second",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00310_second_forced2",
+    "original_id": "p00310",
+    "condition": "second_forced2",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p00310_select",
+    "original_id": "p00310",
+    "condition": "select",
+    "needed_first": 1,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01611_first",
+    "original_id": "p01611",
+    "condition": "first",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01611_second",
+    "original_id": "p01611",
+    "condition": "second",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01611_second_forced2",
+    "original_id": "p01611",
+    "condition": "second_forced2",
+    "needed_first": null,
+    "selected_digit": 1
+  },
+  {
+    "id": "assignment_p01611_select",
+    "original_id": "p01611",
+    "condition": "select",
+    "needed_first": null,
+    "selected_digit": 1
+  }
+]

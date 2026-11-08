@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="TinyLoRA: steer the strongest directions with 13 numbers">
+  <rect width="1000" height="420" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">TinyLoRA: steer the strongest directions with 13 numbers</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">Blue is trained or computed from trained numbers. Everything grey is frozen.</text>
+  <rect x="36.0" y="112.0" width="150.0" height="150.0" rx="6" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="111.0" y="193.0" font-size="18" fill="#0b0b0b" text-anchor="middle" font-weight="700">W</text>
+  <text x="111.0" y="288.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">W, frozen</text>
+  <text x="210.0" y="196.0" font-size="26" fill="#52514e" text-anchor="middle" font-weight="400">+</text>
+  <rect x="232.0" y="112.0" width="22.0" height="150.0" rx="3" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="254.0" y="112.0" width="22.0" height="150.0" rx="3" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="254.0" y="288.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">UΣ</text>
+  <text x="254.0" y="306.0" font-size="12.5" fill="#52514e" text-anchor="middle" font-weight="400">frozen</text>
+  <rect x="290.0" y="112.0" width="22.0" height="22.0" rx="2" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.5"/>
+  <rect x="312.0" y="112.0" width="22.0" height="22.0" rx="2" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.5"/>
+  <rect x="290.0" y="134.0" width="22.0" height="22.0" rx="2" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.5"/>
+  <rect x="312.0" y="134.0" width="22.0" height="22.0" rx="2" fill="#EFF4FB" stroke="#2a78d6" stroke-width="1.5"/>
+  <text x="312.0" y="102.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">R</text>
+  <rect x="348.0" y="112.0" width="150.0" height="22.0" rx="3" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="348.0" y="134.0" width="150.0" height="22.0" rx="3" fill="#E5E7EB" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="423.0" y="178.0" font-size="14" fill="#0b0b0b" text-anchor="middle" font-weight="700">Vᵀ, frozen</text>
+  <text x="423.0" y="102.0" font-size="12.5" fill="#52514e" text-anchor="middle" font-weight="400">the 2 strongest directions of W</text>
+  <rect x="191.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="216.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="241.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="266.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="291.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="316.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="341.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="366.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="391.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="416.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="441.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="466.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <rect x="491.0" y="330.0" width="22.0" height="22.0" rx="3" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+  <text x="352.0" y="376.0" font-size="13.5" fill="#0b0b0b" text-anchor="middle" font-weight="700">v: 13 trained numbers, one copy shared by all 196 matrices</text>
+  <line x1="312.0" y1="324.0" x2="312.0" y2="172.0" stroke="#2a78d6" stroke-width="2"/>
+  <path d="M312.0,164.0 L316.4,172.0 L307.6,172.0 Z" fill="#2a78d6"/>
+  <text x="326.0" y="266.0" font-size="13.5" fill="#0b0b0b" text-anchor="start" font-weight="600">R = v₁P₁ + v₂P₂ + … + v₁₃P₁₃</text>
+  <text x="326.0" y="286.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">P₁ … P₁₃: fixed random 2×2 grids</text>
+  <text x="538.0" y="124.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">W&#x27; = W + UΣ R Vᵀ</text>
+  <text x="538.0" y="146.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400"></text>
+  <text x="538.0" y="168.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">SVD finds the strongest</text>
+  <text x="538.0" y="190.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">directions of W (frozen).</text>
+  <text x="538.0" y="212.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">R, a 2×2 mixer, re-weights</text>
+  <text x="538.0" y="234.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">how they combine.</text>
+  <text x="538.0" y="256.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400"></text>
+  <text x="538.0" y="278.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">v starts at 0, so R = 0</text>
+  <text x="538.0" y="300.0" font-size="13.5" fill="#52514e" text-anchor="start" font-weight="400">and W&#x27; = W at step 0.</text>
+</svg>

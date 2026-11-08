@@ -1,0 +1,31 @@
+{
+  "name": "tinylora_sft",
+  "model": "checkpoints/tinylora_sft",
+  "lora": null,
+  "quantization": null,
+  "split": "dev",
+  "n": 1534,
+  "ex": 30.44,
+  "ex_simple": 36.97,
+  "ex_moderate": 21.12,
+  "ex_challenging": 18.62,
+  "counts": {
+    "simple": {
+      "n": 925,
+      "correct": 342
+    },
+    "moderate": {
+      "n": 464,
+      "correct": 98
+    },
+    "challenging": {
+      "n": 145,
+      "correct": 27
+    }
+  },
+  "n_correct": 467,
+  "n_pred_errors": 627,
+  "gen_seconds": 117.9,
+  "exec_seconds": 36.9,
+  "eval_seconds": 154.8
+}

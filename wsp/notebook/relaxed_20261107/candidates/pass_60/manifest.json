@@ -1,0 +1,17 @@
+{
+  "trial": {
+    "name": "assign_all_6_coupledTrue",
+    "script": "apply_alias_assignment.py",
+    "args": [
+      "--mode",
+      "all",
+      "--strength",
+      "6",
+      "--coupled"
+    ],
+    "family": "alias_assignment",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "010c7f2e6eadcd96"
+}

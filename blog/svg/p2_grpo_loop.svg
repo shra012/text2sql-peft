@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 474" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="One GRPO step, sharing one GPU">
+  <rect width="1000" height="474" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">One GRPO step, sharing one GPU</text>
+  <text x="28" y="64" font-size="14" fill="#52514e">vLLM and the trainer take turns on the GPU. The SQL grading runs on the CPU.</text>
+  <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs>
+  <rect x="20" y="132" width="960" height="96" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="36.0" y="176.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">vLLM</text>
+  <text x="36.0" y="196.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">fast sampler</text>
+  <rect x="20" y="242" width="960" height="96" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="36.0" y="286.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">CPU</text>
+  <text x="36.0" y="306.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">12 SQL workers</text>
+  <rect x="20" y="352" width="960" height="96" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="36.0" y="396.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">Trainer</text>
+  <text x="36.0" y="416.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">PyTorch, 13 numbers</text>
+  <rect x="182" y="140.0" width="150" height="80" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="182" y="150.0" width="5" height="60" rx="2.5" fill="#2a78d6"/>
+  <text x="198.0" y="164.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">1. Sample</text>
+  <text x="198.0" y="184.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">8 questions x 8</text>
+  <text x="198.0" y="202.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">= 64 SQL answers</text>
+  <rect x="340" y="250.0" width="150" height="80" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="340" y="260.0" width="5" height="60" rx="2.5" fill="#1baf7a"/>
+  <text x="356.0" y="274.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">2. Grade</text>
+  <text x="356.0" y="294.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">run each SQL,</text>
+  <text x="356.0" y="312.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">reward 1 or 0</text>
+  <rect x="498" y="360.0" width="150" height="80" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="498" y="370.0" width="5" height="60" rx="2.5" fill="#eb6834"/>
+  <text x="514.0" y="384.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">3. Advantages</text>
+  <text x="514.0" y="404.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">(reward - mean)</text>
+  <text x="514.0" y="422.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">/ spread, per 8</text>
+  <rect x="656" y="360.0" width="150" height="80" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="656" y="370.0" width="5" height="60" rx="2.5" fill="#2a78d6"/>
+  <text x="672.0" y="384.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">4. Update v</text>
+  <text x="672.0" y="404.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">fwd + bwd, 16 x 4</text>
+  <text x="672.0" y="422.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">answers, 1 step</text>
+  <rect x="814" y="140.0" width="150" height="80" rx="10" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="814" y="150.0" width="5" height="60" rx="2.5" fill="#2a78d6"/>
+  <text x="830.0" y="164.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">5. Sync weights</text>
+  <text x="830.0" y="184.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">push W&#x27; into</text>
+  <text x="830.0" y="202.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">vLLM&#x27;s 196 layers</text>
+  <polyline points="257.0,222.0 257.0,290.0 336.0,290.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <polyline points="415.0,332.0 415.0,400.0 494.0,400.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <polyline points="651.0,400.0 652.0,400.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <polyline points="731.0,358.0 731.0,180.0 810.0,180.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <rect x="334" y="140.0" width="383.0" height="80" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-dasharray="6 5"/>
+  <text x="525.5" y="174.0" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">vLLM asleep: weights and KV cache</text>
+  <text x="525.5" y="194.0" font-size="12.5" fill="#52514e" text-anchor="middle" font-weight="400">moved off the GPU (frees about 7 GiB)</text>
+  <polyline points="889.0,138.0 889.0,110.0 257.0,110.0 257.0,136.0" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 5" stroke-linejoin="round" marker-end="url(#ah)"/>
+  <rect x="413.0" y="98" width="320" height="24" fill="#FCFCFB"/>
+  <text x="573.0" y="115.0" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="600">next step: about 100 s per loop, 75 loops</text>
+</svg>

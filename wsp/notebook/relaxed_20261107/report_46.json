@@ -1,0 +1,66 @@
+{
+  "cte": {
+    "n": 128,
+    "reference_correct": 49,
+    "candidate_correct": 33,
+    "reference_ex": 38.28,
+    "candidate_ex": 25.78,
+    "fixed": 9,
+    "broke": 25,
+    "net": -16,
+    "exact_p": 0.009041,
+    "forms": {
+      "with": 128,
+      "comment": 0,
+      "sql_first": 128
+    }
+  },
+  "qualified": {
+    "n": 128,
+    "reference_correct": 49,
+    "candidate_correct": 40,
+    "reference_ex": 38.28,
+    "candidate_ex": 31.25,
+    "fixed": 7,
+    "broke": 16,
+    "net": -9,
+    "exact_p": 0.09314,
+    "forms": {
+      "with": 0,
+      "comment": 0,
+      "sql_first": 128
+    }
+  },
+  "comment_plan": {
+    "n": 128,
+    "reference_correct": 49,
+    "candidate_correct": 36,
+    "reference_ex": 38.28,
+    "candidate_ex": 28.12,
+    "fixed": 13,
+    "broke": 26,
+    "net": -13,
+    "exact_p": 0.053252,
+    "forms": {
+      "with": 0,
+      "comment": 127,
+      "sql_first": 128
+    }
+  },
+  "semantic_alias": {
+    "n": 128,
+    "reference_correct": 49,
+    "candidate_correct": 43,
+    "reference_ex": 38.28,
+    "candidate_ex": 33.59,
+    "fixed": 9,
+    "broke": 15,
+    "net": -6,
+    "exact_p": 0.307456,
+    "forms": {
+      "with": 0,
+      "comment": 0,
+      "sql_first": 128
+    }
+  }
+}

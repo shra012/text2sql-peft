@@ -1,0 +1,14 @@
+{
+  "trial": {
+    "name": "owner_head_L26H11_a1.5",
+    "script": "apply_heads.py",
+    "args": [
+      "--heads",
+      "26:11:1.5"
+    ],
+    "family": "owner_retrieval",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "d4ed5b3830687d3f"
+}

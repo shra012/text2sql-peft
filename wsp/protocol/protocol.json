@@ -1,0 +1,13 @@
+{
+ "registered": "2026-11-08",
+ "reference": "snapshot F4 (fingerprint ae81f3cb05285df3)",
+ "cohorts": {
+  "A": "wsp/protocol/cohort_A.txt",
+  "B": "wsp/protocol/cohort_B.txt"
+ },
+ "cohort_design": "512 each; 256 prompts >2048 tokens + 256 <=2048 (dev has ~48% >2048); ids never used in any earlier pass; seed 20261108",
+ "max_candidates": 4,
+ "gate_A": "candidate vs F4 on cohort A: continue to B only if fixed-broke >= +8",
+ "accept": "combined A+B (1,024 questions) exact McNemar p < 0.05 with fixed > broke",
+ "dev": "evaluate on BIRD dev only if a candidate is accepted; at most once"
+}

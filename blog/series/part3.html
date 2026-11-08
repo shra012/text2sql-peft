@@ -1,0 +1,283 @@
+<p><em>This is part 3 of 3. <a href='#/blog/finetuning_series_1_methods'>Part 1</a> explains the five fine-tuning methods. <a href='#/blog/finetuning_series_2_how'>Part 2</a> explains how I tested them. This part is the results.</em></p>
+<p><em>About 23 min read.</em></p>
+<blockquote><p><strong>In short</strong></p><ul><li>LoRA and QLoRA added about 14 points (28.49% to 42%), and a significance test says that is real, not luck.</li><li>Full fine-tuning added only 7.6 points, likely held back by 16-bit rounding: 92% of its weights never changed.</li><li>TinyLoRA added 2 points with SFT and GRPO alike, which could be luck; what its 13 numbers learned was the answer format.</li><li>Bonus: Claude Opus 5.5 edited 48,398 weights directly, with no training at all. It removed the "let me explain first" habit completely and landed at +1.6 points, right next to TinyLoRA.</li></ul></blockquote>
+<p>Quick recap: I fine-tuned <code>Qwen2.5-Coder-1.5B-Instruct</code> (1.54 billion parameters) with the five methods from <a href='#/blog/finetuning_series_1_methods'>part 1</a>, training TinyLoRA twice: once with supervised fine-tuning (SFT) and once with reinforcement learning (GRPO). Each model then answered the same 1,534 BIRD dev questions, and an answer counts as correct when its SQL returns the same rows as the reference ("gold") SQL. That score is <strong>execution accuracy</strong> (EX); <a href='#/blog/finetuning_series_2_how'>part 2</a> has the setup. At the end there is a bonus sixth method: letting an LLM edit the weights directly.</p>
+<h3>The scoreboard</h3>
+<p>Every run, plus the untouched base model and one extra row: the QLoRA patch served on top of the 4-bit model, the way you'd deploy it if memory is tight. "Correct" is the raw count out of 1,534, so you can check any score by hand: LoRA's 645 / 1,534 = 0.4205, or 42.05%.</p>
+<div style="overflow-x:auto;margin:1.9rem 0"><table><thead><tr><th>Method</th><th class='num'>Trainable params</th><th class='num'>Correct</th><th class='num'>EX</th><th class='num'>Simple</th><th class='num'>Moderate</th><th class='num'>Challenging</th><th class='num'>Change vs base</th></tr></thead><tbody>
+<tr><td>Base model (no training)</td><td class='num'>0</td><td class='num'>437</td><td class='num'>28.49</td><td class='num'>35.78</td><td class='num'>17.89</td><td class='num'>15.86</td><td class='num'>&ndash;</td></tr>
+<tr><td>Full fine-tuning</td><td class='num'>1.54B</td><td class='num'>554</td><td class='num'>36.11</td><td class='num'>42.38</td><td class='num'>28.88</td><td class='num'>19.31</td><td class='num'>+7.62</td></tr>
+<tr><td>LoRA (r=64)</td><td class='num'>73.9M</td><td class='num'>645</td><td class='num'>42.05</td><td class='num'>49.62</td><td class='num'>32.33</td><td class='num'>24.83</td><td class='num'>+13.56</td></tr>
+<tr><td>LoRA-FA</td><td class='num'>41.3M</td><td class='num'>622</td><td class='num'>40.55</td><td class='num'>48.43</td><td class='num'>30.39</td><td class='num'>22.76</td><td class='num'>+12.06</td></tr>
+<tr><td>QLoRA (NF4)</td><td class='num'>73.9M</td><td class='num'>651</td><td class='num'><strong>42.44</strong></td><td class='num'>49.41</td><td class='num'>32.97</td><td class='num'>28.28</td><td class='num'>+13.95</td></tr>
+<tr><td>QLoRA, served in 4-bit</td><td class='num'>73.9M</td><td class='num'>636</td><td class='num'>41.46</td><td class='num'>48.54</td><td class='num'>32.11</td><td class='num'>26.21</td><td class='num'>+12.97</td></tr>
+<tr><td>TinyLoRA, SFT</td><td class='num'>13</td><td class='num'>467</td><td class='num'>30.44</td><td class='num'>36.97</td><td class='num'>21.12</td><td class='num'>18.62</td><td class='num'>+1.95</td></tr>
+<tr><td>TinyLoRA, GRPO</td><td class='num'>13</td><td class='num'>467</td><td class='num'>30.44</td><td class='num'>37.51</td><td class='num'>20.26</td><td class='num'>17.93</td><td class='num'>+1.95</td></tr>
+<tr><td>Opus weight edit (bonus, below)</td><td class='num'>48,398 changed</td><td class='num'>462</td><td class='num'>30.12</td><td class='num'>37.41</td><td class='num'>19.83</td><td class='num'>16.55</td><td class='num'>+1.63</td></tr>
+</tbody></table></div>
+<p>All numbers are percentages except the first two columns. "Change vs base" is in percentage points: 42.05 &minus; 28.49 = +13.56.</p>
+<!--SVG:ex_vs_params-->
+<p>In plain words:</p>
+<ul>
+<li><strong>Every method beat the base model.</strong> Even 13 numbers moved the score a little.</li>
+<li><strong>The LoRA family won.</strong> LoRA, LoRA-FA and QLoRA landed between 40.55% and 42.44%: 12 to 14 points above the base model, or roughly 185 to 214 more correct answers.</li>
+<li><strong>More trainable numbers did not mean a better score.</strong> Full fine-tuning changed all 1.54 billion weights and scored 36.11%, six points below LoRA. I have a guess why, further down.</li>
+<li><strong>TinyLoRA barely moved.</strong> Both runs got 467 questions right, against 437 for the base model. The bonus weight edit by Opus landed next to them, at 462.</li>
+</ul>
+<p>The x-axis in the picture is a log scale: each tick is ten times the one before. If more trainable numbers always helped, the dots would climb steadily to the right. Instead they climb, flatten, and drop at the far right.</p>
+<h3>Is it real or luck?</h3>
+<p>A score can go up by luck. So before believing any of this, I want to know: could a gain this size happen by chance?</p>
+<h4>Count what changed, not the totals</h4>
+<p>Most questions don't change at all: both models get them right, or both get them wrong. Those tell us nothing about which model is better. What matters are the questions where the two models <em>disagree</em>. There are two kinds:</p>
+<ul>
+<li><strong>Fixed</strong>: the base model was wrong, the tuned model is right.</li>
+<li><strong>Broke</strong>: the base model was right, the tuned model is wrong.</li>
+</ul>
+<p>LoRA fixed 299 questions and broke 91. Check: 437 + 299 &minus; 91 = 645, which is exactly LoRA's count of correct answers.</p>
+<h4>The coin-flip story</h4>
+<p>Imagine fine-tuning did nothing useful and just shuffled the model's mistakes around. Then every question where the two models disagree is like a coin flip: heads it lands in "fixed", tails in "broke". Over many flips you would expect roughly half and half.</p>
+<p>So the question becomes: if I flip a fair coin 390 times (299 + 91), how likely is a split as lopsided as 299 to 91, or worse? That probability is the <strong>p-value</strong>. A small p means "a fair coin would almost never do this", so the change is probably real. A common rule of thumb: under 0.05 (1 in 20) counts as real. This test is called <strong><a href='https://en.wikipedia.org/wiki/McNemar%27s_test' target='_blank' rel='noopener noreferrer'>McNemar's test</a></strong>.</p>
+<p>A tiny example you can do by hand. Say a method fixed 9 questions and broke 1: 10 coin flips. There is 1 way to get zero tails and 10 ways to get exactly one tail, so 11 of the 2<sup>10</sup> = 1,024 possible outcomes are this lopsided. It could also go the other way round (1 fixed, 9 broke), so double it: 2 &times; 11 / 1,024 = 0.021. About a 2% chance. Probably real.</p>
+<p>Here is the same thing in Python. It is the exact calculation I used for every row below:</p>
+<pre><code class='language-python'>from math import comb
+
+def mcnemar_p(fixed, broke):
+    n = fixed + broke          # questions where the two models disagree
+    k = min(fixed, broke)      # the smaller side
+    # chance a fair coin gives a split at least this lopsided, either way round
+    p = 2 * sum(comb(n, i) for i in range(k + 1)) / 2**n
+    return min(p, 1.0)
+
+print(mcnemar_p(9, 1))       # 0.021484375
+print(mcnemar_p(299, 91))    # 5.6e-27   (LoRA)
+print(mcnemar_p(160, 130))   # 0.088     (TinyLoRA + GRPO)</code></pre>
+<p><code>comb(n, i)</code> counts the ways to get <code>i</code> tails in <code>n</code> flips.</p>
+<div style="overflow-x:auto;margin:1.9rem 0"><table><thead><tr><th>Method (vs base)</th><th class='num'>Fixed</th><th class='num'>Broke</th><th class='num'>p-value</th><th>Verdict</th></tr></thead><tbody>
+<tr><td>Full fine-tuning</td><td class='num'>223</td><td class='num'>106</td><td class='num'>1.0 &times; 10<sup>-10</sup></td><td>real</td></tr>
+<tr><td>LoRA</td><td class='num'>299</td><td class='num'>91</td><td class='num'>5.6 &times; 10<sup>-27</sup></td><td>real</td></tr>
+<tr><td>LoRA-FA</td><td class='num'>292</td><td class='num'>107</td><td class='num'>6.2 &times; 10<sup>-21</sup></td><td>real</td></tr>
+<tr><td>QLoRA</td><td class='num'>307</td><td class='num'>93</td><td class='num'>8.3 &times; 10<sup>-28</sup></td><td>real</td></tr>
+<tr><td>QLoRA, served in 4-bit</td><td class='num'>296</td><td class='num'>97</td><td class='num'>1.6 &times; 10<sup>-24</sup></td><td>real</td></tr>
+<tr><td>TinyLoRA, SFT</td><td class='num'>155</td><td class='num'>125</td><td class='num'>0.083</td><td>could be luck</td></tr>
+<tr><td>TinyLoRA, GRPO</td><td class='num'>160</td><td class='num'>130</td><td class='num'>0.088</td><td>could be luck</td></tr>
+<tr><td>Opus weight edit</td><td class='num'>97</td><td class='num'>72</td><td class='num'>0.065</td><td>could be luck</td></tr>
+</tbody></table></div>
+<p>The LoRA family's gains are not luck. TinyLoRA's are a different story: about an 8 to 9% chance under the coin-flip story. That doesn't prove TinyLoRA did nothing. It means this experiment can't tell its +1.95 points apart from noise.</p>
+<p>Notice that every method broke something: even LoRA broke 91 questions the base model got right. The same test also works between any two models:</p>
+<ul>
+<li><strong>LoRA vs QLoRA:</strong> 66 questions only LoRA got right, 72 only QLoRA got right. p = 0.67. A tie.</li>
+<li><strong>LoRA vs LoRA-FA:</strong> 84 vs 61. p = 0.067. LoRA is probably a bit better, but not clearly.</li>
+<li><strong>LoRA vs full fine-tuning:</strong> 170 vs 79. p = 8 &times; 10<sup>-9</sup>. In this setup, the gap is real.</li>
+</ul>
+<h3>By difficulty</h3>
+<p>BIRD labels each question simple, moderate or challenging.</p>
+<!--SVG:ex_by_difficulty-->
+<ul>
+<li><strong>The gains are not only on easy questions.</strong> LoRA lifts simple questions from 35.78% to 49.62%, and moderate ones from 17.89% to 32.33%. On moderate questions that is 83 correct answers going to 150, nearly double.</li>
+<li><strong>Be careful with the challenging bars.</strong> There are only 145 challenging questions, so each one is worth 100 / 145 = 0.7 points. QLoRA's best-in-show 28.28% is 41 questions; LoRA's 24.83% is 36. That 3.45-point gap is five questions.</li>
+<li><strong>TinyLoRA is close to the base model everywhere.</strong> On challenging questions it got 27 (SFT) and 26 (GRPO) right, against 23 for the base model. Three or four questions.</li>
+<li><strong>Full fine-tuning trails the LoRA family at every level.</strong></li>
+</ul>
+<h3>What the base model got wrong, and what fine-tuning fixed</h3>
+<p>The most useful thing I did was look at <em>how</em> the base model fails. 693 of its 1,534 queries don't even run. And 602 of those 693 fail with the same SQLite error: <code>no such column</code>. The model writes valid SQL. It just names columns that aren't there, often a column that does exist, but in a different table.</p>
+<p>That is the error fine-tuning fixed most:</p>
+<div style="overflow-x:auto;margin:1.9rem 0"><table><thead><tr><th>Method</th><th class='num'>Queries that error</th><th class='num'>of which "no such column"</th></tr></thead><tbody>
+<tr><td>Base model</td><td class='num'>693</td><td class='num'>602</td></tr>
+<tr><td>Full fine-tuning</td><td class='num'>484</td><td class='num'>444</td></tr>
+<tr><td>LoRA</td><td class='num'>342</td><td class='num'>300</td></tr>
+<tr><td>LoRA-FA</td><td class='num'>342</td><td class='num'>300</td></tr>
+<tr><td>QLoRA</td><td class='num'>339</td><td class='num'>296</td></tr>
+<tr><td>QLoRA, served in 4-bit</td><td class='num'>316</td><td class='num'>270</td></tr>
+<tr><td>TinyLoRA, SFT</td><td class='num'>627</td><td class='num'>555</td></tr>
+<tr><td>TinyLoRA, GRPO</td><td class='num'>603</td><td class='num'>525</td></tr>
+<tr><td>Opus weight edit</td><td class='num'>653</td><td class='num'>582</td></tr>
+</tbody></table></div>
+<p>LoRA cut "no such column" errors in half. And of the 299 questions LoRA fixed, 190 were questions where the base model had failed with "no such column". So almost two thirds of LoRA's gain is one lesson: <em>which column lives in which table</em>.</p>
+<h4>Example 1: the column is in the other table</h4>
+<p>From the toxicology database (question 261):</p>
+<blockquote><p>Write down bond id for molecules that are carcinogenic. (Hint from BIRD: label = '+' means molecules are carcinogenic.)</p></blockquote>
+<p>Base model:</p>
+<pre><code class='language-sql'>SELECT bond_id FROM bond WHERE label = '+'</code></pre>
+<p>SQLite answers <code>no such column: label</code>. The <code>label</code> column lives in the <code>molecule</code> table, not in <code>bond</code>. The funny part: in its explanation, written just before this SQL, the base model says so itself: "The information about molecules and their labels is stored in the <code>molecule</code> table." Then it writes the query against <code>bond</code> anyway.</p>
+<p>After LoRA:</p>
+<pre><code class='language-sql'>SELECT T1.bond_id
+FROM bond AS T1
+INNER JOIN molecule AS T2 ON T1.molecule_id = T2.molecule_id
+WHERE T2.label = '+'</code></pre>
+<p>It joins <code>bond</code> to <code>molecule</code> through the shared <code>molecule_id</code> column and filters on the right table. Every fine-tuned model got this one, including both TinyLoRA runs (they used a subquery instead of a join).</p>
+<h4>Example 2: full fine-tuning repeats the mistake, LoRA doesn't</h4>
+<p>From the superhero database (question 755):</p>
+<blockquote><p>List down at least five full name of Demi-God superheroes. (Hint: Demi-God superheroes refers to race = 'Demi-God'.)</p></blockquote>
+<p>The base model and the fully fine-tuned model wrote the exact same query:</p>
+<pre><code class='language-sql'>SELECT full_name FROM superhero WHERE race = 'Demi-God' LIMIT 5</code></pre>
+<p>Again <code>no such column: race</code>. The <code>superhero</code> table only has a <code>race_id</code>; the names of races live in a separate <code>race</code> table. LoRA:</p>
+<pre><code class='language-sql'>SELECT T1.full_name
+FROM superhero AS T1
+INNER JOIN race AS T2 ON T1.race_id = T2.id
+WHERE T2.race = 'Demi-God' LIMIT 5</code></pre>
+<p>This pattern is common: it is part of the 170 vs 79 split between LoRA and full fine-tuning above.</p>
+<h4>Example 3: every model fails</h4>
+<p>633 questions were missed by all eight runs. This one is simple and instructive (codebase_community database, question 663):</p>
+<blockquote><p>What is the id of the youngest user? (Hint: the youngest user refers to MIN(Age).)</p></blockquote>
+<p>All seven fine-tuned models wrote this (LoRA-FA just left out the <code>ASC</code>):</p>
+<pre><code class='language-sql'>SELECT Id FROM users ORDER BY Age ASC LIMIT 1</code></pre>
+<p>Looks right. But 32,007 of the 40,325 users have no age at all (<code>NULL</code>), and SQLite sorts <code>NULL</code> before every number. So this query returns a user with no age (Id &minus;1), not the youngest user. The gold query uses <code>WHERE Age = (SELECT MIN(Age) FROM users)</code>, which skips the <code>NULL</code>s and returns Id 805. (The base model wrote <code>SELECT MIN(Age) FROM users</code>, which returns an age, not an id.) None of the runs learned to watch out for empty values.</p>
+<h3>Full fine-tuning vs LoRA: why the biggest method lost</h3>
+<p>Full fine-tuning lets all 1.54 billion weights change, so you'd expect it to beat LoRA, or at least tie. It lost by six points, and the test above says that gap is real.</p>
+<p>I don't think this means "full fine-tuning is worse". My best guess is that I crippled it to fit on the GPU. To keep memory down I stored its weights in <strong><a href='https://en.wikipedia.org/wiki/Bfloat16_floating-point_format' target='_blank' rel='noopener noreferrer'>bfloat16</a></strong> (a 16-bit number format) with no 32-bit "master copy". A 32-bit master copy alone would have been another 1.54 billion &times; 4 bytes = 6.2 GB.</p>
+<h4>Why 16-bit weights can swallow small updates</h4>
+<p>bfloat16 keeps only about 2 to 3 significant digits. Near 0.05, the closest numbers it can store are 0.050049 and then 0.050293. The gap between them is 0.000244. Anything smaller than half that gap gets rounded away.</p>
+<p>Full fine-tuning used a learning rate of 0.00001, and with the Adam optimizer each step moves a weight by roughly the learning rate, often less. So a weight of 0.05 gets a nudge of about 0.00001, which is far smaller than half of 0.000244. The nudge is rounded off and the weight doesn't change. You can see it in two lines:</p>
+<pre><code class='language-python'>import torch
+
+w = torch.tensor(0.05, dtype=torch.bfloat16)
+print(w.item())             # 0.050048828125  (closest bfloat16 to 0.05)
+print((w + 1e-5).item())    # 0.050048828125  (the update vanished)</code></pre>
+<p>With a 32-bit master copy, the tiny nudges pile up there until they are big enough to show. Without one, they are lost every step.</p>
+<h4>I checked: most weights never moved</h4>
+<p>To see if this really happened, I compared the fully fine-tuned weights with the original weights, number by number. After 125 steps, <strong>1,419,482,061 of the 1,543,714,304 weights (92%) are exactly the same, bit for bit</strong>. The weights that did move are almost all very small ones, where bfloat16's gaps are tiny. Among weights of size 0.0039 (2<sup>-8</sup>) or more, which is 84% of all weights, 99.99% never changed.</p>
+<p>So "full" fine-tuning mostly tuned the smallest weights. LoRA didn't have this problem: its patch is stored in 32-bit, and it used a learning rate 20 times bigger (0.0002).</p>
+<p>I measured that the rounding happened. I did <em>not</em> measure that the rounding is why it scored lower: I never reran it with a 32-bit master copy or more steps. So this stays my best guess, not a proven cause.</p>
+<h3>QLoRA: same score, least memory</h3>
+<p>QLoRA freezes the base model in 4-bit and trains the same LoRA patch on top. It scored 42.44% against LoRA's 42.05%. That is 651 vs 645 correct, six questions: the tie from the head-to-head test above.</p>
+<p>The win is memory: 4.0 GB peak during training versus 5.0 GB for LoRA. The cost is time: 41.4 minutes versus 31.3, because the 4-bit weights have to be unpacked on every forward pass. On a 1.5B model 1 GB hardly matters. On a 7B or 13B model on a 16 GB card, it can decide whether you can train at all.</p>
+<p>One detail for deployment: my 42.44% is the QLoRA patch merged into the original 16-bit weights. If you keep the base model in 4-bit when serving too, the score is 41.46%: 636 correct, 15 fewer. About one point, and with a head-to-head p of 0.26 even that could be noise. In my setup the 4-bit model was also slower to answer: 190 seconds for the whole dev set versus 110.</p>
+<h3>The TinyLoRA twist</h3>
+<p>This was the claim I most wanted to test. The <a href='https://arxiv.org/abs/2602.04118' target='_blank' rel='noopener noreferrer'>paper behind TinyLoRA</a> reports Qwen2.5-7B-Instruct reaching 91% on GSM8K (grade-school math word problems) by training just 13 numbers with reinforcement learning, and says supervised fine-tuning needs updates 100 to 1,000 times larger to get the same gains. The infographic I started from (see <a href='#/blog/finetuning_series_1_methods'>part 1</a>) put it more bluntly: TinyLoRA only works with RL.</p>
+<h4>Same score, different models</h4>
+<p>Both TinyLoRA runs scored exactly 30.44%, 467 correct answers each. My first thought was a bug: did I evaluate the same model twice?</p>
+<p>No. The two models disagree on 252 questions: 126 that only SFT got right and 126 that only GRPO got right. They just land on the same total. The 13 numbers they learned differ too: the two sets point in almost unrelated directions.</p>
+<p>So on this task I could not confirm "TinyLoRA only works with RL". Plain SFT got the same +1.95 points in under a quarter of the time (30 minutes vs 128), and neither gain is clearly more than luck.</p>
+<h4>What the 13 numbers learned: format</h4>
+<p>The score barely moved, but the answers look completely different. My prompt asks the model to "Return only the SQL in a ```sql code block". The base model often ignores that. It likes to explain its plan step by step first, then give the SQL. Only 838 of its 1,534 answers start straight with the SQL block. After TinyLoRA, 1,525 (SFT) and 1,433 (GRPO) do.</p>
+<!--SVG:p3_format_shift-->
+<p>The average answer shrank from 650 characters to 179 (SFT) and 239 (GRPO), close to LoRA's 173. Shorter answers mean less to generate: answering the whole dev set took the base model 506 seconds, and the TinyLoRA models 118 (SFT) and 133 (GRPO). About 4 times faster.</p>
+<p>That is a real behaviour change from 13 numbers. But it is the wrong change for BIRD: writing SQL first doesn't tell the model that <code>label</code> lives in the <code>molecule</code> table. In the error table above, TinyLoRA barely dented "no such column", while LoRA halved it.</p>
+<h4>Did GRPO learn anything during training?</h4>
+<p>A little. The reward is the share of each step's 64 sampled answers that were correct (<a href='#/blog/finetuning_series_2_how'>part 2</a> walks through the loop).</p>
+<!--SVG:tinylora_grpo_reward-->
+<p>Averaged over 10 steps, the reward went from 26.7% in the first ten steps to 29.1% in the last ten. Single steps jump around because each draws new questions, so I trust the average more. A small climb, in line with the dev result: a little better, but not clearly more than noise.</p>
+<p>For the curious, these are all 13 numbers GRPO learned:</p>
+<pre><code class='language-text'>0.012, -0.049, -0.020, -0.013, 0.058, -0.018, -0.090,
+-0.015, 0.053, -0.008, -0.047, -0.046, -0.039</code></pre>
+<p>And the 13 that SFT learned:</p>
+<pre><code class='language-text'>-0.070, -0.024, 0.056, -0.053, 0.074, -0.066, 0.022,
+0.109, -0.011, -0.003, 0.044, -0.067, 0.032</code></pre>
+<p>That's the entire trained part of each model: all 196 adapted weight matrices get their update from the same 13 numbers (<a href='#/blog/finetuning_series_1_methods'>part 1</a> shows how).</p>
+<h4>Why my result differs from the paper</h4>
+<p>I don't think my result says the paper is wrong. I tested something different. My best guesses, most likely first:</p>
+<ol>
+<li><strong>The task needs knowledge, not a nudge.</strong> On GSM8K, the 7B model probably already knows how to do most of the math. A small push in the right direction ("think step by step, then answer in this format") can unlock it. BIRD needs facts about the databases: which columns exist, in which tables, what the values look like. Thirteen numbers can change a style. I doubt they can store a map of table layouts.</li>
+<li><strong>A short RL run.</strong> My GRPO run was 75 steps over 600 questions. The paper trains for far longer. RL might pull ahead of SFT with a bigger budget.</li>
+<li><strong>A smaller model.</strong> 1.5B parameters vs 7B. A bigger model may have more hidden ability for 13 numbers to unlock.</li>
+</ol>
+<h3>Bonus method 6: letting an LLM edit the weights</h3>
+<p>While I was writing this up, MIT CSAIL published <a href='https://rikiyat.github.io/blog/weight-space-programming/' target='_blank' rel='noopener noreferrer'>Sparks of Weight-Space Programming</a>. Instead of gradient descent, a frontier LLM read a small model's raw weights and edited them by hand. On Qwen3.5-0.8B it found a "looping" direction in two MLP layers, subtracted it from 0.016% of the weights, and MATH-500 went from 7.9% to 48.1%. Their own caveat: the edit fixed a habit that stopped the model from finishing, it did not make the model better at math. I repeated the experiment on my model, with <strong>Claude Opus 5.5</strong> as the editor, running as an agent.</p>
+<h4>The rules</h4>
+<ul>
+<li><strong>Read the weights, on CPU.</strong> A small Python library to load any weight matrix and compute whatever it likes: statistics, SVD, projections.</li>
+<li><strong>25 forward passes</strong>, the only way to run the model. A pass either answers up to 512 practice questions with the original and the edited model side by side (graded), or records the model's inner activations on up to 1,024 texts.</li>
+<li><strong>Practice on BIRD's training questions only.</strong> The dev set, the other methods' weights and all results were off limits. I checked its logs afterwards.</li>
+<li><strong>No training.</strong> No gradients, no optimizer, no fitting weights to a loss. Edits go through a <code>save_edit()</code> function that refuses the embedding, the output layer, the final norm, and "multiply the whole matrix by a number".</li>
+<li><strong>Explain every step</strong> in a lab notebook.</li>
+</ul>
+<h4>What it found</h4>
+<p>It used 19 of its 25 passes, about an hour and a half in total. It started by reading failures and found the two habits from this post. For the wrong-table columns it traced the decision to a tug of war between attention heads and MLPs in layers 21 to 27, but every fix it tried broke about as many answers as it fixed on a fresh sample, so it threw them away.</p>
+<p>The second habit was opening with "Let's walk through this..." instead of the SQL. The middle layers strongly prefer to start with <code>```</code>, but a handful of neurons in the last MLP layers fire almost only at the first answer token and tip the model into prose. It also noticed this happens far more on long prompts.</p>
+<p>The edit it submitted touches one matrix, the MLP output of the last layer (layer 27), and changes 32 of its 8,960 columns with a single rank-one patch:</p>
+<pre><code class='language-python'>W = load("model.layers.27.mlp.down_proj.weight")
+# k: "where" - fires at the first answer token, near 0 everywhere else
+# u: "what"  - the smallest change that lowers "Let" and "Here" by 5 nats
+#             while leaving the 400 most common tokens exactly as they were
+W[:, S] += torch.outer(u, k[S])      # S = the 32 columns that matter most
+save_edit("model.layers.27.mlp.down_proj.weight", W)</code></pre>
+<p>Both vectors come from one step of linear algebra, not from training. 5 nats makes those two words about 150 times less likely at that one position. In total 48,398 weights changed, 0.003% of the model. On its practice questions the edit removed the habit but gained only about 1 question in 2,048, and it said so; it predicted any gain would show up on longer prompts.</p>
+<h4>The result</h4>
+<div style="overflow-x:auto;margin:1.9rem 0"><table><thead><tr><th>On the 1,534 dev questions</th><th class='num'>Base model</th><th class='num'>Opus weight edit</th></tr></thead><tbody>
+<tr><td>Correct (EX)</td><td class='num'>437 (28.49%)</td><td class='num'>462 (30.12%)</td></tr>
+<tr><td>Answers that start straight with the SQL</td><td class='num'>838</td><td class='num'>1,534 (all)</td></tr>
+<tr><td>Answers that open with "Let..."</td><td class='num'>696</td><td class='num'>0</td></tr>
+<tr><td>Average answer length</td><td class='num'>650 characters</td><td class='num'>164 characters</td></tr>
+<tr><td>"no such column" errors</td><td class='num'>602</td><td class='num'>582</td></tr>
+<tr><td>Time to answer all 1,534</td><td class='num'>506 s</td><td class='num'>113 s</td></tr>
+</tbody></table></div>
+<p>The habit is gone, completely. All of the accuracy gain comes from the 696 questions where the base model opened with "Let...": 163 correct before, 188 after. On the other 838 questions it is 274 before and 274 after. Its long-prompt prediction was right too: about half of the dev prompts are longer than any practice prompt (2,048 tokens), and three quarters of those long ones opened with "Let...", against 18% of the shorter ones.</p>
+<h4>Running it longer</h4>
+<p>MIT's best result needed 50 passes, and my editor stopped at 19. So a second run picked up from its edit with a much bigger budget: 84 passes in total, longer practice prompts (up to 3,072 tokens, like the dev set), and <strong>44 candidate edits</strong>, most of them aimed at the wrong-table columns. Each was tested against F4, the first run's edit, on 256 practice questions.</p>
+<p>Three candidates looked like wins: 96, 95 and 93 correct against F4's 91. Then each was re-tested on 256 fresh questions, and all three lost or tied: 81, 83 and 88 against F4's 88. None was kept.</p>
+<p>That is the <strong>winner's curse</strong>. Picture 44 fair coins, each flipped 256 times. By pure chance a few will land heads noticeably more than half the time, and if you only look at the best coins, they look special. Test 44 edits on small samples and some will "win" by luck. The fix is the one used here: never trust a winner until it wins again on questions it has never seen.</p>
+<p>So I ran a third round under rules written down before any test: at most 4 candidate edits, each with a predicted effect, tested against F4 on 1,024 fresh practice questions no earlier run had seen, and kept only if the gain was clearly not luck (p &lt; 0.05). The editor tested one candidate. It had noticed that table names with spaces or hyphens, like <code>Store Locations</code> or <code>voice-actors</code>, must be wrapped in quotes in SQL, but the model copies them bare from the schema comments and the query crashes. It found a signal in the last layer that fires exactly where such a quote is needed, and added a second small patch (64 more columns, 96,429 weights) that pushes the quote character up by 4.5 nats, about 90 times more likely, at those spots only. On the fresh questions: 25 fixed, 7 broken, p = 0.002, inside the range it had predicted. The first confirmed gain from editing by hand.</p>
+<p>Then the dev set: 30.05%, no change (15 fixed, 16 broken). The edit did not fail; the test set just rarely needs it. Of BIRD dev's 11 databases only one has a table name that needs quoting (<code>order</code>, a SQL keyword, in <code>financial</code>), and the bare name appears in 3 answers. That is the clearest lesson of method 6: a hand edit fixes exactly the habit you find, so it only pays off if your real data has that habit.</p>
+
+<h4>How it compares</h4>
+<p>It landed in the same place as TinyLoRA (30.12% vs 30.44%), for the same reason: it fixed the shape of the answer, not the model's knowledge of the databases. The two are still different models; they disagree on 217 questions. It is also the story MIT tells. Their looping stopped 93% of answers from ever finishing, so removing it unlocked a lot. My model's rambling usually still ended with a SQL block, so removing it unlocked little. Editing weights by hand can remove an obstacle you can see. It could not teach the model which column lives in which table.</p>
+<h3>What it cost</h3>
+<p>Accuracy is half the story. The other half: memory, time, and what you store afterwards. <a href='#/blog/finetuning_series_2_how'>Part 2</a> explains where the memory and time go.</p>
+<!--SVG:training_cost-->
+<div style="overflow-x:auto;margin:1.9rem 0"><table><thead><tr><th>Method</th><th class='num'>Train time</th><th class='num'>Peak GPU memory</th><th>What you save to disk</th></tr></thead><tbody>
+<tr><td>Full fine-tuning</td><td class='num'>25.1 min</td><td class='num'>7.6 GB (+3.1 GB optimizer state in CPU RAM)</td><td>a whole new model, 2.9 GB</td></tr>
+<tr><td>LoRA</td><td class='num'>31.3 min</td><td class='num'>5.0 GB</td><td>a 282 MB patch</td></tr>
+<tr><td>LoRA-FA</td><td class='num'>30.5 min</td><td class='num'>4.6 GB</td><td>a 282 MB patch</td></tr>
+<tr><td>QLoRA</td><td class='num'>41.4 min</td><td class='num'>4.0 GB</td><td>a 282 MB patch</td></tr>
+<tr><td>TinyLoRA, SFT</td><td class='num'>29.7 min</td><td class='num'>3.7 GB</td><td>a 60 KB file</td></tr>
+<tr><td>TinyLoRA, GRPO</td><td class='num'>128.1 min</td><td class='num'>11.1 GB (incl. vLLM)</td><td>a 60 KB file</td></tr>
+</tbody></table></div>
+<p>Notice what the parameter count does <em>not</em> buy you: <strong>13 trainable numbers is not cheap training</strong>. TinyLoRA-SFT took 29.7 minutes, about the same as LoRA's 31.3. Every training step still runs the full 1.5-billion-parameter model forward and backward. What you save is optimizer memory (3.7 GB vs 5.0 GB) and disk space, not compute.</p>
+<p>GRPO was the most expensive run by far: 128 minutes and 11.1 GB, for the same score as the 30-minute SFT run.</p>
+<h3>What I'd pick, and when</h3>
+<ul>
+<li><strong>Default: LoRA.</strong> Tied for the best score, half an hour, 5 GB, and a small patch you can add to or remove from the base model.</li>
+<li><strong>Short on GPU memory: QLoRA.</strong> The same score with the least memory, but about a third slower to train. Serving in 4-bit costs around a point.</li>
+<li><strong>Full fine-tuning: only if you can do it properly.</strong> That means enough memory for 32-bit master weights, and probably more steps. Done the cheap way, as I had to, it lost to LoRA.</li>
+<li><strong>LoRA-FA:</strong> within 1.5 points of LoRA with 44% fewer trainable numbers. A fine option, but here QLoRA saved more memory and scored higher.</li>
+<li><strong>TinyLoRA:</strong> for tiny behaviour changes, like answer format or length, not for teaching the model about the databases. To try it with RL, pick a task with an automatic grader that needs a skill the model mostly has already, and plan for a long run.</li>
+<li><strong>Letting an LLM edit the weights:</strong> a promising tool for removing one specific habit you can see and measure, with no training run. It did not add knowledge here, and it needs a strong editor model and careful checking.</li>
+</ul>
+<h3>Fine-tune your own model: a checklist</h3>
+<p>Everything this series taught me, in the order I would do it next time:</p>
+<ol>
+<li><strong>Measure the base model first, and read its failures.</strong> My biggest single lesson came from counting error types: 602 of 693 failed queries were "no such column". That told me what fine-tuning needed to fix.</li>
+<li><strong>Build an automatic grader, then test the grader.</strong> Grade the gold answers against themselves; mine scored 1,532 of 1,534 and the two misses had an explanation. If the model's output is code, run it in a sandbox (<a href='#/blog/finetuning_series_2_how'>part 2</a>).</li>
+<li><strong>Freeze a test set and never tune on it.</strong> Every choice (method, learning rate, which edit to keep) is made on training data. The test set is scored once at the end.</li>
+<li><strong>Start with LoRA.</strong> Rank 16 to 64 on all linear layers, learning rate around 2e-4, loss only on the answer tokens. Switch to QLoRA if the model does not fit. Full fine-tuning only with memory to spare for 32-bit master weights.</li>
+<li><strong>Keep everything else fixed when comparing.</strong> Same data, same order, same steps, same prompt. Otherwise you are comparing setups, not methods.</li>
+<li><strong>Judge with paired counts, not averages.</strong> Count fixed vs broke questions and check whether the split could be a coin flip (McNemar's test, above).</li>
+<li><strong>Confirm winners on fresh data.</strong> If you tried many variants, the best one is probably partly lucky (the winner's curse, above).</li>
+<li><strong>Look at what changed, not just the score.</strong> TinyLoRA and the hand edit barely moved the score but changed every answer's format. That is a real effect, and you only see it by reading the outputs.</li>
+</ol>
+
+<h3>The infographic: what held, what didn't</h3>
+<p>Back to the infographic from <a href='#/blog/finetuning_series_1_methods'>part 1</a>.</p>
+<p><strong>What held up:</strong></p>
+<ul>
+<li>LoRA-style methods get most of the benefit while training a few percent of the weights. Here LoRA trained 4.8% and LoRA-FA 2.7%, more than the infographic's 70B figures (1.2% and 0.6%), because the percentage depends on model size, rank and which matrices you adapt.</li>
+<li>QLoRA gives LoRA-level results with less memory, and LoRA-FA cuts trainable numbers with only a small loss.</li>
+<li>TinyLoRA can change a model's behaviour with 13 numbers. The format shift is real and large.</li>
+</ul>
+<p><strong>What didn't hold up, on my task:</strong></p>
+<ul>
+<li><strong>The easy reading that more trainable numbers means better results.</strong> Full fine-tuning, squeezed into 16 GB, came last of the big methods.</li>
+<li><strong>TinyLoRA only works with RL.</strong> SFT got exactly the same score as RL, in a quarter of the time. Neither gain was clearly more than luck.</li>
+<li><strong>13 numbers as a way to teach a task.</strong> Enough to change the format. Not enough to learn which column lives in which table.</li>
+</ul>
+<h3>Caveats</h3>
+<ul>
+<li><strong>One run each.</strong> One training run, one seed per method. Another seed could move any method by a point or two; the McNemar tests don't cover that.</li>
+<li><strong>A small training budget.</strong> Each supervised method saw 2,000 questions, once. Published LoRA runs on the full BIRD training set reach higher scores, and the ranking of methods could change with more data.</li>
+<li><strong>A short GRPO run</strong> (75 steps), as noted above.</li>
+<li><strong>Full fine-tuning had a handicap</strong>: 16-bit weights with no 32-bit master copy, as shown above. With a proper setup it would likely do better.</li>
+<li><strong>BIRD's gold answers are not perfect.</strong> Some gold queries are wrong, and some hints don't match the data. For example, on question 275 the hint says a double bond is <code>bond_type = ' = '</code> (with spaces), but the database stores <code>'='</code>. All eight runs trusted the hint and got zero rows back. A few "misses" are the model disagreeing with a bad label, and a few "hits" are luck.</li>
+<li><strong>My prompt is generous.</strong> It shows example values for every column, which makes the base model stronger. Some reports put this model near 17% on BIRD dev. My 28.49% baseline is not comparable to those, and fine-tuning gains might look different with a bare schema.</li>
+<li><strong>Weight editing: one editor model, three rounds.</strong> 88 passes in total, all on BIRD's training databases. Habits found there do not always show up in the dev set, as round 3 showed.</li>
+<li><strong>One task, one model.</strong> SQL on a 1.5B coding model, not math on the 7B or 70B models the paper and the infographic are about.</li>
+</ul>
+<h3>Links</h3>
+<ul>
+<li>Morris et al. 2026, <a href='https://arxiv.org/abs/2602.04118' target='_blank' rel='noopener noreferrer'>Learning to Reason in 13 Parameters</a> (arXiv:2602.04118), the TinyLoRA paper</li>
+<li>Takehi, Teoh, Zhang and Khattab (MIT CSAIL) 2026, <a href='https://rikiyat.github.io/blog/weight-space-programming/' target='_blank' rel='noopener noreferrer'>Sparks of Weight-Space Programming</a>, the LLM weight-editing experiment</li>
+<li><a href='https://bird-bench.github.io/' target='_blank' rel='noopener noreferrer'>BIRD text-to-SQL benchmark</a></li>
+<li><a href='https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct' target='_blank' rel='noopener noreferrer'>Qwen2.5-Coder-1.5B-Instruct</a> on Hugging Face</li>
+<li>Part 1 of this series: <a href='#/blog/finetuning_series_1_methods'>Fine-tuning, explained: 5 ways to teach a model</a></li>
+<li>Part 2 of this series: <a href='#/blog/finetuning_series_2_how'>How I tested them: text-to-SQL on BIRD with one laptop GPU</a></li>
+</ul>
+<p><strong>Previous:</strong> <a href='#/blog/finetuning_series_2_how'>Part 2: How I tested them</a>. Or start from the beginning with <a href='#/blog/finetuning_series_1_methods'>Part 1: Fine-tuning, explained</a>.</p>

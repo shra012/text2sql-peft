@@ -1,0 +1,154 @@
+[
+  {
+    "name": "icl_permuted_sql_L15_raw_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "15",
+      "--variant",
+      "permuted",
+      "--strength",
+      "1",
+      "--direction",
+      "raw",
+      "--design-file",
+      "icl_sql_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "icl_permuted_sql_L19_raw_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "19",
+      "--variant",
+      "permuted",
+      "--strength",
+      "1",
+      "--direction",
+      "raw",
+      "--design-file",
+      "icl_sql_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "icl_permuted_sql_L19_contrast_a2",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "19",
+      "--variant",
+      "permuted",
+      "--strength",
+      "2",
+      "--direction",
+      "contrast",
+      "--design-file",
+      "icl_sql_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "icl_permuted_sql_L23_contrast_a2",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "23",
+      "--variant",
+      "permuted",
+      "--strength",
+      "2",
+      "--direction",
+      "contrast",
+      "--design-file",
+      "icl_sql_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "icl_mapping_sql_L19_contrast_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "19",
+      "--variant",
+      "mapping",
+      "--strength",
+      "1",
+      "--direction",
+      "contrast",
+      "--design-file",
+      "icl_sql_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "icl_mapping_sql_L23_contrast_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "23",
+      "--variant",
+      "mapping",
+      "--strength",
+      "1",
+      "--direction",
+      "contrast",
+      "--design-file",
+      "icl_sql_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "icl_mapping_first_L19_contrast_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "19",
+      "--variant",
+      "mapping",
+      "--strength",
+      "1",
+      "--direction",
+      "contrast",
+      "--design-file",
+      "icl_first_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  {
+    "name": "icl_mapping_first_L23_contrast_a1",
+    "script": "apply_steering.py",
+    "args": [
+      "--layer",
+      "23",
+      "--variant",
+      "mapping",
+      "--strength",
+      "1",
+      "--direction",
+      "contrast",
+      "--design-file",
+      "icl_first_design.pt"
+    ],
+    "family": "demonstration_state",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  }
+]

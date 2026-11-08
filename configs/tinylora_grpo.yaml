@@ -1,0 +1,23 @@
+name: tinylora_grpo
+base_model: Qwen/Qwen2.5-Coder-1.5B-Instruct
+train_file: data/processed/train.jsonl
+seed: 42
+# TinyLoRA (arXiv:2602.04118): r=2, u=13, one v shared by every adapted module -> 13 params
+u: 13
+r: 2
+tie: all
+tinylora_seed: 0
+# GRPO, scaled from the paper's GSM8K recipe (no KL, binary reward)
+lr: 1.0e-2           # the TinyLoRA LR-sweep winner; the scheduler passed --lr 1e-2 for the reported run
+beta: 0.0
+num_generations: 8
+per_device_batch: 4  # micro-batch of 4 rollouts (memory)
+grad_accum: 16       # -> 64 rollouts = 8 questions x 8 samples per optimizer step
+max_prompt_tokens: 1024
+max_completion_tokens: 384
+temperature: 1.0
+max_steps: 75
+save_steps: 25
+vllm_gpu_mem: 0.30
+reward_workers: 12
+sql_timeout: 15.0

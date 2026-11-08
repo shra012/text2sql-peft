@@ -1,0 +1,16 @@
+{
+  "trial": {
+    "name": "copy_query_27:8:1.5",
+    "script": "apply_heads.py",
+    "args": [
+      "--heads",
+      "27:8:1.5",
+      "--projection",
+      "query"
+    ],
+    "family": "schema_retrieval",
+    "cohort": "screen256.txt",
+    "baseline": 34
+  },
+  "fingerprint": "28a76ae37fdf87ba"
+}

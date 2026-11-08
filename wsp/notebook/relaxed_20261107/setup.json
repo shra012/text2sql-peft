@@ -1,0 +1,7 @@
+{
+  "original_practice_sha256": "ecba09ef33499168f1f67c9c0de0277e956cf47e1a781da8db8eb2384aa2c26a",
+  "added_long_train": 3528,
+  "baseline_fingerprint": "ae81f3cb05285df3",
+  "screen_n": 512,
+  "validate_n": 512
+}
