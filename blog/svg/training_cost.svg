@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="What each run cost on one 16 GB laptop GPU">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="What each run cost">
   <rect width="1000" height="400" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
-  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">What each run cost on one 16 GB laptop GPU</text>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">What each run cost</text>
   <text x="28" y="64" font-size="14" fill="#52514e">Peak GPU memory and wall-clock training time. GRPO also runs a second model copy to sample answers.</text>
   <text x="40.0" y="98.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">Peak GPU memory (GB)</text>
   <text x="180.0" y="131.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Full fine-tune</text>

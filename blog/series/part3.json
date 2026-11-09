@@ -1,6 +1,6 @@
 {
   "id": "finetuning_series_3_results",
-  "title": "The results: what 13 parameters and 74 million parameters got me",
+  "title": "The results: which fine-tuning method won?",
   "aiSummary": "Part 3 of 3: the results of fine-tuning Qwen2.5-Coder-1.5B five ways on the BIRD text-to-SQL benchmark. LoRA and QLoRA lifted execution accuracy from 28.49% to about 42% (a gain McNemar's test says is not luck), full fine-tuning reached 36.11% with 92% of its 16-bit weights never changing, and TinyLoRA's 13 numbers mostly changed the answer format, scoring 30.44% with both SFT and GRPO. A bonus sixth method lets Claude Opus 5.5 edit 48,398 weights directly with no training: it removes the model's habit of explaining before answering and lands at 30.12%. Includes a coin-flip explanation of the significance test, real before/after SQL, costs, and honest caveats.",
   "tags": [
     "AI",

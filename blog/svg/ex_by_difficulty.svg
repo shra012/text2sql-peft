@@ -51,10 +51,10 @@
   <path d="M816.2,390 V302.7 Q816.2,298.7 820.2,298.7 H838.2 Q842.2,298.7 842.2,302.7 V390 Z" fill="#1baf7a"><title>TinyLoRA + GRPO, challenging: 17.93%</title></path>
   <text x="801.2" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">TinyLoRA</text>
   <text x="801.2" y="428.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">+ GRPO</text>
-  <path d="M872.8,390 V203.5 Q872.8,199.5 876.8,199.5 H894.8 Q898.8,199.5 898.8,203.5 V390 Z" fill="#2a78d6"><title>Opus weight edit, simple: 37.41%</title></path>
-  <path d="M900.8,390 V293.0 Q900.8,289.0 904.8,289.0 H922.8 Q926.8,289.0 926.8,293.0 V390 Z" fill="#eb6834"><title>Opus weight edit, moderate: 19.83%</title></path>
-  <path d="M928.8,390 V309.7 Q928.8,305.7 932.8,305.7 H950.8 Q954.8,305.7 954.8,309.7 V390 Z" fill="#1baf7a"><title>Opus weight edit, challenging: 16.55%</title></path>
-  <text x="913.8" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">Opus weight</text>
-  <text x="913.8" y="428.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">edit</text>
+  <path d="M872.8,390 V203.5 Q872.8,199.5 876.8,199.5 H894.8 Q898.8,199.5 898.8,203.5 V390 Z" fill="#2a78d6"><title>Weight-space programming, simple: 37.41%</title></path>
+  <path d="M900.8,390 V293.0 Q900.8,289.0 904.8,289.0 H922.8 Q926.8,289.0 926.8,293.0 V390 Z" fill="#eb6834"><title>Weight-space programming, moderate: 19.83%</title></path>
+  <path d="M928.8,390 V309.7 Q928.8,305.7 932.8,305.7 H950.8 Q954.8,305.7 954.8,309.7 V390 Z" fill="#1baf7a"><title>Weight-space programming, challenging: 16.55%</title></path>
+  <text x="913.8" y="412.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">Weight-space</text>
+  <text x="913.8" y="428.0" font-size="12.5" fill="#0b0b0b" text-anchor="middle" font-weight="600">programming</text>
   <line x1="70" y1="390" x2="970" y2="390" stroke="#94a3b8"/>
 </svg>

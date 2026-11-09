@@ -12,8 +12,8 @@
   <text x="180.0" y="235.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + GRPO</text>
   <rect x="190" y="220" width="233.5" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>TinyLoRA + GRPO: 1,433 of 1,534</title></rect>
   <text x="431.5" y="236.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">1,433 of 1,534</text>
-  <text x="180.0" y="279.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Opus weight edit</text>
-  <rect x="190" y="264" width="250.0" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>Opus weight edit: 1,534 of 1,534</title></rect>
+  <text x="180.0" y="273.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400"><tspan x="180.0">Weight-space</tspan><tspan x="180.0" dy="14">programming</tspan></text>
+  <rect x="190" y="264" width="250.0" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>Weight-space programming: 1,534 of 1,534</title></rect>
   <text x="448.0" y="280.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">1,534 of 1,534</text>
   <text x="180.0" y="323.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA</text>
   <rect x="190" y="308" width="250.0" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>LoRA: 1,534 of 1,534</title></rect>
@@ -28,8 +28,8 @@
   <text x="660.0" y="235.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">TinyLoRA + GRPO</text>
   <rect x="670" y="220" width="85.4" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>TinyLoRA + GRPO: 239</title></rect>
   <text x="763.4" y="236.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">239</text>
-  <text x="660.0" y="279.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">Opus weight edit</text>
-  <rect x="670" y="264" width="58.6" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>Opus weight edit: 164</title></rect>
+  <text x="660.0" y="273.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400"><tspan x="660.0">Weight-space</tspan><tspan x="660.0" dy="14">programming</tspan></text>
+  <rect x="670" y="264" width="58.6" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>Weight-space programming: 164</title></rect>
   <text x="736.6" y="280.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="600">164</text>
   <text x="660.0" y="323.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="400">LoRA</text>
   <rect x="670" y="308" width="61.8" height="22" rx="4" fill="#2a78d6" stroke="#2a78d6"><title>LoRA: 173</title></rect>

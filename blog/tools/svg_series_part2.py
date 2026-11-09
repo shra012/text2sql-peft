@@ -199,7 +199,7 @@ def chart_grpo_loop():
         W,
         H,
         b,
-        "One GRPO step, sharing one GPU",
+        "One GRPO step",
         "vLLM and the trainer take turns on the GPU. The SQL grading runs on the CPU.",
     )
 
@@ -273,7 +273,7 @@ def chart_gpu_budget():
         W,
         H,
         b,
-        "How much of the 16 GB card each job used",
+        "How much GPU memory each job used",
         "Any single job fits easily. The trouble starts when two of them share the card.",
     )
 

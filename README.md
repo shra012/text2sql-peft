@@ -1,14 +1,14 @@
 # text2sql-peft
 
-**Six ways to change a language model, compared on one task, one model and one laptop GPU.**
+**Six ways to change a language model, compared on one task with one model.**
 
 [![Blog series](https://img.shields.io/badge/blog-read%20the%203--part%20series-2a78d6)](https://shra012.github.io/Portfolio/#/blog)
 [![Best EX](https://img.shields.io/badge/BIRD%20dev%20EX-28.5%25%20%E2%86%92%2042.4%25-1baf7a)](#results)
 ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue)
-![GPU](https://img.shields.io/badge/GPU-16%20GB%20laptop-eb6834)
+![GPU](https://img.shields.io/badge/GPU-16%20GB-eb6834)
 
 <p align="center">
-  <img src="docs/results.gif" alt="Animated bar chart: BIRD dev execution accuracy grows from the 28.5% base model to 42.4% for QLoRA, 42.0% LoRA, 40.5% LoRA-FA, 36.1% full fine-tuning, 30.4% TinyLoRA + GRPO and 30.1% for an LLM editing the weights by hand" width="820">
+  <img src="docs/results.gif" alt="Animated bar chart: BIRD dev execution accuracy grows from the 28.5% base model to 42.4% for QLoRA, 42.0% LoRA, 40.5% LoRA-FA, 36.1% full fine-tuning, 30.4% TinyLoRA + GRPO and 30.1% for weight-space programming" width="820">
 </p>
 
 A small coding model, [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct), is
@@ -23,9 +23,9 @@ The full story, written for readers new to fine-tuning, is a three-part series o
 
 | Part | What it covers |
 |---|---|
-| [**1. Fine-tuning, explained**](https://shra012.github.io/Portfolio/#/blog/finetuning_series_1_methods) | Weights, loss and gradients from scratch; each method with a toy example, a diagram and short code; SFT vs RL and GRPO |
-| [**2. How I tested them**](https://shra012.github.io/Portfolio/#/blog/finetuning_series_2_how) | Prompts, the sandboxed SQL grader, identical training rules, and fitting it all on 16 GB |
-| [**3. The results**](https://shra012.github.io/Portfolio/#/blog/finetuning_series_3_results) | Scores, significance tests, real before/after SQL, costs, and what an LLM editing weights by hand found |
+| [**1. Fine-tuning explained: 6 ways to teach an AI model**](https://shra012.github.io/Portfolio/#/blog/finetuning_series_1_methods) | Weights, loss and gradients from scratch; each method with a toy example, a diagram and short code; SFT vs RL and GRPO |
+| [**2. How I tested them: teaching AI to write SQL**](https://shra012.github.io/Portfolio/#/blog/finetuning_series_2_how) | Prompts, the sandboxed SQL grader, identical training rules, and fitting it all on 16 GB |
+| [**3. The results: which fine-tuning method won?**](https://shra012.github.io/Portfolio/#/blog/finetuning_series_3_results) | Scores, significance tests, real before/after SQL, costs, and what weight-space programming found |
 
 ## Results
 
@@ -41,7 +41,7 @@ BIRD dev, 1,534 questions, execution accuracy (EX): the model's SQL must return 
 | QLoRA, served in 4-bit | 73.9M | 41.46 | 48.54 | 32.11 | 26.21 | – | – |
 | TinyLoRA + SFT | 13 | 30.44 | 36.97 | 21.12 | 18.62 | 30 min | 3.7 GB |
 | TinyLoRA + GRPO | 13 | 30.44 | 37.51 | 20.26 | 17.93 | 128 min | 11.1 GB |
-| LLM weight edit (Claude Opus 5.5) | 48,398 changed | 30.12 | 37.41 | 19.83 | 16.55 | no training | – |
+| Weight-space programming (Claude Opus 5.5) | 48,398 changed | 30.12 | 37.41 | 19.83 | 16.55 | no training | – |
 
 What it shows:
 
@@ -49,16 +49,16 @@ What it shows:
   which table: "no such column" errors drop from 602 to about 300.
 - **Full fine-tuning lags** under a 16 GB budget: bf16 weights without a 32-bit master copy swallow tiny updates, and
   92% of the weights never changed.
-- **TinyLoRA's 13 numbers and the LLM's hand edit both fix answer format, not knowledge.** Both remove the model's habit
+- **TinyLoRA's 13 numbers and weight-space programming both fix answer format, not knowledge.** Both remove the model's habit
   of explaining before answering (every answer now starts with SQL) and gain about 2 points, which is not significant.
   SFT matched GRPO for TinyLoRA.
-- **Hand edits fix exactly the habit they target.** A broad search (84 passes, 44 candidates) found nothing that survived
+- **Weight-space edits fix exactly the habit they target.** A broad search (84 passes, 44 candidates) found nothing that survived
   re-testing: the screening winners were luck (the winner's curse). A pre-registered round (`wsp/protocol/`) then
   confirmed one real fix, quoting table names like `Store Locations` (+18 net on 1,024 held-out practice questions,
   p = 0.002), but BIRD dev barely contains that mistake, so dev stayed at 30.05%.
 
 Setup: 2,000 BIRD-train questions per SFT method (same subset, order and 125 steps), one seed each, greedy decoding,
-RTX 3080 Ti Laptop (16 GB) under WSL2. The whole training pipeline runs unattended in about 6 hours.
+RTX 3080 Ti (16 GB) under WSL2. The whole training pipeline runs unattended in about 6 hours.
 
 ## Repository layout
 

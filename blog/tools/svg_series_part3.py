@@ -17,7 +17,7 @@ ROWS = [
     ("base", "Base model"),
     ("tinylora_sft", "TinyLoRA + SFT"),
     ("tinylora_grpo", "TinyLoRA + GRPO"),
-    ("wsp_f4", "Opus weight edit"),
+    ("wsp_f4", "Weight-space programming"),
     ("lora", "LoRA"),
 ]
 
@@ -50,7 +50,15 @@ def chart_format_shift():
             w = v / vmax * (R - L)
             label = f"{starts:,} of {n:,}" if which == 0 else f"{mean_len:,.0f}"
             fill, stroke = (FROZEN, MUTED) if r == "base" else (BLUE, BLUE)
-            b += t(L - 10, y + 19, name, 13, INK, "end")
+            if len(name) > 18 and " " in name:  # long names wrap onto two lines beside their bar
+                first, second = name.rsplit(" ", 1)
+                b += (
+                    f'  <text x="{L - 10:.1f}" y="{y + 13:.1f}" font-size="13" fill="{INK}" '
+                    f'text-anchor="end" font-weight="400"><tspan x="{L - 10:.1f}">{escape(first)}</tspan>'
+                    f'<tspan x="{L - 10:.1f}" dy="14">{escape(second)}</tspan></text>\n'
+                )
+            else:
+                b += t(L - 10, y + 19, name, 13, INK, "end")
             b += (
                 f'  <rect x="{L}" y="{y + 4}" width="{max(w, 2):.1f}" height="22" rx="4" fill="{fill}" '
                 f'stroke="{stroke}"><title>{escape(f"{name}: {label}")}</title></rect>\n'

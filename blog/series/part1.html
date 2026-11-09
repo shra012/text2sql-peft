@@ -1,10 +1,10 @@
 <p><em>This is part 1 of 3. <a href='#/blog/finetuning_series_2_how'>Part 2</a> covers how I tested the methods, and <a href='#/blog/finetuning_series_3_results'>part 3</a> has the results.</em></p>
 <p><em>About 17 min read.</em></p>
-<blockquote><p><strong>In short</strong></p><ul><li>Fine-tuning nudges a model's numbers to lower a loss; gradients and optimizer state make it memory-hungry.</li><li>The five methods differ in which numbers train and how the frozen ones are stored: from 1.54 billion trainable numbers down to 13. A bonus sixth skips training and edits weights by hand.</li><li>SFT learns from the answer key, RL (GRPO) from grading the model's own attempts, which may be why 13 numbers can be enough.</li></ul></blockquote>
+<blockquote><p><strong>In short</strong></p><ul><li>Fine-tuning nudges a model's numbers to lower a loss; gradients and optimizer state make it memory-hungry.</li><li>The five methods differ in which numbers train and how the frozen ones are stored: from 1.54 billion trainable numbers down to 13. A bonus sixth, weight-space programming, skips training and edits the weights directly.</li><li>SFT learns from the answer key, RL (GRPO) from grading the model's own attempts, which may be why 13 numbers can be enough.</li></ul></blockquote>
 
 <h3>The infographic that started this</h3>
 <p>A fine-tuning infographic has been going around LinkedIn. It shows five ways to fine-tune a language model: <strong>full fine-tuning, LoRA, LoRA-FA, QLoRA and TinyLoRA</strong>. For a 70B model it says LoRA trains about 1.2% of the parameters, LoRA-FA about 0.6%, and TinyLoRA only <strong>13 parameters</strong>. A footnote adds that TinyLoRA only works with reinforcement learning, and that supervised fine-tuning needs 100 to 1000 times more.</p>
-<p>Thirteen numbers changing how a model behaves? That sounded either brilliant or wrong, so I tried all five myself on one task, with one small model, on one laptop GPU.</p>
+<p>Thirteen numbers changing how a model behaves? That sounded either brilliant or wrong, so I tried all five myself on one task with one small model.</p>
 <p>This series has three parts:</p>
 <ul>
 <li><strong>Part 1 (this one):</strong> what fine-tuning is, and how each of the five methods works, with tiny examples you can check by hand and short code.</li>
@@ -321,7 +321,7 @@ args = GRPOConfig(
 <p>SFT says: "produce exactly these tokens, in this order". That is a lot of detail, and 13 numbers cannot hold much.</p>
 <p>RL says: "of the answers you can already write, prefer the ones that work". The model already has the skill and only needs a small push toward its own better habits, which 13 numbers might manage. That is the paper's claim, and what I most wanted to check. <a href='#/blog/finetuning_series_3_results'>Part 3</a> has the answer.</p>
 
-<h3>6. Bonus: edit the weights by hand, no training at all</h3>
+<h3>6. Bonus: weight-space programming, no training at all</h3>
 <h4>The idea</h4>
 <p>All five methods above share one engine: compute gradients, take small steps, repeat. In November 2026 <a href='https://rikiyat.github.io/blog/weight-space-programming/' target='_blank' rel='noopener noreferrer'>MIT CSAIL tried something different</a>. They gave a strong LLM the raw weights, a sandbox to analyse them, and a small budget for running the model, and let it <em>reason</em> its way to an edit. No gradients, no optimizer. It is closer to surgery than to teaching.</p>
 <p>The usual edit is a rank-one patch: the same shape as a rank-1 LoRA patch from section 2, but designed by hand instead of learned:</p>
@@ -353,11 +353,11 @@ save_edit("model.layers.27.mlp.down_proj.weight", W)</code></pre>
 <tr><td>LoRA-FA</td><td>B only</td><td class='num'>41,287,680 (2.7%)</td><td>memory is tight, plain LoRA code</td></tr>
 <tr><td>QLoRA</td><td>B and A, on a 4-bit W</td><td class='num'>73,859,072 (4.8%)</td><td>the model does not fit in 16-bit (say 7B on 16 GB)</td></tr>
 <tr><td>TinyLoRA</td><td>one shared vector v</td><td class='num'>13</td><td>tiny behavior changes, with RL</td></tr>
-<tr><td>Hand edit (bonus)</td><td>a few columns, chosen by an LLM</td><td class='num'>48,398 changed in my run</td><td>removing one specific habit you can see</td></tr>
+<tr><td>Weight-space programming (bonus)</td><td>a few columns, chosen by an LLM</td><td class='num'>48,398 changed in my run</td><td>removing one specific habit you can see</td></tr>
 </tbody></table></div>
 
 <h3>Glossary</h3>
-<ul><li><strong>Rank-one edit</strong>: a change to a matrix that is one column times one row (u &times; k&#7488;); the shape of the bonus hand edits.</li>
+<ul><li><strong>Rank-one edit</strong>: a change to a matrix that is one column times one row (u &times; k&#7488;); the shape of the bonus weight-space edits.</li>
 <li><strong>Weight / parameter</strong>: one number inside the model.</li>
 <li><strong>Matrix</strong>: a grid of numbers.</li>
 <li><strong>Identity matrix</strong>: the do-nothing grid (1s on the diagonal, 0s elsewhere).</li>
@@ -384,4 +384,4 @@ save_edit("model.layers.27.mlp.down_proj.weight", W)</code></pre>
 <li><strong>KL penalty</strong>: a cost for drifting from the original model; not used here.</li>
 </ul>
 
-<p><strong>Next:</strong> <a href='#/blog/finetuning_series_2_how'>Part 2: How I tested them: text-to-SQL on BIRD with one laptop GPU</a>. It covers the task, the grader, running model-written SQL safely, and the exact training setup for all five methods.</p>
+<p><strong>Next:</strong> <a href='#/blog/finetuning_series_2_how'>Part 2: How I tested them: teaching AI to write SQL</a>. It covers the task, the grader, running model-written SQL safely, and the exact training setup for all five methods.</p>

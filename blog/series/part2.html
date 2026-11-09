@@ -1,7 +1,7 @@
 <p><em>This is part 2 of 3. <a href='#/blog/finetuning_series_1_methods'>Part 1</a> explained the five fine-tuning methods. <a href='#/blog/finetuning_series_3_results'>Part 3</a> has the results.</em></p>
 <p><em>About 16 min read.</em></p>
-<blockquote><p><strong>In short</strong></p><ul><li>I tested all five methods on text-to-SQL (BIRD), grading each model by running its SQL and comparing the rows with the correct query's rows.</li><li>Every supervised run got the same 2,000 questions, 125 steps and loss only on the SQL; TinyLoRA also got a 75-step GRPO run with vLLM in the loop.</li><li>Memory was the hard part: on a 16 GB laptop GPU, overflow silently made jobs 10x slower, so a small scheduler ran one job at a time, about 6 hours in all.</li></ul></blockquote>
-<p><a href='#/blog/finetuning_series_1_methods'>Part 1</a> walked through the five methods from a viral infographic, ending with the claim that TinyLoRA can change a model's behavior by training only 13 numbers. To check it, I ran all five on one task, with one model, on one laptop GPU. This post is the "how". The code is simplified but does what the real code does.</p>
+<blockquote><p><strong>In short</strong></p><ul><li>I tested all five methods on text-to-SQL (BIRD), grading each model by running its SQL and comparing the rows with the correct query's rows.</li><li>Every supervised run got the same 2,000 questions, 125 steps and loss only on the SQL; TinyLoRA also got a 75-step GRPO run with vLLM in the loop.</li><li>Memory was the hard part: on a 16 GB GPU, overflow silently made jobs 10x slower, so a small scheduler ran one job at a time, about 6 hours in all.</li></ul></blockquote>
+<p><a href='#/blog/finetuning_series_1_methods'>Part 1</a> walked through the five methods from a viral infographic, ending with the claim that TinyLoRA can change a model's behavior by training only 13 numbers. To check it, I ran all five on one task with one model. This post is the "how". The code is simplified but does what the real code does.</p>
 
 <h3>The task: text-to-SQL</h3>
 <p>Text-to-SQL means: someone asks a question in plain English, the model writes a SQL query, and the database answers it.</p>
@@ -16,7 +16,7 @@
 <h3>The setup at a glance</h3>
 <div style="overflow-x:auto;margin:1.9rem 0"><table><thead><tr><th>Piece</th><th>What I used</th></tr></thead><tbody>
 <tr><td>Model</td><td><code>Qwen/Qwen2.5-Coder-1.5B-Instruct</code>: 1.54 billion parameters, 28 layers, hidden size 1,536</td></tr>
-<tr><td>GPU</td><td>one NVIDIA RTX 3080 Ti Laptop GPU, 16 GB, running under WSL2 (Linux running inside Windows)</td></tr>
+<tr><td>GPU</td><td>NVIDIA RTX 3080 Ti, 16 GB, running under WSL2 (Linux running inside Windows)</td></tr>
 <tr><td>Benchmark</td><td><a href='https://bird-bench.github.io/' target='_blank' rel='noopener noreferrer'>BIRD</a> dev set (the cleaned 2024-06-27 release): 1,534 questions over 11 databases</td></tr>
 <tr><td>Training data</td><td>a fixed set of 2,000 questions from BIRD's training set</td></tr>
 <tr><td>Score</td><td>execution accuracy (EX): does the model's SQL return the same rows as the correct SQL?</td></tr>
@@ -323,7 +323,7 @@ args = GRPOConfig(
 <p>Step 5 needed custom code. TRL can't push my custom TinyLoRA layers into vLLM, so I override one method that bakes <code>W'</code> into the 196 matrices and copies them over.</p>
 <p>In total: 75 steps, 600 questions, 4,800 graded answers, about 100 seconds per step, 128 minutes. The questions came from the 2,489 training questions whose prompt fits in 1,024 tokens (shuffled with seed 42), a different pool from the SFT runs, because GRPO needed shorter prompts.</p>
 
-<h3>Making it fit on one laptop GPU</h3>
+<h3>Making it fit in memory</h3>
 <p>I expected to press go and wait. Instead much of the work was finding out why things were slow, and every answer was about memory. Here is the diary.</p>
 <h4>The budget</h4>
 <p>The chart shows each job's memory two ways: PyTorch's peak (dark) and <strong>whole-card usage</strong> (light, which also counts memory libraries manage outside PyTorch). For GRPO only the PyTorch peak was logged, including vLLM's copy of the model.</p>

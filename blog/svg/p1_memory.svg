@@ -27,7 +27,7 @@
   <text x="500.9" y="247.0" font-size="13" fill="#0b0b0b" text-anchor="middle" font-weight="700">3.1 (8-bit)</text>
   <text x="562.2" y="247.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="700">6.2 GB on GPU</text>
   <line x1="770.0" y1="120.0" x2="770.0" y2="312.0" stroke="#0b0b0b" stroke-width="2" stroke-dasharray="6 5"/>
-  <text x="764.0" y="334.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="600">16 GB laptop GPU</text>
+  <text x="764.0" y="334.0" font-size="13" fill="#0b0b0b" text-anchor="end" font-weight="600">16 GB GPU</text>
   <text x="455.5" y="290.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">8-bit Adam state lives in CPU RAM (paged)</text>
   <text x="28.0" y="334.0" font-size="12.5" fill="#52514e" text-anchor="start" font-weight="400">Counts for 1.54B parameters. Activations not shown.</text>
 </svg>

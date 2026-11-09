@@ -33,7 +33,7 @@ RUNS = [
     ("qlora", "QLoRA"),
     ("tinylora_sft", "TinyLoRA + SFT"),
     ("tinylora_grpo", "TinyLoRA + GRPO"),
-    ("wsp_f4", "Opus weight edit"),
+    ("wsp_f4", "Weight-space programming"),
 ]
 WSP_CHANGED = 48_398  # weights changed by the LLM's direct edit (no training run, so no run_info.json)
 
@@ -115,7 +115,7 @@ def chart_params() -> str:
     b += t(
         (L + R) / 2,
         B + 48,
-        "Trainable numbers, or weights changed for the Opus edit (log scale)",
+        "Trainable numbers, or weights changed for weight-space programming (log scale)",
         13,
         INK2,
         "middle",
@@ -132,7 +132,7 @@ def chart_params() -> str:
         "lora": ("LoRA", 14, 18, "start"),
         "qlora": ("QLoRA", 14, -8, "start"),
         "lora_fa": ("LoRA-FA", -14, 5, "end"),
-        "wsp_f4": ("Opus weight edit", 14, -12, "start"),
+        "wsp_f4": ("Weight-space programming", 14, -12, "start"),
     }
     for r, (p, v) in pts.items():
         tip = f"{dict(RUNS)[r]}: {v:.2f}% with {p:,} trainable parameters"
@@ -239,7 +239,7 @@ def chart_cost() -> str:
         W,
         H,
         b,
-        "What each run cost on one 16 GB laptop GPU",
+        "What each run cost",
         "Peak GPU memory and wall-clock training time. GRPO also runs a second model copy to sample answers.",
     )
 

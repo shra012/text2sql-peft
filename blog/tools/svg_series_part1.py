@@ -219,7 +219,7 @@ def p1_memory():
             x += w
         b += t(x + 10, y + 25, total, 14, INK, "start", "700")
     b += line(X(16), 120, X(16), 312, INK, 2, "6 5")
-    b += t(X(16) - 6, 334, "16 GB laptop GPU", 13, INK, "end", "600")
+    b += t(X(16) - 6, 334, "16 GB GPU", 13, INK, "end", "600")
     b += t(X(6.2) + 4, 290, "8-bit Adam state lives in CPU RAM (paged)", 12.5, INK2, "start")
     b += t(28, 334, "Counts for 1.54B parameters. Activations not shown.", 12.5, INK2)
     return svg(

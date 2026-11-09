@@ -1,6 +1,15 @@
 {
   "id": "finetuning_series_1_methods",
-  "title": "Fine-tuning, explained: 5 ways to teach a model",
-  "aiSummary": "A beginner-friendly walk through what fine-tuning is (weights as grids of numbers, loss, gradients, and why training needs far more memory than the model itself), followed by full fine-tuning, LoRA, LoRA-FA, QLoRA and TinyLoRA, each with a hand-checkable toy example, a diagram and short Python code. It ends with the two ways to teach a model, SFT and RL, and a worked GRPO example, setting up the experiments in parts 2 and 3.",
-  "tags": ["Fine-tuning", "LoRA", "QLoRA", "TinyLoRA", "GRPO", "Reinforcement Learning", "PEFT", "LLM"]
+  "title": "Fine-tuning explained: 6 ways to teach an AI model",
+  "aiSummary": "A beginner-friendly walk through what fine-tuning is (weights as grids of numbers, loss, gradients, and why training needs far more memory than the model itself), followed by six ways to change a model (full fine-tuning, LoRA, LoRA-FA, QLoRA, TinyLoRA, and weight-space programming, where an LLM edits the weights directly), each with a hand-checkable toy example, a diagram and short Python code. It ends with the two ways to teach a model, SFT and RL, and a worked GRPO example, setting up the experiments in parts 2 and 3.",
+  "tags": [
+    "Fine-tuning",
+    "LoRA",
+    "QLoRA",
+    "TinyLoRA",
+    "GRPO",
+    "Reinforcement Learning",
+    "PEFT",
+    "LLM"
+  ]
 }

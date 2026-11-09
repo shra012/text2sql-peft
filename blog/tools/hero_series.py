@@ -30,6 +30,7 @@ BLUE = "#3987e5"
 GRAY = "#6f6e69"
 ACCENT = "#915eff"
 QUANT_GRAYS = ["#5b5a56", "#6f6e69", "#83827c", "#4f4e4a"]  # "rounded to 4-bit levels" look
+ORANGE = "#eb6834"  # weights edited directly (method 6, weight-space programming)
 
 W_PX, H_PX, DPI = 1600, 900, 160
 
@@ -80,11 +81,16 @@ def legend(ax, items: list[tuple[float, str | list[str], str]], y: float = 30.5)
 
 
 def _matrix_cell_color(k: int, i: int, j: int, n: int, rng) -> str:
-    """Cell colour of method k's 12 x 12 matrix (0 full FT, 1 LoRA, 2 LoRA-FA, 3 QLoRA, 4 TinyLoRA)."""
+    """Cell colour of method k's 12 x 12 matrix.
+
+    k: 0 full FT, 1 LoRA, 2 LoRA-FA, 3 QLoRA, 4 TinyLoRA, 5 weight-space programming.
+    """
     if k == 0:
         return BLUE
     if k == 4:
         return GRAY
+    if k == 5:  # a few columns rewritten by hand, rest untouched
+        return ORANGE if i in (4, 8) else GRAY
     band = 2
     in_b = i < band
     in_a = j >= n - band
@@ -100,16 +106,23 @@ def part1(out: Path) -> None:
     title_block(
         ax,
         "PART 1 OF 3  ·  FINE-TUNING, EXPLAINED",
-        "5 ways to teach",
+        "6 ways to teach",
         "a language model.",
-        "Full fine-tuning, LoRA, LoRA-FA, QLoRA and TinyLoRA,\n"
-        "from one grid of numbers down to 13 trainable numbers",
+        "Full fine-tuning, LoRA, LoRA-FA, QLoRA, TinyLoRA,\nand weight-space programming (no training)",
     )
-    legend(ax, [(14, BLUE, "trainable"), (32, GRAY, "frozen"), (47, QUANT_GRAYS, "frozen, stored in 4-bit")])
+    legend(
+        ax,
+        [
+            (14, BLUE, "trainable"),
+            (29, GRAY, "frozen"),
+            (41, QUANT_GRAYS, "4-bit"),
+            (52, ORANGE, "edited directly"),
+        ],
+    )
     rng = np.random.default_rng(7)
     n, c = 12, 1.2
-    positions = [(93, 50), (110, 50), (127, 50), (101.5, 25), (118.5, 25)]
-    labels = ["Full FT", "LoRA", "LoRA-FA", "QLoRA", "TinyLoRA"]
+    positions = [(93, 50), (110, 50), (127, 50), (93, 25), (110, 25), (127, 25)]
+    labels = ["Full FT", "LoRA", "LoRA-FA", "QLoRA", "TinyLoRA", "Weight-space\nprogramming"]
     for k, ((x, y), lab) in enumerate(zip(positions, labels, strict=True)):
         for i in range(n):
             for j in range(n):
@@ -132,7 +145,9 @@ def part1(out: Path) -> None:
                         (x + i * c, y + j * c), c * 0.86, c * 0.86, facecolor=BLUE, edgecolor="none", zorder=3
                     )
                 )
-        ax.text(x + n * c / 2, y - 2.4, lab, ha="center", va="center", fontsize=8.5, color=MUTED)
+        ax.text(
+            x + n * c / 2, y - 1.2, lab, ha="center", va="top", fontsize=8.5, color=MUTED, linespacing=1.3
+        )
     save(fig, out / "hero_part1.png")
 
 
@@ -182,10 +197,10 @@ def part2(out: Path) -> None:
     title_block(
         ax,
         "PART 2 OF 3  ·  HOW I TESTED IT",
-        "Text-to-SQL on BIRD,",
-        "one laptop GPU.",
-        "1,534 questions, 11 real databases, every answer\n"
-        "graded by running the SQL. 16 GB of VRAM, 6 hours.",
+        "Teaching AI",
+        "to write SQL.",
+        "1,534 questions from the BIRD benchmark, 11 real\n"
+        "databases, every answer graded by running the SQL.",
     )
     _code_window(ax, 84, 52, 62, 22)
     rng = np.random.default_rng(3)
@@ -223,7 +238,7 @@ def part3(out: Path) -> None:
         "PART 3 OF 3  ·  THE RESULTS",
         "13 parameters vs.",
         "74 million.",
-        "Execution accuracy on BIRD dev for all five methods,\n"
+        "Execution accuracy on BIRD dev for all six methods,\n"
         "what each run cost, and what the 13 numbers learned",
     )
     runs = [
@@ -234,15 +249,21 @@ def part3(out: Path) -> None:
         ("qlora", "QLoRA"),
         ("tinylora_sft", "Tiny SFT"),
         ("tinylora_grpo", "Tiny GRPO"),
+        ("wsp_f4", "Weight-\nspace"),
     ]
     ex = {r: json.loads((ROOT / f"results/{r}/metrics.json").read_text())["ex"] for r, _ in runs}
     L, B, top = 86, 22, 70
-    bw, gap = 6.2, 3.3
+    bw, gap = 5.6, 2.8
     vmax = 50.0
     for k, (r, lab) in enumerate(runs):
         x = L + k * (bw + gap)
         hgt = ex[r] / vmax * (top - B)
-        col = GRAY if r == "base" else (ACCENT if r.startswith("tiny") else BLUE)
+        if r == "base":
+            col = GRAY
+        elif r.startswith("tiny"):
+            col = ACCENT
+        else:
+            col = ORANGE if r.startswith("wsp") else BLUE
         ax.add_patch(
             FancyBboxPatch(
                 (x, B),
@@ -265,7 +286,7 @@ def part3(out: Path) -> None:
             color=TEXT,
             zorder=3,
         )
-        ax.text(x + bw / 2, B - 2.4, lab, ha="center", va="center", fontsize=7.4, color=MUTED, rotation=0)
+        ax.text(x + bw / 2, B - 1.3, lab, ha="center", va="top", fontsize=7.4, color=MUTED, linespacing=1.2)
     base_y = B + ex["base"] / vmax * (top - B)
     ax.plot(
         [L - 1.5, L + len(runs) * (bw + gap) - gap + 1.5],
@@ -277,6 +298,7 @@ def part3(out: Path) -> None:
     )
     ax.text(L, top + 4, "BIRD dev execution accuracy (%)", fontsize=9, color=MUTED, va="center")
     legend(ax, [(14, BLUE, "41M to 1.54B trained numbers"), (52, ACCENT, "13 trained numbers")])
+    legend(ax, [(14, ORANGE, "48,398 weights edited directly, no training")], y=25.5)
     save(fig, out / "hero_part3.png")
 
 

@@ -1,6 +1,6 @@
 """Animated results chart for the README: docs/results.gif.
 
-    .venv/bin/python blog/tools/readme_gif.py [--out docs/results.gif]
+.venv/bin/python blog/tools/readme_gif.py [--out docs/results.gif]
 """
 
 from __future__ import annotations
@@ -25,7 +25,7 @@ ROWS = [  # run, label, what changes, colour
     ("lora_fa", "LoRA-FA", "41M numbers", BLUE),
     ("full", "Full fine-tuning", "all 1.54B numbers", ORANGE),
     ("tinylora_grpo", "TinyLoRA + GRPO", "13 numbers", AQUA),
-    ("wsp_f4", "LLM edits weights", "48K weights, no training", VIOLET),
+    ("wsp_f4", "Weight-space programming", "48K weights, no training", VIOLET),
 ]
 GROW, HOLD, W, H, DPI = 28, 26, 9.0, 4.6, 100
 
@@ -63,11 +63,17 @@ def frame(base: float, finals: list[float], t: float) -> Image.Image:
     for side in ("top", "right", "left"):
         ax.spines[side].set_visible(False)
     ax.spines["bottom"].set_color(GRID)
-    fig.text(0.02, 0.94, "Six ways to change a 1.5B model, scored on BIRD text-to-SQL", fontsize=14,
-             weight="bold", color=INK)
-    subtitle = "Execution accuracy on 1,534 BIRD dev questions · Qwen2.5-Coder-1.5B · one 16 GB laptop GPU"
+    fig.text(
+        0.02,
+        0.94,
+        "Six ways to change a 1.5B model, scored on BIRD text-to-SQL",
+        fontsize=14,
+        weight="bold",
+        color=INK,
+    )
+    subtitle = "Execution accuracy on 1,534 BIRD dev questions · Qwen2.5-Coder-1.5B"
     fig.text(0.02, 0.885, subtitle, fontsize=9.5, color=INK2)
-    fig.subplots_adjust(left=0.27, right=0.97, top=0.83, bottom=0.08)
+    fig.subplots_adjust(left=0.31, right=0.97, top=0.83, bottom=0.08)
     buf = io.BytesIO()
     fig.savefig(buf, format="png", facecolor=CARD)
     plt.close(fig)
@@ -84,8 +90,14 @@ def main() -> None:
     palette = frames[-1].quantize(colors=64, method=Image.Quantize.MEDIANCUT)
     frames = [f.quantize(palette=palette, dither=Image.Dither.NONE) for f in frames]
     out.parent.mkdir(parents=True, exist_ok=True)
-    frames[0].save(out, save_all=True, append_images=frames[1:], duration=[45] * GROW + [120] * HOLD,
-                   loop=0, optimize=True)
+    frames[0].save(
+        out,
+        save_all=True,
+        append_images=frames[1:],
+        duration=[45] * GROW + [120] * HOLD,
+        loop=0,
+        optimize=True,
+    )
     print(f"wrote {out} ({out.stat().st_size / 1024:.0f} KB, {len(frames)} frames)")
 
 

@@ -28,10 +28,10 @@ RUNS = [  # (run name, display label)
     ("qlora_4bit", "QLoRA (4-bit serve)"),
     ("tinylora_sft", "TinyLoRA + SFT"),
     ("tinylora_grpo", "TinyLoRA + GRPO"),
-    ("wsp_f4", "LLM weight edit (Opus 5.5)"),
+    ("wsp_f4", "Weight-space programming (Opus 5.5)"),
 ]
 BASE_PARAMS = 1_543_714_304
-WSP_CHANGED = 48_398  # weights changed by the hand edit; it has no training run
+WSP_CHANGED = 48_398  # weights changed by weight-space programming; it has no training run
 SURFACE = "#0b0a1f"
 TEXT = "#f0efec"
 TEXT2 = "#c3c2b7"
@@ -157,7 +157,7 @@ def chart_params(rows: list[dict], figs: Path) -> None:
         labelled.append({**tiny[0], "label": "TinyLoRA (SFT and GRPO, 13 params)"})
     else:
         labelled += tiny
-    offsets = {"lora": (8, -16), "qlora": (8, 4)}
+    offsets = {"lora": (8, -16), "qlora": (8, 4), "wsp_f4": (8, -18)}
     for r in labelled:
         ax.annotate(
             f"{r['label']}  {r['ex']:.1f}%",

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 474" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="One GRPO step, sharing one GPU">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 474" style="width:100%;min-width:660px;height:auto;display:block" font-family="ui-sans-serif,system-ui,Helvetica,Arial,sans-serif" role="img" aria-label="One GRPO step">
   <rect width="1000" height="474" rx="14" fill="#FCFCFB" stroke="#E2E8F0" stroke-width="2"/>
-  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">One GRPO step, sharing one GPU</text>
+  <text x="28" y="40" font-size="19" font-weight="700" fill="#0b0b0b">One GRPO step</text>
   <text x="28" y="64" font-size="14" fill="#52514e">vLLM and the trainer take turns on the GPU. The SQL grading runs on the CPU.</text>
   <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker></defs>
   <rect x="20" y="132" width="960" height="96" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
